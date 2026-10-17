@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-07-01",
+  "kind": "daily",
+  "period": "2026-07-01",
+  "title": "2026-07-01 每日资讯汇编",
+  "startAt": "2026-06-30T16:00:00.000Z",
+  "endAt": "2026-07-01T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "354f2cb7d8d9154bb24d3685"
+  ],
+  "items": [
+    {
+      "id": "354f2cb7d8d9154bb24d3685",
+      "title": "开始使用 Nano Banana 2 Lite 与 Gemini Omni Flash 构建应用",
+      "summary": "",
+      "originalTitle": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
+      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-06-30T16:02:40.000Z",
+      "contentHash": "e6f7baebe2ba6cef708e7d6b0f28e7f52addc8d74cd40e0f81c4c0941d27683d",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "dd59cd291aa6ebe98ae710ca6eee93907cd90f34ff1b9de0b9abe78833a634e7",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

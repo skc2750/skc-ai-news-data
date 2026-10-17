@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "weekly:2026-07-20",
+  "kind": "weekly",
+  "period": "2026-07-20",
+  "title": "2026-07-20 每周（周一起）资讯汇编",
+  "startAt": "2026-07-19T16:00:00.000Z",
+  "endAt": "2026-07-26T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "3f519e463825d5210c61922c",
+    "3d917cb6385dd47b4e99a47c"
+  ],
+  "items": [
+    {
+      "id": "3f519e463825d5210c61922c",
+      "title": "加速科学发现前沿：Google 向 Genesis Mission 承诺投入 4,000 万美元",
+      "summary": "Google 承诺为 Genesis Mission 提供价值 4,000 万美元的 AI token 及额度。",
+      "originalTitle": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-07-22T13:38:54.000Z",
+      "contentHash": "f882ca021291308206fc99a05b4c7939f852f6b51e02f19b09e436f152897e22",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "3d917cb6385dd47b4e99a47c",
+      "title": "推出 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber",
+      "summary": "我们正推出新的 Gemini 模型，包括 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber。",
+      "originalTitle": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-07-21T15:16:30.000Z",
+      "contentHash": "a6ec4932e930bf96c07f6d0d2dd76cd3d04a0d5fc9ae2fa9dd8175eec1fe74d1",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "461a00d14e157c12db76d9b34ada073e9bff65eacef792ae2c2b45b4ec92c730",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

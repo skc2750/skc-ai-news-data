@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-15",
+  "kind": "daily",
+  "period": "2026-09-15",
+  "title": "2026-09-15 每日资讯汇编",
+  "startAt": "2026-09-14T16:00:00.000Z",
+  "endAt": "2026-09-15T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 3,
+  "articleIds": [
+    "efdc2f4de1e24ec5187da092",
+    "24311e78fd6c1e731fb29c84",
+    "786edf0a4cf5b83227130a86"
+  ],
+  "items": [
+    {
+      "id": "efdc2f4de1e24ec5187da092",
+      "title": "来自 Google AI & Economy ATLAS 的新洞见",
+      "summary": "我们将 ATLAS 的数百万个全球数据点，转化为可开放访问的互动体验。",
+      "originalTitle": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "contentHash": "f04fdad5041330828c4de806fd7f797e95699dcf1e157e3e838e1a222caf5f67",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "24311e78fd6c1e731fb29c84",
+      "title": "观看宇航员 Christina Koch 与 Google 的 James Manyika 畅谈太空、技术和探索",
+      "summary": "Christina Koch 与 Google 研究、实验室、技术及社会事务高级副总裁 James Manyika 展开对谈。",
+      "originalTitle": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "contentHash": "79ecabe099c4208aa9c610a5c7941b20f1d93f799185ad610bf6267062d82edd",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "786edf0a4cf5b83227130a86",
+      "title": "DevFest 回归",
+      "summary": "DevFest 2026 回归。这里介绍如何参与全球超过 800 场活动中的一场，在智能体 AI 时代构建、保障安全并扩展应用。",
+      "originalTitle": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "contentHash": "7ef8569d21b02e7d1d8b2a40cdd5bd898371dd3c74aa2272d996c21f10d27b09",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "9cbd03ed9cb0136d54b88c8fc83eb7fca3f401b1e44468d430c3bbf351e368c4",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

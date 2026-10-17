@@ -1,0 +1,344 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-14",
+  "kind": "daily",
+  "period": "2026-10-14",
+  "title": "2026-10-14 每日资讯汇编",
+  "startAt": "2026-10-13T16:00:00.000Z",
+  "endAt": "2026-10-14T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 19,
+  "articleIds": [
+    "94fa7d97956532d81520dd16",
+    "11acc8e04085b6cda44ebd45",
+    "6b963cc9dba2a8dcd7f25279",
+    "259dc275dea1beaba1450014",
+    "f1631f24df0ff8e8a90087ae",
+    "4797be284c500a50c3088aeb",
+    "a3a5d5d86b679aeed80486a4",
+    "690c816bcd4662991b34ba7e",
+    "ffdd507c1009629071c71d79",
+    "6b7d3b9ec448a14700480094",
+    "11e8a05f7ea1fb93e30e63ec",
+    "4edca10ea4bcb099684b2029",
+    "d188e31fda0ab04beb4a72f7",
+    "96496141fe100db0798af248",
+    "647ab208c7e949ca95b9d196",
+    "8acfc510b59540f0507e207a",
+    "031c7e70d180541214c38bc5",
+    "d1f06357c7a32bba672354fb",
+    "c51fb173fad0a9b19c6b38f1"
+  ],
+  "items": [
+    {
+      "id": "94fa7d97956532d81520dd16",
+      "title": "使用 Amazon Bedrock AgentCore 生成演示文稿",
+      "summary": "本文介绍如何使用 Amazon Bedrock AgentCore 构建 AI 智能体系统，根据企业文档自动制作 PowerPoint 演示文稿。系统结合主管智能体、检索增强生成与 Amazon Bedrock Guardrails，可在 90 秒内生成有资料依据的演示文稿。",
+      "originalTitle": "Generate presentations with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/generate-presentations-with-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-14T13:58:43.000Z",
+      "contentHash": "5dad456563a9bcb3b592500ecfb468e22afb1196595b3e8e373528f673b8e271",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "11acc8e04085b6cda44ebd45",
+      "title": "Tamnoon 如何借助 Amazon Bedrock 构建 AI 云安全修复系统",
+      "summary": "了解 Tamnoon 如何在 Amazon Bedrock 上构建智能体云修复编排器 Tami，自动调查并安全修复来自 CNAPP 和云原生来源的云安全发现。该方法在 90 天内将关键云风险敞口降低了 90% 以上，且未发生生产问题。",
+      "originalTitle": "How Tamnoon built AI-powered cloud security remediation with Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-tamnoon-built-ai-powered-cloud-security-remediation-with-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-14T13:53:33.000Z",
+      "contentHash": "45b79e6859780150ef2751df3baa7d26e42bdec9d614ede0d4d6ba34598c3afc",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "6b963cc9dba2a8dcd7f25279",
+      "title": "使用 Amazon SageMaker JumpStart 部署和评估模型",
+      "summary": "了解如何部署 Amazon SageMaker JumpStart 中可用的模型，使用 SageMaker Python SDK 运行轻量、可重复的性能测试，并在测试完成后删除端点。",
+      "originalTitle": "Deploy and evaluate models with Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/blogs/machine-learning/deploy-and-evaluate-models-with-amazon-sagemaker-jumpstart/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-14T13:14:36.000Z",
+      "contentHash": "4aade16a98a2b03162762a1c5040ffd24c19e891f10c32ccc8b9528531d0573b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "259dc275dea1beaba1450014",
+      "title": "SentinelOne 将恶意软件分析时间从数周缩短至数小时",
+      "summary": "借助 OpenAI Daybreak，SentinelOne 将需要数周的恶意软件分析缩短至数小时，从而腾出能力调查更多威胁。",
+      "originalTitle": "SentinelOne cuts malware analysis from weeks to hours",
+      "url": "https://openai.com/index/sentinelone",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "contentHash": "f15219e435f6ee784d48ebc07fdc3f906aa4e58e0436617239df58630f14022a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f1631f24df0ff8e8a90087ae",
+      "title": "Amp 借助 OpenAI 模型，让 AI 智能体承担编程以外的工作",
+      "summary": "了解 Amp 如何借助 GPT-6 Astra、Ultrafast、GPT-Live-1 和“使用 ChatGPT 登录”，拓展智能体的能力边界。",
+      "originalTitle": "Amp puts AI agents to work beyond code with OpenAI models",
+      "url": "https://openai.com/index/amp-beyond-coding",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T12:00:00.000Z",
+      "contentHash": "0cd4e761299ed0ea831514c33f4af7415a1198cd728277f8e5f66522c3578524",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "4797be284c500a50c3088aeb",
+      "title": "Block 如何利用 OpenAI 技术构建 AI 安全能力",
+      "summary": "Block 正与 OpenAI 合作构建 AI 安全能力。其安全团队能够更快调查威胁，并在数分钟内提出补丁方案。",
+      "originalTitle": "How Block is building AI-powered security with OpenAI technology",
+      "url": "https://openai.com/index/block-ai-powered-security",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "contentHash": "c79f89cedf2365a28b2d21e2410437fc96a703ecf9751db7d3d8f99f2a6fa142",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a3a5d5d86b679aeed80486a4",
+      "title": "Third Moment Research 如何让 10,000 个智能体持续运行 36 小时以上",
+      "summary": "这家 AI 实验室利用 GPT-6 Astra、GPT-6.1 Sol、Codex，以及用于网络安全的 Daybreak，构建能够连续专注数天、并在使用中改进的智能体。",
+      "originalTitle": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "url": "https://openai.com/index/third-moment-research",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T07:00:00.000Z",
+      "contentHash": "8c127d7be25df56d9ee548113c048bb115ec0a68492d885cbf35931798698858",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "690c816bcd4662991b34ba7e",
+      "title": "NVIDIA 宣布对英国初创企业生态进行新投资",
+      "summary": "英国各行业正在运用全栈技术。从推动业务转型的企业，到解决全球重大难题的初创公司，部署规模都在迅速扩大。NVIDIA 正将这一理念付诸实践，包括承诺在五年内投入 2.5 亿美元算力，以加强英国智能体领域的安全与安保……",
+      "originalTitle": "NVIDIA Announces New Investments in the UK Startup Ecosystem",
+      "url": "https://blogs.nvidia.com/blog/uk-ecosystem-deployment/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T06:04:15.000Z",
+      "contentHash": "fc078994791e87f910731c18b5192c995f4ff71c754c8f6bf1522e77822fdc69",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ffdd507c1009629071c71d79",
+      "title": "欧洲城市部署 NVIDIA 支持的 AI 智能体，提升城市运营水平",
+      "summary": "维持城市运转意味着每天都要作出影响居民的决策，从何时修路，到如何更高效地使用能源。在欧洲、中东和非洲地区，城市与当地的软件、基础设施和集成合作伙伴正利用 NVIDIA 加速计算构建物理 AI 智能体与数字孪生，帮助团队作出……",
+      "originalTitle": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
+      "url": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T06:00:28.000Z",
+      "contentHash": "6aeb5f95babdabc7ccb35bcfb2e5b883a548c1e30f1faab28a34bb4c1246f19e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "6b7d3b9ec448a14700480094",
+      "title": "Google DeepMind 与新加坡政府合作，构建用于诈骗检测的微调 AI 模型",
+      "summary": "了解 Google DeepMind 与新加坡 GovTech 如何利用轻量级端侧 Gemma 模型，拦截私人聊天中的对话式诈骗，且不向云端传出数据。",
+      "originalTitle": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-14T02:00:14.000Z",
+      "contentHash": "fbfec47121db7e1e7aeabbc121897e953eb5a65c0b9303f442f4b2a7617db5f1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "11e8a05f7ea1fb93e30e63ec",
+      "title": "欧盟 AI 的下一篇章：智能体",
+      "summary": "新分析展示了智能体 AI 在欧盟企业及小型企业中的应用增长情况，以及哪些领域可通过更深入使用来释放更多价值。",
+      "originalTitle": "The EU’s next chapter in AI is agentic",
+      "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "contentHash": "43978eb55e79d8bb9659d4b5ec0901a59b80f5de66a099023fffb3f887044b61",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "4edca10ea4bcb099684b2029",
+      "title": "借助 Anchor Browser 与 AgentCore payments 构建可交易的智能体",
+      "summary": "了解 AWS 生成式 AI 创新中心的 Partner Agent Factory 与 Anchor Browser 如何构建 AI 智能体，自动为受 x402 保护的网络资源和 API 付款。Amazon Bedrock AgentCore payments 会检查预算、签署交易并重试请求，同时避免将钱包凭证暴露给智能体运行时。",
+      "originalTitle": "Building agents that transact with Anchor Browser and AgentCore payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-13T20:10:33.000Z",
+      "contentHash": "0d3609fe1b7650e13528a83d42371395452e240328b15ecfc0ff3877d41d382a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d188e31fda0ab04beb4a72f7",
+      "title": "负责任且安全地开发 Gemini 4 Argon",
+      "summary": "",
+      "originalTitle": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-13T19:43:07.000Z",
+      "contentHash": "50797368c42ba1274acd8b4b21d8846cfc1013b837a5e78a93a41887a8776a0f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "96496141fe100db0798af248",
+      "title": "使用托管授权管理 Amazon Bedrock 私有定价优惠",
+      "summary": "当每个 AWS 账户都必须单独接受 AWS Marketplace 私有定价优惠时，跨数十乃至数百个账户管理 AI 模型访问会变得繁琐。本文介绍在 AWS License Manager 中激活 MPPO 授权的两种方式：用于一次性处理的轻量脚本，以及用于持续事件驱动处理的 CDK 自动化。",
+      "originalTitle": "Manage private pricing offers for Amazon Bedrock with managed entitlements",
+      "url": "https://aws.amazon.com/blogs/machine-learning/manage-private-pricing-offers-for-amazon-bedrock-with-managed-entitlements/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-13T17:17:25.000Z",
+      "contentHash": "145e1791fe5cad49aa59da9567e58ac17e5ec41c0d2c60d77c538c672b31bed8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "647ab208c7e949ca95b9d196",
+      "title": "使用 LFM2.5-24B-A2B 在设备端运行快速、保护隐私的智能体",
+      "summary": "",
+      "originalTitle": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-13T17:05:48.000Z",
+      "contentHash": "d13d34bce6346e3f697308d1f2aac666eaa4360e7691e717d20590b939e67986",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "8acfc510b59540f0507e207a",
+      "title": "Orca Security 使用 Amazon Bedrock 实现自然语言安全查询",
+      "summary": "Orca Security 在 Amazon Bedrock 上构建了自然语言查询智能体 Discovery AI，将日常英语问题转换为 Sonar 查询。本文分享了其多阶段架构与成果：相较最初基线，查询成本降低 90%、输入 token 减少 93%、延迟降低 75%。",
+      "originalTitle": "Natural language security queries at Orca Security using Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/natural-language-security-queries-at-orca-security-using-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-13T16:03:31.000Z",
+      "contentHash": "66cb022f5d96874e1059f04921a385b18fa99582a9d6b09cb640b7856b6a0df3",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "031c7e70d180541214c38bc5",
+      "title": "面向机器人技术的 Gemini 4 Argon",
+      "summary": "",
+      "originalTitle": "Gemini 4 Argon for Robotics",
+      "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-13T16:01:58.000Z",
+      "contentHash": "b6ce04e1aba1a456df0017a4e83c8f30004966ca09698a7aa55948c598023d4f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d1f06357c7a32bba672354fb",
+      "title": "Gemini 4 Argon：为解决你最棘手的问题而打造",
+      "summary": "",
+      "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-13T16:01:52.000Z",
+      "contentHash": "7dbff3de8302ed39552f6d145b91b8a67dbf4b8e93ce8b5001a849e90696dd7d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c51fb173fad0a9b19c6b38f1",
+      "title": "Gemini 4 Argon：为解决你最棘手的问题而打造",
+      "summary": "我们正向开发者、企业、科学家及消费者开放最新前沿模型 Gemini 4 Argon。",
+      "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-13T16:00:00.000Z",
+      "contentHash": "a1bfab1661bbe9c8a25c0b37778c6ec9cb7f9958b6341a1086cd1ddb244c7fef",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "94809bee577d2d46005bb90f548ee0efb12093cefae39ed815900fd57f042ada",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

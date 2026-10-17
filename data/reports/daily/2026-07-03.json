@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-07-03",
+  "kind": "daily",
+  "period": "2026-07-03",
+  "title": "2026-07-03 每日资讯汇编",
+  "startAt": "2026-07-02T16:00:00.000Z",
+  "endAt": "2026-07-03T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "6aec098632ff4afddc231715"
+  ],
+  "items": [
+    {
+      "id": "6aec098632ff4afddc231715",
+      "title": "Google DeepMind 与 A24 宣布开创性的研究合作",
+      "summary": "",
+      "originalTitle": "Google DeepMind and A24 announce first-of-its-kind research partnership",
+      "url": "https://deepmind.google/blog/google-deepmind-and-a24-announce-first-of-its-kind-research-partnership/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-07-03T14:25:43.000Z",
+      "contentHash": "cad652b22d6620a39fb3a18a591113b6fa3638b68c2b5f64df0b9cd3b2b99d6a",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "fa5fc35fca4cdd9acd355d8694c0dee3c1b0108b499bfcee2df22850bd519d35",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-01",
+  "kind": "daily",
+  "period": "2026-10-01",
+  "title": "2026-10-01 每日资讯汇编",
+  "startAt": "2026-09-30T16:00:00.000Z",
+  "endAt": "2026-10-01T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 4,
+  "articleIds": [
+    "1f35e3ce47a32f88a4f3be12",
+    "1741c630748aa63739e0606a",
+    "b0015e130574884506dfc9f5",
+    "eddbf971051f0f2ff5d5fa3d"
+  ],
+  "items": [
+    {
+      "id": "1f35e3ce47a32f88a4f3be12",
+      "title": "The Den 借助 ChatGPT Work 每周节省 10 至 15 小时，用于业务发展",
+      "summary": "在筹备新场所开业时，这家社交俱乐部将资助申请的准备时间从 3 天缩短至 2 小时，将酒牌材料的准备时间从 4 天缩短至 3 小时。",
+      "originalTitle": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
+      "url": "https://openai.com/index/the-den-family-social",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-01T00:00:00.000Z",
+      "contentHash": "712140caa88dbc3b942142bb4718697afb248585b4d4f3f8f329d9a6143defbe",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1741c630748aa63739e0606a",
+      "title": "Gemini 4 Argon：迈入前沿智能的下一时代",
+      "summary": "",
+      "originalTitle": "Gemini 4 Argon: our next era of frontier intelligence",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-30T20:01:45.000Z",
+      "contentHash": "07458546c9c99cc631cd09cfe2faa5e93698334337d550d55259a7a65bebe67b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b0015e130574884506dfc9f5",
+      "title": "NVIDIA 开放 2027–2028 年度研究生奖学金申请，奖金最高 60,000 美元",
+      "summary": "汇聚全球优秀人才与最新加速计算技术，可带来强大突破，帮助应对重大的研究难题。为推动此类创新，NVIDIA 研究生奖学金计划向从事与 NVIDIA 技术相关的杰出研究的博士生，提供资助、导师指导和技术支持。该计划已进入第 26 届……",
+      "originalTitle": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-30T17:00:21.000Z",
+      "contentHash": "2b20acc8f5470a6811a58230f38dd10c42f13e12418d2029b574bf1f9438ca68",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "eddbf971051f0f2ff5d5fa3d",
+      "title": "预测太空天气对电网的风险",
+      "summary": "极端太空天气事件可能损坏地球上的电力系统，并降低 GPS 精度、影响卫星运行。一个新的机器学习系统能够在风暴到来前 30 至 60 分钟，预测哪些地方可能受损。本文《预测太空天气对电网的风险》最初发表于 Microsoft Research。",
+      "originalTitle": "Forecasting space weather risks on power grids",
+      "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "contentHash": "b9a8b976cca8a815135b7d2dc468e56375730809b1f33d6964418e119db7b864",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "eef6951ac08a67207170efd0c2af92e9719e55c4fc013f5be3ae56c66d8898a0",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

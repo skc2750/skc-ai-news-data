@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-28",
+  "kind": "daily",
+  "period": "2026-09-28",
+  "title": "2026-09-28 每日资讯汇编",
+  "startAt": "2026-09-27T16:00:00.000Z",
+  "endAt": "2026-09-28T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 5,
+  "articleIds": [
+    "1b7d3764298add51d25ae62c",
+    "aa1d6d5748b7c3b948a421de",
+    "14665f31c5050b06129da6c9",
+    "58aab1a2f046ae363c3bfddb",
+    "cbe6bff2efc300368785ba6d"
+  ],
+  "items": [
+    {
+      "id": "1b7d3764298add51d25ae62c",
+      "title": "Holo4：赋能通用型计算机操作智能体",
+      "summary": "",
+      "originalTitle": "Holo4: powering generalist computer-use agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-28T09:44:05.000Z",
+      "contentHash": "bdd8dd23ea48861e0d2502316fd723e08af4dfd51466378e2f5a26d7a98437ee",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "aa1d6d5748b7c3b948a421de",
+      "title": "Lenfest Institute 借助 OpenAI 扩大的支持，发展其标志性计划",
+      "summary": "OpenAI 正以 500 万美元资金，以及最高 500 万美元的软件额度与工程支持，扩大 Lenfest AI Collaborative and Fellowship Program。",
+      "originalTitle": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "contentHash": "fce97daa446d8a6a6a89777f9e840398cbacbcb4dcd5bdf4e208248148c877e8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "14665f31c5050b06129da6c9",
+      "title": "Basis 借助 GPT-6 Astra，将税务工作簿处理速度提升至 2 倍",
+      "summary": "GPT-6 Astra 完成一份包含 50 个工作表的税务工作簿，速度是 GPT-5.6 Sol 的两倍；它对用户意图更强的理解，也让 Basis 对实际应用更有信心。",
+      "originalTitle": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "contentHash": "b19572461133c02c833b67aea0b74b4b7ee7c4c91005bbbb0b04c69b62f5f5ee",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "58aab1a2f046ae363c3bfddb",
+      "title": "你是 Codex Original 吗？",
+      "summary": "我们正在收集开发者、动手探索者、研究人员及创作者使用 Codex 完成出色成果的真实故事。如果你想参与 Codex Originals 计划的下一篇章，请在下方进一步介绍你的故事与项目。",
+      "originalTitle": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "contentHash": "0e50c66b894e58f233e0dfdc6b606d6db62533293d3a1552badb6c1e9a746522",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "cbe6bff2efc300368785ba6d",
+      "title": "欢迎 RL Environments 加入 Hub",
+      "summary": "",
+      "originalTitle": "Welcome RL Environments to the hub",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "contentHash": "ca69f74cd493beb4ca7a757ebf33d4eadcf76147da3973471a4933bd4c3a3c39",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "95f6eb4ad75c636cc126641d875e7b1f827488277accc12692d0db44fe219fb5",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

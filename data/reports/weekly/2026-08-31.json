@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "id": "weekly:2026-08-31",
+  "kind": "weekly",
+  "period": "2026-08-31",
+  "title": "2026-08-31 每周（周一起）资讯汇编",
+  "startAt": "2026-08-30T16:00:00.000Z",
+  "endAt": "2026-09-06T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 14,
+  "articleIds": [
+    "f888840f1f764dc2bca03f78",
+    "f71ecd66783b010e99b431d3",
+    "67437ea67a7521e032a8c66a",
+    "bd5b08a96897c4efb848c822",
+    "dec1eff3aa4474162c85f660",
+    "ca2fd754c22e86bd5c0d14fc",
+    "eaf030d682df1d0a8e117d9a",
+    "9abb165af2be16312e33cde2",
+    "ff59dbf76b39df805e19314d",
+    "2fd4776953221d15fae0ab6a",
+    "a6245bbcd495fb588378732d",
+    "e5ee55a8c4f1a0a5e68265e8",
+    "6d69f06b95efae0229830837",
+    "91bfc16d543ac636fdc68594"
+  ],
+  "items": [
+    {
+      "id": "f888840f1f764dc2bca03f78",
+      "title": "推出 WeatherNext 3：我们最先进、最准确的全球天气 AI 模型",
+      "summary": "",
+      "originalTitle": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-03T15:02:08.000Z",
+      "contentHash": "dcfe4c4f844dbdd7341d6c2a74ea2905c0254be8b148e5960befc25c22665eb5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f71ecd66783b010e99b431d3",
+      "title": "NeoMME：高效的原生多模态、多语言编码器",
+      "summary": "",
+      "originalTitle": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T13:13:48.000Z",
+      "contentHash": "4730e50996d01c50ba6ccb41f19436e865ecd845b11b2c315f2fdfc926fe8831",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "67437ea67a7521e032a8c66a",
+      "title": "为你的编程智能体赋予由你掌控的记忆",
+      "summary": "",
+      "originalTitle": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "contentHash": "09e438877d655f5227e4277bcf465b6a57b70f0ac777ac2a65aacafa0f98e1ac",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "bd5b08a96897c4efb848c822",
+      "title": "用 100 步 GRPO 微调一个 3.5 亿参数模型，改善结构化输出",
+      "summary": "",
+      "originalTitle": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "contentHash": "c34c512860db0628877fbd2ca665e6829ef05ba1d5a3c38fd80db532587fcb84",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "dec1eff3aa4474162c85f660",
+      "title": "使用 TRL 和 OpenEnv，训练编程模型画水彩画",
+      "summary": "",
+      "originalTitle": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "contentHash": "af4c0baa0f7fd01f14b0002db27ff8d6694c59ed30bd692691fa951f26976b0f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ca2fd754c22e86bd5c0d14fc",
+      "title": "面向政府与企业的主动网络防御",
+      "summary": "",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-02T16:24:24.000Z",
+      "contentHash": "f7017998b74f670abd7a47f91906b311fa52ebae69a1f7ccf5b4df1a1ec82478",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "eaf030d682df1d0a8e117d9a",
+      "title": "推出 Gemini 3.8 Flash 与 3.8 Flash Cyber",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-02T16:18:31.000Z",
+      "contentHash": "01cdd4f9508b9003825f2b923fe7344d09427fc9ce3c03ef63cea3422f16263a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9abb165af2be16312e33cde2",
+      "title": "面向政府与企业的主动网络防御",
+      "summary": "Fairwind Program 是一项有限开放的计划，让政府与可信合作伙伴能够使用我们的网络防御工具。",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "contentHash": "49a3b72cf65a5a1c357580263fd2b04fad6afbb0f9915932c707d6ed2a733a3f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ff59dbf76b39df805e19314d",
+      "title": "BenchMIRT：大语言模型基准测试实际在衡量什么？",
+      "summary": "",
+      "originalTitle": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-01T21:39:07.000Z",
+      "contentHash": "b89a203c7df40e274eeb1895edbf5897200773e39e947e3fbe9646aa461d0fce",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2fd4776953221d15fae0ab6a",
+      "title": "我们在 2026 年 8 月公布的最新 AI 消息",
+      "summary": "以下是 Google 在 2026 年 8 月的最新 AI 更新。",
+      "originalTitle": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "contentHash": "edbc06bea62a6da661f6e95b4b8f8b6d1c7cd1b0c5c9903623c3eb294fcb0419",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a6245bbcd495fb588378732d",
+      "title": "推出基于 Gemini 的智能体式视频理解",
+      "summary": "",
+      "originalTitle": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-01T17:08:51.000Z",
+      "contentHash": "48f11039d1070bc3e6497f311ce0b8fdcf3e5ddab71c148cbddb4d03a0138a66",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "e5ee55a8c4f1a0a5e68265e8",
+      "title": "试用 Google Pics：在 Google Workspace 中轻松创建和编辑图像",
+      "summary": "基于最新 Nano Banana 模型构建的图像创建及编辑工具 Google Pics，现已推出。",
+      "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "contentHash": "68ff0303c6eaba45072174ff81dfeb70c41af174d6629279589bd9d6ad2fcbe8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "6d69f06b95efae0229830837",
+      "title": "推出 @huggingface/kernels：面向本地 AI 的 200 多个 WebGPU 内核",
+      "summary": "",
+      "originalTitle": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "contentHash": "1a09db469b893d8ebf2a415177eb532051e2c5d5c393dad2920d830546568b6a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "91bfc16d543ac636fdc68594",
+      "title": "GigaPath-Flash 与 GigaTIME-Flash：借高效病理学基础模型，迈向人群规模的发现",
+      "summary": "如果病理学基础模型能够以更少资源做更多工作，会怎样？GigaPath-Flash 与 GigaTIME-Flash 在保持强劲表现的同时降低计算需求，为更大规模的研究和更广泛探索打开大门。本文《GigaPath-Flash 与 GigaTIME-Flash：借高效病理学基础模型，迈向人群规模的发现》最初发表于 Microsoft Research。",
+      "originalTitle": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-31T16:00:00.000Z",
+      "contentHash": "c6b86bc337f0b02f13d3401b86e6afafb57e420b097e85c16deaee9b5750ee25",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "8401807cb102657423f70c503d7ba09624cdff16c313e57abae31ef437d70c7f",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

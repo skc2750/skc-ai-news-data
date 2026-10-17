@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "attemptAt": "2026-10-17T09:31:20.405Z",
+  "lastSuccessAt": "2026-10-17T09:31:19.172Z",
+  "status": "ok",
+  "seeded": false,
+  "sourceOk": 7,
+  "sourceStale": 0,
+  "archiveArticles": 218,
+  "newArticles": 0,
+  "changedArticles": 0,
+  "translationRequested": 0,
+  "translatedThisRun": 0,
+  "translationFailed": 0,
+  "translationDeferred": 0,
+  "translationError": null,
+  "translationNote": null,
+  "actualTranslationEngines": {},
+  "pendingTranslations": 0,
+  "translationLimit": 20,
+  "configuredModel": {
+    "id": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "mode": "offline_cpu",
+    "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+    "note": "后续自动翻译的配置；本次实际译文来源见 actualTranslationEngines，各篇原有译文来源见文章 translation。"
+  },
+  "scheduler": {
+    "expected": "hourly at minute 17 UTC",
+    "actualAttemptAt": "2026-10-17T09:31:20.405Z",
+    "runId": "39021430244",
+    "event": "push",
+    "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
+  }
+}

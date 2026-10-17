@@ -1,0 +1,480 @@
+{
+  "schemaVersion": 1,
+  "id": "monthly:2026-08",
+  "kind": "monthly",
+  "period": "2026-08",
+  "title": "2026-08 每月资讯汇编",
+  "startAt": "2026-07-31T16:00:00.000Z",
+  "endAt": "2026-08-31T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 27,
+  "articleIds": [
+    "5f9be0c79c0aa4d6918b3e70",
+    "0391a6f71ad3450a8714d617",
+    "370ef296f7b6eb5067910a3e",
+    "d462054f0c22a261094b246f",
+    "1fbb902199faec64289119a2",
+    "37e41420da4b8ee4f7f1c0b3",
+    "b565d64ea86058a2f9c12d29",
+    "82b7a7cee225949dc5f824b0",
+    "5fd65c0342e34ed15488c885",
+    "a6500165051ec121eb65a677",
+    "d25bab46ed1cbec9a59241c0",
+    "07b77de5c7c1aefdd79a1208",
+    "d80b92879817c3d31da51fa0",
+    "992a3e59c2afd3e284d8a271",
+    "aa489aaf8f7a54f7e8e9e4e8",
+    "464ce60bef7a174e5e52e92c",
+    "124182be2e13f7ed884b7c71",
+    "dd445be3be8fdedd9b736d88",
+    "1942a57b4e7c4d73cf824036",
+    "ff393a3bbe4758d6482fcc3b",
+    "9844487ca09e3f9d76e160ce",
+    "5a4ade7c2516f19289701f0d",
+    "bdce173343eb11514ebe7158",
+    "56c3619cc3ae9b0e78a8e136",
+    "c3442f3fa1a0db2272bd83f9",
+    "e5abe1d5642f2b31e6e90d4f",
+    "8166e70c1194527a8a1ead86"
+  ],
+  "items": [
+    {
+      "id": "5f9be0c79c0aa4d6918b3e70",
+      "title": "开放 ASR 排行榜加入首个全球南方语言",
+      "summary": "",
+      "originalTitle": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "url": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "contentHash": "68fd15b7f1b8a5f7bef7e29cda2f554ecdb026d056c1bcc7bc38d99e38b53001",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "0391a6f71ad3450a8714d617",
+      "title": "Gemini Omni 1.1 Flash 让你在构建时拥有更多控制权",
+      "summary": "",
+      "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control",
+      "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-27T16:11:32.000Z",
+      "contentHash": "7ec00bd7214121fc383e4d76c4775f2cc26a5c359e3d86f37097f72d019f4c81",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "370ef296f7b6eb5067910a3e",
+      "title": "试行全球首批双盲 AI 评估",
+      "summary": "试行全球首批双盲 AI 评估。",
+      "originalTitle": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-27T12:59:16.000Z",
+      "contentHash": "d82bbd9cc4c81e7417f3a84d26dd86516d42863726574583d4cd7c67a8f119b3",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d462054f0c22a261094b246f",
+      "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
+      "summary": "现在，你可以通过 Gemini 3.5 Transcribe 获得更智能的语音转文字转录。",
+      "originalTitle": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-26T17:01:00.000Z",
+      "contentHash": "34c38579778896969d6f3cc16016410816793593ecf4a35897e317e50314207f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1fbb902199faec64289119a2",
+      "title": "使用 Sentence Transformers 训练和微调多向量嵌入模型",
+      "summary": "",
+      "originalTitle": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-26T00:00:00.000Z",
+      "contentHash": "4c7421996e0fe5a968792e45cfb91260496af875630050a69d4dd02327daa081",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "37e41420da4b8ee4f7f1c0b3",
+      "title": "Granite 4.2 大语言模型是如何构建的",
+      "summary": "",
+      "originalTitle": "Granite 4.2 LLMs: How They're Built",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-25T15:14:14.000Z",
+      "contentHash": "3dc267c8822275927b07d364e1751569288da7d1d89d6f2350a827ad223a296e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b565d64ea86058a2f9c12d29",
+      "title": "量化感知修复：超越原始全精度模型的压缩 4 位模型",
+      "summary": "",
+      "originalTitle": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-25T11:39:24.000Z",
+      "contentHash": "2632d46035209c8ce3bcff65335e63e1a6e376d9252b5c27bb4435e39f114be9",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "82b7a7cee225949dc5f824b0",
+      "title": "连接、运行、部署：Gradio 中的 AI 工作流程",
+      "summary": "",
+      "originalTitle": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "url": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-25T00:00:00.000Z",
+      "contentHash": "631fe388c7868e4077fa5cba22584f0139ca8642d0d27683aec06eb98c520bc3",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5fd65c0342e34ed15488c885",
+      "title": "从 Atari 到 EVE Online：在 15 年游戏 AI 研究的基础上继续前进",
+      "summary": "Google DeepMind 与游戏工作室合作，制作突破性 AI 玩法原型。",
+      "originalTitle": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-21T11:59:48.000Z",
+      "contentHash": "ccdeaa5fd2810b3dac7c14a93feb50b7625be85efce7f3e1d0e6d3182e2e76e2",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a6500165051ec121eb65a677",
+      "title": "Hugging Face Inference Endpoints、Jobs 与 Buckets 如何支持 Papers with Code 搜索",
+      "summary": "",
+      "originalTitle": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "a924242e52758922ac892c57143f79b7b5f54204fa5f558d520745b08cbf3d3a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d25bab46ed1cbec9a59241c0",
+      "title": "衡量语音识别中的基准测试优化",
+      "summary": "",
+      "originalTitle": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "e1bbbc3bc6d130b0ef771f038458f2b445df26b059ed7b3c66f7a5a58dc0554e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "07b77de5c7c1aefdd79a1208",
+      "title": "LFM2.5-DSpark 将推理速度最高提升至 3.2 倍",
+      "summary": "",
+      "originalTitle": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-20T16:52:57.000Z",
+      "contentHash": "8312b0553d480db1c3b100c60803a26bd2fbbd139c7a48b6e20d15097060a8fd",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d80b92879817c3d31da51fa0",
+      "title": "你的智能体究竟需要多少记忆？",
+      "summary": "",
+      "originalTitle": "How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-18T18:09:38.000Z",
+      "contentHash": "631dacc58362d2e89e9b00983cac22950ac110b0ac30f5f04664af6870e45ca1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "992a3e59c2afd3e284d8a271",
+      "title": "使用 Sentence Transformers 构建多向量（后期交互）嵌入模型",
+      "summary": "",
+      "originalTitle": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "contentHash": "36db77544119e1baa1af6700ad8f3b1a3a15e70e5aeaccebf68a85f317106bf5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "aa489aaf8f7a54f7e8e9e4e8",
+      "title": "同一集群，利用率提高 33 个百分点：改变的只是顺序",
+      "summary": "",
+      "originalTitle": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-17T19:46:21.000Z",
+      "contentHash": "31324e08954b4b7941e6f4a71add08689d5c806347eac0e848d00112b86e199a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "464ce60bef7a174e5e52e92c",
+      "title": "开放模型现状：2026 年夏季观察",
+      "summary": "",
+      "originalTitle": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "contentHash": "752dabd4bd755ccfed04c89e2a2462369ce510e172e05b5c199940bdd56585fc",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "124182be2e13f7ed884b7c71",
+      "title": "借助 Strands Agents、LeRobot 与 Hugging Face Storage Buckets，在同一处完成记录、训练和部署",
+      "summary": "",
+      "originalTitle": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-13T17:16:04.000Z",
+      "contentHash": "abbbba064b9e31fe3881b34e419b6dee71b6360eb795126aff24595a97366800",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "dd445be3be8fdedd9b736d88",
+      "title": "推出 Gemini 3.7 Flash",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-13T17:04:18.000Z",
+      "contentHash": "bba321ddf6f7b3ab37b916201b93aafdbb8ac5aa7eea1310c8419400b1d4164c",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1942a57b4e7c4d73cf824036",
+      "title": "复现 2,200 篇 ICML 论文，让我们学到了什么",
+      "summary": "",
+      "originalTitle": "What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "contentHash": "71d47f1d90850b9ba76ee02c33063b2dbc654792b60250fb5b4b86fc37bc058a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ff393a3bbe4758d6482fcc3b",
+      "title": "推出 OlmoEarth 嵌入：从 OlmoEarth Studio 导出自定义嵌入，用于下游分析",
+      "summary": "",
+      "originalTitle": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-12T16:14:36.000Z",
+      "contentHash": "30ea8eeb59c09ab4b64520dfbc40be5f02ef7a4e7a61081493ba1c5c60e705a3",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9844487ca09e3f9d76e160ce",
+      "title": "将手语 AI 交到用户手中",
+      "summary": "推出手语转文本（SL2T）模型。这一突破性模型为面向聋人及听力障碍用户的新手语功能提供支持。",
+      "originalTitle": "Putting sign language AI into users’ hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-12T14:01:59.000Z",
+      "contentHash": "227be5fc9b3e67cdd8615836f690499dd565170577d31f5a66f20332ce44cc4d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5a4ade7c2516f19289701f0d",
+      "title": "在考虑 ACE？我们可以用更少的 token 做到",
+      "summary": "",
+      "originalTitle": "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-sldd",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-11T13:37:10.000Z",
+      "contentHash": "78b0974312499ea759723c080227f08df212d45f2fa08e1275728b58e9ef9bcd",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "bdce173343eb11514ebe7158",
+      "title": "构建低延迟多语言语音智能体：借 NVIDIA Magpie TTS 获得开放权重与完整部署控制权",
+      "summary": "",
+      "originalTitle": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
+      "url": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-10T16:25:36.000Z",
+      "contentHash": "eb91ce4d4f61b9841b9f40c4561fbbeb7dfa22ff0515449dab2772bd2d6c64a4",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "56c3619cc3ae9b0e78a8e136",
+      "title": "让知识蒸馏的成本低到足以大规模运行",
+      "summary": "",
+      "originalTitle": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-10T10:05:36.000Z",
+      "contentHash": "beba23a75bceba12163eeb8686de41e804d88eccb380f99533879aebc3ffd346",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c3442f3fa1a0db2272bd83f9",
+      "title": "Meta 携 Muse Glimmer 回归：本地运行、智能体能力、多模态与开源",
+      "summary": "",
+      "originalTitle": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "contentHash": "c45bb4e80ae1434c36acce0c8bebc7cf46db673e600bba1f9ea228e4702056d5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "e5abe1d5642f2b31e6e90d4f",
+      "title": "WeatherNext：AI 模型在气旋预测方面取得突破",
+      "summary": "",
+      "originalTitle": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-06T15:06:15.000Z",
+      "contentHash": "01450c2e3714c4dc9da69e94c693708979df6d15489a57d073436b57d0f7dae7",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "8166e70c1194527a8a1ead86",
+      "title": "Baseten 登陆 Hugging Face Inference Providers 🔥",
+      "summary": "",
+      "originalTitle": "Baseten on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/baseten",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "contentHash": "a52f7ecc083a1d3bb998edecf3d22c632efe95a7f9150a1f92fc135a7f98d5a0",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "3ecadaad4edd19871f408bf57fb9c0fbf6a95e55f848d29405a0b49e503242da",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

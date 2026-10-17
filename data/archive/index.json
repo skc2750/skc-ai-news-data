@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "monitoringSince": "2026-10-17T08:58:15.450Z",
+  "totalArticles": 218,
+  "coverageNote": "七个平台有限订阅源已读取条目的标题、短摘要与来源链接。不是全网覆盖；中文为机器翻译。回溯数据不表示历史连续监测。",
+  "partitions": [
+    {
+      "month": "2026-10",
+      "path": "archive/2026-10.json",
+      "articleCount": 86,
+      "bytes": 166749,
+      "sha256": "11dc729b837334e423f7be79ce22c8a4a0bc345689a618d6e1ac61909370fe4e"
+    },
+    {
+      "month": "2026-09",
+      "path": "archive/2026-09.json",
+      "articleCount": 76,
+      "bytes": 135862,
+      "sha256": "d0b668398aa5536c49adddbc7a0173d4759be36c2b95acd6771655a0e0a9e6cd"
+    },
+    {
+      "month": "2026-08",
+      "path": "archive/2026-08.json",
+      "articleCount": 28,
+      "bytes": 44234,
+      "sha256": "ce69ab23130ac94078bc5b0fca116318f609062f26f9e596ea061f901ebe23da"
+    },
+    {
+      "month": "2026-07",
+      "path": "archive/2026-07.json",
+      "articleCount": 11,
+      "bytes": 18481,
+      "sha256": "4d748fd742f0f9d99c0369ee2aa2eeeef52acad693ac362bfa2d62eac3440ebf"
+    },
+    {
+      "month": "2026-06",
+      "path": "archive/2026-06.json",
+      "articleCount": 10,
+      "bytes": 16211,
+      "sha256": "b6785be61f9417724588a29beb3b79f43161744a3c0de03478224b024ddd7262"
+    },
+    {
+      "month": "2026-05",
+      "path": "archive/2026-05.json",
+      "articleCount": 7,
+      "bytes": 11492,
+      "sha256": "347ede196c39f97d0460d7a0169fc52af86f9a5d4fc5ec4de51ea36607259c51"
+    }
+  ]
+}

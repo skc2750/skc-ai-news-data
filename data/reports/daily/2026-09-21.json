@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-21",
+  "kind": "daily",
+  "period": "2026-09-21",
+  "title": "2026-09-21 每日资讯汇编",
+  "startAt": "2026-09-20T16:00:00.000Z",
+  "endAt": "2026-09-21T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 4,
+  "articleIds": [
+    "8a7a13a7c3ed11fde85fa179",
+    "b52ffa6581c3011aa276ab7a",
+    "c52bd700f991138bb84f8978",
+    "962c4a0ef890c3ad891464c6"
+  ],
+  "items": [
+    {
+      "id": "8a7a13a7c3ed11fde85fa179",
+      "title": "借助 RetroChimera，大规模改进小分子合成预测",
+      "summary": "定制分子正推动医学、材料和农业发展，但生产过程缓慢且昂贵。《Nature》上的一篇新论文介绍了预测模型 RetroChimera，它有助于加快化学合成，让研究人员探索更广泛的分子。本文《借助 RetroChimera，大规模改进小分子合成预测》最初发表于 Microsoft Research。",
+      "originalTitle": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-21T15:30:19.000Z",
+      "contentHash": "c9ec0ec046cad85d375b0a46d240036bc43104ba1b5dd2a3a37fdbd842d8e626",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b52ffa6581c3011aa276ab7a",
+      "title": "AI 安全是工程问题：如何在智能体技术栈的每一层解决它",
+      "summary": "AI 安全是工程问题。这意味着要有明确的安全要求、可强制执行的控制措施、指定负责人，以及保护措施有效的证据。随着 AI 能力增强，行业必须加快安全工程，扩大防御工具的可及性，并更快分享有效方法。技术在变化，安全的基本原则仍然适用。互联网和云计算改变了软件的运行方式……",
+      "originalTitle": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-21T14:51:34.000Z",
+      "contentHash": "e7f25e7904cb975c3db95e6a2f88c142c518bae51029565c9aaf6282f61ef8f0",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c52bd700f991138bb84f8978",
+      "title": "5 家使用 NVIDIA AI 推动清洁能源的公司",
+      "summary": "清洁能源并不难获得，但受老旧基础设施、漫长研发周期及前期成本门槛等瓶颈影响，其大规模普及历来较慢。在纽约气候周，NVIDIA 重点介绍五家将 AI 融入基础、开创清洁能源项目的公司，加速从研究走向项目启动的进程……",
+      "originalTitle": "5 Companies Using NVIDIA AI for Clean Energy",
+      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-21T10:00:35.000Z",
+      "contentHash": "5dd5253424a44c641eb7881de31032c5b38126fd5a321b0a3523c8b06cd2c55d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "962c4a0ef890c3ad891464c6",
+      "title": "tokenizers v1：编码、解码与扩展能力的实测",
+      "summary": "",
+      "originalTitle": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "contentHash": "4e3c98fe4265a1197b6a6b391959a0c4faae6fa8737949e587367824c2c0ef3c",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "a35e61cf3697f35da210edbc1236ce2cda382804698fb40f025d4aeffeae21a3",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

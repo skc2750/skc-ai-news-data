@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-08-06",
+  "kind": "daily",
+  "period": "2026-08-06",
+  "title": "2026-08-06 每日资讯汇编",
+  "startAt": "2026-08-05T16:00:00.000Z",
+  "endAt": "2026-08-06T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "e5abe1d5642f2b31e6e90d4f",
+    "8166e70c1194527a8a1ead86"
+  ],
+  "items": [
+    {
+      "id": "e5abe1d5642f2b31e6e90d4f",
+      "title": "WeatherNext：AI 模型在气旋预测方面取得突破",
+      "summary": "",
+      "originalTitle": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-06T15:06:15.000Z",
+      "contentHash": "01450c2e3714c4dc9da69e94c693708979df6d15489a57d073436b57d0f7dae7",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "8166e70c1194527a8a1ead86",
+      "title": "Baseten 登陆 Hugging Face Inference Providers 🔥",
+      "summary": "",
+      "originalTitle": "Baseten on Hugging Face Inference Providers 🔥",
+      "url": "https://huggingface.co/blog/baseten",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-06T00:00:00.000Z",
+      "contentHash": "a52f7ecc083a1d3bb998edecf3d22c632efe95a7f9150a1f92fc135a7f98d5a0",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "b58af01733bc57209a5a288cfc90c0144fad23cf10f43d9dd93b3142e5c168c7",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

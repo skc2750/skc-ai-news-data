@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-22",
+  "kind": "daily",
+  "period": "2026-09-22",
+  "title": "2026-09-22 每日资讯汇编",
+  "startAt": "2026-09-21T16:00:00.000Z",
+  "endAt": "2026-09-22T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 4,
+  "articleIds": [
+    "0a3c2923d1e9ecd780627d00",
+    "28a38f5cd388794c003b3862",
+    "35e567ff930230ee18d0333b",
+    "4a17bcadbd38f7de3bbbfca6"
+  ],
+  "items": [
+    {
+      "id": "0a3c2923d1e9ecd780627d00",
+      "title": "oMLX 创建者兼维护者 Jun Kim 加入 Hugging Face，支持 MLX 社区",
+      "summary": "",
+      "originalTitle": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentHash": "e54719a38710382099117a250ae81abd0b1b760a57ca099e50a9c680b6dd968b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "28a38f5cd388794c003b3862",
+      "title": "Transformers 现可运行 llama.cpp 量化模型",
+      "summary": "",
+      "originalTitle": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentHash": "53ab392328118bf970113cc34cb4c022534db2217d46370d3e7be954c3022130",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "35e567ff930230ee18d0333b",
+      "title": "英国 AISI 与 EvalEval 如何让基准测试结果可复现",
+      "summary": "",
+      "originalTitle": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentHash": "75eec6c400595a9e38f3fc6dfa139ddeb6ba6f871a47d2a51c3d2b362cd40862",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "4a17bcadbd38f7de3bbbfca6",
+      "title": "从赋能到落地，埃及 AI 生态迈向规模化生产应用",
+      "summary": "今天，埃及 AI 开发者齐聚大埃及博物馆参加招待会，展现该国迅速发展的 AI 生态，包括在各行业构建应用的 AI 原生企业、开发者、研究人员、初创公司及企业。活动设有 NVIDIA 欧洲、中东和非洲区副总裁 Paolo Guglielmini 的主题演讲。区域 AI 应用负责人 Ahmed Mostafa……",
+      "originalTitle": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-21T16:00:10.000Z",
+      "contentHash": "e4dbb956821d468d65ca4862cf00287564256e915341760400c4555af67fd0ba",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "79b284c6e95be78b536e2dd60bd6a47243d6c81b0b0971016f4924782010ebc0",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

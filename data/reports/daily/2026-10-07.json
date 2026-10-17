@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-07",
+  "kind": "daily",
+  "period": "2026-10-07",
+  "title": "2026-10-07 每日资讯汇编",
+  "startAt": "2026-10-06T16:00:00.000Z",
+  "endAt": "2026-10-07T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 8,
+  "articleIds": [
+    "02f95a4124373db2015cd828",
+    "3b00c9dae11f82a479b24f1e",
+    "b43053db5b73c67882038c62",
+    "fb2a2e587d5460a607b178cc",
+    "d4dcf2f9014761024c85ac52",
+    "2de865185c69a3813d684e84",
+    "b67caddda941eca8e4af9737",
+    "a780e85e351703ee29da0462"
+  ],
+  "items": [
+    {
+      "id": "02f95a4124373db2015cd828",
+      "title": "推出 Falcon ASR",
+      "summary": "",
+      "originalTitle": "Introducing Falcon ASR",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-asr",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-07T13:21:03.000Z",
+      "contentHash": "ba45c205c8671eee78eac60f435bc810348a57ede971d2d95263056178a6a57e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "3b00c9dae11f82a479b24f1e",
+      "title": "推出 Playground：创建和畅玩自定义游戏",
+      "summary": "Playground 是一个新的实验性游戏平台，让你创建、游玩及分享自定义游戏。",
+      "originalTitle": "Introducing Playground: Create and play custom games",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "contentHash": "25b7f5d05a0d863c3fd8f86e4305d5d296f050f560dbb8abc0177b6332420f27",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b43053db5b73c67882038c62",
+      "title": "帮助青少年学习、规划并塑造 AI 的未来",
+      "summary": "College Planner 即将登陆 ChatGPT for Teens，帮助学生管理大学申请，同时还将推出新的抽认卡、测验及青少年 AI 委员会。",
+      "originalTitle": "Helping teens learn, plan, and shape the future of AI",
+      "url": "https://openai.com/index/teens-learn-and-plan",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-07T12:00:00.000Z",
+      "contentHash": "ce292c22bf34fc3ec6f1ae0c6ee97e8449ec13e8cbfa15c5f281ba8fc77fcd17",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "fb2a2e587d5460a607b178cc",
+      "title": "Radisson Hotel Group 将酒店探索体验带入 ChatGPT",
+      "summary": "Radisson 与 Accenture 合作，利用 OpenAI 技术构建 ChatGPT 插件，帮助旅客在规划旅程时查找、比较及预订酒店。",
+      "originalTitle": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "url": "https://openai.com/index/radisson",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-07T07:00:00.000Z",
+      "contentHash": "f1a334bd6aa242f4a4beca04898b1ee46a54cbdb208954203dc84ab0bc8d032e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d4dcf2f9014761024c85ac52",
+      "title": "面向所有人的 GPT-6 与 Intelligent UI",
+      "summary": "GPT-6 正在 ChatGPT 中向全球推出，并配备 Intelligent UI，带来更快的回答，以及可直接探索和使用的视觉内容与互动体验。",
+      "originalTitle": "GPT-6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-07T00:00:00.000Z",
+      "contentHash": "412df094374dd1b3ef885c36d1b90f84e19b2e6c91ae58744a7c2ffa8a5eb07c",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2de865185c69a3813d684e84",
+      "title": "EmbeddingGemma 2：开放、轻量的多模态嵌入模型",
+      "summary": "",
+      "originalTitle": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-06T19:57:04.000Z",
+      "contentHash": "fca82cdbff12c41d89fc8ef6a74bf39112d7e85fdf648fa45ec51c0cd796f690",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b67caddda941eca8e4af9737",
+      "title": "AI 会犯哪些错误，失败又能教会我们什么",
+      "summary": "Jennifer Neville 原本不想从事计算机科学，但最终恰恰进入了这个领域。Neville 谈到了让她找到理想职业方向的曲折经历，以及她识别“令人意外的失败”的研究；这些失败使 AI 难以应对复杂性。本文《AI 会犯哪些错误，失败又能教会我们什么》最初发表于 Microsoft Research。",
+      "originalTitle": "What AI gets wrong and what failure teaches us",
+      "url": "https://www.microsoft.com/en-us/research/podcast/what-ai-gets-wrong-and-what-failure-teaches-us/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-06T16:19:06.000Z",
+      "contentHash": "00aceeb0df6f170c57f39b2b7b4a5a0375fadd28eed73eb1d61b1d03fabc2a6b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a780e85e351703ee29da0462",
+      "title": "Atlassian 与 OpenAI 扩大合作，将企业知识转化为行动",
+      "summary": "Atlassian 与 OpenAI 正扩大合作，将前沿模型与企业知识连接起来，帮助团队规划、构建及交付工作。",
+      "originalTitle": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "url": "https://openai.com/index/atlassian-partnership",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "contentHash": "642f28243817c13142884b7fcd67e072d60625a44722a5821f0fb335607dff0f",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "9fd25f8e8ef4d212b00f9663c8a21304341182cc8ffdcdb50cbaebdcb66fc91a",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

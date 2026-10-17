@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-23",
+  "kind": "daily",
+  "period": "2026-09-23",
+  "title": "2026-09-23 每日资讯汇编",
+  "startAt": "2026-09-22T16:00:00.000Z",
+  "endAt": "2026-09-23T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 6,
+  "articleIds": [
+    "629d59595df30cf86b7ba6a1",
+    "bef8b321c3775dadc7b17fa0",
+    "796b1c3428aff2389ff1468d",
+    "a5120f8e904fd354712303a2",
+    "c36547f22ce9da1e4a2b3277",
+    "700c0adbb423ff58a5b26523"
+  ],
+  "items": [
+    {
+      "id": "629d59595df30cf86b7ba6a1",
+      "title": "Gemini 3.8 文本转语音前来问好",
+      "summary": "",
+      "originalTitle": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-23T15:25:14.000Z",
+      "contentHash": "c7fa146c1e296ad33d04e34c0af60e402f2239434488acb06d31221c28940d27",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "bef8b321c3775dadc7b17fa0",
+      "title": "OpenAI 向乌克兰扩大网络安全访问权限，支持民用防御",
+      "summary": "OpenAI 正向乌克兰政府开放 Daybreak 计划的访问权限，以支持民用基础设施的网络防御。",
+      "originalTitle": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "contentHash": "7b9bc2ed4835b4f890a9010ed4f68f3f3520d5f4cd393ef24c8be91f1702c968",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "796b1c3428aff2389ff1468d",
+      "title": "Ringg 的 AI 智能体借助 OpenAI，解决最高 65% 的客户来电",
+      "summary": "Ringg 使用 GPT-5.6，驱动覆盖语音、聊天、WhatsApp 和网页的多语言智能体，成本较 GPT-4.1 降低 90%。",
+      "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "contentHash": "9d32dae1c614cc8532e058a16e587f22302b3bd8c6574ed6863fb83c0e76d11e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a5120f8e904fd354712303a2",
+      "title": "Sam Altman 在联合国安全理事会的讲话",
+      "summary": "OpenAI 首席执行官 Sam Altman 在联合国安全理事会发言，讨论 AI 安全、人类控制权及国际合作。",
+      "originalTitle": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "contentHash": "ea2645ae1330aa9b7974bdddeb57ba98ee12c6c49de39305325dbbccbb2f970b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c36547f22ce9da1e4a2b3277",
+      "title": "Harvey 借助 GPT-6 Astra，将法律背景信息转化为更好的文稿",
+      "summary": "GPT-6 Astra 生成的法律文档结构更清晰，也更能结合上下文，让律师能够专注于策略。",
+      "originalTitle": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "contentHash": "5746c33b966e9d5839641b7c92ca5557a72061e1d6621f0d6c9fd89739add861",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "700c0adbb423ff58a5b26523",
+      "title": "NVIDIA 与合作伙伴在新加坡 AI Day 展示东南亚 AI 进展",
+      "summary": "NVIDIA AI Day Singapore 于 9 月 22 至 23 日在莱佛士城会议中心举行，为与会者提供实操培训、专家主讲课程及先进工具，帮助加快 AI 与高性能计算工作。在活动中，NVIDIA 及其合作伙伴正展示东南亚地区突破性的 AI 进展……",
+      "originalTitle": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T02:30:22.000Z",
+      "contentHash": "30478a7cc87e0a35e9973fbd3eda81b98671af941236ca06a3f2ab65556beb4d",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "5a504a85483acfe1d266805012f9d22dbcf016cd8ff3e7b77978ed8e32c90175",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

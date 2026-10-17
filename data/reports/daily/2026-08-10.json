@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-08-10",
+  "kind": "daily",
+  "period": "2026-08-10",
+  "title": "2026-08-10 每日资讯汇编",
+  "startAt": "2026-08-09T16:00:00.000Z",
+  "endAt": "2026-08-10T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "56c3619cc3ae9b0e78a8e136",
+    "c3442f3fa1a0db2272bd83f9"
+  ],
+  "items": [
+    {
+      "id": "56c3619cc3ae9b0e78a8e136",
+      "title": "让知识蒸馏的成本低到足以大规模运行",
+      "summary": "",
+      "originalTitle": "Making Knowledge Distillation Cheap Enough to Run at Scale",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-10T10:05:36.000Z",
+      "contentHash": "beba23a75bceba12163eeb8686de41e804d88eccb380f99533879aebc3ffd346",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c3442f3fa1a0db2272bd83f9",
+      "title": "Meta 携 Muse Glimmer 回归：本地运行、智能体能力、多模态与开源",
+      "summary": "",
+      "originalTitle": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "url": "https://huggingface.co/blog/muse-glimmer",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-10T00:00:00.000Z",
+      "contentHash": "c45bb4e80ae1434c36acce0c8bebc7cf46db673e600bba1f9ea228e4702056d5",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "8b6bad5641840ae80f0f4b449f2968729a0aeb7e75f2dae1e02b82ee83d5c276",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-02",
+  "kind": "daily",
+  "period": "2026-09-02",
+  "title": "2026-09-02 每日资讯汇编",
+  "startAt": "2026-09-01T16:00:00.000Z",
+  "endAt": "2026-09-02T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 5,
+  "articleIds": [
+    "9abb165af2be16312e33cde2",
+    "ff59dbf76b39df805e19314d",
+    "2fd4776953221d15fae0ab6a",
+    "a6245bbcd495fb588378732d",
+    "e5ee55a8c4f1a0a5e68265e8"
+  ],
+  "items": [
+    {
+      "id": "9abb165af2be16312e33cde2",
+      "title": "面向政府与企业的主动网络防御",
+      "summary": "Fairwind Program 是一项有限开放的计划，让政府与可信合作伙伴能够使用我们的网络防御工具。",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "contentHash": "49a3b72cf65a5a1c357580263fd2b04fad6afbb0f9915932c707d6ed2a733a3f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ff59dbf76b39df805e19314d",
+      "title": "BenchMIRT：大语言模型基准测试实际在衡量什么？",
+      "summary": "",
+      "originalTitle": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-01T21:39:07.000Z",
+      "contentHash": "b89a203c7df40e274eeb1895edbf5897200773e39e947e3fbe9646aa461d0fce",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2fd4776953221d15fae0ab6a",
+      "title": "我们在 2026 年 8 月公布的最新 AI 消息",
+      "summary": "以下是 Google 在 2026 年 8 月的最新 AI 更新。",
+      "originalTitle": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "contentHash": "edbc06bea62a6da661f6e95b4b8f8b6d1c7cd1b0c5c9903623c3eb294fcb0419",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a6245bbcd495fb588378732d",
+      "title": "推出基于 Gemini 的智能体式视频理解",
+      "summary": "",
+      "originalTitle": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-01T17:08:51.000Z",
+      "contentHash": "48f11039d1070bc3e6497f311ce0b8fdcf3e5ddab71c148cbddb4d03a0138a66",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "e5ee55a8c4f1a0a5e68265e8",
+      "title": "试用 Google Pics：在 Google Workspace 中轻松创建和编辑图像",
+      "summary": "基于最新 Nano Banana 模型构建的图像创建及编辑工具 Google Pics，现已推出。",
+      "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "contentHash": "68ff0303c6eaba45072174ff81dfeb70c41af174d6629279589bd9d6ad2fcbe8",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "33eadd71edbef4873f09158e636fac55f2bcde98ad3d37b68496e7264a9b7bef",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

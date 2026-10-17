@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "weekly:2026-08-17",
+  "kind": "weekly",
+  "period": "2026-08-17",
+  "title": "2026-08-17 每周（周一起）资讯汇编",
+  "startAt": "2026-08-16T16:00:00.000Z",
+  "endAt": "2026-08-23T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 7,
+  "articleIds": [
+    "5fd65c0342e34ed15488c885",
+    "a6500165051ec121eb65a677",
+    "d25bab46ed1cbec9a59241c0",
+    "07b77de5c7c1aefdd79a1208",
+    "d80b92879817c3d31da51fa0",
+    "992a3e59c2afd3e284d8a271",
+    "aa489aaf8f7a54f7e8e9e4e8"
+  ],
+  "items": [
+    {
+      "id": "5fd65c0342e34ed15488c885",
+      "title": "从 Atari 到 EVE Online：在 15 年游戏 AI 研究的基础上继续前进",
+      "summary": "Google DeepMind 与游戏工作室合作，制作突破性 AI 玩法原型。",
+      "originalTitle": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-21T11:59:48.000Z",
+      "contentHash": "ccdeaa5fd2810b3dac7c14a93feb50b7625be85efce7f3e1d0e6d3182e2e76e2",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a6500165051ec121eb65a677",
+      "title": "Hugging Face Inference Endpoints、Jobs 与 Buckets 如何支持 Papers with Code 搜索",
+      "summary": "",
+      "originalTitle": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "a924242e52758922ac892c57143f79b7b5f54204fa5f558d520745b08cbf3d3a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d25bab46ed1cbec9a59241c0",
+      "title": "衡量语音识别中的基准测试优化",
+      "summary": "",
+      "originalTitle": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "e1bbbc3bc6d130b0ef771f038458f2b445df26b059ed7b3c66f7a5a58dc0554e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "07b77de5c7c1aefdd79a1208",
+      "title": "LFM2.5-DSpark 将推理速度最高提升至 3.2 倍",
+      "summary": "",
+      "originalTitle": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-20T16:52:57.000Z",
+      "contentHash": "8312b0553d480db1c3b100c60803a26bd2fbbd139c7a48b6e20d15097060a8fd",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d80b92879817c3d31da51fa0",
+      "title": "你的智能体究竟需要多少记忆？",
+      "summary": "",
+      "originalTitle": "How Much Memory Does Your Agent Actually Need?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-18T18:09:38.000Z",
+      "contentHash": "631dacc58362d2e89e9b00983cac22950ac110b0ac30f5f04664af6870e45ca1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "992a3e59c2afd3e284d8a271",
+      "title": "使用 Sentence Transformers 构建多向量（后期交互）嵌入模型",
+      "summary": "",
+      "originalTitle": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "url": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-18T00:00:00.000Z",
+      "contentHash": "36db77544119e1baa1af6700ad8f3b1a3a15e70e5aeaccebf68a85f317106bf5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "aa489aaf8f7a54f7e8e9e4e8",
+      "title": "同一集群，利用率提高 33 个百分点：改变的只是顺序",
+      "summary": "",
+      "originalTitle": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-17T19:46:21.000Z",
+      "contentHash": "31324e08954b4b7941e6f4a71add08689d5c806347eac0e848d00112b86e199a",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "e9cc18d30a05d1907d07ee0f764faa4b5b32b43063e2c84e961733150a101c23",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

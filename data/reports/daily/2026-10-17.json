@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-17",
+  "kind": "daily",
+  "period": "2026-10-17",
+  "title": "2026-10-17 每日资讯汇编",
+  "startAt": "2026-10-16T16:00:00.000Z",
+  "endAt": "2026-10-17T16:00:00.000Z",
+  "periodState": "open",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "当前周期尚未结束；仅收录已读取的七个平台订阅条目。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "c57d65fcc265bc8a4b5b2659",
+    "ab999fe8f212727e7d3e9601"
+  ],
+  "items": [
+    {
+      "id": "c57d65fcc265bc8a4b5b2659",
+      "title": "让 AI 智能体更可信：基于 Amazon Bedrock AgentCore 的生产级评估框架",
+      "summary": "自主 AI 智能体的失效有时很隐蔽：延迟没有变化，回答质量却在悄悄下降。本文介绍基于 Amazon Bedrock AgentCore 的九阶段评估框架，从首次代码提交到正式运行，持续发现智能体生命周期中的质量退化。",
+      "originalTitle": "Building trust in AI agents: A production-ready evaluation framework with Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-16T20:48:16.000Z",
+      "contentHash": "bafe5effe83f6792605ea50c0583d425ca992b8a0bfb419888b3f7e5b4141cf1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ab999fe8f212727e7d3e9601",
+      "title": "Itaú 如何为全体客户构建生成式 AI 服务",
+      "summary": "Itaú 通过对话界面 ia.i 和 IARA 治理平台，把 AI 优先战略应用于客户与员工，所在的银行业是巴西监管最严格的行业之一。",
+      "originalTitle": "How Itaú is building generative AI for its entire customer base",
+      "url": "https://openai.com/index/itau-generative-ai",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-16T19:00:00.000Z",
+      "contentHash": "715eaa985d88c0394a5e74bd0bc717e10123ac029a6c95a056180a171f2c64d9",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "0201ec8840292654182f6bd88a7d9424384bd84ccf3a813782c45d75d0e68496",
+  "compiledAt": "2026-10-17T09:11:50.688Z"
+}

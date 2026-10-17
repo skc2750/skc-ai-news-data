@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-08-14",
+  "kind": "daily",
+  "period": "2026-08-14",
+  "title": "2026-08-14 每日资讯汇编",
+  "startAt": "2026-08-13T16:00:00.000Z",
+  "endAt": "2026-08-14T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 3,
+  "articleIds": [
+    "464ce60bef7a174e5e52e92c",
+    "124182be2e13f7ed884b7c71",
+    "dd445be3be8fdedd9b736d88"
+  ],
+  "items": [
+    {
+      "id": "464ce60bef7a174e5e52e92c",
+      "title": "开放模型现状：2026 年夏季观察",
+      "summary": "",
+      "originalTitle": "State of Open Models: Summer 2026 Observations",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "contentHash": "752dabd4bd755ccfed04c89e2a2462369ce510e172e05b5c199940bdd56585fc",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "124182be2e13f7ed884b7c71",
+      "title": "借助 Strands Agents、LeRobot 与 Hugging Face Storage Buckets，在同一处完成记录、训练和部署",
+      "summary": "",
+      "originalTitle": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-13T17:16:04.000Z",
+      "contentHash": "abbbba064b9e31fe3881b34e419b6dee71b6360eb795126aff24595a97366800",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "dd445be3be8fdedd9b736d88",
+      "title": "推出 Gemini 3.7 Flash",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.7 Flash",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-13T17:04:18.000Z",
+      "contentHash": "bba321ddf6f7b3ab37b916201b93aafdbb8ac5aa7eea1310c8419400b1d4164c",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "d0e21d0a0bb08338caec843b2fbed86518b63d3b164fd2875d428d755246af2b",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

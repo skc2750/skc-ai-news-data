@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-05-22",
+  "kind": "daily",
+  "period": "2026-05-22",
+  "title": "2026-05-22 每日资讯汇编",
+  "startAt": "2026-05-21T16:00:00.000Z",
+  "endAt": "2026-05-22T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "27681322729884944de813f3"
+  ],
+  "items": [
+    {
+      "id": "27681322729884944de813f3",
+      "title": "我们在亚太地区推出 Google DeepMind Accelerator 计划，应对环境风险",
+      "summary": "",
+      "originalTitle": "We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks",
+      "url": "https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-05-21T19:46:42.000Z",
+      "contentHash": "89c438cb1ffd9b47ab1e4fca568c71c022aa1407b366d1932052d6b114266642",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "496bb9f3341b22ba280c14e4bb2d510ecbb9611079af4a85366861997d507c1c",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

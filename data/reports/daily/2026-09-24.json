@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-24",
+  "kind": "daily",
+  "period": "2026-09-24",
+  "title": "2026-09-24 每日资讯汇编",
+  "startAt": "2026-09-23T16:00:00.000Z",
+  "endAt": "2026-09-24T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 5,
+  "articleIds": [
+    "c33b3a95910899b1eff98046",
+    "0c741bd67c8704e2f7ea50a5",
+    "508bb2676435a8eed33e02c2",
+    "ccaeb2866f52ade35cce42f6",
+    "9976564ef8da09deed578d76"
+  ],
+  "items": [
+    {
+      "id": "c33b3a95910899b1eff98046",
+      "title": "开放科学如何帮助研究人员为下一次大流行做好准备",
+      "summary": "COVID-19 出现时，科学家拥有一项关键优势：数十年的冠状病毒研究，使他们对病毒关键蛋白质有足够了解，从而能够以创纪录的速度设计疫苗。下一次大流行可能不会提供同样的先机。为提高应对能力，NVIDIA 加入了一个由全球研究组织组成的联盟，其中包括 Google……",
+      "originalTitle": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-24T14:00:50.000Z",
+      "contentHash": "bbd7a9c2c6924185fc483f4dc005713334cd0aeb2e350b4edb2b101df196cd9b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "0c741bd67c8704e2f7ea50a5",
+      "title": "Google Beam 扩展至更多地区、合作伙伴及客户",
+      "summary": "我们正将 Google Beam 扩展至五个新国家，并与 Industrious 合作扩大网络。",
+      "originalTitle": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "contentHash": "620be5147d8a8f4110b1d8afc2954f44cef6925e5add2ae51490337839f51e22",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "508bb2676435a8eed33e02c2",
+      "title": "面向现实世界物理 AI 机器人的卸载式推理",
+      "summary": "机器人正在变得更智能，但硬件如何跟上这种增长？Microsoft Research 的新研究显示，将 AI 推理移至机器人之外，可提高任务成功率、提升效率，并支持更先进的物理 AI 工作负载。本文《面向现实世界物理 AI 机器人的卸载式推理》最初发表于 Microsoft Research。",
+      "originalTitle": "Offloaded inference for real-world physical AI robotics",
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-23T16:01:36.000Z",
+      "contentHash": "6ccc72b10430bd99c1673bc05a38f845deeb51264a50e1da97164a1137542a26",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ccaeb2866f52ade35cce42f6",
+      "title": "借助安全的服务端记忆，推进 Private AI Compute",
+      "summary": "为面向个人 AI 的 Private AI Compute 引入私密的服务端记忆。",
+      "originalTitle": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "contentHash": "5753236cfbbe146bc552df9939980f7903470eb3c597fe5bd697c3705dff3c18",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9976564ef8da09deed578d76",
+      "title": "OpenAI Academy 两周年",
+      "summary": "纪念 OpenAI Academy 成立两周年，并将 AI 技能带给更多社区。",
+      "originalTitle": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "contentHash": "6773ac4f4906d1c9ad65b5203b0af1bbe28551f858e5abb97d48a48861ab131a",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "b52d09ba2c8d6a8ee24f48cf2fce7b6cd309177c997e7ff8e97935fb57c2ed52",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-01",
+  "kind": "daily",
+  "period": "2026-09-01",
+  "title": "2026-09-01 每日资讯汇编",
+  "startAt": "2026-08-31T16:00:00.000Z",
+  "endAt": "2026-09-01T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "6d69f06b95efae0229830837",
+    "91bfc16d543ac636fdc68594"
+  ],
+  "items": [
+    {
+      "id": "6d69f06b95efae0229830837",
+      "title": "推出 @huggingface/kernels：面向本地 AI 的 200 多个 WebGPU 内核",
+      "summary": "",
+      "originalTitle": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "contentHash": "1a09db469b893d8ebf2a415177eb532051e2c5d5c393dad2920d830546568b6a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "91bfc16d543ac636fdc68594",
+      "title": "GigaPath-Flash 与 GigaTIME-Flash：借高效病理学基础模型，迈向人群规模的发现",
+      "summary": "如果病理学基础模型能够以更少资源做更多工作，会怎样？GigaPath-Flash 与 GigaTIME-Flash 在保持强劲表现的同时降低计算需求，为更大规模的研究和更广泛探索打开大门。本文《GigaPath-Flash 与 GigaTIME-Flash：借高效病理学基础模型，迈向人群规模的发现》最初发表于 Microsoft Research。",
+      "originalTitle": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-31T16:00:00.000Z",
+      "contentHash": "c6b86bc337f0b02f13d3401b86e6afafb57e420b097e85c16deaee9b5750ee25",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "0107b16d1f3d1b356401ec28925c479b23e7e6f3aaf69625d019dd41695e9885",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

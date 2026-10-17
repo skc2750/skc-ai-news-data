@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-06-08",
+  "kind": "daily",
+  "period": "2026-06-08",
+  "title": "2026-06-08 每日资讯汇编",
+  "startAt": "2026-06-07T16:00:00.000Z",
+  "endAt": "2026-06-08T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "20707cda97afb7e6debbf228"
+  ],
+  "items": [
+    {
+      "id": "20707cda97afb7e6debbf228",
+      "title": "衡量 AI 辅助学习在塞拉利昂及其他地区的影响",
+      "summary": "一项随机对照试验的结果表明，Gemini 的 Guided Learning 功能有潜力提高参与度并加快学习。",
+      "originalTitle": "Measuring the impact of learning with AI in Sierra Leone and beyond",
+      "url": "https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-06-08T13:04:59.000Z",
+      "contentHash": "061e534a75d4402142694db4ba0abf30ec099ecec82b0221068f3ad783e7baed",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "f38cf016a2645a69fae439e5574dfe84c63542698e7c1fffe4323adfe9d273d2",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

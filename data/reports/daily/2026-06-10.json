@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-06-10",
+  "kind": "daily",
+  "period": "2026-06-10",
+  "title": "2026-06-10 每日资讯汇编",
+  "startAt": "2026-06-09T16:00:00.000Z",
+  "endAt": "2026-06-10T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "f4f8121443c209887a8970a9"
+  ],
+  "items": [
+    {
+      "id": "f4f8121443c209887a8970a9",
+      "title": "投资多智能体 AI 安全研究",
+      "summary": "Google DeepMind 与合作伙伴宣布，为多智能体安全研究启动 1,000 万美元的资助征集。",
+      "originalTitle": "Investing in multi-agent AI safety research",
+      "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-06-10T10:21:19.000Z",
+      "contentHash": "476cbfc5cf86bd73eaa73410e0ffc1f2063e1a86f8844c555058aaf30c265165",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "d69cbb6abcbb001bddcd081d33f9f854f93ad154010c786225e0e24dcb7d0e21",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

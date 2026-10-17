@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-02",
+  "kind": "daily",
+  "period": "2026-10-02",
+  "title": "2026-10-02 每日资讯汇编",
+  "startAt": "2026-10-01T16:00:00.000Z",
+  "endAt": "2026-10-02T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 7,
+  "articleIds": [
+    "f77909843fb1101e59488fbb",
+    "49388e49a8cc1f142d425ebe",
+    "911f283cecf249e9e24ff4d8",
+    "c2d4725c2be04972c4bca036",
+    "c0aa025c27c97e4f751e5d11",
+    "fea74ffda8bb8692cd919e12",
+    "c97b8618a79a43722c9f2dfb"
+  ],
+  "items": [
+    {
+      "id": "f77909843fb1101e59488fbb",
+      "title": "我们在 2026 年 9 月公布的最新 AI 消息",
+      "summary": "以下是 Google 在 2026 年 9 月的最新 AI 更新。",
+      "originalTitle": "The latest AI news we announced in September 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-02T15:00:00.000Z",
+      "contentHash": "7ca822f08031a0b8ef5363ac4a1ea64c5580751957792102d09492fd1935bc4a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "49388e49a8cc1f142d425ebe",
+      "title": "NVIDIA DGX Spark 64GB 为开发者提供更多构建和扩展本地 AI 的方式",
+      "summary": "本地 AI 正随着每一个 token 变得更加实用。随着 AI 智能体从实验走入日常开发，能力不断提升的开放模型也在缩小体积，以适配更多设备，让开发者能够在本地运行更多内容。NVIDIA DGX Spark 将于本月推出配备 64GB 统一内存的版本，由 Acer 等领先制造合作伙伴提供……",
+      "originalTitle": "NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-02T13:00:39.000Z",
+      "contentHash": "4841261f5da14a67f0c9d5c17d35d94222ef3b936dde7d9760d62bc23f35b127",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "911f283cecf249e9e24ff4d8",
+      "title": "AutoSynthData：为企业智能体生成训练数据",
+      "summary": "",
+      "originalTitle": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-02T04:01:31.000Z",
+      "contentHash": "372de2f8a21a820194ac758ab53ec92b6d56c531993308f772dd724d9df651e2",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c2d4725c2be04972c4bca036",
+      "title": "Chatham 借助 OpenAI 扩展资本市场专业能力",
+      "summary": "Chatham Financial 使用 Codex 与 GPT-5.6 构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短至不足 4 分钟。",
+      "originalTitle": "Chatham scales its capital markets expertise with OpenAI",
+      "url": "https://openai.com/index/chatham-financial",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-02T00:00:00.000Z",
+      "contentHash": "b7caea1b21e409a7686ad5693bceb9f442088003e1d90a0f2627eeeb1730c17a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c0aa025c27c97e4f751e5d11",
+      "title": "NVIDIA GPU 如何帮助加速 OpenAI 的 GPT-6 Astra Ultrafast",
+      "summary": "运行在 NVIDIA Blackwell GPU 上的 GPT-6 Astra Ultrafast，现已通过 OpenAI API，向符合条件的 ChatGPT Work 和 Codex 用户提供。OpenAI 模型通过推理优化利用 NVIDIA Blackwell 架构的能力，使 Ultrafast 的 token 生成速度最高可达 Astra Standard 模式的 8 倍。对于开发者……",
+      "originalTitle": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+      "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-01T23:44:13.000Z",
+      "contentHash": "4d70edf5f06019f82550adedfcd2fcdeba210dba4db9ab172cb185f24957f334",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "fea74ffda8bb8692cd919e12",
+      "title": "永恒的互补",
+      "summary": "先进 AI 最重要的作用，或许在于突破性想法背后的日常工作。探讨为何执行能力可能影响下一阶段的经济形态与进步速度。",
+      "originalTitle": "The eternal complement",
+      "url": "https://openai.com/index/the-eternal-complement",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-01T17:00:00.000Z",
+      "contentHash": "486ec2ea4896710c6e130f38369ffc6e63294c72c20f188aa22822f312e94241",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c97b8618a79a43722c9f2dfb",
+      "title": "Albertsons Companies 如何从内到外重塑零售",
+      "summary": "Albertsons Cos. 正使用 ChatGPT Enterprise 和 OpenAI API，帮助团队更快工作，并让数百万客户更轻松地购买日常食品。",
+      "originalTitle": "How Albertsons Companies is reimagining retail from the inside out",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-01T16:00:00.000Z",
+      "contentHash": "18e7000e5d02bde5ccb1d8b0b91d9da1f4cbbce9bae29eeaac9a590375a4d568",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "3ef604346013eddc5db4708905df7db37830b9fa0851d204b7662d80cb8107e3",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

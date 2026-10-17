@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-13",
+  "kind": "daily",
+  "period": "2026-10-13",
+  "title": "2026-10-13 每日资讯汇编",
+  "startAt": "2026-10-12T16:00:00.000Z",
+  "endAt": "2026-10-13T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 8,
+  "articleIds": [
+    "6c4bdc44985ec22acd3b26bf",
+    "e2518036c8a34a40984d644c",
+    "c123614c54143f15f75895aa",
+    "49297e6402035f005487c1fc",
+    "f363d75cdb3b86888658d398",
+    "cd846c89c85b6b768fea72ef",
+    "4c7df3728a9bc12840a54743",
+    "fd543b5cf06f283201fd9956"
+  ],
+  "items": [
+    {
+      "id": "6c4bdc44985ec22acd3b26bf",
+      "title": "ShipStation Global 如何在 Amazon Bedrock AgentCore 上构建 AI IT 服务台",
+      "summary": "ShipStation Global 工程团队在 Amazon Bedrock AgentCore 上构建了面向 Slack 的 AI IT 服务台智能体 Deckhand。它会根据精选知识库回答日常 IT 问题，读取错误信息截图，并创建 Jira 工单。上线前三个月，它解决了频道中 97.5% 的查询，正面反馈率达到 96%。",
+      "originalTitle": "How ShipStation Global built an AI IT help desk on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-shipstation-global-built-an-ai-it-help-desk-on-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-13T15:54:49.000Z",
+      "contentHash": "6211fcab8cee4d765700197e33e1b8479d00fe194a0d02eb8b0985ebcf0221bd",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "e2518036c8a34a40984d644c",
+      "title": "在 Amazon Bedrock 上使用 Grok 4.7 构建长程任务智能体",
+      "summary": "Grok 4.7 现已在 Amazon Bedrock 上提供。本文使用 Grok 4.7 构建工具调用智能体，并在四种推理强度下，针对三项推理任务进行评估，测量正确性及每项完成任务的 token 成本。文章展示如何按请求调整两者间的取舍，并在生产环境中监控。",
+      "originalTitle": "Build long-horizon agents with Grok 4.7 on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-long-horizon-agents-with-grok-4-7-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-13T15:52:20.000Z",
+      "contentHash": "a5935e6685588255c9cb8928bb6784a62ec193dd8fcf72381509acd28226e524",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c123614c54143f15f75895aa",
+      "title": "Amazon SageMaker AI 上的混合专家模型内核工程",
+      "summary": "AWS 工程师分享了 Amazon SageMaker AI 上融合混合专家（MoE）模型的内核优化：利用 Swap-AB 改善 WGMMA 利用率、为 FP8 量化进行 Triton 后端路由，以及消除 Triton JIT 重编译。这些优化结合后，在 H200 GPU 上可将吞吐量提高最多 10%，将首 token 时间缩短最多 9%。",
+      "originalTitle": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+      "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-13T15:17:09.000Z",
+      "contentHash": "94b1bcbdf8bd30845ca6fe101a9600fa472a78f57615fc1af74453e3cfaa10c8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "49297e6402035f005487c1fc",
+      "title": "一切就绪：全球 PC 应用生态迎接 NVIDIA RTX Spark",
+      "summary": "NVIDIA RTX Spark 为 PC 开启新篇章，将游戏 PC、创意工作室和个人 AI 超级计算机的能力整合到一颗超级芯片中。凭借最高 128GB 统一内存与 1 petaflop 的 AI 算力，RTX Spark 提供完整的 NVIDIA RTX 技术栈及……",
+      "originalTitle": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-13T12:00:49.000Z",
+      "contentHash": "2705e8c95454b20a2e53b7e4f26cdc4817da01818cf3a5735be86d043763bce1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f363d75cdb3b86888658d398",
+      "title": "Higgsfield 将 AI 视频时长从 1 分钟延长至 10 分钟以上",
+      "summary": "Higgsfield 借助 GPT-6 Astra 为创作者提供更长的视频，通过 GPT-Image-2.5 实现精准画面，并借 GPT-Live 探索语音驱动的电影制作。",
+      "originalTitle": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-13T12:00:00.000Z",
+      "contentHash": "1fdb4bb1b786c396385d9c0c0acaa86d6853a051109ef5718958463aadf32eec",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "cd846c89c85b6b768fea72ef",
+      "title": "NVIDIA 宣布对法国初创企业进行新投资",
+      "summary": "法国企业正将智能体计算部署于航天、金融服务、公共部门及科学研究等行业，展示了该国生态从愿景走向应用的进展。法国的进步建立在有规划的基础工作之上。2025 年 2 月的 AI 行动峰会，以及 2025 年和 2026 年的“选择法国”峰会，促成了重大的算力投入承诺……",
+      "originalTitle": "NVIDIA Announces New Investments in France’s Startups",
+      "url": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-13T05:00:31.000Z",
+      "contentHash": "ad8e8de4210b4ec3029283402aa021f0f4481073a9eb0d591886853f61cb96db",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "4c7df3728a9bc12840a54743",
+      "title": "在泰国、马来西亚、新加坡、印度尼西亚及台湾通过全球跨区域推理，访问 Amazon Bedrock 上的 OpenAI GPT 模型",
+      "summary": "了解如何从新加坡、雅加达、泰国、马来西亚和台北，通过全球跨区域推理，在 Amazon Bedrock 上运行 OpenAI GPT-6 Sol、Luna 和 Astra。本文涵盖 Converse 与 OpenAI 兼容 API、IAM 和 SCP 权限、配额规划，以及如何从源区域监控推理。",
+      "originalTitle": "Accessing OpenAI GPT models on Amazon Bedrock with global cross-Region inference in Thailand, Malaysia, Singapore, Indonesia, and Taiwan",
+      "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-12T17:52:22.000Z",
+      "contentHash": "f37d58ec52b42dc157f6aad3b1e48329daedb707d05fa0512b554e8f8c947489",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "fd543b5cf06f283201fd9956",
+      "title": "模拟学生学习，改进 AI 辅导",
+      "summary": "StudentSim 是一个研究系统，用于在 AI 辅导工具接受真实学习者测试前，对其进行评估和改进。它模拟个人可能如何与辅导工具互动，提供反馈，以改善国际象棋、写作及数学等学科的辅导表现。本文《模拟学生学习，改进 AI 辅导》最初发表于 Microsoft Research。",
+      "originalTitle": "Simulating student learning for better AI tutoring",
+      "url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-12T16:00:00.000Z",
+      "contentHash": "712907f984ced801d8841f43ed77e8df1893ee8ae8a6be6468beaeba1f44b124",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "5e1f03f21ba074ff449b6814e7f906e9112a4a2635fefea96467e7301cde2703",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

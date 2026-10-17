@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-08-21",
+  "kind": "daily",
+  "period": "2026-08-21",
+  "title": "2026-08-21 每日资讯汇编",
+  "startAt": "2026-08-20T16:00:00.000Z",
+  "endAt": "2026-08-21T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 4,
+  "articleIds": [
+    "5fd65c0342e34ed15488c885",
+    "a6500165051ec121eb65a677",
+    "d25bab46ed1cbec9a59241c0",
+    "07b77de5c7c1aefdd79a1208"
+  ],
+  "items": [
+    {
+      "id": "5fd65c0342e34ed15488c885",
+      "title": "从 Atari 到 EVE Online：在 15 年游戏 AI 研究的基础上继续前进",
+      "summary": "Google DeepMind 与游戏工作室合作，制作突破性 AI 玩法原型。",
+      "originalTitle": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-21T11:59:48.000Z",
+      "contentHash": "ccdeaa5fd2810b3dac7c14a93feb50b7625be85efce7f3e1d0e6d3182e2e76e2",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a6500165051ec121eb65a677",
+      "title": "Hugging Face Inference Endpoints、Jobs 与 Buckets 如何支持 Papers with Code 搜索",
+      "summary": "",
+      "originalTitle": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "url": "https://huggingface.co/blog/pwc-search",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "a924242e52758922ac892c57143f79b7b5f54204fa5f558d520745b08cbf3d3a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d25bab46ed1cbec9a59241c0",
+      "title": "衡量语音识别中的基准测试优化",
+      "summary": "",
+      "originalTitle": "Measuring benchmark optimization in speech recognition",
+      "url": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-21T00:00:00.000Z",
+      "contentHash": "e1bbbc3bc6d130b0ef771f038458f2b445df26b059ed7b3c66f7a5a58dc0554e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "07b77de5c7c1aefdd79a1208",
+      "title": "LFM2.5-DSpark 将推理速度最高提升至 3.2 倍",
+      "summary": "",
+      "originalTitle": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-20T16:52:57.000Z",
+      "contentHash": "8312b0553d480db1c3b100c60803a26bd2fbbd139c7a48b6e20d15097060a8fd",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "439d9e0de8c41aa42d04ad4aadfb03371c100288e0d53cd01c496b50c740de30",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

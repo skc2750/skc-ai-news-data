@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-05-17",
+  "kind": "daily",
+  "period": "2026-05-17",
+  "title": "2026-05-17 每日资讯汇编",
+  "startAt": "2026-05-16T16:00:00.000Z",
+  "endAt": "2026-05-17T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "2e8ba80e2a16e4a3015b40e8",
+    "ec6c4978311152f5de97fe3f"
+  ],
+  "items": [
+    {
+      "id": "2e8ba80e2a16e4a3015b40e8",
+      "title": "Gemini for Science：面向科学发现新时代的 AI 实验与工具",
+      "summary": "一系列科学工具与实验，旨在扩大科学探索的规模并提高其精确度。",
+      "originalTitle": "Gemini for Science: AI experiments and tools for a new era of discovery",
+      "url": "https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-05-17T13:50:34.000Z",
+      "contentHash": "938461c524cd8ffffaf225890cac64dec68559021fcdac6df449c690f1c56e48",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ec6c4978311152f5de97fe3f",
+      "title": "让内容的创作及编辑过程更易理解",
+      "summary": "我们正扩展工具，帮助你了解网络上的内容是如何创建和编辑的。",
+      "originalTitle": "Making it easier to understand how content was created and edited",
+      "url": "https://deepmind.google/blog/making-it-easier-to-understand-how-content-was-created-and-edited/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-05-17T13:43:50.000Z",
+      "contentHash": "0a57fb7829518d1af1d87bcf4d5fa32211efadf83731429346ad6ed217dd5529",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "759ad4a59ebafdcbd41e80ed3b83aaeea018eacf32cf40ab5f6b4c0eea5a0c87",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

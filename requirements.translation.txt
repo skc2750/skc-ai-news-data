@@ -1,0 +1,8 @@
+# CPU wheels only. The selected public model is downloaded once, not called as a paid API.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+transformers==4.57.6
+huggingface-hub==0.36.2
+sentencepiece==0.2.2
+sacremoses==0.2.0
+# Public Qwen model and official action revisions are pinned separately in translate.py / the workflow.

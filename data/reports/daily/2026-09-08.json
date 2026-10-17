@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-08",
+  "kind": "daily",
+  "period": "2026-09-08",
+  "title": "2026-09-08 每日资讯汇编",
+  "startAt": "2026-09-07T16:00:00.000Z",
+  "endAt": "2026-09-08T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "edc0020c8f6bdb895798d287"
+  ],
+  "items": [
+    {
+      "id": "edc0020c8f6bdb895798d287",
+      "title": "AlphaGenome Atlas：预测人类基因组中所有可能 DNA 单字母变化的图谱",
+      "summary": "AlphaGenome Atlas 绘制了整个人类基因组中 90 亿种 DNA 单字母变异的分子效应。",
+      "originalTitle": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "contentHash": "b0030b150336eff1fe7fd16172aefacf561cf34c5d9870135e4de257b262b22b",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "9e476d3334f65942b6fdf363d65319c2a4fac1839d845bb2f7778ba74962fed8",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

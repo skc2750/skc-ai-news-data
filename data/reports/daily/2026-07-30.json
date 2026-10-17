@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-07-30",
+  "kind": "daily",
+  "period": "2026-07-30",
+  "title": "2026-07-30 每日资讯汇编",
+  "startAt": "2026-07-29T16:00:00.000Z",
+  "endAt": "2026-07-30T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 3,
+  "articleIds": [
+    "bd98077a80c7308b04a38e07",
+    "91296f2c641f3aa6bd6d6cff",
+    "1f2891ec0b6b5a332b5ccde0"
+  ],
+  "items": [
+    {
+      "id": "bd98077a80c7308b04a38e07",
+      "title": "GPU 管理：为何闲置 GPU 如同停飞的飞机",
+      "summary": "",
+      "originalTitle": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
+      "url": "https://huggingface.co/blog/Dharma-AI/gpu-management",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-07-30T15:09:09.000Z",
+      "contentHash": "c7a633257bbce20298eb71861a8d2a51a33fc40397b7a533736798f81189df63",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "91296f2c641f3aa6bd6d6cff",
+      "title": "Gemini Robotics ER 2：以视频理解、任务编排及多机器人协作为机器人赋能",
+      "summary": "Gemini Robotics ER 2 帮助机器人推理、协作及解决现实任务。它在机器人应用所需的视频理解、工具编排与多机器人协作方面，带来了显著跃升。",
+      "originalTitle": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+      "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-07-30T15:00:59.000Z",
+      "contentHash": "af02417bf25ce3244b9dcb1a33e88cbf8be6b95bb461850ee926884b8024809d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1f2891ec0b6b5a332b5ccde0",
+      "title": "我们在 Google Flow Music 中推出 Lyria 3.5，提升音乐表现、歌词、人声及创作控制能力",
+      "summary": "",
+      "originalTitle": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-07-29T16:02:10.000Z",
+      "contentHash": "8fab6874f32f0ed1a6bf20cbe14fad4fa1b34d1a8559ae81ecdf40fea2aeeb03",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "aa2ed4eacbcbc1e5978b4981e08041945b56df20b636c1257e8eaad275fa4ee8",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-05-19",
+  "kind": "daily",
+  "period": "2026-05-19",
+  "title": "2026-05-19 每日资讯汇编",
+  "startAt": "2026-05-18T16:00:00.000Z",
+  "endAt": "2026-05-19T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "915398967f59349fb5690655"
+  ],
+  "items": [
+    {
+      "id": "915398967f59349fb5690655",
+      "title": "加快寻找逆转细胞衰老的遗传线索",
+      "summary": "生物学家使用 Co-Scientist，发现了能够成功使人体细胞恢复年轻状态的新因子。",
+      "originalTitle": "Fast-tracking genetic leads to reverse cellular aging",
+      "url": "https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-05-18T18:21:39.000Z",
+      "contentHash": "c31e4edc49b6075b43c29067deb0c000a2da7fb569fede749c19d15e512b32c2",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "f4764e001b20bc8d55d9ad343c8b8b7a3f17d773ab1f18c9a452a1046026b485",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

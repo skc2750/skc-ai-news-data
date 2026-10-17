@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-09",
+  "kind": "daily",
+  "period": "2026-10-09",
+  "title": "2026-10-09 每日资讯汇编",
+  "startAt": "2026-10-08T16:00:00.000Z",
+  "endAt": "2026-10-09T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 6,
+  "articleIds": [
+    "7e2400f6a791f9f375440a02",
+    "f0b86f5cb18b28c561142cbb",
+    "1eb3663e8294faacd2b04622",
+    "ac609b9f31e25f31c499443e",
+    "9db7bb821207b37bc0f8e5c4",
+    "5cf5eb9da44fc021d7eccd2b"
+  ],
+  "items": [
+    {
+      "id": "7e2400f6a791f9f375440a02",
+      "title": "本月回顾：2026 年 9 月面向 AI 开发者的新进展",
+      "summary": "每月回顾 2026 年 9 月 Amazon Bedrock、Amazon Bedrock AgentCore 和 Strands 的最新更新：更广泛的模型选择、内置评估且更快的无服务器智能体，以及通过原生企业连接器自动同步知识库。",
+      "originalTitle": "ICYMI: What landed for AI builders in September 2026",
+      "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-09T15:38:39.000Z",
+      "contentHash": "9db5225bf743e1d895a529b146a8c25d8fbc6a5b3d0a23a7aea7b258dad65979",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f0b86f5cb18b28c561142cbb",
+      "title": "Postman 如何在 Amazon Bedrock 上为 4,000 万开发者运行 Agent Mode",
+      "summary": "构建可用于演示的 AI 智能体，与为 4,000 万开发者运行智能体，是不同的问题。Postman 与 AWS 分享 Agent Mode 背后的架构模式：控制工具膨胀、提供基于模式定义的读取操作，以及将上下文视为真正的瓶颈，并介绍其如何在 Amazon Bedrock 上大规模运行。",
+      "originalTitle": "How Postman runs Agent Mode for 40 million developers on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-postman-runs-agent-mode-for-40-million-developers-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-09T15:35:02.000Z",
+      "contentHash": "513dfa843e2063cee7f11b05b15b738fd3a8047f9313507303f2d82493e5b0a4",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1eb3663e8294faacd2b04622",
+      "title": "Sophos 借助 OpenAI Daybreak 将威胁调查时间缩短 96%",
+      "summary": "了解 Sophos 如何利用 OpenAI 的 Daybreak，将网络威胁调查时间缩短 96%，并在保留人工监督的同时，自动处理 52% 的托管检测与响应（MDR）案例。",
+      "originalTitle": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "url": "https://openai.com/index/sophos",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "contentHash": "f739ed3632c76985d648388382b03092091a7590e96a8ac4026cbb29318bf173",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ac609b9f31e25f31c499443e",
+      "title": "Asana 在使用 GPT-6.1 Sol 的浏览器测试中，将模型成本降至原来的 1/76",
+      "summary": "Asana 在 Codex 中使用 GPT-6 Astra，使浏览器智能体在测试中的成本降至原来的 1/76、速度提升至 5 倍，以便向客户提供能力更强的模型。",
+      "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "url": "https://openai.com/index/asana-browser-agent",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-09T07:00:00.000Z",
+      "contentHash": "d4974bb47fc50326b6572d8468595101cef6347f673eb3df0f719727f4bce0d3",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9db7bb821207b37bc0f8e5c4",
+      "title": "AI 智能体按次支付推理费用：BlockRun 与 Incarna 如何使用 Amazon Bedrock AgentCore payments",
+      "summary": "Amazon Bedrock AgentCore payments 为 AI 智能体提供托管的按需服务付款方式，并由基础设施强制执行支出上限。了解 Incarna 的智能体如何通过 x402，逐次请求向 BlockRun 支付模型推理费用，将添加 x402 支付支持所需的工作从数月缩短至数天。",
+      "originalTitle": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-08T18:33:29.000Z",
+      "contentHash": "aa682c665ed1062ab5bb9534ad0f6cfc495fe056287f3a1957399075e2953082",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5cf5eb9da44fc021d7eccd2b",
+      "title": "Oracle 如何借助 ChatGPT 和 Codex，将数天的工作缩短至数分钟",
+      "summary": "Oracle 在招聘、工程和运营领域，利用 ChatGPT Work 与 Codex，将专业知识转化为快速、可重复的工作流程。",
+      "originalTitle": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "url": "https://openai.com/index/oracle",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "contentHash": "662131f26ed644f99b875bd3fa247a1f494a8ec447f97911b0ad2d876bab91c5",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "7e41ccd8b17b64081f905a34eea914199409e6ba6fa601a73b8b303d87ecc029",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

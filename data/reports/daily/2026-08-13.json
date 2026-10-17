@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-08-13",
+  "kind": "daily",
+  "period": "2026-08-13",
+  "title": "2026-08-13 每日资讯汇编",
+  "startAt": "2026-08-12T16:00:00.000Z",
+  "endAt": "2026-08-13T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "1942a57b4e7c4d73cf824036",
+    "ff393a3bbe4758d6482fcc3b"
+  ],
+  "items": [
+    {
+      "id": "1942a57b4e7c4d73cf824036",
+      "title": "复现 2,200 篇 ICML 论文，让我们学到了什么",
+      "summary": "",
+      "originalTitle": "What We Learned by Reproducing 2,200 papers from ICML",
+      "url": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "contentHash": "71d47f1d90850b9ba76ee02c33063b2dbc654792b60250fb5b4b86fc37bc058a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ff393a3bbe4758d6482fcc3b",
+      "title": "推出 OlmoEarth 嵌入：从 OlmoEarth Studio 导出自定义嵌入，用于下游分析",
+      "summary": "",
+      "originalTitle": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-08-12T16:14:36.000Z",
+      "contentHash": "30ea8eeb59c09ab4b64520dfbc40be5f02ef7a4e7a61081493ba1c5c60e705a3",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "290745c0974df6637c2e820fac2c640432c9061e167501f6515446026403c5d8",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

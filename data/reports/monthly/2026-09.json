@@ -1,0 +1,1279 @@
+{
+  "schemaVersion": 1,
+  "id": "monthly:2026-09",
+  "kind": "monthly",
+  "period": "2026-09",
+  "title": "2026-09 每月资讯汇编",
+  "startAt": "2026-08-31T16:00:00.000Z",
+  "endAt": "2026-09-30T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 74,
+  "articleIds": [
+    "69a4eb364cad5abca2413a08",
+    "9a9b55fe263d4803716406bc",
+    "b00281e2714dcb4f04bd2b7d",
+    "5def59e3b4fca648bde58544",
+    "377ef8943b60416578be825f",
+    "d436a943e0a698829ade547d",
+    "81b50e82b2f547381091b091",
+    "d0e73065d00c0f0cf30ff58f",
+    "a65794808b6b33fbf7b1968e",
+    "c635a1d871994aff085b939b",
+    "53863fd161ac40b4058dbe23",
+    "88ed018fe8b39aba1a34c3c9",
+    "d5f58f6762b8dc60405342ce",
+    "1b7d3764298add51d25ae62c",
+    "aa1d6d5748b7c3b948a421de",
+    "14665f31c5050b06129da6c9",
+    "58aab1a2f046ae363c3bfddb",
+    "cbe6bff2efc300368785ba6d",
+    "3e05a6dcb3d6f3403d65985b",
+    "ed22d9937e1dec520531714b",
+    "ba2ac467963ebe43c3c03a61",
+    "c91e36a40a04b223adcdbfa9",
+    "c33b3a95910899b1eff98046",
+    "0c741bd67c8704e2f7ea50a5",
+    "508bb2676435a8eed33e02c2",
+    "ccaeb2866f52ade35cce42f6",
+    "9976564ef8da09deed578d76",
+    "629d59595df30cf86b7ba6a1",
+    "bef8b321c3775dadc7b17fa0",
+    "796b1c3428aff2389ff1468d",
+    "a5120f8e904fd354712303a2",
+    "c36547f22ce9da1e4a2b3277",
+    "700c0adbb423ff58a5b26523",
+    "0a3c2923d1e9ecd780627d00",
+    "28a38f5cd388794c003b3862",
+    "35e567ff930230ee18d0333b",
+    "4a17bcadbd38f7de3bbbfca6",
+    "8a7a13a7c3ed11fde85fa179",
+    "b52ffa6581c3011aa276ab7a",
+    "c52bd700f991138bb84f8978",
+    "962c4a0ef890c3ad891464c6",
+    "d757dfb9b449a830ed23f14c",
+    "ad069a29d99e9726be6e0cd1",
+    "f7dc607cf74ade26544d1673",
+    "adb07246d1b16d3011602e8e",
+    "5609622ec8767572e02480b3",
+    "2d6f1cb5c87acb2ed8b9ec50",
+    "3e031308e0544bb1ce7468ba",
+    "1d4bbd416cc0b7d0f411f771",
+    "28a2284dbc9571dc36d5c8bb",
+    "cc8cabed1cde5d74413f4f2c",
+    "efdc2f4de1e24ec5187da092",
+    "24311e78fd6c1e731fb29c84",
+    "786edf0a4cf5b83227130a86",
+    "cf4b519e6681d192ca6bb016",
+    "5afba8ac517deb01d83650a6",
+    "7267cf93a40be6a98e145b71",
+    "083e0b8a5cfdfedd55ffcb95",
+    "adc2eb322619dd7c6b680920",
+    "edc0020c8f6bdb895798d287",
+    "f888840f1f764dc2bca03f78",
+    "f71ecd66783b010e99b431d3",
+    "67437ea67a7521e032a8c66a",
+    "bd5b08a96897c4efb848c822",
+    "dec1eff3aa4474162c85f660",
+    "ca2fd754c22e86bd5c0d14fc",
+    "eaf030d682df1d0a8e117d9a",
+    "9abb165af2be16312e33cde2",
+    "ff59dbf76b39df805e19314d",
+    "2fd4776953221d15fae0ab6a",
+    "a6245bbcd495fb588378732d",
+    "e5ee55a8c4f1a0a5e68265e8",
+    "6d69f06b95efae0229830837",
+    "91bfc16d543ac636fdc68594"
+  ],
+  "items": [
+    {
+      "id": "69a4eb364cad5abca2413a08",
+      "title": "推出 SynthID Bio",
+      "summary": "一项概念验证：在保持生物功能的同时，为 AI 生成的蛋白质添加水印。",
+      "originalTitle": "Introducing SynthID Bio",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-30T15:03:07.000Z",
+      "contentHash": "e065e897970d4e8e8a0cfc31f6455c21f14abd30255e0a6c5b010177c17a09d6",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9a9b55fe263d4803716406bc",
+      "title": "阻止一项有组织的模型蒸馏行动",
+      "summary": "了解 OpenAI 如何阻止一项提取受保护模型推理过程的行动，并加强对抗恶意蒸馏的防御。",
+      "originalTitle": "Disrupting a coordinated model-distillation campaign",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "contentHash": "61ff719297fc14fb130ac318f69ab7f35fb51b6a03a5150e89f4a669e1cc7e84",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b00281e2714dcb4f04bd2b7d",
+      "title": "帮助小型企业将 AI 用于实际工作",
+      "summary": "OpenAI 正与 America’s SBDC 合作，扩大小型企业的实操 AI 培训及本地支持，并发布一份有关小团队如何使用 AI 的新报告。",
+      "originalTitle": "Helping small businesses put AI to work",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "contentHash": "b004eed50b6944118f3fc3bb22f207e30f3165adf79942bb7b2d250376bc5fcb",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5def59e3b4fca648bde58544",
+      "title": "开放 TTS 排行榜：可扩展的多语言文本转语音与声音克隆评估",
+      "summary": "",
+      "originalTitle": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "contentHash": "3a3533ce0b6548404323b76272c652d9791da01f3872e6d389dc85bec84e8dec",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "377ef8943b60416578be825f",
+      "title": "推出 Quine：为生物学复杂性而设计的 AI 研究系统",
+      "summary": "生物学并非由彼此隔绝的领域构成，AI 对生物学的表征也不应如此。Quine 是一项处于早期阶段的研究，旨在创建生物学多模态世界模型。通过连接不同生物尺度与模态的洞见，Quine 帮助科学家借助计算，搜索远超直觉所及的空间，并在进入实验室前确定假设的优先级。实验结果提供重要反馈。",
+      "originalTitle": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-29T14:00:02.000Z",
+      "contentHash": "bc1f5f722b63c48e4b372f0f9125e95fe1ced2881b5217338fef00bf9d3f0c84",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d436a943e0a698829ade547d",
+      "title": "不仅要事实正确，也要来源正确：面向 MCP 智能体的来源感知验证",
+      "summary": "",
+      "originalTitle": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-29T13:07:00.000Z",
+      "contentHash": "71ebcddde80df595c8cbd19a48c93b353a0a3993d87656e36e302bc71b568313",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "81b50e82b2f547381091b091",
+      "title": "推出 GPT-6.1 Sol",
+      "summary": "认识 GPT-6.1 Sol：在编程、计算机操作及专业工作中提供接近 Astra 的智能水平，标准 API 输入和输出 token 价格均为 Astra 的五分之一。",
+      "originalTitle": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "contentHash": "0f40dbb6be2fa94db74b6960adb008e03052cc62f900cfac707a3ff7dc0bf13a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d0e73065d00c0f0cf30ff58f",
+      "title": "DevDay 2026 回顾",
+      "summary": "探索 OpenAI DevDay 2026 的 20 多项发布，涵盖 GPT-6 Astra、ChatGPT、Codex、API、安全以及面向开发者的新工具。",
+      "originalTitle": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "contentHash": "f9c86fefe733045f0c916e364348de9c2c481cd74d3d9764a6fd621d40eb0f1f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a65794808b6b33fbf7b1968e",
+      "title": "推出 dots",
+      "summary": "OpenAI 的 dots 是主动式助手，能够持续推进复杂项目与日常任务。了解 dots 如何在工作不断推进的同时，让你保持掌控。",
+      "originalTitle": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "contentHash": "81424a441df825e587ebe1ba96f26e63dc8f5030cbba9f409ff61d4c95151a36",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c635a1d871994aff085b939b",
+      "title": "成立一周年：微软亚洲研究院新加坡实验室如何通过研究、合作与人才培养创造实际影响",
+      "summary": "自一年前成立以来，微软亚洲研究院新加坡实验室已建立坚实基础，深化与政府、学术界及产业界的合作，并探索前沿 AI 研究如何创造现实价值。本文《成立一周年：微软亚洲研究院新加坡实验室如何通过研究、合作与人才培养创造实际影响》最初发表于 Microsoft Research。",
+      "originalTitle": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-28T21:00:00.000Z",
+      "contentHash": "3bbc460260e5f2faa0a760569c8ddbca4ca4037456dbc318d6d3345534a311b5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "53863fd161ac40b4058dbe23",
+      "title": "我们将如何为澳大利亚做得更好",
+      "summary": "OpenAI 就涉及澳大利亚政府网站的事件致歉，并介绍更强的保障措施与支持，以加强澳大利亚的网络防御。",
+      "originalTitle": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "524f769ce6414c2d0945689535b568de44cb6c993a9281dd24ffabedb36c475a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "88ed018fe8b39aba1a34c3c9",
+      "title": "迈向前沿 AI 训练的安全论证",
+      "summary": "我们针对前沿 AI 训练中安全论证的初步指导，涵盖技术保障、运营实践，以及对齐偏差事件调查。",
+      "originalTitle": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "4101de0f4dae2f531336549d523c306e586bba1f15e80601fe3563dd9ce57802",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d5f58f6762b8dc60405342ce",
+      "title": "观看 Future Vision XPRIZE 获奖预告片《The Gifted》",
+      "summary": "观看 Future Vision XPRIZE 获奖预告片《The Gifted》。",
+      "originalTitle": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "a163b2f2ceaeadc8b8424849267c615c04ffcb6db9cde47f51528d7cb091a586",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1b7d3764298add51d25ae62c",
+      "title": "Holo4：赋能通用型计算机操作智能体",
+      "summary": "",
+      "originalTitle": "Holo4: powering generalist computer-use agents",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-28T09:44:05.000Z",
+      "contentHash": "bdd8dd23ea48861e0d2502316fd723e08af4dfd51466378e2f5a26d7a98437ee",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "aa1d6d5748b7c3b948a421de",
+      "title": "Lenfest Institute 借助 OpenAI 扩大的支持，发展其标志性计划",
+      "summary": "OpenAI 正以 500 万美元资金，以及最高 500 万美元的软件额度与工程支持，扩大 Lenfest AI Collaborative and Fellowship Program。",
+      "originalTitle": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "contentHash": "fce97daa446d8a6a6a89777f9e840398cbacbcb4dcd5bdf4e208248148c877e8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "14665f31c5050b06129da6c9",
+      "title": "Basis 借助 GPT-6 Astra，将税务工作簿处理速度提升至 2 倍",
+      "summary": "GPT-6 Astra 完成一份包含 50 个工作表的税务工作簿，速度是 GPT-5.6 Sol 的两倍；它对用户意图更强的理解，也让 Basis 对实际应用更有信心。",
+      "originalTitle": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "contentHash": "b19572461133c02c833b67aea0b74b4b7ee7c4c91005bbbb0b04c69b62f5f5ee",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "58aab1a2f046ae363c3bfddb",
+      "title": "你是 Codex Original 吗？",
+      "summary": "我们正在收集开发者、动手探索者、研究人员及创作者使用 Codex 完成出色成果的真实故事。如果你想参与 Codex Originals 计划的下一篇章，请在下方进一步介绍你的故事与项目。",
+      "originalTitle": "Are you a Codex Original?",
+      "url": "https://openai.com/form/codex-originals",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "contentHash": "0e50c66b894e58f233e0dfdc6b606d6db62533293d3a1552badb6c1e9a746522",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "cbe6bff2efc300368785ba6d",
+      "title": "欢迎 RL Environments 加入 Hub",
+      "summary": "",
+      "originalTitle": "Welcome RL Environments to the hub",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "contentHash": "ca69f74cd493beb4ca7a757ebf33d4eadcf76147da3973471a4933bd4c3a3c39",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "3e05a6dcb3d6f3403d65985b",
+      "title": "Proaction 借助 Codex 将销售额提高 60%，并节省 75 小时以上",
+      "summary": "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 能够更快构建、运营及销售现代车队管理方案。",
+      "originalTitle": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "url": "https://openai.com/index/proaction",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "contentHash": "6b60260e5e66e5520323f5fc4d901a95398b9b3129c276e3ba8353e8fd9c611b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ed22d9937e1dec520531714b",
+      "title": "Lowe’s 借助 OpenAI 回答数百万个家居改善问题",
+      "summary": "Lowe’s 使用 OpenAI 模型驱动 Mylow 和 Mylow Companion，帮助客户与员工回答超过 2,500 万个问题，并推进家居改善项目。",
+      "originalTitle": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "url": "https://openai.com/index/lowes",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "contentHash": "6dc6208e002ad0299133e4210e111da0af395180abe8bdde31b0f967f5201b75",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ba2ac467963ebe43c3c03a61",
+      "title": "Wayfair 借助 OpenAI 提升商品目录准确性与客服速度",
+      "summary": "Wayfair 使用 OpenAI 模型改进电商客服及商品目录准确性，自动分流工单，并大规模完善数百万项商品属性。",
+      "originalTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "url": "https://openai.com/index/wayfair",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "contentHash": "19ccc47d50365db0099634fc30b7494be8179d9b972f3c31c1eeda4489588dfa",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c91e36a40a04b223adcdbfa9",
+      "title": "推出配备 Live Avatar 的 Gemini 3.8 Live",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-24T16:20:39.000Z",
+      "contentHash": "f597a074ae741c27dba81f4e26833c41a301e628d35f91172bacee064f320d1d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c33b3a95910899b1eff98046",
+      "title": "开放科学如何帮助研究人员为下一次大流行做好准备",
+      "summary": "COVID-19 出现时，科学家拥有一项关键优势：数十年的冠状病毒研究，使他们对病毒关键蛋白质有足够了解，从而能够以创纪录的速度设计疫苗。下一次大流行可能不会提供同样的先机。为提高应对能力，NVIDIA 加入了一个由全球研究组织组成的联盟，其中包括 Google……",
+      "originalTitle": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-24T14:00:50.000Z",
+      "contentHash": "bbd7a9c2c6924185fc483f4dc005713334cd0aeb2e350b4edb2b101df196cd9b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "0c741bd67c8704e2f7ea50a5",
+      "title": "Google Beam 扩展至更多地区、合作伙伴及客户",
+      "summary": "我们正将 Google Beam 扩展至五个新国家，并与 Industrious 合作扩大网络。",
+      "originalTitle": "Google Beam expands with new regions, partners, and customers",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "contentHash": "620be5147d8a8f4110b1d8afc2954f44cef6925e5add2ae51490337839f51e22",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "508bb2676435a8eed33e02c2",
+      "title": "面向现实世界物理 AI 机器人的卸载式推理",
+      "summary": "机器人正在变得更智能，但硬件如何跟上这种增长？Microsoft Research 的新研究显示，将 AI 推理移至机器人之外，可提高任务成功率、提升效率，并支持更先进的物理 AI 工作负载。本文《面向现实世界物理 AI 机器人的卸载式推理》最初发表于 Microsoft Research。",
+      "originalTitle": "Offloaded inference for real-world physical AI robotics",
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-23T16:01:36.000Z",
+      "contentHash": "6ccc72b10430bd99c1673bc05a38f845deeb51264a50e1da97164a1137542a26",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ccaeb2866f52ade35cce42f6",
+      "title": "借助安全的服务端记忆，推进 Private AI Compute",
+      "summary": "为面向个人 AI 的 Private AI Compute 引入私密的服务端记忆。",
+      "originalTitle": "Advancing Private AI Compute with secure, server-side memory",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "contentHash": "5753236cfbbe146bc552df9939980f7903470eb3c597fe5bd697c3705dff3c18",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9976564ef8da09deed578d76",
+      "title": "OpenAI Academy 两周年",
+      "summary": "纪念 OpenAI Academy 成立两周年，并将 AI 技能带给更多社区。",
+      "originalTitle": "Two years of OpenAI Academy",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "contentHash": "6773ac4f4906d1c9ad65b5203b0af1bbe28551f858e5abb97d48a48861ab131a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "629d59595df30cf86b7ba6a1",
+      "title": "Gemini 3.8 文本转语音前来问好",
+      "summary": "",
+      "originalTitle": "Gemini 3.8 text-to-speech says hello",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-23T15:25:14.000Z",
+      "contentHash": "c7fa146c1e296ad33d04e34c0af60e402f2239434488acb06d31221c28940d27",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "bef8b321c3775dadc7b17fa0",
+      "title": "OpenAI 向乌克兰扩大网络安全访问权限，支持民用防御",
+      "summary": "OpenAI 正向乌克兰政府开放 Daybreak 计划的访问权限，以支持民用基础设施的网络防御。",
+      "originalTitle": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "contentHash": "7b9bc2ed4835b4f890a9010ed4f68f3f3520d5f4cd393ef24c8be91f1702c968",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "796b1c3428aff2389ff1468d",
+      "title": "Ringg 的 AI 智能体借助 OpenAI，解决最高 65% 的客户来电",
+      "summary": "Ringg 使用 GPT-5.6，驱动覆盖语音、聊天、WhatsApp 和网页的多语言智能体，成本较 GPT-4.1 降低 90%。",
+      "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "url": "https://openai.com/index/ringg",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "contentHash": "9d32dae1c614cc8532e058a16e587f22302b3bd8c6574ed6863fb83c0e76d11e",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a5120f8e904fd354712303a2",
+      "title": "Sam Altman 在联合国安全理事会的讲话",
+      "summary": "OpenAI 首席执行官 Sam Altman 在联合国安全理事会发言，讨论 AI 安全、人类控制权及国际合作。",
+      "originalTitle": "Sam Altman’s remarks at the United Nations Security Council",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "contentHash": "ea2645ae1330aa9b7974bdddeb57ba98ee12c6c49de39305325dbbccbb2f970b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c36547f22ce9da1e4a2b3277",
+      "title": "Harvey 借助 GPT-6 Astra，将法律背景信息转化为更好的文稿",
+      "summary": "GPT-6 Astra 生成的法律文档结构更清晰，也更能结合上下文，让律师能够专注于策略。",
+      "originalTitle": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "contentHash": "5746c33b966e9d5839641b7c92ca5557a72061e1d6621f0d6c9fd89739add861",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "700c0adbb423ff58a5b26523",
+      "title": "NVIDIA 与合作伙伴在新加坡 AI Day 展示东南亚 AI 进展",
+      "summary": "NVIDIA AI Day Singapore 于 9 月 22 至 23 日在莱佛士城会议中心举行，为与会者提供实操培训、专家主讲课程及先进工具，帮助加快 AI 与高性能计算工作。在活动中，NVIDIA 及其合作伙伴正展示东南亚地区突破性的 AI 进展……",
+      "originalTitle": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-23T02:30:22.000Z",
+      "contentHash": "30478a7cc87e0a35e9973fbd3eda81b98671af941236ca06a3f2ab65556beb4d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "0a3c2923d1e9ecd780627d00",
+      "title": "oMLX 创建者兼维护者 Jun Kim 加入 Hugging Face，支持 MLX 社区",
+      "summary": "",
+      "originalTitle": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "url": "https://huggingface.co/blog/omlx",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentHash": "e54719a38710382099117a250ae81abd0b1b760a57ca099e50a9c680b6dd968b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "28a38f5cd388794c003b3862",
+      "title": "Transformers 现可运行 llama.cpp 量化模型",
+      "summary": "",
+      "originalTitle": "Transformers now runs llama.cpp quants",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentHash": "53ab392328118bf970113cc34cb4c022534db2217d46370d3e7be954c3022130",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "35e567ff930230ee18d0333b",
+      "title": "英国 AISI 与 EvalEval 如何让基准测试结果可复现",
+      "summary": "",
+      "originalTitle": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "contentHash": "75eec6c400595a9e38f3fc6dfa139ddeb6ba6f871a47d2a51c3d2b362cd40862",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "4a17bcadbd38f7de3bbbfca6",
+      "title": "从赋能到落地，埃及 AI 生态迈向规模化生产应用",
+      "summary": "今天，埃及 AI 开发者齐聚大埃及博物馆参加招待会，展现该国迅速发展的 AI 生态，包括在各行业构建应用的 AI 原生企业、开发者、研究人员、初创公司及企业。活动设有 NVIDIA 欧洲、中东和非洲区副总裁 Paolo Guglielmini 的主题演讲。区域 AI 应用负责人 Ahmed Mostafa……",
+      "originalTitle": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-21T16:00:10.000Z",
+      "contentHash": "e4dbb956821d468d65ca4862cf00287564256e915341760400c4555af67fd0ba",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "8a7a13a7c3ed11fde85fa179",
+      "title": "借助 RetroChimera，大规模改进小分子合成预测",
+      "summary": "定制分子正推动医学、材料和农业发展，但生产过程缓慢且昂贵。《Nature》上的一篇新论文介绍了预测模型 RetroChimera，它有助于加快化学合成，让研究人员探索更广泛的分子。本文《借助 RetroChimera，大规模改进小分子合成预测》最初发表于 Microsoft Research。",
+      "originalTitle": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-21T15:30:19.000Z",
+      "contentHash": "c9ec0ec046cad85d375b0a46d240036bc43104ba1b5dd2a3a37fdbd842d8e626",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b52ffa6581c3011aa276ab7a",
+      "title": "AI 安全是工程问题：如何在智能体技术栈的每一层解决它",
+      "summary": "AI 安全是工程问题。这意味着要有明确的安全要求、可强制执行的控制措施、指定负责人，以及保护措施有效的证据。随着 AI 能力增强，行业必须加快安全工程，扩大防御工具的可及性，并更快分享有效方法。技术在变化，安全的基本原则仍然适用。互联网和云计算改变了软件的运行方式……",
+      "originalTitle": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-21T14:51:34.000Z",
+      "contentHash": "e7f25e7904cb975c3db95e6a2f88c142c518bae51029565c9aaf6282f61ef8f0",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c52bd700f991138bb84f8978",
+      "title": "5 家使用 NVIDIA AI 推动清洁能源的公司",
+      "summary": "清洁能源并不难获得，但受老旧基础设施、漫长研发周期及前期成本门槛等瓶颈影响，其大规模普及历来较慢。在纽约气候周，NVIDIA 重点介绍五家将 AI 融入基础、开创清洁能源项目的公司，加速从研究走向项目启动的进程……",
+      "originalTitle": "5 Companies Using NVIDIA AI for Clean Energy",
+      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-21T10:00:35.000Z",
+      "contentHash": "5dd5253424a44c641eb7881de31032c5b38126fd5a321b0a3523c8b06cd2c55d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "962c4a0ef890c3ad891464c6",
+      "title": "tokenizers v1：编码、解码与扩展能力的实测",
+      "summary": "",
+      "originalTitle": "tokenizers v1: encode, decode and scaling, measured",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "contentHash": "4e3c98fe4265a1197b6a6b391959a0c4faae6fa8737949e587367824c2c0ef3c",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d757dfb9b449a830ed23f14c",
+      "title": "新专家加入 Google 的 AI & Economy 团队",
+      "summary": "我们正引入世界级学术顾问、研究员及核心内部研究人员，扩大 AI & Economy 团队。",
+      "originalTitle": "New experts join Google’s AI & Economy team",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "contentHash": "974dfaf3b130a2fc93940df66016b025f971122b295c16f4cb1f2e1e65d8e6e1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ad069a29d99e9726be6e0cd1",
+      "title": "与 Google 共同创造时尚的未来",
+      "summary": "Google 与设计师 Jane Wade、Sergio Hudson 并肩合作，定制设计 Google Flow 工具，为纽约时装周做准备。",
+      "originalTitle": "Co-creating the future of fashion with Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "contentHash": "4481d890f268d751a00f0294e69a396be9f12bb3fb2894a21e65cda53934115c",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f7dc607cf74ade26544d1673",
+      "title": "让全球数据更容易探索",
+      "summary": "Google 与联合国系统推出了 UN System Data Commons。这一新的开放平台让全球统计数据更易获取和搜索。",
+      "originalTitle": "Making global data easier to explore",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-17T20:00:00.000Z",
+      "contentHash": "a70a808ce02a5d3cd0cfd4beca2397a45bcf864f8d95721d7b9f48162b223db5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "adb07246d1b16d3011602e8e",
+      "title": "曼彻斯特大学使用 NVIDIA Earth-2 预测英国空气污染",
+      "summary": "空气污染是严重的公共健康风险，仅去年在英国就估计促成约 30,000 人死亡。数据驱动的洞见能够提供帮助，但传统化学模型计算空气质量的成本很高，限制了模型的精细程度及运行频率。教授 David Topping……",
+      "originalTitle": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-16T05:00:42.000Z",
+      "contentHash": "a8c992e968c06a0391c6444e09951817f8b963b8cfd946ba6385a9acc539114d",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5609622ec8767572e02480b3",
+      "title": "黄仁勋在 Dreamforce 表示：“现在我们可以知晓一切，做到一切”",
+      "summary": "知晓一切，做到一切。这是 NVIDIA 创始人兼首席执行官黄仁勋周二在 Salesforce Dreamforce 传达的信息。他与 Salesforce 首席执行官 Marc Benioff 同台，此次亮相恰逢 Koa 发布：这是 Salesforce 首个 CRM 推理模型，基于 NVIDIA Nemotron 3 Super 构建。黄仁勋不仅登上了舞台，还走进了……",
+      "originalTitle": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-15T22:24:34.000Z",
+      "contentHash": "dbb94cec2c1d2bb6aafc57084ac26554b2654a098d3623417b64328cca4e3018",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2d6f1cb5c87acb2ed8b9ec50",
+      "title": "推出 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-15T17:05:57.000Z",
+      "contentHash": "687a372194cb0bc6aeded02e418b4318f02ab38312d039f4dd5f5d8e0c438ce9",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "3e031308e0544bb1ce7468ba",
+      "title": "你的智能体出色地完成了任务，下次还能做到吗？",
+      "summary": "",
+      "originalTitle": "Your Agent Aced the Task. Will It Do It Again?",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-15T16:00:44.000Z",
+      "contentHash": "eb1e8d42b1064534b539c12aac93aacc6b4abc1ff81e876d385001b6a700da53",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1d4bbd416cc0b7d0f411f771",
+      "title": "让每个人都能以自己的语言使用 AI",
+      "summary": "我们正超越传统文本翻译，构建能够按真实表达方式，理解世界上丰富而鲜活语言的模型。",
+      "originalTitle": "AI for everyone in every language",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "contentHash": "6b0044b1713fcd9ce1ba7704152f29c3046fdafddcf62db6d78d3f4ae5ae5a30",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "28a2284dbc9571dc36d5c8bb",
+      "title": "AI 的社会影响",
+      "summary": "探索这一专题，了解专家与地方领导者如何利用 AI 突破，确保每个人都能分享 AI 带来的机会。",
+      "originalTitle": "AI for Societal Impact",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "contentHash": "e3394a8a9eff105c7f46407dea8c72087961c00032e90475db68df24a5572361",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "cc8cabed1cde5d74413f4f2c",
+      "title": "构建 AI，加速科学发展并改善生活",
+      "summary": "衡量 AI 真正价值的标准，是它帮助了谁。以下展示它如今如何影响人们的生活。我们专注于先进技术有望推动非凡进步的关键领域……",
+      "originalTitle": "Building AI to accelerate science and improve lives",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "contentHash": "2873d8e44a70fd5f90a9e42626ab81e0ecef653205114f41a07df387a2589910",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "efdc2f4de1e24ec5187da092",
+      "title": "来自 Google AI & Economy ATLAS 的新洞见",
+      "summary": "我们将 ATLAS 的数百万个全球数据点，转化为可开放访问的互动体验。",
+      "originalTitle": "New insights from Google’s AI & Economy ATLAS",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "contentHash": "f04fdad5041330828c4de806fd7f797e95699dcf1e157e3e838e1a222caf5f67",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "24311e78fd6c1e731fb29c84",
+      "title": "观看宇航员 Christina Koch 与 Google 的 James Manyika 畅谈太空、技术和探索",
+      "summary": "Christina Koch 与 Google 研究、实验室、技术及社会事务高级副总裁 James Manyika 展开对谈。",
+      "originalTitle": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "contentHash": "79ecabe099c4208aa9c610a5c7941b20f1d93f799185ad610bf6267062d82edd",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "786edf0a4cf5b83227130a86",
+      "title": "DevFest 回归",
+      "summary": "DevFest 2026 回归。这里介绍如何参与全球超过 800 场活动中的一场，在智能体 AI 时代构建、保障安全并扩展应用。",
+      "originalTitle": "DevFest is back",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "contentHash": "7ef8569d21b02e7d1d8b2a40cdd5bd898371dd3c74aa2272d996c21f10d27b09",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "cf4b519e6681d192ca6bb016",
+      "title": "通过 Search 为下一场重要跑步赛事做准备的 3 种方法",
+      "summary": "Search 可借助报名提醒、定制训练计划等功能，帮助跑者为比赛日做好准备。",
+      "originalTitle": "3 ways to prep for your next big race with Search",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "contentHash": "3a3b1ff6b359ac3564b839dc0f02ac3005de010168030026009acf188a432a6f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5afba8ac517deb01d83650a6",
+      "title": "使用 Gradio Workflow 重构 AUTOMATIC1111",
+      "summary": "",
+      "originalTitle": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "contentHash": "bdcca78d16df202dcdcd5119fbb31944be71e92dfad68326a63e11b7d5bb35b1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "7267cf93a40be6a98e145b71",
+      "title": "跨 HF Jobs 使用 LoRA 进行异步 GRPO：一个存储桶、一个代理，无需 NCCL",
+      "summary": "",
+      "originalTitle": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "contentHash": "0f14b69ab69667f6bc10e5d83b1cda9fed5ad877806ceec3421bb2e516a336ec",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "083e0b8a5cfdfedd55ffcb95",
+      "title": "借助 Search 的全新橄榄球功能，为比赛做好准备",
+      "summary": "本赛季，你可直接在 Search 中追踪实时比赛动态、探索详细统计数据，并获得定制的梦幻体育建议。",
+      "originalTitle": "Get ready for the game with new football features in Search",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "contentHash": "44516bffbfa368237e934cbb4befa7772ab818ddfd623c157591b64c5bd7e14b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "adc2eb322619dd7c6b680920",
+      "title": "逐帧重现一段 70 年的爱情故事",
+      "summary": "了解电影制作人与 Google DeepMind 如何在短片《Love, Rendered》中，利用 AI 重现一对伴侣未曾留下影像记录的过去。",
+      "originalTitle": "Recreating a 70-year love story frame by frame",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "contentHash": "ba1f6f0cd64e1016687593b21b02a366559b37010be4419dfe456a33437dc8ca",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "edc0020c8f6bdb895798d287",
+      "title": "AlphaGenome Atlas：预测人类基因组中所有可能 DNA 单字母变化的图谱",
+      "summary": "AlphaGenome Atlas 绘制了整个人类基因组中 90 亿种 DNA 单字母变异的分子效应。",
+      "originalTitle": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "contentHash": "b0030b150336eff1fe7fd16172aefacf561cf34c5d9870135e4de257b262b22b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f888840f1f764dc2bca03f78",
+      "title": "推出 WeatherNext 3：我们最先进、最准确的全球天气 AI 模型",
+      "summary": "",
+      "originalTitle": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-03T15:02:08.000Z",
+      "contentHash": "dcfe4c4f844dbdd7341d6c2a74ea2905c0254be8b148e5960befc25c22665eb5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "f71ecd66783b010e99b431d3",
+      "title": "NeoMME：高效的原生多模态、多语言编码器",
+      "summary": "",
+      "originalTitle": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T13:13:48.000Z",
+      "contentHash": "4730e50996d01c50ba6ccb41f19436e865ecd845b11b2c315f2fdfc926fe8831",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "67437ea67a7521e032a8c66a",
+      "title": "为你的编程智能体赋予由你掌控的记忆",
+      "summary": "",
+      "originalTitle": "Give Your Coding Agents a Memory You Own",
+      "url": "https://huggingface.co/blog/funes",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "contentHash": "09e438877d655f5227e4277bcf465b6a57b70f0ac777ac2a65aacafa0f98e1ac",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "bd5b08a96897c4efb848c822",
+      "title": "用 100 步 GRPO 微调一个 3.5 亿参数模型，改善结构化输出",
+      "summary": "",
+      "originalTitle": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "contentHash": "c34c512860db0628877fbd2ca665e6829ef05ba1d5a3c38fd80db532587fcb84",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "dec1eff3aa4474162c85f660",
+      "title": "使用 TRL 和 OpenEnv，训练编程模型画水彩画",
+      "summary": "",
+      "originalTitle": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "contentHash": "af4c0baa0f7fd01f14b0002db27ff8d6694c59ed30bd692691fa951f26976b0f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ca2fd754c22e86bd5c0d14fc",
+      "title": "面向政府与企业的主动网络防御",
+      "summary": "",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-02T16:24:24.000Z",
+      "contentHash": "f7017998b74f670abd7a47f91906b311fa52ebae69a1f7ccf5b4df1a1ec82478",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "eaf030d682df1d0a8e117d9a",
+      "title": "推出 Gemini 3.8 Flash 与 3.8 Flash Cyber",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-02T16:18:31.000Z",
+      "contentHash": "01cdd4f9508b9003825f2b923fe7344d09427fc9ce3c03ef63cea3422f16263a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "9abb165af2be16312e33cde2",
+      "title": "面向政府与企业的主动网络防御",
+      "summary": "Fairwind Program 是一项有限开放的计划，让政府与可信合作伙伴能够使用我们的网络防御工具。",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "contentHash": "49a3b72cf65a5a1c357580263fd2b04fad6afbb0f9915932c707d6ed2a733a3f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ff59dbf76b39df805e19314d",
+      "title": "BenchMIRT：大语言模型基准测试实际在衡量什么？",
+      "summary": "",
+      "originalTitle": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-01T21:39:07.000Z",
+      "contentHash": "b89a203c7df40e274eeb1895edbf5897200773e39e947e3fbe9646aa461d0fce",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2fd4776953221d15fae0ab6a",
+      "title": "我们在 2026 年 8 月公布的最新 AI 消息",
+      "summary": "以下是 Google 在 2026 年 8 月的最新 AI 更新。",
+      "originalTitle": "The latest AI news we announced in August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "contentHash": "edbc06bea62a6da661f6e95b4b8f8b6d1c7cd1b0c5c9903623c3eb294fcb0419",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a6245bbcd495fb588378732d",
+      "title": "推出基于 Gemini 的智能体式视频理解",
+      "summary": "",
+      "originalTitle": "Introducing agentic video understanding with Gemini",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-01T17:08:51.000Z",
+      "contentHash": "48f11039d1070bc3e6497f311ce0b8fdcf3e5ddab71c148cbddb4d03a0138a66",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "e5ee55a8c4f1a0a5e68265e8",
+      "title": "试用 Google Pics：在 Google Workspace 中轻松创建和编辑图像",
+      "summary": "基于最新 Nano Banana 模型构建的图像创建及编辑工具 Google Pics，现已推出。",
+      "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "contentHash": "68ff0303c6eaba45072174ff81dfeb70c41af174d6629279589bd9d6ad2fcbe8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "6d69f06b95efae0229830837",
+      "title": "推出 @huggingface/kernels：面向本地 AI 的 200 多个 WebGPU 内核",
+      "summary": "",
+      "originalTitle": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "contentHash": "1a09db469b893d8ebf2a415177eb532051e2c5d5c393dad2920d830546568b6a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "91bfc16d543ac636fdc68594",
+      "title": "GigaPath-Flash 与 GigaTIME-Flash：借高效病理学基础模型，迈向人群规模的发现",
+      "summary": "如果病理学基础模型能够以更少资源做更多工作，会怎样？GigaPath-Flash 与 GigaTIME-Flash 在保持强劲表现的同时降低计算需求，为更大规模的研究和更广泛探索打开大门。本文《GigaPath-Flash 与 GigaTIME-Flash：借高效病理学基础模型，迈向人群规模的发现》最初发表于 Microsoft Research。",
+      "originalTitle": "GigaPath-Flash and GigaTIME-Flash: Toward population-scale discovery with efficient pathology foundation models",
+      "url": "https://www.microsoft.com/en-us/research/blog/gigapath-flash-and-gigatime-flash-toward-population-scale-discovery-with-efficient-pathology-foundation-models/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-31T16:00:00.000Z",
+      "contentHash": "c6b86bc337f0b02f13d3401b86e6afafb57e420b097e85c16deaee9b5750ee25",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "d9e6681dd0d4a72c683dfbcb9f903ffc781d2a7461d4b2d439122f1aec7bdc18",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

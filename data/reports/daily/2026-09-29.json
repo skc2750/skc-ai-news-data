@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-29",
+  "kind": "daily",
+  "period": "2026-09-29",
+  "title": "2026-09-29 每日资讯汇编",
+  "startAt": "2026-09-28T16:00:00.000Z",
+  "endAt": "2026-09-29T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 9,
+  "articleIds": [
+    "377ef8943b60416578be825f",
+    "d436a943e0a698829ade547d",
+    "81b50e82b2f547381091b091",
+    "d0e73065d00c0f0cf30ff58f",
+    "a65794808b6b33fbf7b1968e",
+    "c635a1d871994aff085b939b",
+    "53863fd161ac40b4058dbe23",
+    "88ed018fe8b39aba1a34c3c9",
+    "d5f58f6762b8dc60405342ce"
+  ],
+  "items": [
+    {
+      "id": "377ef8943b60416578be825f",
+      "title": "推出 Quine：为生物学复杂性而设计的 AI 研究系统",
+      "summary": "生物学并非由彼此隔绝的领域构成，AI 对生物学的表征也不应如此。Quine 是一项处于早期阶段的研究，旨在创建生物学多模态世界模型。通过连接不同生物尺度与模态的洞见，Quine 帮助科学家借助计算，搜索远超直觉所及的空间，并在进入实验室前确定假设的优先级。实验结果提供重要反馈。",
+      "originalTitle": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-29T14:00:02.000Z",
+      "contentHash": "bc1f5f722b63c48e4b372f0f9125e95fe1ced2881b5217338fef00bf9d3f0c84",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d436a943e0a698829ade547d",
+      "title": "不仅要事实正确，也要来源正确：面向 MCP 智能体的来源感知验证",
+      "summary": "",
+      "originalTitle": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-09-29T13:07:00.000Z",
+      "contentHash": "71ebcddde80df595c8cbd19a48c93b353a0a3993d87656e36e302bc71b568313",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "81b50e82b2f547381091b091",
+      "title": "推出 GPT-6.1 Sol",
+      "summary": "认识 GPT-6.1 Sol：在编程、计算机操作及专业工作中提供接近 Astra 的智能水平，标准 API 输入和输出 token 价格均为 Astra 的五分之一。",
+      "originalTitle": "Introducing GPT-6.1 Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "contentHash": "0f40dbb6be2fa94db74b6960adb008e03052cc62f900cfac707a3ff7dc0bf13a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d0e73065d00c0f0cf30ff58f",
+      "title": "DevDay 2026 回顾",
+      "summary": "探索 OpenAI DevDay 2026 的 20 多项发布，涵盖 GPT-6 Astra、ChatGPT、Codex、API、安全以及面向开发者的新工具。",
+      "originalTitle": "DevDay 2026 Recap",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "contentHash": "f9c86fefe733045f0c916e364348de9c2c481cd74d3d9764a6fd621d40eb0f1f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "a65794808b6b33fbf7b1968e",
+      "title": "推出 dots",
+      "summary": "OpenAI 的 dots 是主动式助手，能够持续推进复杂项目与日常任务。了解 dots 如何在工作不断推进的同时，让你保持掌控。",
+      "originalTitle": "Introducing dots",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "contentHash": "81424a441df825e587ebe1ba96f26e63dc8f5030cbba9f409ff61d4c95151a36",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c635a1d871994aff085b939b",
+      "title": "成立一周年：微软亚洲研究院新加坡实验室如何通过研究、合作与人才培养创造实际影响",
+      "summary": "自一年前成立以来，微软亚洲研究院新加坡实验室已建立坚实基础，深化与政府、学术界及产业界的合作，并探索前沿 AI 研究如何创造现实价值。本文《成立一周年：微软亚洲研究院新加坡实验室如何通过研究、合作与人才培养创造实际影响》最初发表于 Microsoft Research。",
+      "originalTitle": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-28T21:00:00.000Z",
+      "contentHash": "3bbc460260e5f2faa0a760569c8ddbca4ca4037456dbc318d6d3345534a311b5",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "53863fd161ac40b4058dbe23",
+      "title": "我们将如何为澳大利亚做得更好",
+      "summary": "OpenAI 就涉及澳大利亚政府网站的事件致歉，并介绍更强的保障措施与支持，以加强澳大利亚的网络防御。",
+      "originalTitle": "How we will do better for Australia",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "524f769ce6414c2d0945689535b568de44cb6c993a9281dd24ffabedb36c475a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "88ed018fe8b39aba1a34c3c9",
+      "title": "迈向前沿 AI 训练的安全论证",
+      "summary": "我们针对前沿 AI 训练中安全论证的初步指导，涵盖技术保障、运营实践，以及对齐偏差事件调查。",
+      "originalTitle": "Towards safety cases for frontier AI training",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "4101de0f4dae2f531336549d523c306e586bba1f15e80601fe3563dd9ce57802",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d5f58f6762b8dc60405342ce",
+      "title": "观看 Future Vision XPRIZE 获奖预告片《The Gifted》",
+      "summary": "观看 Future Vision XPRIZE 获奖预告片《The Gifted》。",
+      "originalTitle": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "contentHash": "a163b2f2ceaeadc8b8424849267c615c04ffcb6db9cde47f51528d7cb091a586",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "f01b1d75bb6989002e7076cde049be00c723c1c5e4c5b085b46def739b9512c8",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

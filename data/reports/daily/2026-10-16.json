@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-16",
+  "kind": "daily",
+  "period": "2026-10-16",
+  "title": "2026-10-16 每日资讯汇编",
+  "startAt": "2026-10-15T16:00:00.000Z",
+  "endAt": "2026-10-16T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 10,
+  "articleIds": [
+    "17cf83711c48b496dc5ed5de",
+    "690ff55655c843d38174cfaa",
+    "08a57a9c713aa8f5a6e4c7f8",
+    "d22507de00e2d1e195c79e27",
+    "e2504d6427573c0c98fef0c2",
+    "c6d7acb7f78ee4ee2ee43a03",
+    "3bd3b5c304f79f95fc2ba3b8",
+    "8345e0464ecffddb219479ca",
+    "2cc0f38f7481ac8d6e7d08ec",
+    "36b0709d3b06ff00ba872822"
+  ],
+  "items": [
+    {
+      "id": "17cf83711c48b496dc5ed5de",
+      "title": "Reflection Beam 发布：面向 AWS 智能体编程的开放权重模型",
+      "summary": "Reflection AI 的 Beam 是面向智能体编程和长期任务的开放权重模型。本文介绍如何在 AWS 部署：可使用 Amazon SageMaker JumpStart 实时端点，或结合 SageMaker HyperPod Inference、JumpStart、SGLang、vLLM，以 Kubernetes 原生方式管理分布式 GPU 基础设施。",
+      "originalTitle": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-16T15:23:10.000Z",
+      "contentHash": "48aec5e2b275fe01ec49f5b17efa655ca20f0408e70c09d7e4b98658ff38f550",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "690ff55655c843d38174cfaa",
+      "title": "扩大印度语言预训练：2.8 万亿个 Token 与开放的数据生成流程",
+      "summary": "",
+      "originalTitle": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-16T01:44:47.000Z",
+      "contentHash": "ea711f93c231f73602fc10356a47cbc983274680cc012bb523370ac4a55b4262",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "08a57a9c713aa8f5a6e4c7f8",
+      "title": "Stack Overflow for Agents 借助 ChatGPT 插件将注册量提升至三倍",
+      "summary": "两名工程师借助 Codex，在几周内推出 Stack Overflow for Agents；其 ChatGPT 插件帮助智能体创建量实现最高十倍增长。",
+      "originalTitle": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "contentHash": "8430afc65444c0b002411d47a2c4708eb4aca3df2b6f2478fd78ff014f4e6a1b",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d22507de00e2d1e195c79e27",
+      "title": "认识 Beam：可自行持有、定制和扩展的 5010 亿参数开放模型",
+      "summary": "",
+      "originalTitle": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "contentHash": "2736ea40d45132f95494cb3d1815e866defcc52eaa98dd482a63844da59e3013",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "e2504d6427573c0c98fef0c2",
+      "title": "Benefit Street Partners 借助 Codex 更快解答问题",
+      "summary": "Anant Kumar 开发工具比较贷款估值、分析信贷协议，并使用 Codex 进行代码审查，加快后续处理。",
+      "originalTitle": "Benefit Street Partners answers questions faster with Codex",
+      "url": "https://openai.com/index/benefit-street-partners",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "contentHash": "4f58b7f7e76655b46098dd2db8be71e871181c469223c99c958f79c771ee3e42",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c6d7acb7f78ee4ee2ee43a03",
+      "title": "Granite Switch 4.1：一个接口提供对话、决策与语音能力",
+      "summary": "",
+      "originalTitle": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-15T20:34:01.000Z",
+      "contentHash": "f8ac267aed85cadc658aab4f11dba578220e5e699d0c474edd2a550a739ea2e8",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "3bd3b5c304f79f95fc2ba3b8",
+      "title": "将 GPT-Rosalind 带入学术研究实验室",
+      "summary": "Rosalind Academic Plan 面向符合条件的学术实验室，提供受资助的 GPT-Rosalind 使用资格及工具，支持生命科学研究。",
+      "originalTitle": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T19:00:00.000Z",
+      "contentHash": "2b69744c201ed27ec44067f53f3b6c04ba4e047d25ea06d379ee2088f2aa0ad4",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "8345e0464ecffddb219479ca",
+      "title": "Meta 的 Muse Spark Open 已上线 Amazon SageMaker JumpStart",
+      "summary": "Meta 面向编程优化的开放权重模型 Muse Spark Open 现已加入 Amazon SageMaker JumpStart。用户可通过 SageMaker Studio 或 SageMaker Python SDK，在自己的 AWS 账户中部署到 SageMaker AI 端点，并运行首次推理请求。",
+      "originalTitle": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+      "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-15T17:43:35.000Z",
+      "contentHash": "f62884bf926ad09fb80887a7440e6e4c9357ae70b19cf9885146d5cd53a73e08",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2cc0f38f7481ac8d6e7d08ec",
+      "title": "使用 Google Antigravity 加快寻找抗菌肽",
+      "summary": "利用 Google Antigravity for Science，加快发现新型抗菌肽。",
+      "originalTitle": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-15T16:08:03.000Z",
+      "contentHash": "54cdad63c1349bfcda0f28c7f55d5da3cd67239a9561c69c101f89e7e77aa081",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "36b0709d3b06ff00ba872822",
+      "title": "Magnetar：基于证明的通用计算",
+      "summary": "零知识证明无需重新运行计算任务、也无需暴露敏感数据，就能验证计算结果。Magnetar 支持标准编程语言，提供显著的速度提升和抗量子攻击安全性，推动这种技术走向普及。来源：Microsoft Research。",
+      "originalTitle": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-15T16:00:00.000Z",
+      "contentHash": "6f0b4f0c3b274e56b4886c6d4e417977bb34ce0fd34b81821dae11c8efcd7860",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "4cc6b697ba78063bee4be2cc8e0033fccad7d3a9e31c07023d0acdd743432798",
+  "compiledAt": "2026-10-17T09:11:50.688Z"
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-08-27",
+  "kind": "daily",
+  "period": "2026-08-27",
+  "title": "2026-08-27 每日资讯汇编",
+  "startAt": "2026-08-26T16:00:00.000Z",
+  "endAt": "2026-08-27T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 2,
+  "articleIds": [
+    "370ef296f7b6eb5067910a3e",
+    "d462054f0c22a261094b246f"
+  ],
+  "items": [
+    {
+      "id": "370ef296f7b6eb5067910a3e",
+      "title": "试行全球首批双盲 AI 评估",
+      "summary": "试行全球首批双盲 AI 评估。",
+      "originalTitle": "Piloting the world's first double-blind AI evaluations",
+      "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-27T12:59:16.000Z",
+      "contentHash": "d82bbd9cc4c81e7417f3a84d26dd86516d42863726574583d4cd7c67a8f119b3",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "d462054f0c22a261094b246f",
+      "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
+      "summary": "现在，你可以通过 Gemini 3.5 Transcribe 获得更智能的语音转文字转录。",
+      "originalTitle": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-08-26T17:01:00.000Z",
+      "contentHash": "34c38579778896969d6f3cc16016410816793593ecf4a35897e317e50314207f",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "f42f55985097120a5fa7e5dce4d5cb83a8d21143a5ec4ebec203f0fb1349d27a",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

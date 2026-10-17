@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-15",
+  "kind": "daily",
+  "period": "2026-10-15",
+  "title": "2026-10-15 每日资讯汇编",
+  "startAt": "2026-10-14T16:00:00.000Z",
+  "endAt": "2026-10-15T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 8,
+  "articleIds": [
+    "93fcfd2229e3c08ebbcee526",
+    "c97a88b17fcedacb5bba7b24",
+    "24a2f8321eaf18e7f9a6dc0f",
+    "0c78145ed9f3ed658f86dcb6",
+    "631b0df93ea5d5fec2372d13",
+    "b49271670ade282809a6aa80",
+    "1904ca1c2799eb5e2880361c",
+    "1e42e4d4552b0e7f6f911459"
+  ],
+  "items": [
+    {
+      "id": "93fcfd2229e3c08ebbcee526",
+      "title": "纵深信任：在保持控制的同时，赋予智能体更多自主权",
+      "summary": "企业希望 AI 智能体承担更多工作，却无法确信它们每次都能正确行动。AWS 的 Trust in Depth 采用界定范围、了解、约束、观察与证明的分层方法：行动可验证时允许智能体自主执行，需要判断时则交给人处理。",
+      "originalTitle": "Trust in Depth: Giving agents more autonomy without losing control",
+      "url": "https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-15T15:05:35.000Z",
+      "contentHash": "f204380ca11e62e0b2e1f456b2c5bb11e9276c7494c87c574ee304d574d3fc34",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c97a88b17fcedacb5bba7b24",
+      "title": "通过提问，教学生思考与学习",
+      "summary": "借教师节介绍巴西葡萄牙语版 AI for Educators，并展示学习模式如何帮助教师支持主动、循序渐进的学习。",
+      "originalTitle": "Teaching students to think and learn through questions",
+      "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T13:00:00.000Z",
+      "contentHash": "0b7e73b2f13cbce41fbf1e7b977ae56efc7e891e338d2a52371b5c2ff76c3938",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "24a2f8321eaf18e7f9a6dc0f",
+      "title": "北欧与 NVIDIA 展示地区投入先进计算的潜力",
+      "summary": "北欧已成为欧洲独角兽初创企业密度最高的地区，按人口比例计算，估值至少 10 亿美元的新兴企业最多。如今，各国正加速建设重要的科技生态系统，区域发展进入新阶段。订阅摘要在此截断。",
+      "originalTitle": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
+      "url": "https://blogs.nvidia.com/blog/nordics-technology-ecosystem/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T05:00:12.000Z",
+      "contentHash": "dd4d311195470f65380de6929f8f604d728c337d164ff28df71ca707323635f7",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "0c78145ed9f3ed658f86dcb6",
+      "title": "Sullivan & Cromwell 将法律专业知识融入协议审查",
+      "summary": "Sullivan & Cromwell 与 OpenAI 合作开发 Agreement Analyzer，使用 AI 识别协议草案中的问题。",
+      "originalTitle": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "contentHash": "86bcae5bb9898afc95457d3368061d90a810985183efa457a1f3904ceb32fc33",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "631b0df93ea5d5fec2372d13",
+      "title": "FLUX.3 Image Klein 加入 Diffusers",
+      "summary": "",
+      "originalTitle": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "contentHash": "50a73a29af4b3d8b1a391b172b74e5a55c2185d33d896e01e33c3ef7ede4bd0f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b49271670ade282809a6aa80",
+      "title": "认识 Muse Spark Open：Meta 开放权重的前沿多模态混合专家模型",
+      "summary": "",
+      "originalTitle": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "contentHash": "09dbbbf25c8a76db30cac42d27cd30f87122512ff441c459ad23d57cb83f81f7",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1904ca1c2799eb5e2880361c",
+      "title": "使用 Amazon Bedrock AgentCore 构建能够自我改进的文档处理系统",
+      "summary": "本文介绍如何使用 Amazon Bedrock AgentCore 构建智能体式智能文档处理（IDP）系统，对业务文档进行分类、提取、校验和学习。系统尽量减少人工介入，可自动处理新格式，无需手动配置模板。",
+      "originalTitle": "Build self-improving document processing using Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-self-improving-document-processing-using-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-14T16:24:07.000Z",
+      "contentHash": "032ae75f343bc930d7e6cd077f01864b991e47834432c83855f142033d7ddc7f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1e42e4d4552b0e7f6f911459",
+      "title": "HiRO-ACEv2：以更低成本，在 3 公里分辨率下模拟极端天气",
+      "summary": "",
+      "originalTitle": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-14T16:12:42.000Z",
+      "contentHash": "d0ed3bc13d23e8526a873f69d887ba23d070b5e5e5529c30e40c5599152ee950",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "f2647b299f1ac16f11c358af7e9d9ebeffe69494e2a523c82ce6aa707009af81",
+  "compiledAt": "2026-10-17T09:11:50.688Z"
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-06",
+  "kind": "daily",
+  "period": "2026-10-06",
+  "title": "2026-10-06 每日资讯汇编",
+  "startAt": "2026-10-05T16:00:00.000Z",
+  "endAt": "2026-10-06T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 4,
+  "articleIds": [
+    "7fce2cb6ca46e19277f097fa",
+    "39495ae3364ae55513528388",
+    "fd879d0249e550c8f3f3ea67",
+    "1ba96f0814583d964587215e"
+  ],
+  "items": [
+    {
+      "id": "7fce2cb6ca46e19277f097fa",
+      "title": "电信运营商为何基于开放模型构建 AI 战略",
+      "summary": "越来越多电信运营商将 AI 战略建立在开放模型之上，其原因远不止成本。开放模型让电信企业能够在自主网络、客户服务等最关键的工作负载中，信任、控制及定制 AI。NVIDIA 最新《电信业 AI 现状》报告反映了这一转变，其中……",
+      "originalTitle": "Why Telecom Operators Are Building Their AI Strategy on Open Models",
+      "url": "https://blogs.nvidia.com/blog/telecom-operators-open-models/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-06T13:00:19.000Z",
+      "contentHash": "a02f5603913a32528b8c8f3d5b6794ae54873bdad6c226a1e8fdeb1874f32dcc",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "39495ae3364ae55513528388",
+      "title": "Jump Trading 如何借助 ChatGPT 扩大量化研究",
+      "summary": "Jump Trading 使用 OpenAI 扩大量化研究。了解运行时间更长的 AI 工作流程，如何结合多种数据来源与人工审核。",
+      "originalTitle": "How Jump Trading is scaling quant research with ChatGPT",
+      "url": "https://openai.com/index/jump-trading",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "contentHash": "5ad5ffe798cd6c6a10cc02f2ea69034116df133d21523168b2d2b7a12fb5865a",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "fd879d0249e550c8f3f3ea67",
+      "title": "分享 AI 在数学领域的进展",
+      "summary": "OpenAI 发布了内部前沿模型对数学开放问题取得的新成果，并在 GitHub 上分享 Lean 形式化证明和研究细节。",
+      "originalTitle": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-06T12:00:00.000Z",
+      "contentHash": "1caf80b612deb07a374bbaa2351bdbec9cc27adf1728214b31057964302c0daa",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1ba96f0814583d964587215e",
+      "title": "与 Ironclad 合作推进计算机操作能力",
+      "summary": "了解 OpenAI 与 Ironclad 如何基于复杂的合同工作流程训练及评估 AI 智能体，以推进专业工作中的计算机操作能力。",
+      "originalTitle": "Advancing computer use with Ironclad",
+      "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "contentHash": "eaa5f2c9dc509e06c013939a4e30f592b01a6e75ddda85b5add949a904a2b538",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "bc01abdd4fe6b6bfd38563685f17bfd4d9e816dc7394cc35ff419f364b1c4937",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}

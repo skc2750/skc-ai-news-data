@@ -1,0 +1,2732 @@
+{
+  "schemaVersion": 1,
+  "month": "2026-09",
+  "articles": [
+    {
+      "id": "1741c630748aa63739e0606a",
+      "title": "Gemini 4 Argon: our next era of frontier intelligence",
+      "summary": "",
+      "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-30T20:01:45.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "07458546c9c99cc631cd09cfe2faa5e93698334337d550d55259a7a65bebe67b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Gemini 4 Argon：迈入前沿智能的下一时代",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "07458546c9c99cc631cd09cfe2faa5e93698334337d550d55259a7a65bebe67b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "b0015e130574884506dfc9f5",
+      "title": "NVIDIA Opens Applications for 2027–2028 Graduate Fellowships With Awards Up to $60,000",
+      "summary": "Bringing together the world’s brightest minds and the latest accelerated computing technology leads to powerful breakthroughs that help tackle some of the biggest research problems. To foster such innovation, the NVIDIA Graduate Fellowship Program provides grants, mentors and technical support to doctoral students doing outstanding research relevant to NVIDIA technologies. The program, in its 26th [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/applications-open-graduate-fellowship-awards-2026/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Sharon Gibbons",
+      "publishedAt": "2026-09-30T17:00:21.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Corporate",
+        "Research",
+        "Artificial Intelligence",
+        "Education"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "2b20acc8f5470a6811a58230f38dd10c42f13e12418d2029b574bf1f9438ca68",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "NVIDIA 开放 2027–2028 年度研究生奖学金申请，奖金最高 60,000 美元",
+      "summaryZh": "汇聚全球优秀人才与最新加速计算技术，可带来强大突破，帮助应对重大的研究难题。为推动此类创新，NVIDIA 研究生奖学金计划向从事与 NVIDIA 技术相关的杰出研究的博士生，提供资助、导师指导和技术支持。该计划已进入第 26 届……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "2b20acc8f5470a6811a58230f38dd10c42f13e12418d2029b574bf1f9438ca68",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "eddbf971051f0f2ff5d5fa3d",
+      "title": "Forecasting space weather risks on power grids",
+      "summary": "Extreme space-weather events can damage power systems on Earth and degrade GPS accuracy and satellite operations. A new machine learning system can predict where damage is likely to occur 30-60 minutes before a storm arrives. The post Forecasting space weather risks on power grids appeared first on Microsoft Research .",
+      "url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "author": "Rohan Kannan",
+      "publishedAt": "2026-09-30T16:00:00.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Research Blog"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "b9a8b976cca8a815135b7d2dc468e56375730809b1f33d6964418e119db7b864",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "预测太空天气对电网的风险",
+      "summaryZh": "极端太空天气事件可能损坏地球上的电力系统，并降低 GPS 精度、影响卫星运行。一个新的机器学习系统能够在风暴到来前 30 至 60 分钟，预测哪些地方可能受损。本文《预测太空天气对电网的风险》最初发表于 Microsoft Research。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b9a8b976cca8a815135b7d2dc468e56375730809b1f33d6964418e119db7b864",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "69a4eb364cad5abca2413a08",
+      "title": "Introducing SynthID Bio",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-30T15:03:07.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "e065e897970d4e8e8a0cfc31f6455c21f14abd30255e0a6c5b010177c17a09d6",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 SynthID Bio",
+      "summaryZh": "一项概念验证：在保持生物功能的同时，为 AI 生成的蛋白质添加水印。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "e065e897970d4e8e8a0cfc31f6455c21f14abd30255e0a6c5b010177c17a09d6",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "9a9b55fe263d4803716406bc",
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-30T10:30:00.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Security"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "61ff719297fc14fb130ac318f69ab7f35fb51b6a03a5150e89f4a669e1cc7e84",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "阻止一项有组织的模型蒸馏行动",
+      "summaryZh": "了解 OpenAI 如何阻止一项提取受保护模型推理过程的行动，并加强对抗恶意蒸馏的防御。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "61ff719297fc14fb130ac318f69ab7f35fb51b6a03a5150e89f4a669e1cc7e84",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "b00281e2714dcb4f04bd2b7d",
+      "title": "Helping small businesses put AI to work",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-30T10:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Global Affairs"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "b004eed50b6944118f3fc3bb22f207e30f3165adf79942bb7b2d250376bc5fcb",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "帮助小型企业将 AI 用于实际工作",
+      "summaryZh": "OpenAI 正与 America’s SBDC 合作，扩大小型企业的实操 AI 培训及本地支持，并发布一份有关小团队如何使用 AI 的新报告。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b004eed50b6944118f3fc3bb22f207e30f3165adf79942bb7b2d250376bc5fcb",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "5def59e3b4fca648bde58544",
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "summary": "",
+      "url": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "category": "多模态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "3a3533ce0b6548404323b76272c652d9791da01f3872e6d389dc85bec84e8dec",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "开放 TTS 排行榜：可扩展的多语言文本转语音与声音克隆评估",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "3a3533ce0b6548404323b76272c652d9791da01f3872e6d389dc85bec84e8dec",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "377ef8943b60416578be825f",
+      "title": "Introducing Quine: An AI research system designed for the complexity of biology",
+      "summary": "Biology doesn't operate in silos, and neither should the AI representation of it. Quine is an early-stage research effort to create a multimodal world model of biology. By connecting insights across biological scales and modalities, Quine helps scientists computationally search a space far larger than intuition allows and prioritize hypotheses before they reach the lab. Experimental results provide important feedback",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "author": "Nicolo Fusi, Jonathan M. Carlson",
+      "publishedAt": "2026-09-29T14:00:02.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Research Blog"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "bc1f5f722b63c48e4b372f0f9125e95fe1ced2881b5217338fef00bf9d3f0c84",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 Quine：为生物学复杂性而设计的 AI 研究系统",
+      "summaryZh": "生物学并非由彼此隔绝的领域构成，AI 对生物学的表征也不应如此。Quine 是一项处于早期阶段的研究，旨在创建生物学多模态世界模型。通过连接不同生物尺度与模态的洞见，Quine 帮助科学家借助计算，搜索远超直觉所及的空间，并在进入实验室前确定假设的优先级。实验结果提供重要反馈。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "bc1f5f722b63c48e4b372f0f9125e95fe1ced2881b5217338fef00bf9d3f0c84",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "d436a943e0a698829ade547d",
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-29T13:07:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "71ebcddde80df595c8cbd19a48c93b353a0a3993d87656e36e302bc71b568313",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "不仅要事实正确，也要来源正确：面向 MCP 智能体的来源感知验证",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "71ebcddde80df595c8cbd19a48c93b353a0a3993d87656e36e302bc71b568313",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "81b50e82b2f547381091b091",
+      "title": "Introducing GPT-6.1 Sol",
+      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Product"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "0f40dbb6be2fa94db74b6960adb008e03052cc62f900cfac707a3ff7dc0bf13a",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 GPT-6.1 Sol",
+      "summaryZh": "认识 GPT-6.1 Sol：在编程、计算机操作及专业工作中提供接近 Astra 的智能水平，标准 API 输入和输出 token 价格均为 Astra 的五分之一。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "0f40dbb6be2fa94db74b6960adb008e03052cc62f900cfac707a3ff7dc0bf13a",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "d0e73065d00c0f0cf30ff58f",
+      "title": "DevDay 2026 Recap",
+      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
+      "url": "https://openai.com/index/devday-2026-recap",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Company"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "f9c86fefe733045f0c916e364348de9c2c481cd74d3d9764a6fd621d40eb0f1f",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "DevDay 2026 回顾",
+      "summaryZh": "探索 OpenAI DevDay 2026 的 20 多项发布，涵盖 GPT-6 Astra、ChatGPT、Codex、API、安全以及面向开发者的新工具。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "f9c86fefe733045f0c916e364348de9c2c481cd74d3d9764a6fd621d40eb0f1f",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "a65794808b6b33fbf7b1968e",
+      "title": "Introducing dots",
+      "summary": "Dots by OpenAI are proactive assistants that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
+      "url": "https://openai.com/index/introducing-dots",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-29T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Product"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "81424a441df825e587ebe1ba96f26e63dc8f5030cbba9f409ff61d4c95151a36",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 dots",
+      "summaryZh": "OpenAI 的 dots 是主动式助手，能够持续推进复杂项目与日常任务。了解 dots 如何在工作不断推进的同时，让你保持掌控。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "81424a441df825e587ebe1ba96f26e63dc8f5030cbba9f409ff61d4c95151a36",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "c635a1d871994aff085b939b",
+      "title": "One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact",
+      "summary": "Since launching a year ago, the Microsoft Research Asia — Singapore lab has established a strong foundation, deepened collaboration across government, academia, and industry, and explored how frontier AI research can create real-world value. The post One year in: How Microsoft Research Asia – Singapore is advancing research, partnership and talent for real-world impact appeared first on Microsoft Research .",
+      "url": "https://www.microsoft.com/en-us/research/blog/one-year-in-how-microsoft-research-asia-singapore-is-advancing-research-partnership-and-talent-for-real-world-impact/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "author": "Microsoft Research Team",
+      "publishedAt": "2026-09-28T21:00:00.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Research Blog"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "3bbc460260e5f2faa0a760569c8ddbca4ca4037456dbc318d6d3345534a311b5",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "成立一周年：微软亚洲研究院新加坡实验室如何通过研究、合作与人才培养创造实际影响",
+      "summaryZh": "自一年前成立以来，微软亚洲研究院新加坡实验室已建立坚实基础，深化与政府、学术界及产业界的合作，并探索前沿 AI 研究如何创造现实价值。本文《成立一周年：微软亚洲研究院新加坡实验室如何通过研究、合作与人才培养创造实际影响》最初发表于 Microsoft Research。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "3bbc460260e5f2faa0a760569c8ddbca4ca4037456dbc318d6d3345534a311b5",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "53863fd161ac40b4058dbe23",
+      "title": "How we will do better for Australia",
+      "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+      "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Company"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "524f769ce6414c2d0945689535b568de44cb6c993a9281dd24ffabedb36c475a",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "我们将如何为澳大利亚做得更好",
+      "summaryZh": "OpenAI 就涉及澳大利亚政府网站的事件致歉，并介绍更强的保障措施与支持，以加强澳大利亚的网络防御。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "524f769ce6414c2d0945689535b568de44cb6c993a9281dd24ffabedb36c475a",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "88ed018fe8b39aba1a34c3c9",
+      "title": "Towards safety cases for frontier AI training",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Safety"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "4101de0f4dae2f531336549d523c306e586bba1f15e80601fe3563dd9ce57802",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "迈向前沿 AI 训练的安全论证",
+      "summaryZh": "我们针对前沿 AI 训练中安全论证的初步指导，涵盖技术保障、运营实践，以及对齐偏差事件调查。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "4101de0f4dae2f531336549d523c306e586bba1f15e80601fe3563dd9ce57802",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "d5f58f6762b8dc60405342ce",
+      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T19:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "a163b2f2ceaeadc8b8424849267c615c04ffcb6db9cde47f51528d7cb091a586",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "观看 Future Vision XPRIZE 获奖预告片《The Gifted》",
+      "summaryZh": "观看 Future Vision XPRIZE 获奖预告片《The Gifted》。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a163b2f2ceaeadc8b8424849267c615c04ffcb6db9cde47f51528d7cb091a586",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "1b7d3764298add51d25ae62c",
+      "title": "Holo4: powering generalist computer-use agents",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T09:44:05.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "bdd8dd23ea48861e0d2502316fd723e08af4dfd51466378e2f5a26d7a98437ee",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Holo4：赋能通用型计算机操作智能体",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "bdd8dd23ea48861e0d2502316fd723e08af4dfd51466378e2f5a26d7a98437ee",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "aa1d6d5748b7c3b948a421de",
+      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
+      "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T07:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Company"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "fce97daa446d8a6a6a89777f9e840398cbacbcb4dcd5bdf4e208248148c877e8",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Lenfest Institute 借助 OpenAI 扩大的支持，发展其标志性计划",
+      "summaryZh": "OpenAI 正以 500 万美元资金，以及最高 500 万美元的软件额度与工程支持，扩大 Lenfest AI Collaborative and Fellowship Program。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "fce97daa446d8a6a6a89777f9e840398cbacbcb4dcd5bdf4e208248148c877e8",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "14665f31c5050b06129da6c9",
+      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
+      "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "b19572461133c02c833b67aea0b74b4b7ee7c4c91005bbbb0b04c69b62f5f5ee",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Basis 借助 GPT-6 Astra，将税务工作簿处理速度提升至 2 倍",
+      "summaryZh": "GPT-6 Astra 完成一份包含 50 个工作表的税务工作簿，速度是 GPT-5.6 Sol 的两倍；它对用户意图更强的理解，也让 Basis 对实际应用更有信心。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b19572461133c02c833b67aea0b74b4b7ee7c4c91005bbbb0b04c69b62f5f5ee",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "58aab1a2f046ae363c3bfddb",
+      "title": "Are you a Codex Original?",
+      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more about your story and project below.",
+      "url": "https://openai.com/form/codex-originals",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "0e50c66b894e58f233e0dfdc6b606d6db62533293d3a1552badb6c1e9a746522",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "你是 Codex Original 吗？",
+      "summaryZh": "我们正在收集开发者、动手探索者、研究人员及创作者使用 Codex 完成出色成果的真实故事。如果你想参与 Codex Originals 计划的下一篇章，请在下方进一步介绍你的故事与项目。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "0e50c66b894e58f233e0dfdc6b606d6db62533293d3a1552badb6c1e9a746522",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "cbe6bff2efc300368785ba6d",
+      "title": "Welcome RL Environments to the hub",
+      "summary": "",
+      "url": "https://huggingface.co/blog/rl-environments",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "ca69f74cd493beb4ca7a757ebf33d4eadcf76147da3973471a4933bd4c3a3c39",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "欢迎 RL Environments 加入 Hub",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "ca69f74cd493beb4ca7a757ebf33d4eadcf76147da3973471a4933bd4c3a3c39",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "3e05a6dcb3d6f3403d65985b",
+      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+      "url": "https://openai.com/index/proaction",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-25T19:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "6b60260e5e66e5520323f5fc4d901a95398b9b3129c276e3ba8353e8fd9c611b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Proaction 借助 Codex 将销售额提高 60%，并节省 75 小时以上",
+      "summaryZh": "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 能够更快构建、运营及销售现代车队管理方案。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "6b60260e5e66e5520323f5fc4d901a95398b9b3129c276e3ba8353e8fd9c611b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "ed22d9937e1dec520531714b",
+      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
+      "url": "https://openai.com/index/lowes",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "6dc6208e002ad0299133e4210e111da0af395180abe8bdde31b0f967f5201b75",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Lowe’s 借助 OpenAI 回答数百万个家居改善问题",
+      "summaryZh": "Lowe’s 使用 OpenAI 模型驱动 Mylow 和 Mylow Companion，帮助客户与员工回答超过 2,500 万个问题，并推进家居改善项目。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "6dc6208e002ad0299133e4210e111da0af395180abe8bdde31b0f967f5201b75",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "ba2ac467963ebe43c3c03a61",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "url": "https://openai.com/index/wayfair",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "19ccc47d50365db0099634fc30b7494be8179d9b972f3c31c1eeda4489588dfa",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Wayfair 借助 OpenAI 提升商品目录准确性与客服速度",
+      "summaryZh": "Wayfair 使用 OpenAI 模型改进电商客服及商品目录准确性，自动分流工单，并大规模完善数百万项商品属性。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "19ccc47d50365db0099634fc30b7494be8179d9b972f3c31c1eeda4489588dfa",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "c91e36a40a04b223adcdbfa9",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-24T16:20:39.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "f597a074ae741c27dba81f4e26833c41a301e628d35f91172bacee064f320d1d",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出配备 Live Avatar 的 Gemini 3.8 Live",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "f597a074ae741c27dba81f4e26833c41a301e628d35f91172bacee064f320d1d",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "c33b3a95910899b1eff98046",
+      "title": "How Open Science Can Help Researchers Prepare for the Next Pandemic",
+      "summary": "When COVID-19 emerged, scientists had a crucial advantage: Decades of prior research on coronaviruses meant they understood the virus’ key proteins well enough to design vaccines in record time. The next pandemic may not offer the same head start. To help improve the odds, NVIDIA has joined a coalition of global research organizations, including Google [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/open-protein-dataset/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Anthony Costa",
+      "publishedAt": "2026-09-24T14:00:50.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Research",
+        "AI for Good",
+        "Healthcare and Life Sciences",
+        "Open Source"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "bbd7a9c2c6924185fc483f4dc005713334cd0aeb2e350b4edb2b101df196cd9b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "开放科学如何帮助研究人员为下一次大流行做好准备",
+      "summaryZh": "COVID-19 出现时，科学家拥有一项关键优势：数十年的冠状病毒研究，使他们对病毒关键蛋白质有足够了解，从而能够以创纪录的速度设计疫苗。下一次大流行可能不会提供同样的先机。为提高应对能力，NVIDIA 加入了一个由全球研究组织组成的联盟，其中包括 Google……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "bbd7a9c2c6924185fc483f4dc005713334cd0aeb2e350b4edb2b101df196cd9b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "0c741bd67c8704e2f7ea50a5",
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "summary": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Aaron Luber",
+      "publishedAt": "2026-09-23T18:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Google Workspace",
+        "Google Research",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "620be5147d8a8f4110b1d8afc2954f44cef6925e5add2ae51490337839f51e22",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Google Beam 扩展至更多地区、合作伙伴及客户",
+      "summaryZh": "我们正将 Google Beam 扩展至五个新国家，并与 Industrious 合作扩大网络。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "620be5147d8a8f4110b1d8afc2954f44cef6925e5add2ae51490337839f51e22",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "508bb2676435a8eed33e02c2",
+      "title": "Offloaded inference for real-world physical AI robotics",
+      "summary": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, boost efficiency, and support more advanced physical AI workloads. The post Offloaded inference for real-world physical AI robotics appeared first on Microsoft Research .",
+      "url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "author": "Ganesh Ananthanarayanan, Matthew Balkwill, Xenofon Foukas, Sanjeev Mehrotra, Bozidar Radunovic, Connor Settle, Ankit Verma, David White, Shawn Cicoria, Mark Mar",
+      "publishedAt": "2026-09-23T16:01:36.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Research Blog"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "6ccc72b10430bd99c1673bc05a38f845deeb51264a50e1da97164a1137542a26",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "面向现实世界物理 AI 机器人的卸载式推理",
+      "summaryZh": "机器人正在变得更智能，但硬件如何跟上这种增长？Microsoft Research 的新研究显示，将 AI 推理移至机器人之外，可提高任务成功率、提升效率，并支持更先进的物理 AI 工作负载。本文《面向现实世界物理 AI 机器人的卸载式推理》最初发表于 Microsoft Research。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "6ccc72b10430bd99c1673bc05a38f845deeb51264a50e1da97164a1137542a26",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "ccaeb2866f52ade35cce42f6",
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T16:00:57.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "5753236cfbbe146bc552df9939980f7903470eb3c597fe5bd697c3705dff3c18",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "借助安全的服务端记忆，推进 Private AI Compute",
+      "summaryZh": "为面向个人 AI 的 Private AI Compute 引入私密的服务端记忆。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "5753236cfbbe146bc552df9939980f7903470eb3c597fe5bd697c3705dff3c18",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "9976564ef8da09deed578d76",
+      "title": "Two years of OpenAI Academy",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "url": "https://openai.com/index/two-years-of-openai-academy",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Company"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "6773ac4f4906d1c9ad65b5203b0af1bbe28551f858e5abb97d48a48861ab131a",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "OpenAI Academy 两周年",
+      "summaryZh": "纪念 OpenAI Academy 成立两周年，并将 AI 技能带给更多社区。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "6773ac4f4906d1c9ad65b5203b0af1bbe28551f858e5abb97d48a48861ab131a",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "629d59595df30cf86b7ba6a1",
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "summary": "",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T15:25:14.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "c7fa146c1e296ad33d04e34c0af60e402f2239434488acb06d31221c28940d27",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Gemini 3.8 文本转语音前来问好",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "c7fa146c1e296ad33d04e34c0af60e402f2239434488acb06d31221c28940d27",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "bef8b321c3775dadc7b17fa0",
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Global Affairs"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "7b9bc2ed4835b4f890a9010ed4f68f3f3520d5f4cd393ef24c8be91f1702c968",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "OpenAI 向乌克兰扩大网络安全访问权限，支持民用防御",
+      "summaryZh": "OpenAI 正向乌克兰政府开放 Daybreak 计划的访问权限，以支持民用基础设施的网络防御。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "7b9bc2ed4835b4f890a9010ed4f68f3f3520d5f4cd393ef24c8be91f1702c968",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "a5120f8e904fd354712303a2",
+      "title": "Sam Altman’s remarks at the United Nations Security Council",
+      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Global Affairs"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "ea2645ae1330aa9b7974bdddeb57ba98ee12c6c49de39305325dbbccbb2f970b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Sam Altman 在联合国安全理事会的讲话",
+      "summaryZh": "OpenAI 首席执行官 Sam Altman 在联合国安全理事会发言，讨论 AI 安全、人类控制权及国际合作。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "ea2645ae1330aa9b7974bdddeb57ba98ee12c6c49de39305325dbbccbb2f970b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "c36547f22ce9da1e4a2b3277",
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Startup"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "5746c33b966e9d5839641b7c92ca5557a72061e1d6621f0d6c9fd89739add861",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Harvey 借助 GPT-6 Astra，将法律背景信息转化为更好的文稿",
+      "summaryZh": "GPT-6 Astra 生成的法律文档结构更清晰，也更能结合上下文，让律师能够专注于策略。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "5746c33b966e9d5839641b7c92ca5557a72061e1d6621f0d6c9fd89739add861",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "796b1c3428aff2389ff1468d",
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "url": "https://openai.com/index/ringg",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "9d32dae1c614cc8532e058a16e587f22302b3bd8c6574ed6863fb83c0e76d11e",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Ringg 的 AI 智能体借助 OpenAI，解决最高 65% 的客户来电",
+      "summaryZh": "Ringg 使用 GPT-5.6，驱动覆盖语音、聊天、WhatsApp 和网页的多语言智能体，成本较 GPT-4.1 降低 90%。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "9d32dae1c614cc8532e058a16e587f22302b3bd8c6574ed6863fb83c0e76d11e",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "700c0adbb423ff58a5b26523",
+      "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
+      "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/ai-day-singapore/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "NVIDIA Writers",
+      "publishedAt": "2026-09-23T02:30:22.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "AI Days",
+        "Artificial Intelligence",
+        "Economic Development",
+        "Events",
+        "Nemotron"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "30478a7cc87e0a35e9973fbd3eda81b98671af941236ca06a3f2ab65556beb4d",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "NVIDIA 与合作伙伴在新加坡 AI Day 展示东南亚 AI 进展",
+      "summaryZh": "NVIDIA AI Day Singapore 于 9 月 22 至 23 日在莱佛士城会议中心举行，为与会者提供实操培训、专家主讲课程及先进工具，帮助加快 AI 与高性能计算工作。在活动中，NVIDIA 及其合作伙伴正展示东南亚地区突破性的 AI 进展……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "30478a7cc87e0a35e9973fbd3eda81b98671af941236ca06a3f2ab65556beb4d",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "35e567ff930230ee18d0333b",
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "summary": "",
+      "url": "https://huggingface.co/blog/evaleval-aisi",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "75eec6c400595a9e38f3fc6dfa139ddeb6ba6f871a47d2a51c3d2b362cd40862",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "英国 AISI 与 EvalEval 如何让基准测试结果可复现",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "75eec6c400595a9e38f3fc6dfa139ddeb6ba6f871a47d2a51c3d2b362cd40862",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "28a38f5cd388794c003b3862",
+      "title": "Transformers now runs llama.cpp quants",
+      "summary": "",
+      "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "53ab392328118bf970113cc34cb4c022534db2217d46370d3e7be954c3022130",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "Transformers 现可运行 llama.cpp 量化模型",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "53ab392328118bf970113cc34cb4c022534db2217d46370d3e7be954c3022130",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "0a3c2923d1e9ecd780627d00",
+      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
+      "summary": "",
+      "url": "https://huggingface.co/blog/omlx",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "e54719a38710382099117a250ae81abd0b1b760a57ca099e50a9c680b6dd968b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "oMLX 创建者兼维护者 Jun Kim 加入 Hugging Face，支持 MLX 社区",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "e54719a38710382099117a250ae81abd0b1b760a57ca099e50a9c680b6dd968b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "4a17bcadbd38f7de3bbbfca6",
+      "title": "From Enablement to Execution, Egypt’s AI Ecosystem Reaches Production Scale",
+      "summary": "Today, Egypt’s AI builders gathered in the Grand Egyptian Museum for a reception that highlighted the nation’s rapidly growing AI ecosystem — spanning AI natives, developers, researchers, startups and enterprises — building applications across industries. The event included a keynote from Paolo Guglielmini, vice president of EMEA at NVIDIA. Ahmed Mostafa, regional AI adoption lead [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/egypt-africa-ai-ecosystem/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Fatima Tambajang",
+      "publishedAt": "2026-09-21T16:00:10.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "AI Factory",
+        "Artificial Intelligence",
+        "Customer Stories",
+        "Deep Learning Institute",
+        "Economic Development"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "e4dbb956821d468d65ca4862cf00287564256e915341760400c4555af67fd0ba",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "从赋能到落地，埃及 AI 生态迈向规模化生产应用",
+      "summaryZh": "今天，埃及 AI 开发者齐聚大埃及博物馆参加招待会，展现该国迅速发展的 AI 生态，包括在各行业构建应用的 AI 原生企业、开发者、研究人员、初创公司及企业。活动设有 NVIDIA 欧洲、中东和非洲区副总裁 Paolo Guglielmini 的主题演讲。区域 AI 应用负责人 Ahmed Mostafa……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "e4dbb956821d468d65ca4862cf00287564256e915341760400c4555af67fd0ba",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "8a7a13a7c3ed11fde85fa179",
+      "title": "Improving synthesis prediction of small molecules at scale with RetroChimera",
+      "summary": "Custom-made molecules are advancing medicine, materials, and agriculture, but producing them is slow and expensive. A new Nature paper highlights RetroChimera, a predictive model that helps accelerate chemical synthesis, helping researchers explore a wide range of molecules. The post Improving synthesis prediction of small molecules at scale with RetroChimera appeared first on Microsoft Research .",
+      "url": "https://www.microsoft.com/en-us/research/blog/improving-synthesis-prediction-of-small-molecules-at-scale-with-retrochimera/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "author": "Felix Pultar, John Gardner, Guoqing Liu, Marwin Segler",
+      "publishedAt": "2026-09-21T15:30:19.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Research Blog"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "c9ec0ec046cad85d375b0a46d240036bc43104ba1b5dd2a3a37fdbd842d8e626",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "借助 RetroChimera，大规模改进小分子合成预测",
+      "summaryZh": "定制分子正推动医学、材料和农业发展，但生产过程缓慢且昂贵。《Nature》上的一篇新论文介绍了预测模型 RetroChimera，它有助于加快化学合成，让研究人员探索更广泛的分子。本文《借助 RetroChimera，大规模改进小分子合成预测》最初发表于 Microsoft Research。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "c9ec0ec046cad85d375b0a46d240036bc43104ba1b5dd2a3a37fdbd842d8e626",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "b52ffa6581c3011aa276ab7a",
+      "title": "AI Security Is an Engineering Problem — How to Solve It at Every Layer of the Agent Stack",
+      "summary": "AI security is an engineering problem. That means defined security requirements, enforceable controls, named owners and evidence that protections work. As AI becomes more capable, the industry must accelerate security engineering, broaden access to defensive tools and share what works faster. Technology Changes, Security Fundamentals Endure The internet and cloud computing changed how software operates, [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/ai-security-agent-stack/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Saša Zdjelar",
+      "publishedAt": "2026-09-21T14:51:34.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "Artificial Intelligence",
+        "Cybersecurity",
+        "Open Source",
+        "Trustworthy AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "e7f25e7904cb975c3db95e6a2f88c142c518bae51029565c9aaf6282f61ef8f0",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "AI 安全是工程问题：如何在智能体技术栈的每一层解决它",
+      "summaryZh": "AI 安全是工程问题。这意味着要有明确的安全要求、可强制执行的控制措施、指定负责人，以及保护措施有效的证据。随着 AI 能力增强，行业必须加快安全工程，扩大防御工具的可及性，并更快分享有效方法。技术在变化，安全的基本原则仍然适用。互联网和云计算改变了软件的运行方式……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "e7f25e7904cb975c3db95e6a2f88c142c518bae51029565c9aaf6282f61ef8f0",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "c52bd700f991138bb84f8978",
+      "title": "5 Companies Using NVIDIA AI for Clean Energy",
+      "summary": "Clean energy isn’t hard to come by, but the pace of large-scale adoption has historically been slow due to bottlenecks — including out-of-date infrastructure, elongated research and development timelines, and upfront cost barriers. At New York Climate Week, NVIDIA is highlighting five companies pioneering clean energy projects with AI baked into their foundation, accelerating research-to-inception [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/clean-energy-nvidia-ai/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Zoe Kessler",
+      "publishedAt": "2026-09-21T10:00:35.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "Climate",
+        "CUDA",
+        "Customer Stories",
+        "Digital Twin"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "5dd5253424a44c641eb7881de31032c5b38126fd5a321b0a3523c8b06cd2c55d",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "5 家使用 NVIDIA AI 推动清洁能源的公司",
+      "summaryZh": "清洁能源并不难获得，但受老旧基础设施、漫长研发周期及前期成本门槛等瓶颈影响，其大规模普及历来较慢。在纽约气候周，NVIDIA 重点介绍五家将 AI 融入基础、开创清洁能源项目的公司，加速从研究走向项目启动的进程……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "5dd5253424a44c641eb7881de31032c5b38126fd5a321b0a3523c8b06cd2c55d",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "962c4a0ef890c3ad891464c6",
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "summary": "",
+      "url": "https://huggingface.co/blog/tokenizers-v1",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "4e3c98fe4265a1197b6a6b391959a0c4faae6fa8737949e587367824c2c0ef3c",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "tokenizers v1：编码、解码与扩展能力的实测",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "4e3c98fe4265a1197b6a6b391959a0c4faae6fa8737949e587367824c2c0ef3c",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "d757dfb9b449a830ed23f14c",
+      "title": "New experts join Google’s AI & Economy team",
+      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-18T14:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "974dfaf3b130a2fc93940df66016b025f971122b295c16f4cb1f2e1e65d8e6e1",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "新专家加入 Google 的 AI & Economy 团队",
+      "summaryZh": "我们正引入世界级学术顾问、研究员及核心内部研究人员，扩大 AI & Economy 团队。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "974dfaf3b130a2fc93940df66016b025f971122b295c16f4cb1f2e1e65d8e6e1",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "ad069a29d99e9726be6e0cd1",
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Yeawon Choi",
+      "publishedAt": "2026-09-18T13:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "4481d890f268d751a00f0294e69a396be9f12bb3fb2894a21e65cda53934115c",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "与 Google 共同创造时尚的未来",
+      "summaryZh": "Google 与设计师 Jane Wade、Sergio Hudson 并肩合作，定制设计 Google Flow 工具，为纽约时装周做准备。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "4481d890f268d751a00f0294e69a396be9f12bb3fb2894a21e65cda53934115c",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "f7dc607cf74ade26544d1673",
+      "title": "Making global data easier to explore",
+      "summary": "Google and the UN system have launched the UN System Data Commons, a new open platform making global statistics accessible and easy to search.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Prem Ramaswami",
+      "publishedAt": "2026-09-17T20:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "a70a808ce02a5d3cd0cfd4beca2397a45bcf864f8d95721d7b9f48162b223db5",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "让全球数据更容易探索",
+      "summaryZh": "Google 与联合国系统推出了 UN System Data Commons。这一新的开放平台让全球统计数据更易获取和搜索。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a70a808ce02a5d3cd0cfd4beca2397a45bcf864f8d95721d7b9f48162b223db5",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "adb07246d1b16d3011602e8e",
+      "title": "University of Manchester Uses NVIDIA Earth-2 to Forecast Air Pollution Across the UK",
+      "summary": "Air pollution is a serious public health risk, contributing to an estimated 30,000 deaths in the U.K. alone last year. Data-driven insights can help — but computing air quality with traditional chemistry-based models is expensive, which limits how detailed they can be and how regularly they can be run. David Topping, a professor in the [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/uk-air-pollution-research-earth-2/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Isha Salian",
+      "publishedAt": "2026-09-16T05:00:42.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "AI for Good",
+        "Climate",
+        "Open Source",
+        "Science"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "a8c992e968c06a0391c6444e09951817f8b963b8cfd946ba6385a9acc539114d",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "曼彻斯特大学使用 NVIDIA Earth-2 预测英国空气污染",
+      "summaryZh": "空气污染是严重的公共健康风险，仅去年在英国就估计促成约 30,000 人死亡。数据驱动的洞见能够提供帮助，但传统化学模型计算空气质量的成本很高，限制了模型的精细程度及运行频率。教授 David Topping……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a8c992e968c06a0391c6444e09951817f8b963b8cfd946ba6385a9acc539114d",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "5609622ec8767572e02480b3",
+      "title": "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce",
+      "summary": "Know everything. Do anything. That was the message NVIDIA founder and CEO Jensen Huang brought to Salesforce Dreamforce Tuesday, joining CEO Marc Benioff onstage in an appearance that coincided with the announcement of Koa — Salesforce’s first CRM reasoning model, built on NVIDIA Nemotron 3 Super. Huang didn’t just take the stage. He walked into [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/jensen-huang-dreamforce/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Brian Caulfield",
+      "publishedAt": "2026-09-15T22:24:34.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Cloud",
+        "Corporate",
+        "Software",
+        "Agentic AI",
+        "Events"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "dbb94cec2c1d2bb6aafc57084ac26554b2654a098d3623417b64328cca4e3018",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "黄仁勋在 Dreamforce 表示：“现在我们可以知晓一切，做到一切”",
+      "summaryZh": "知晓一切，做到一切。这是 NVIDIA 创始人兼首席执行官黄仁勋周二在 Salesforce Dreamforce 传达的信息。他与 Salesforce 首席执行官 Marc Benioff 同台，此次亮相恰逢 Koa 发布：这是 Salesforce 首个 CRM 推理模型，基于 NVIDIA Nemotron 3 Super 构建。黄仁勋不仅登上了舞台，还走进了……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "dbb94cec2c1d2bb6aafc57084ac26554b2654a098d3623417b64328cca4e3018",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "2d6f1cb5c87acb2ed8b9ec50",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-15T17:05:57.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "687a372194cb0bc6aeded02e418b4318f02ab38312d039f4dd5f5d8e0c438ce9",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 Gemini 3.8 Live 与 3.8 Live Extended Thinking",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "687a372194cb0bc6aeded02e418b4318f02ab38312d039f4dd5f5d8e0c438ce9",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "3e031308e0544bb1ce7468ba",
+      "title": "Your Agent Aced the Task. Will It Do It Again?",
+      "summary": "",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-15T16:00:44.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "eb1e8d42b1064534b539c12aac93aacc6b4abc1ff81e876d385001b6a700da53",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "你的智能体出色地完成了任务，下次还能做到吗？",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "eb1e8d42b1064534b539c12aac93aacc6b4abc1ff81e876d385001b6a700da53",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "28a2284dbc9571dc36d5c8bb",
+      "title": "AI for Societal Impact",
+      "summary": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "e3394a8a9eff105c7f46407dea8c72087961c00032e90475db68df24a5572361",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "AI 的社会影响",
+      "summaryZh": "探索这一专题，了解专家与地方领导者如何利用 AI 突破，确保每个人都能分享 AI 带来的机会。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "e3394a8a9eff105c7f46407dea8c72087961c00032e90475db68df24a5572361",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "cc8cabed1cde5d74413f4f2c",
+      "title": "Building AI to accelerate science and improve lives",
+      "summary": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "James Manyika",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Google Research",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "2873d8e44a70fd5f90a9e42626ab81e0ecef653205114f41a07df387a2589910",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "构建 AI，加速科学发展并改善生活",
+      "summaryZh": "衡量 AI 真正价值的标准，是它帮助了谁。以下展示它如今如何影响人们的生活。我们专注于先进技术有望推动非凡进步的关键领域……",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "2873d8e44a70fd5f90a9e42626ab81e0ecef653205114f41a07df387a2589910",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "1d4bbd416cc0b7d0f411f771",
+      "title": "AI for everyone in every language",
+      "summary": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "James Manyika",
+      "publishedAt": "2026-09-15T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Accessibility",
+        "Google Research",
+        "Nonprofits",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "6b0044b1713fcd9ce1ba7704152f29c3046fdafddcf62db6d78d3f4ae5ae5a30",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "让每个人都能以自己的语言使用 AI",
+      "summaryZh": "我们正超越传统文本翻译，构建能够按真实表达方式，理解世界上丰富而鲜活语言的模型。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "6b0044b1713fcd9ce1ba7704152f29c3046fdafddcf62db6d78d3f4ae5ae5a30",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "efdc2f4de1e24ec5187da092",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "summary": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-15T13:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "f04fdad5041330828c4de806fd7f797e95699dcf1e157e3e838e1a222caf5f67",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "来自 Google AI & Economy ATLAS 的新洞见",
+      "summaryZh": "我们将 ATLAS 的数百万个全球数据点，转化为可开放访问的互动体验。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "f04fdad5041330828c4de806fd7f797e95699dcf1e157e3e838e1a222caf5f67",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "24311e78fd6c1e731fb29c84",
+      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
+      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-14T19:00:00.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "79ecabe099c4208aa9c610a5c7941b20f1d93f799185ad610bf6267062d82edd",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "观看宇航员 Christina Koch 与 Google 的 James Manyika 畅谈太空、技术和探索",
+      "summaryZh": "Christina Koch 与 Google 研究、实验室、技术及社会事务高级副总裁 James Manyika 展开对谈。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "79ecabe099c4208aa9c610a5c7941b20f1d93f799185ad610bf6267062d82edd",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "786edf0a4cf5b83227130a86",
+      "title": "DevFest is back",
+      "summary": "DevFest 2026 is back and here’s how you can connect with one of the more than 800 global events to build, secure, and scale in the agentic AI era.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-14T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Gemini",
+        "Google Cloud",
+        "Developer tools",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "7ef8569d21b02e7d1d8b2a40cdd5bd898371dd3c74aa2272d996c21f10d27b09",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "DevFest 回归",
+      "summaryZh": "DevFest 2026 回归。这里介绍如何参与全球超过 800 场活动中的一场，在智能体 AI 时代构建、保障安全并扩展应用。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "7ef8569d21b02e7d1d8b2a40cdd5bd898371dd3c74aa2272d996c21f10d27b09",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "cf4b519e6681d192ca6bb016",
+      "title": "3 ways to prep for your next big race with Search",
+      "summary": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Peter Schottenfels",
+      "publishedAt": "2026-09-10T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Search",
+        "Shopping",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "3a3b1ff6b359ac3564b839dc0f02ac3005de010168030026009acf188a432a6f",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "通过 Search 为下一场重要跑步赛事做准备的 3 种方法",
+      "summaryZh": "Search 可借助报名提醒、定制训练计划等功能，帮助跑者为比赛日做好准备。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "3a3b1ff6b359ac3564b839dc0f02ac3005de010168030026009acf188a432a6f",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "7267cf93a40be6a98e145b71",
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "summary": "",
+      "url": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "0f14b69ab69667f6bc10e5d83b1cda9fed5ad877806ceec3421bb2e516a336ec",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "跨 HF Jobs 使用 LoRA 进行异步 GRPO：一个存储桶、一个代理，无需 NCCL",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "0f14b69ab69667f6bc10e5d83b1cda9fed5ad877806ceec3421bb2e516a336ec",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "5afba8ac517deb01d83650a6",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "summary": "",
+      "url": "https://huggingface.co/blog/gradio-workflow-1111",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "bdcca78d16df202dcdcd5119fbb31944be71e92dfad68326a63e11b7d5bb35b1",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "使用 Gradio Workflow 重构 AUTOMATIC1111",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "bdcca78d16df202dcdcd5119fbb31944be71e92dfad68326a63e11b7d5bb35b1",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "083e0b8a5cfdfedd55ffcb95",
+      "title": "Get ready for the game with new football features in Search",
+      "summary": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+      "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Denise Ho",
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Search",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "44516bffbfa368237e934cbb4befa7772ab818ddfd623c157591b64c5bd7e14b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "借助 Search 的全新橄榄球功能，为比赛做好准备",
+      "summaryZh": "本赛季，你可直接在 Search 中追踪实时比赛动态、探索详细统计数据，并获得定制的梦幻体育建议。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "44516bffbfa368237e934cbb4befa7772ab818ddfd623c157591b64c5bd7e14b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "adc2eb322619dd7c6b680920",
+      "title": "Recreating a 70-year love story frame by frame",
+      "summary": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Michael Chang",
+      "publishedAt": "2026-09-09T16:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Google DeepMind",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "ba1f6f0cd64e1016687593b21b02a366559b37010be4419dfe456a33437dc8ca",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "逐帧重现一段 70 年的爱情故事",
+      "summaryZh": "了解电影制作人与 Google DeepMind 如何在短片《Love, Rendered》中，利用 AI 重现一对伴侣未曾留下影像记录的过去。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "ba1f6f0cd64e1016687593b21b02a366559b37010be4419dfe456a33437dc8ca",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "edc0020c8f6bdb895798d287",
+      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "summary": "AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.",
+      "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-08T14:00:15.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "b0030b150336eff1fe7fd16172aefacf561cf34c5d9870135e4de257b262b22b",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "AlphaGenome Atlas：预测人类基因组中所有可能 DNA 单字母变化的图谱",
+      "summaryZh": "AlphaGenome Atlas 绘制了整个人类基因组中 90 亿种 DNA 单字母变异的分子效应。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b0030b150336eff1fe7fd16172aefacf561cf34c5d9870135e4de257b262b22b",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "f888840f1f764dc2bca03f78",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-03T15:02:08.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "dcfe4c4f844dbdd7341d6c2a74ea2905c0254be8b148e5960befc25c22665eb5",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 WeatherNext 3：我们最先进、最准确的全球天气 AI 模型",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "dcfe4c4f844dbdd7341d6c2a74ea2905c0254be8b148e5960befc25c22665eb5",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "f71ecd66783b010e99b431d3",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-03T13:13:48.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "4730e50996d01c50ba6ccb41f19436e865ecd845b11b2c315f2fdfc926fe8831",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "NeoMME：高效的原生多模态、多语言编码器",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "4730e50996d01c50ba6ccb41f19436e865ecd845b11b2c315f2fdfc926fe8831",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "bd5b08a96897c4efb848c822",
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "summary": "",
+      "url": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "c34c512860db0628877fbd2ca665e6829ef05ba1d5a3c38fd80db532587fcb84",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "用 100 步 GRPO 微调一个 3.5 亿参数模型，改善结构化输出",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "c34c512860db0628877fbd2ca665e6829ef05ba1d5a3c38fd80db532587fcb84",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "67437ea67a7521e032a8c66a",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "summary": "",
+      "url": "https://huggingface.co/blog/funes",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "09e438877d655f5227e4277bcf465b6a57b70f0ac777ac2a65aacafa0f98e1ac",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "为你的编程智能体赋予由你掌控的记忆",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "09e438877d655f5227e4277bcf465b6a57b70f0ac777ac2a65aacafa0f98e1ac",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "dec1eff3aa4474162c85f660",
+      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
+      "summary": "",
+      "url": "https://huggingface.co/blog/train-to-paint-with-code",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "af4c0baa0f7fd01f14b0002db27ff8d6694c59ed30bd692691fa951f26976b0f",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "使用 TRL 和 OpenEnv，训练编程模型画水彩画",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "af4c0baa0f7fd01f14b0002db27ff8d6694c59ed30bd692691fa951f26976b0f",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "ca2fd754c22e86bd5c0d14fc",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "",
+      "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-02T16:24:24.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "f7017998b74f670abd7a47f91906b311fa52ebae69a1f7ccf5b4df1a1ec82478",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "面向政府与企业的主动网络防御",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "f7017998b74f670abd7a47f91906b311fa52ebae69a1f7ccf5b4df1a1ec82478",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "eaf030d682df1d0a8e117d9a",
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-02T16:18:31.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "01cdd4f9508b9003825f2b923fe7344d09427fc9ce3c03ef63cea3422f16263a",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 Gemini 3.8 Flash 与 3.8 Flash Cyber",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "01cdd4f9508b9003825f2b923fe7344d09427fc9ce3c03ef63cea3422f16263a",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "9abb165af2be16312e33cde2",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "The Fairwind Program is a limited access program for governments and trusted partners to use our cyber defense tools.",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Four Flynn",
+      "publishedAt": "2026-09-02T15:40:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Gemini models",
+        "Safety & Security",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "49a3b72cf65a5a1c357580263fd2b04fad6afbb0f9915932c707d6ed2a733a3f",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "面向政府与企业的主动网络防御",
+      "summaryZh": "Fairwind Program 是一项有限开放的计划，让政府与可信合作伙伴能够使用我们的网络防御工具。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "49a3b72cf65a5a1c357580263fd2b04fad6afbb0f9915932c707d6ed2a733a3f",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "ff59dbf76b39df805e19314d",
+      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
+      "summary": "",
+      "url": "https://huggingface.co/blog/allenai/benchmirt",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-01T21:39:07.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "b89a203c7df40e274eeb1895edbf5897200773e39e947e3fbe9646aa461d0fce",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "BenchMIRT：大语言模型基准测试实际在衡量什么？",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b89a203c7df40e274eeb1895edbf5897200773e39e947e3fbe9646aa461d0fce",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "2fd4776953221d15fae0ab6a",
+      "title": "The latest AI news we announced in August 2026",
+      "summary": "Here are Google’s latest AI updates from August 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "News from Google Team",
+      "publishedAt": "2026-09-01T20:45:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Google DeepMind",
+        "Developer tools",
+        "AI",
+        "Gemini App",
+        "Gemini models"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "edbc06bea62a6da661f6e95b4b8f8b6d1c7cd1b0c5c9903623c3eb294fcb0419",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "我们在 2026 年 8 月公布的最新 AI 消息",
+      "summaryZh": "以下是 Google 在 2026 年 8 月的最新 AI 更新。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "edbc06bea62a6da661f6e95b4b8f8b6d1c7cd1b0c5c9903623c3eb294fcb0419",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "a6245bbcd495fb588378732d",
+      "title": "Introducing agentic video understanding with Gemini",
+      "summary": "",
+      "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "author": null,
+      "publishedAt": "2026-09-01T17:08:51.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "48f11039d1070bc3e6497f311ce0b8fdcf3e5ddab71c148cbddb4d03a0138a66",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出基于 Gemini 的智能体式视频理解",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "48f11039d1070bc3e6497f311ce0b8fdcf3e5ddab71c148cbddb4d03a0138a66",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "e5ee55a8c4f1a0a5e68265e8",
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "summary": "Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
+      "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "author": "Meg Whittenberger",
+      "publishedAt": "2026-09-01T16:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Google Workspace",
+        "Google One",
+        "AI"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "68ff0303c6eaba45072174ff81dfeb70c41af174d6629279589bd9d6ad2fcbe8",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "试用 Google Pics：在 Google Workspace 中轻松创建和编辑图像",
+      "summaryZh": "基于最新 Nano Banana 模型构建的图像创建及编辑工具 Google Pics，现已推出。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "68ff0303c6eaba45072174ff81dfeb70c41af174d6629279589bd9d6ad2fcbe8",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "6d69f06b95efae0229830837",
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "summary": "",
+      "url": "https://huggingface.co/blog/webgpu-kernels",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-17T08:13:47.297Z",
+      "contentHash": "1a09db469b893d8ebf2a415177eb532051e2c5d5c393dad2920d830546568b6a",
+      "firstSeenAt": "2026-10-17T08:13:47.297Z",
+      "lastChangedAt": "2026-10-17T08:58:15.450Z",
+      "titleZh": "推出 @huggingface/kernels：面向本地 AI 的 200 多个 WebGPU 内核",
+      "summaryZh": "",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "1a09db469b893d8ebf2a415177eb532051e2c5d5c393dad2920d830546568b6a",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "engine": "editorial_seed",
+        "model": "Codex existing-session translation",
+        "modelRevision": "2026-10-17",
+        "translatedAt": "2026-10-17T09:15:06.995Z",
+        "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    }
+  ]
+}

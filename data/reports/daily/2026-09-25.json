@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-09-25",
+  "kind": "daily",
+  "period": "2026-09-25",
+  "title": "2026-09-25 每日资讯汇编",
+  "startAt": "2026-09-24T16:00:00.000Z",
+  "endAt": "2026-09-25T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 3,
+  "articleIds": [
+    "ed22d9937e1dec520531714b",
+    "ba2ac467963ebe43c3c03a61",
+    "c91e36a40a04b223adcdbfa9"
+  ],
+  "items": [
+    {
+      "id": "ed22d9937e1dec520531714b",
+      "title": "Lowe’s 借助 OpenAI 回答数百万个家居改善问题",
+      "summary": "Lowe’s 使用 OpenAI 模型驱动 Mylow 和 Mylow Companion，帮助客户与员工回答超过 2,500 万个问题，并推进家居改善项目。",
+      "originalTitle": "Lowe’s answers millions of home improvement questions with OpenAI",
+      "url": "https://openai.com/index/lowes",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-25T07:00:00.000Z",
+      "contentHash": "6dc6208e002ad0299133e4210e111da0af395180abe8bdde31b0f967f5201b75",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ba2ac467963ebe43c3c03a61",
+      "title": "Wayfair 借助 OpenAI 提升商品目录准确性与客服速度",
+      "summary": "Wayfair 使用 OpenAI 模型改进电商客服及商品目录准确性，自动分流工单，并大规模完善数百万项商品属性。",
+      "originalTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "url": "https://openai.com/index/wayfair",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-09-25T00:00:00.000Z",
+      "contentHash": "19ccc47d50365db0099634fc30b7494be8179d9b972f3c31c1eeda4489588dfa",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "c91e36a40a04b223adcdbfa9",
+      "title": "推出配备 Live Avatar 的 Gemini 3.8 Live",
+      "summary": "",
+      "originalTitle": "Introducing Gemini 3.8 Live with Live Avatar",
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": {
+        "id": "deepmind",
+        "name": "Google DeepMind",
+        "url": "https://deepmind.google/blog/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-09-24T16:20:39.000Z",
+      "contentHash": "f597a074ae741c27dba81f4e26833c41a301e628d35f91172bacee064f320d1d",
+      "translationStatus": "ok"
+    }
+  ],
+  "contentHash": "81f5e4f7b79f8e56f2ac137221056fa9b79538e6923c201b3a2643a69966f158",
+  "compiledAt": "2026-10-17T09:15:06.995Z"
+}
