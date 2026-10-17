@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generationId": "5534f2b77b2d821200075a48004b784e7550d15068eb75d4db936dad79cac0d5",
-  "generatedAt": "2026-10-17T09:44:33.793Z",
-  "lastSuccessAt": "2026-10-17T09:43:06.849Z",
+  "generationId": "7c5655bfef781cd8b026adfc37fd23d519d6f943438ba5ea2889fadf813e92fe",
+  "generatedAt": "2026-10-17T10:44:17.302Z",
+  "lastSuccessAt": "2026-10-17T10:44:15.814Z",
   "status": "ok",
   "archiveArticles": 218,
   "reportCount": 93,
   "files": {
     "data/archive.json": {
-      "sha256": "85c85867d53b0aaad6e5434f05107facbbc1619943357ed25aae2eacf21d95f1",
+      "sha256": "7e04c1701c283efd21ebc3642c0cbee5e5ffbdbd902fc6188b7f64e2ad4b0c08",
       "bytes": 479258
     },
     "data/archive/2026-05.json": {
@@ -40,16 +40,16 @@
       "bytes": 1559
     },
     "data/current.json": {
-      "sha256": "2168c77eb7527f638f917e40edc92acba8fb03a9db982d1a64966355abb00fe1",
-      "bytes": 410223
+      "sha256": "4da640f148291c11e0c01b1462acb9c93e92f956ba02bc5752388f8191a5a252",
+      "bytes": 410214
     },
     "data/feed.xml": {
-      "sha256": "32a0054dc9edf85d61ff11078262a13bde08e63eb4e3140d5b6d5ded5c644bf0",
+      "sha256": "4be4726ed6a0be7868e9337aaeb65cbdfecc5a39d40a9f829472694ce0049aea",
       "bytes": 32495
     },
     "data/receipt.json": {
-      "sha256": "04434b557c3635befb819f98bf44ea4b4341685e8eac618e5c4dd71aa70300a8",
-      "bytes": 1135
+      "sha256": "9f2fa4a9e5327cedfa3dd96d488da5908727a0a20b1d502ec5ab852a883e1e53",
+      "bytes": 1126
     },
     "data/reports/daily/2026-05-17.json": {
       "sha256": "44ecbb528c7c2234493543124892666b961adb3fbbcbcdbc50000d3552e71862",
