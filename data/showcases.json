@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T21:43:35.807Z",
-  "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+  "generatedAt": "2026-10-17T22:40:30.408Z",
+  "lastSuccessAt": "2026-10-17T22:40:30.408Z",
   "status": "ok",
   "coverageZh": "七项编辑精选，包含社区应用、官方示例和工作流；不是人气或“大神”认证，不表示已经替你安装、运行或验收。所有 AI 用法都有作者原文出处。",
   "updatePolicyZh": "后台按小时核查固定来源是否可读、仓库活跃状态和原文哈希；中文选注为人工编辑，原文变化时标记待复核，不自动把旧说明认证为最新。",
@@ -33,8 +33,8 @@
       "verificationNoteZh": "已核实官方工作流说明，未安装或运行。它是代码审核示例，不是自动保证网站通过审计的服务。",
       "repoUrl": "https://github.com/openai/codex-action",
       "aiEvidenceSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -73,8 +73,8 @@
       "verificationNoteZh": "已核实官方来源，未运行其模型调用；自动提建议不等于问题已修复。",
       "repoUrl": "https://github.com/anthropics/claude-code-action",
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -83,7 +83,7 @@
       "reviewedEvidenceHash": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "activity": {
         "lastPushAt": "2026-10-16T21:01:19.000Z",
-        "stars": 9555,
+        "stars": 9556,
         "archived": false,
         "latestRelease": null
       }
@@ -114,8 +114,8 @@
       "verificationNoteZh": "仅核实官方参考实现与说明，未生成或验收示例应用，也不保证无人干预即可交付。",
       "repoUrl": "https://github.com/anthropics/claude-quickstarts",
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -124,7 +124,7 @@
       "reviewedEvidenceHash": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "activity": {
         "lastPushAt": "2026-10-08T17:34:23.000Z",
-        "stars": 18341,
+        "stars": 18349,
         "archived": false,
         "latestRelease": null
       }
@@ -156,8 +156,8 @@
       "verificationNoteZh": "这是官方技能和工作流集合，未在本次安装运行，也不是已经生成的视频成品。",
       "repoUrl": "https://github.com/remotion-dev/skills",
       "aiEvidenceSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -166,7 +166,7 @@
       "reviewedEvidenceHash": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "activity": {
         "lastPushAt": "2026-10-16T08:09:18.000Z",
-        "stars": 5290,
+        "stars": 5291,
         "archived": false,
         "latestRelease": null
       }
@@ -197,8 +197,8 @@
       "verificationNoteZh": "核实了作者源码和应用入口，未登录、提交生成或运行其代码；README 的 Claude Artifacts 类比不表示它使用 Claude。",
       "repoUrl": "https://github.com/Nutlope/llamacoder",
       "aiEvidenceSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -239,8 +239,8 @@
       "verificationNoteZh": "官方明确该模板面向起步与概念验证，未完全为生产优化；本网站未启动它或导入任何工作流。",
       "repoUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "aiEvidenceSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -279,8 +279,8 @@
       "verificationNoteZh": "核实官方示例，不把生成图片当三维成品；本次未上传参考图、生成模型或执行示例。",
       "repoUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "aiEvidenceSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "status": "ok",
       "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
@@ -289,7 +289,7 @@
       "reviewedEvidenceHash": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "activity": {
         "lastPushAt": "2025-10-28T09:58:12.000Z",
-        "stars": 15143,
+        "stars": 15144,
         "archived": false,
         "latestRelease": null
       }
@@ -301,8 +301,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/openai/codex-action/main/README.md",
       "repoUrl": "https://github.com/openai/codex-action",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "reviewStatus": "verified_source"
     },
@@ -311,8 +311,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code-action/main/README.md",
       "repoUrl": "https://github.com/anthropics/claude-code-action",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "reviewStatus": "verified_source"
     },
@@ -321,8 +321,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/autonomous-coding/README.md",
       "repoUrl": "https://github.com/anthropics/claude-quickstarts",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "reviewStatus": "verified_source"
     },
@@ -331,8 +331,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/remotion-dev/skills/main/README.md",
       "repoUrl": "https://github.com/remotion-dev/skills",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "reviewStatus": "verified_source"
     },
@@ -341,8 +341,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Nutlope/llamacoder/main/README.md",
       "repoUrl": "https://github.com/Nutlope/llamacoder",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "3faebc929a5f8f7f18469934ef48cd79459449720b064f388bdd4df5b5411eca",
       "reviewStatus": "verified_source"
     },
@@ -351,8 +351,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/README.md",
       "repoUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "reviewStatus": "verified_source"
     },
@@ -361,8 +361,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md",
       "repoUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "status": "ok",
-      "checkedAt": "2026-10-17T21:43:35.807Z",
-      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
+      "checkedAt": "2026-10-17T22:40:30.408Z",
+      "lastSuccessAt": "2026-10-17T22:40:30.408Z",
       "sha256": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "reviewStatus": "verified_source"
     }
