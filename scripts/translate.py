@@ -27,6 +27,67 @@ SYSTEM = ("You are a professional translator. Translate the user's English text 
           "Glossary: AI agents=AI智能体; fail softly=隐蔽地失效; open-weight=开放权重; generative AI=生成式AI; "
           "agentic coding=智能体编程; long-horizon tasks=长程任务.")
 
+# Quality checks reject bad output instead of silently rewriting quantities or identifiers.
+# Keep the existing pipeline contract: previously reviewed, hash-bound translations remain valid.
+VERSION_IDENTIFIERS = re.compile(
+    r"(?<![A-Za-z0-9_.+\-])(?:rust-v|v)?\d+(?:\.\d+){1,3}"
+    r"(?:-(?:alpha|beta|rc)(?:[.\-]?\d+)*(?:\+[A-Za-z0-9.\-]+)?)?"
+    r"(?![A-Za-z0-9_.+\-])", re.IGNORECASE)
+FRACTION_CANDIDATES = re.compile(
+    r"\b(zero|one|two|three|four|five|six|seven|eight|nine|ten|a|\d+)[ -]+(quarters?|thirds?)\b", re.IGNORECASE)
+FRACTION_EQUIVALENTS = {
+    ("one", "quarter"): ("四分之一", "25%", "25％", "百分之25", "百分之二十五"),
+    ("two", "quarter"): ("四分之二", "二分之一", "50%", "50％", "百分之50", "百分之五十"),
+    ("three", "quarter"): ("四分之三", "75%", "75％", "百分之75", "百分之七十五"),
+    ("one", "third"): ("三分之一", "1/3"),
+    ("two", "third"): ("三分之二", "2/3"),
+    ("three", "third"): ("三分之三", "100%", "100％", "百分之100", "百分之百"),
+}
+PERCENT_EQUIVALENTS = {
+    "25": ("四分之一", "百分之二十五"),
+    "50": ("二分之一", "四分之二", "百分之五十"),
+    "75": ("四分之三", "百分之七十五"),
+    "100": ("三分之三", "百分之百"),
+}
+
+
+def quantity_present(value, representation):
+    return bool(re.search(r"(?<![\d.])" + re.escape(representation) + r"(?![\d.])", value))
+
+
+def validate_identifiers_and_fractions(source, value):
+    for match in VERSION_IDENTIFIERS.finditer(source):
+        identifier = match.group(0)
+        if not re.search(r"(?<![A-Za-z0-9_.+\-])" + re.escape(identifier) + r"(?![A-Za-z0-9_.+\-])", value):
+            raise ValueError("A complete source version identifier was changed")
+    candidates = list(FRACTION_CANDIDATES.finditer(source))
+    percentages = list(re.finditer(r"(?<![\w.])\d+(?:\.\d+)?[%％]", source))
+    if not candidates and not percentages:
+        return
+    allowed = set()
+    for match in percentages:
+        amount = match.group(0)[:-1]
+        equivalents = (amount + "%", amount + "％", "百分之" + amount) + PERCENT_EQUIVALENTS.get(amount, ())
+        allowed.update(equivalents)
+        if not any(quantity_present(value, item) for item in equivalents):
+            raise ValueError("A source percentage was changed or omitted")
+    for match in candidates:
+        key = (match.group(1).lower(), match.group(2).lower().rstrip("s"))
+        equivalents = FRACTION_EQUIVALENTS.get(key)
+        if equivalents is None:
+            raise ValueError("Unsupported source fraction format; original retained")
+        allowed.update(equivalents)
+        if not any(quantity_present(value, item) for item in equivalents):
+            raise ValueError("A source fraction was changed or omitted")
+    # A correct fraction elsewhere must not hide an additional, contradictory ratio.
+    for representation in re.findall(r"[一二三四五六七八九十百\d]+分之[一二三四五六七八九十百\d]+", value):
+        if representation not in allowed:
+            raise ValueError("Translation introduced an unsupported fraction")
+    source_percentages = {match.group(0).replace("％", "%") for match in percentages}
+    for representation in re.findall(r"\d+(?:\.\d+)?[%％]", value):
+        if representation not in allowed and representation.replace("％", "%") not in source_percentages:
+            raise ValueError("Translation introduced an unsupported percentage")
+
 
 def product_names(value):
     generic = {"ai", "gpu", "api", "sdk", "mcp", "llm", "llms"}
@@ -72,7 +133,14 @@ def validate_output(source, value):
         value = re.sub(tolerant, lambda match: name, value, flags=re.IGNORECASE)
         if name not in value:
             raise ValueError("A source product name was changed or omitted")
+    validate_identifiers_and_fractions(source, value)
     for number in re.findall(r"(?<!\w)\d+(?:[,.]\d+)*%?", source):
+        if number.endswith("%"):
+            amount = number[:-1]
+            equivalents = (number, amount + "％", "百分之" + amount) + PERCENT_EQUIVALENTS.get(amount, ())
+            if not any(quantity_present(value, item) for item in equivalents):
+                raise ValueError("A source percentage was changed or omitted")
+            continue
         if not re.search(r"(?<!\d)" + re.escape(number) + r"(?!\d)", value):
             raise ValueError("A source number or version was changed")
     if re.search(r"open[- ]weight", source, re.I):
