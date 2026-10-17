@@ -11,29 +11,69 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 19,
+  "articleCount": 27,
   "articleIds": [
+    "a7b346710113fb3a18f9ef7c",
+    "70dd1c878fb1a866d3b5fa69",
     "94fa7d97956532d81520dd16",
     "11acc8e04085b6cda44ebd45",
     "6b963cc9dba2a8dcd7f25279",
     "259dc275dea1beaba1450014",
     "f1631f24df0ff8e8a90087ae",
+    "c2700ed987ac334d7d880d5f",
+    "e449b88d5efbdd54bdf0f41b",
     "4797be284c500a50c3088aeb",
     "a3a5d5d86b679aeed80486a4",
     "690c816bcd4662991b34ba7e",
     "ffdd507c1009629071c71d79",
+    "7da5b2124d104561d4e9beff",
+    "7dc27ad74482bad0f719feef",
     "6b7d3b9ec448a14700480094",
     "11e8a05f7ea1fb93e30e63ec",
     "4edca10ea4bcb099684b2029",
     "d188e31fda0ab04beb4a72f7",
+    "2bb66388cf474a5969d4b6e6",
     "96496141fe100db0798af248",
     "647ab208c7e949ca95b9d196",
     "8acfc510b59540f0507e207a",
     "031c7e70d180541214c38bc5",
     "d1f06357c7a32bba672354fb",
+    "cc869e29f43cb735c6102731",
     "c51fb173fad0a9b19c6b38f1"
   ],
   "items": [
+    {
+      "id": "a7b346710113fb3a18f9ef7c",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "summary": "Release 0.163.0-alpha.13",
+      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T14:46:39.000Z",
+      "contentHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "70dd1c878fb1a866d3b5fa69",
+      "title": "现在你可以邀请任何人参加WhatsApp通话了",
+      "summary": "现在，你可以邀请任何人参加WhatsApp通话，无论他们是否拥有WhatsApp账户。因此，你无需担心对方使用的应用程序。该帖子“Now You Can Invite Anyone to a WhatsApp Call”出现在Meta新闻稿中。",
+      "originalTitle": "Now You Can Invite Anyone to a WhatsApp Call",
+      "url": "https://about.fb.com/news/2026/10/introducing-whatsapp-guest-calling/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-14T14:24:37.000Z",
+      "contentHash": "b7bcb5977f6722194fac3c8fe27684d721b7cb9fbdabe334471893f69ef13d46",
+      "translationStatus": "ok"
+    },
     {
       "id": "94fa7d97956532d81520dd16",
       "title": "使用 Amazon Bedrock AgentCore 生成演示文稿",
@@ -115,6 +155,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "c2700ed987ac334d7d880d5f",
+      "title": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
+      "summary": "Today the curtains came down on the Edits Film Festival in Mumbai, in the presence of filmmaker Farah Khan, festival judges Ahsaas Channa, Dolly Singh, Nikhil Taneja and Rajeev Masand and over 100 content creators in the audience. The post Farah Khan at Edits Film Festival: &#8220;Content breakthroughs come from spontaneity, relatability and realness&#8221; appeared first on Meta Newsroom .",
+      "originalTitle": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
+      "url": "https://about.fb.com/news/2026/10/farah-khan-at-edits-film-festival-content-breakthroughs-come-from-spontaneity-relatability-and-realness/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-14T11:39:32.000Z",
+      "contentHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "e449b88d5efbdd54bdf0f41b",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "summary": "Release 0.163.0-alpha.12",
+      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T09:38:13.000Z",
+      "contentHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
+      "translationStatus": "failed"
+    },
+    {
       "id": "4797be284c500a50c3088aeb",
       "title": "Block 如何利用 OpenAI 技术构建 AI 安全能力",
       "summary": "Block 正与 OpenAI 合作构建 AI 安全能力。其安全团队能够更快调查威胁，并在数分钟内提出补丁方案。",
@@ -179,6 +251,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "7da5b2124d104561d4e9beff",
+      "title": "OpenAI Codex 版本 0.163.0-α.11",
+      "summary": "版本 0.163.0-α.11",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T03:34:27.000Z",
+      "contentHash": "0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "7dc27ad74482bad0f719feef",
+      "title": "Claude Code v2.1.299",
+      "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change",
+      "originalTitle": "Claude Code v2.1.299",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T02:49:42.000Z",
+      "contentHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
+      "translationStatus": "failed"
+    },
+    {
       "id": "6b7d3b9ec448a14700480094",
       "title": "Google DeepMind 与新加坡政府合作，构建用于诈骗检测的微调 AI 模型",
       "summary": "了解 Google DeepMind 与新加坡 GovTech 如何利用轻量级端侧 Gemma 模型，拦截私人聊天中的对话式诈骗，且不向云端传出数据。",
@@ -240,6 +344,22 @@
       },
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "contentHash": "50797368c42ba1274acd8b4b21d8846cfc1013b837a5e78a93a41887a8776a0f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2bb66388cf474a5969d4b6e6",
+      "title": "OpenAI Codex 版本 0.163.0-α.10",
+      "summary": "版本 0.163.0-alpha.10",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-13T19:12:24.000Z",
+      "contentHash": "ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab",
       "translationStatus": "ok"
     },
     {
@@ -323,6 +443,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "cc869e29f43cb735c6102731",
+      "title": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
+      "summary": "We’re introducing new AI-powered tools that help you shape what you see in Feed and Reels by telling us what you’re interested in, in your own words. The post Your Algorithm, Your Words: New Ways to Shape What You See on Facebook appeared first on Meta Newsroom .",
+      "originalTitle": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
+      "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-13T16:00:29.000Z",
+      "contentHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
+      "translationStatus": "failed"
+    },
+    {
       "id": "c51fb173fad0a9b19c6b38f1",
       "title": "Gemini 4 Argon：为解决你最棘手的问题而打造",
       "summary": "我们正向开发者、企业、科学家及消费者开放最新前沿模型 Gemini 4 Argon。",
@@ -339,6 +475,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "94809bee577d2d46005bb90f548ee0efb12093cefae39ed815900fd57f042ada",
-  "compiledAt": "2026-10-17T09:15:06.995Z"
+  "contentHash": "d6091bba2228709053a8212a54e785c3446646b803a0ff4169f1a964b29332f1",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

@@ -1,22 +1,24 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-17T14:01:44.936Z",
-  "lastSuccessAt": "2026-10-17T14:01:43.477Z",
+  "attemptAt": "2026-10-17T14:34:59.473Z",
+  "lastSuccessAt": "2026-10-17T14:33:49.167Z",
   "status": "ok",
   "seeded": false,
-  "sourceOk": 7,
+  "sourceOk": 10,
   "sourceStale": 0,
-  "archiveArticles": 219,
-  "newArticles": 0,
+  "archiveArticles": 249,
+  "newArticles": 30,
   "changedArticles": 0,
-  "translationRequested": 0,
-  "translatedThisRun": 0,
-  "translationFailed": 0,
+  "translationRequested": 20,
+  "translatedThisRun": 11,
+  "translationFailed": 9,
   "translationDeferred": 0,
   "translationError": null,
   "translationNote": null,
-  "actualTranslationEngines": {},
-  "pendingTranslations": 0,
+  "actualTranslationEngines": {
+    "offline_cpu_qwen": 11
+  },
+  "pendingTranslations": 19,
   "translationLimit": 20,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -27,8 +29,8 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-17T14:01:44.936Z",
-    "runId": "39038982879",
+    "actualAttemptAt": "2026-10-17T14:34:59.473Z",
+    "runId": "39041262680",
     "event": "push",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   }

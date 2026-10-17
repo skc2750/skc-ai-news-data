@@ -11,7 +11,7 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 8,
+  "articleCount": 9,
   "articleIds": [
     "02f95a4124373db2015cd828",
     "3b00c9dae11f82a479b24f1e",
@@ -19,6 +19,7 @@
     "fb2a2e587d5460a607b178cc",
     "d4dcf2f9014761024c85ac52",
     "2de865185c69a3813d684e84",
+    "a87e67ae638cd2790112d10d",
     "b67caddda941eca8e4af9737",
     "a780e85e351703ee29da0462"
   ],
@@ -120,6 +121,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "a87e67ae638cd2790112d10d",
+      "title": "Claude Code v2.1.292",
+      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff whe",
+      "originalTitle": "Claude Code v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-06T18:59:30.000Z",
+      "contentHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
+      "translationStatus": "pending"
+    },
+    {
       "id": "b67caddda941eca8e4af9737",
       "title": "AI 会犯哪些错误，失败又能教会我们什么",
       "summary": "Jennifer Neville 原本不想从事计算机科学，但最终恰恰进入了这个领域。Neville 谈到了让她找到理想职业方向的曲折经历，以及她识别“令人意外的失败”的研究；这些失败使 AI 难以应对复杂性。本文《AI 会犯哪些错误，失败又能教会我们什么》最初发表于 Microsoft Research。",
@@ -152,6 +169,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "9fd25f8e8ef4d212b00f9663c8a21304341182cc8ffdcdb50cbaebdcb66fc91a",
-  "compiledAt": "2026-10-17T09:15:06.995Z"
+  "contentHash": "113b392d17c49113d7edadfa3545fb61ef68518a3d9a3307a5c1cf0536806f9b",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

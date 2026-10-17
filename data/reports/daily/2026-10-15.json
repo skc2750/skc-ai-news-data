@@ -11,17 +11,21 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 9,
+  "articleCount": 13,
   "articleIds": [
     "93fcfd2229e3c08ebbcee526",
     "c97a88b17fcedacb5bba7b24",
     "5aae1c9b16779eadc501ea9b",
     "24a2f8321eaf18e7f9a6dc0f",
+    "2caae29cfb2b1811a61ab8ea",
     "0c78145ed9f3ed658f86dcb6",
     "631b0df93ea5d5fec2372d13",
     "b49271670ade282809a6aa80",
+    "c80cccaa5c2360a5cbe15874",
+    "01b163991f0f81389e00c4e3",
     "1904ca1c2799eb5e2880361c",
-    "1e42e4d4552b0e7f6f911459"
+    "1e42e4d4552b0e7f6f911459",
+    "09041486b9fb6e73aa614e72"
   ],
   "items": [
     {
@@ -89,6 +93,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "2caae29cfb2b1811a61ab8ea",
+      "title": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
+      "summary": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
+      "url": "https://about.fb.com/news/2026/10/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-but-most-need-more-guidance/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-15T00:50:50.000Z",
+      "contentHash": "6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8",
+      "translationStatus": "ok"
+    },
+    {
       "id": "0c78145ed9f3ed658f86dcb6",
       "title": "Sullivan & Cromwell 将法律专业知识融入协议审查",
       "summary": "Sullivan & Cromwell 与 OpenAI 合作开发 Agreement Analyzer，使用 AI 识别协议草案中的问题。",
@@ -137,6 +157,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "c80cccaa5c2360a5cbe15874",
+      "title": "OpenAI Codex 版本 0.163.0-α.10.1",
+      "summary": "版本 0.163.0-α.10.1已发布。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T20:55:38.000Z",
+      "contentHash": "19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "01b163991f0f81389e00c4e3",
+      "title": "Claude Code v2.1.300",
+      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir pr",
+      "originalTitle": "Claude Code v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T18:24:25.000Z",
+      "contentHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
+      "translationStatus": "failed"
+    },
+    {
       "id": "1904ca1c2799eb5e2880361c",
       "title": "使用 Amazon Bedrock AgentCore 构建能够自我改进的文档处理系统",
       "summary": "本文介绍如何使用 Amazon Bedrock AgentCore 构建智能体式智能文档处理（IDP）系统，对业务文档进行分类、提取、校验和学习。系统尽量减少人工介入，可自动处理新格式，无需手动配置模板。",
@@ -167,8 +219,24 @@
       "publishedAt": "2026-10-14T16:12:42.000Z",
       "contentHash": "d0ed3bc13d23e8526a873f69d887ba23d070b5e5e5529c30e40c5599152ee950",
       "translationStatus": "ok"
+    },
+    {
+      "id": "09041486b9fb6e73aa614e72",
+      "title": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
+      "summary": "Today, Meta, Pinacoteca di Brera and EssilorLuxottica are proud to launch “Sensing Art &#8211; Discovering Masterpieces Beyond What Meets the Eye.” This pilot aims to explore how AI glasses can make art more accessible for people who are blind or with low vision &#8211; in collaboration with the some of Italy’s leading sight loss charities &#8211; the Associazione Nazionale Subvedenti (ANS), the Unione Italiana dei C",
+      "originalTitle": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
+      "url": "https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-14T16:00:57.000Z",
+      "contentHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
+      "translationStatus": "failed"
     }
   ],
-  "contentHash": "8e5e82d8be7e87bf9b60c8f0b0517f4ae43631d9726730590dcdf6840d512903",
-  "compiledAt": "2026-10-17T13:43:48.832Z"
+  "contentHash": "b9ee67f27a25f17d020e7caa17549e3dc29cc9a488f46c7dc5faf38f33bb2878",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

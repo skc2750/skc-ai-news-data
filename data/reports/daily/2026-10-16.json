@@ -11,15 +11,19 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 10,
+  "articleCount": 14,
   "articleIds": [
     "17cf83711c48b496dc5ed5de",
+    "b9665ee028a870b8eb120785",
     "690ff55655c843d38174cfaa",
     "08a57a9c713aa8f5a6e4c7f8",
     "d22507de00e2d1e195c79e27",
     "e2504d6427573c0c98fef0c2",
+    "1f6701ad725c5fdae43a4a24",
     "c6d7acb7f78ee4ee2ee43a03",
+    "886805fba48d1381d03b775f",
     "3bd3b5c304f79f95fc2ba3b8",
+    "ac5010f8f5a7ee91a81f9a06",
     "8345e0464ecffddb219479ca",
     "2cc0f38f7481ac8d6e7d08ec",
     "36b0709d3b06ff00ba872822"
@@ -39,6 +43,22 @@
       },
       "publishedAt": "2026-10-16T15:23:10.000Z",
       "contentHash": "48aec5e2b275fe01ec49f5b17efa655ca20f0408e70c09d7e4b98658ff38f550",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b9665ee028a870b8eb120785",
+      "title": "OpenAI Codex 版本 0.164.0-α.1",
+      "summary": "版本 0.164.0-alpha.1",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-16T15:00:24.000Z",
+      "contentHash": "b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f",
       "translationStatus": "ok"
     },
     {
@@ -106,6 +126,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "1f6701ad725c5fdae43a4a24",
+      "title": "OpenAI Codex 0.163.0",
+      "summary": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
+      "originalTitle": "OpenAI Codex 0.163.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-15T21:33:06.000Z",
+      "contentHash": "20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553",
+      "translationStatus": "ok"
+    },
+    {
       "id": "c6d7acb7f78ee4ee2ee43a03",
       "title": "Granite Switch 4.1：一个接口提供对话、决策与语音能力",
       "summary": "",
@@ -122,6 +158,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "886805fba48d1381d03b775f",
+      "title": "Claude Code v2.1.301",
+      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a",
+      "originalTitle": "Claude Code v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-15T19:22:06.000Z",
+      "contentHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
+      "translationStatus": "failed"
+    },
+    {
       "id": "3bd3b5c304f79f95fc2ba3b8",
       "title": "将 GPT-Rosalind 带入学术研究实验室",
       "summary": "Rosalind Academic Plan 面向符合条件的学术实验室，提供受资助的 GPT-Rosalind 使用资格及工具，支持生命科学研究。",
@@ -135,6 +187,22 @@
       },
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "contentHash": "2b69744c201ed27ec44067f53f3b6c04ba4e047d25ea06d379ee2088f2aa0ad4",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ac5010f8f5a7ee91a81f9a06",
+      "title": "OpenAI Codex 版本 0.163.0-α.10.2",
+      "summary": "版本 0.163.0-α.10.2已发布。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-15T18:33:04.000Z",
+      "contentHash": "0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a",
       "translationStatus": "ok"
     },
     {
@@ -186,6 +254,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "4cc6b697ba78063bee4be2cc8e0033fccad7d3a9e31c07023d0acdd743432798",
-  "compiledAt": "2026-10-17T09:11:50.688Z"
+  "contentHash": "6818f8e9ad5ce2214df5d3802b4e1a24f2f98b8f8c89fe58a53b7205b7da3e1f",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

@@ -1,6 +1,6 @@
 # SKC AI news data
 
-Seven public platform feeds, original titles and bounded excerpts, offline CPU Chinese translation, and durable daily/weekly/monthly source reports for [Simon Seow's AI news space](https://simonseow.com/news/). This is a separate public data publisher. Website code, media assets, personal records and credentials do not belong in this repository.
+Seven public platform feeds, Codex and Claude Code official GitHub release streams, Meta corporate news, original titles and bounded excerpts, offline CPU Chinese translation, and durable daily/weekly/monthly source reports for [Simon Seow's AI news space](https://simonseow.com/news/). These ten selected feeds are not whole-web or complete Meta AI research coverage. This is a separate public data publisher. Website code, media assets, personal records and credentials do not belong in this repository.
 
 The collector does not call a paid inference API. Standard Ubuntu GitHub Actions publish one validated Git commit per update; the website can read that commit without redeploying its assets. The workflow is scheduled hourly at minute 17 UTC. GitHub may delay or drop scheduled runs, and may disable a public schedule after 60 days of repository inactivity. A saved workflow is not proof of a completed run. Inspect `data/receipt.json` and the Actions run history.
 
@@ -79,10 +79,20 @@ The workflow is a bounded publication job for this software project, not a serve
 Verification covers content hashes, every manifest file, durable item counts, report references and exact-hash Chinese reuse. Unit tests additionally exercise all-source failure, partial fallback, real MYT boundaries, report idempotence, storage beyond 4000 and collector lock collisions. A green fixture test alone does not verify translation quality, a cloud run, or continuous scheduling.
 # GitHub 项目追踪
 
-`data/projects.json` 追踪 12 个固定官方仓库，按「三维到交互成品、网站优化、脚本到视频、办公自动化」分组。每小时与资讯采集同时读取仓库元数据、最新正式 Release 和许可证；更新计划可能延迟，并非全网或秒级实时。
+`data/projects.json` 追踪 14 个固定官方仓库，优先追踪「重点AI产品」Codex、Claude Code，其余按「三维到交互成品、网站优化、脚本到视频、办公自动化」分组。Meta Muse 没有确认的官方公开仓库，不捏造 GitHub 项目。每小时与资讯采集同时读取仓库元数据、最新正式 Release 和许可证；更新计划可能延迟，并非全网或秒级实时。
 
 中文适配说明是基于公开功能的编辑判断，未在本任务中安装或运行这些项目。星数不等于质量、安全或当前电脑兼容性。首次读取只建立基线，不虚构新版本提醒；后续只依据前后实际差异记录 Release、仓库推送、归档和许可证变化。无正式 Release 的项目明确显示为无版本，推送不等于发布。
 
 免费与授权分开标注：Hunyuan、n8n、Dify 和 Remotion 含额外条件，不称为标准 OSI 开源。其他项目的模型权重、子模块、生成 API、云 GPU 与商业授权仍需分别核对。监控不会自动升级本地软件、上传图片或触发付费生成。
 
 GitHub Actions 仅在采集步骤临时使用内置仓库 Token 获取公共数据额度，Token 不保存到文件、日志或 URL。单项失败保留该项旧数据和上次成功时间；页面展示失败状态，稍后自动重试。
+
+## AI 作品与工作流编辑精选
+
+`data/showcases.json` 收录七项有作者原文证明 AI 用法的精选，清楚区分社区应用、官方示例和工作流。每项包含作者、原作链接、AI 证据链接、适配判断、可借鉴做法及潜在费用。不是人气或“大神”认证，也不表示在本任务中运行和验收了这些作品。
+
+后台检查来源可读性、仓库活跃状态及 README 哈希；`reviewedAt` 和已审查哈希固定，原文变化时标记 `needs_review`，中文选注等待人工复核，不把新抓取时间当作新人工审查。来源失败保留旧数据和上次成功时间。
+
+Codex 与 Claude Code 的代码/仓库许可不等于订阅、模型 API 或推理免费。Codex 代码为 Apache-2.0；Claude Code 的 LICENSE.md 保留权利并适用商业服务条款。监控本身不调用这些模型或开通付费服务。
+
+官方 GitHub 发布流可能包含 alpha/beta 等预览版本。为便于理解，处理标题加入产品名前缀，同时用 `sourceTitle` 保留来源的逐字发布标题，并用 `titleTransform` 明示处理方式；来源日期仍用发布流提供的日期。

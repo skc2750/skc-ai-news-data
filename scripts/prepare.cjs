@@ -4,18 +4,20 @@ const fs=require('node:fs'),path=require('node:path');
 const {options}=require('./update.cjs');
 const {collectNews}=require('../lib/collect.cjs');
 const {collectProjects}=require('../lib/projects.cjs');
+const {collectShowcases}=require('../lib/showcases.cjs');
 const {loadState,combineArticles,cacheKey,validTranslation,acquireLock}=require('../lib/store.cjs');
 async function prepare(opts){
   const release=acquireLock(opts.work);
   try{
     const now=new Date().toISOString(),state=loadState(opts.output);
     const [collected,projects]=await Promise.all([collectNews(state,{now}),collectProjects({now,previous:state.projects})]);
+    const showcases=await collectShowcases({now,previous:state.showcases,projects});
     const all=combineArticles(state.articles,collected.articles,state.cache,now);
     const pending=all.filter(a=>a.language!=='zh'&&!validTranslation(state.cache.entries[cacheKey(a)],a)&&!validTranslation(a,a)).slice(0,opts.limit).length;
     fs.writeFileSync(path.join(opts.work,'prepared.json'),JSON.stringify({schemaVersion:1,preparedAt:now,
-      previousGenerationId:state.manifest?.generationId||null,collected,projects}));
+      previousGenerationId:state.manifest?.generationId||null,collected,projects,showcases}));
     if(process.env.GITHUB_OUTPUT)fs.appendFileSync(process.env.GITHUB_OUTPUT,`pending=${pending}\n`);
-    return {pending,sourcesOk:collected.sources.filter(s=>s.status==='ok').length,articles:collected.articles.length,projectsOk:projects.sources.filter(s=>s.status==='ok').length};
+    return {pending,sourcesOk:collected.sources.filter(s=>s.status==='ok').length,articles:collected.articles.length,projectsOk:projects.sources.filter(s=>s.status==='ok').length,showcasesOk:showcases.sources.filter(s=>s.status==='ok').length};
   }finally{release();}
 }
 if(require.main===module)prepare(options(process.argv.slice(2))).then(value=>console.log(JSON.stringify(value))).catch(error=>{console.error(error.message);process.exitCode=1;});

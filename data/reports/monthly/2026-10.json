@@ -11,17 +11,24 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的七个平台订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 90,
+  "articleCount": 120,
   "articleIds": [
+    "1266f92abcd73b7cf3e23c71",
+    "1540794e1a6cdcd487e98db5",
     "c57d65fcc265bc8a4b5b2659",
     "ab999fe8f212727e7d3e9601",
+    "698dc682c93c792d65f9d9e1",
     "17cf83711c48b496dc5ed5de",
+    "b9665ee028a870b8eb120785",
     "690ff55655c843d38174cfaa",
     "08a57a9c713aa8f5a6e4c7f8",
     "d22507de00e2d1e195c79e27",
     "e2504d6427573c0c98fef0c2",
+    "1f6701ad725c5fdae43a4a24",
     "c6d7acb7f78ee4ee2ee43a03",
+    "886805fba48d1381d03b775f",
     "3bd3b5c304f79f95fc2ba3b8",
+    "ac5010f8f5a7ee91a81f9a06",
     "8345e0464ecffddb219479ca",
     "2cc0f38f7481ac8d6e7d08ec",
     "36b0709d3b06ff00ba872822",
@@ -29,51 +36,72 @@
     "c97a88b17fcedacb5bba7b24",
     "5aae1c9b16779eadc501ea9b",
     "24a2f8321eaf18e7f9a6dc0f",
+    "2caae29cfb2b1811a61ab8ea",
     "0c78145ed9f3ed658f86dcb6",
     "631b0df93ea5d5fec2372d13",
     "b49271670ade282809a6aa80",
+    "c80cccaa5c2360a5cbe15874",
+    "01b163991f0f81389e00c4e3",
     "1904ca1c2799eb5e2880361c",
     "1e42e4d4552b0e7f6f911459",
+    "09041486b9fb6e73aa614e72",
+    "a7b346710113fb3a18f9ef7c",
+    "70dd1c878fb1a866d3b5fa69",
     "94fa7d97956532d81520dd16",
     "11acc8e04085b6cda44ebd45",
     "6b963cc9dba2a8dcd7f25279",
     "259dc275dea1beaba1450014",
     "f1631f24df0ff8e8a90087ae",
+    "c2700ed987ac334d7d880d5f",
+    "e449b88d5efbdd54bdf0f41b",
     "4797be284c500a50c3088aeb",
     "a3a5d5d86b679aeed80486a4",
     "690c816bcd4662991b34ba7e",
     "ffdd507c1009629071c71d79",
+    "7da5b2124d104561d4e9beff",
+    "7dc27ad74482bad0f719feef",
     "6b7d3b9ec448a14700480094",
     "11e8a05f7ea1fb93e30e63ec",
     "4edca10ea4bcb099684b2029",
     "d188e31fda0ab04beb4a72f7",
+    "2bb66388cf474a5969d4b6e6",
     "96496141fe100db0798af248",
     "647ab208c7e949ca95b9d196",
     "8acfc510b59540f0507e207a",
     "031c7e70d180541214c38bc5",
     "d1f06357c7a32bba672354fb",
+    "cc869e29f43cb735c6102731",
     "c51fb173fad0a9b19c6b38f1",
     "6c4bdc44985ec22acd3b26bf",
     "e2518036c8a34a40984d644c",
     "c123614c54143f15f75895aa",
+    "56efbf5108d50d07bd50b106",
+    "baf7104295a2fcc3f911c7f9",
     "49297e6402035f005487c1fc",
     "f363d75cdb3b86888658d398",
     "cd846c89c85b6b768fea72ef",
     "4c7df3728a9bc12840a54743",
+    "188c49a098bdefe5c9bee89b",
     "fd543b5cf06f283201fd9956",
     "1d5452c7244f2a6a1b9c52c1",
     "b58417184dda9742722bacfe",
+    "8b457de188b9a591d277cfd8",
     "7e2400f6a791f9f375440a02",
     "f0b86f5cb18b28c561142cbb",
     "1eb3663e8294faacd2b04622",
     "ac609b9f31e25f31c499443e",
+    "8858b92b79671e37d470a6c5",
     "9db7bb821207b37bc0f8e5c4",
+    "bed07c71f47773345667ee07",
     "5cf5eb9da44fc021d7eccd2b",
     "69dee1e209ce825b3c5eb5a2",
     "ed7bea17e150a82889401cb8",
+    "2e2b90621d3e6ea567d0fad6",
+    "a24a4cc37e52401225041c8e",
     "1e3bbcebd0598f4ff4aa1d68",
     "6c87aa6d64973ff45d265bd4",
     "9aef4e0f354f1a886c884761",
+    "56f8e09b1b593e92ddb53d2b",
     "9c6864cb3e2bcbe241f6cf86",
     "02f95a4124373db2015cd828",
     "3b00c9dae11f82a479b24f1e",
@@ -81,12 +109,14 @@
     "fb2a2e587d5460a607b178cc",
     "d4dcf2f9014761024c85ac52",
     "2de865185c69a3813d684e84",
+    "a87e67ae638cd2790112d10d",
     "b67caddda941eca8e4af9737",
     "a780e85e351703ee29da0462",
     "7fce2cb6ca46e19277f097fa",
     "39495ae3364ae55513528388",
     "fd879d0249e550c8f3f3ea67",
     "1ba96f0814583d964587215e",
+    "9a0e13f6aeb57310be49a1bb",
     "73a5ab1d5ced37596d03c667",
     "3ee405148e73ed5a240c34a1",
     "a6218267b47ebb44447a4204",
@@ -105,6 +135,38 @@
     "eddbf971051f0f2ff5d5fa3d"
   ],
   "items": [
+    {
+      "id": "1266f92abcd73b7cf3e23c71",
+      "title": "OpenAI Codex 版本 0.164.0-α.3",
+      "summary": "版本 0.164.0-α.3",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.3",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-17T04:12:09.000Z",
+      "contentHash": "d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "1540794e1a6cdcd487e98db5",
+      "title": "Claude Code v2.1.302",
+      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) c",
+      "originalTitle": "Claude Code v2.1.302",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-16T20:53:06.000Z",
+      "contentHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb",
+      "translationStatus": "failed"
+    },
     {
       "id": "c57d65fcc265bc8a4b5b2659",
       "title": "让 AI 智能体更可信：基于 Amazon Bedrock AgentCore 的生产级评估框架",
@@ -138,6 +200,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "698dc682c93c792d65f9d9e1",
+      "title": "OpenAI Codex 版本 0.164.0-α.2",
+      "summary": "版本 0.164.0-alpha.2",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-16T17:39:39.000Z",
+      "contentHash": "2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124",
+      "translationStatus": "ok"
+    },
+    {
       "id": "17cf83711c48b496dc5ed5de",
       "title": "Reflection Beam 发布：面向 AWS 智能体编程的开放权重模型",
       "summary": "Reflection AI 的 Beam 是面向智能体编程和长期任务的开放权重模型。本文介绍如何在 AWS 部署：可使用 Amazon SageMaker JumpStart 实时端点，或结合 SageMaker HyperPod Inference、JumpStart、SGLang、vLLM，以 Kubernetes 原生方式管理分布式 GPU 基础设施。",
@@ -151,6 +229,22 @@
       },
       "publishedAt": "2026-10-16T15:23:10.000Z",
       "contentHash": "48aec5e2b275fe01ec49f5b17efa655ca20f0408e70c09d7e4b98658ff38f550",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "b9665ee028a870b8eb120785",
+      "title": "OpenAI Codex 版本 0.164.0-α.1",
+      "summary": "版本 0.164.0-alpha.1",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-16T15:00:24.000Z",
+      "contentHash": "b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f",
       "translationStatus": "ok"
     },
     {
@@ -218,6 +312,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "1f6701ad725c5fdae43a4a24",
+      "title": "OpenAI Codex 0.163.0",
+      "summary": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
+      "originalTitle": "OpenAI Codex 0.163.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-15T21:33:06.000Z",
+      "contentHash": "20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553",
+      "translationStatus": "ok"
+    },
+    {
       "id": "c6d7acb7f78ee4ee2ee43a03",
       "title": "Granite Switch 4.1：一个接口提供对话、决策与语音能力",
       "summary": "",
@@ -234,6 +344,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "886805fba48d1381d03b775f",
+      "title": "Claude Code v2.1.301",
+      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a",
+      "originalTitle": "Claude Code v2.1.301",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-15T19:22:06.000Z",
+      "contentHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
+      "translationStatus": "failed"
+    },
+    {
       "id": "3bd3b5c304f79f95fc2ba3b8",
       "title": "将 GPT-Rosalind 带入学术研究实验室",
       "summary": "Rosalind Academic Plan 面向符合条件的学术实验室，提供受资助的 GPT-Rosalind 使用资格及工具，支持生命科学研究。",
@@ -247,6 +373,22 @@
       },
       "publishedAt": "2026-10-15T19:00:00.000Z",
       "contentHash": "2b69744c201ed27ec44067f53f3b6c04ba4e047d25ea06d379ee2088f2aa0ad4",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "ac5010f8f5a7ee91a81f9a06",
+      "title": "OpenAI Codex 版本 0.163.0-α.10.2",
+      "summary": "版本 0.163.0-α.10.2已发布。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-15T18:33:04.000Z",
+      "contentHash": "0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a",
       "translationStatus": "ok"
     },
     {
@@ -362,6 +504,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "2caae29cfb2b1811a61ab8ea",
+      "title": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
+      "summary": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
+      "url": "https://about.fb.com/news/2026/10/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-but-most-need-more-guidance/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-15T00:50:50.000Z",
+      "contentHash": "6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8",
+      "translationStatus": "ok"
+    },
+    {
       "id": "0c78145ed9f3ed658f86dcb6",
       "title": "Sullivan & Cromwell 将法律专业知识融入协议审查",
       "summary": "Sullivan & Cromwell 与 OpenAI 合作开发 Agreement Analyzer，使用 AI 识别协议草案中的问题。",
@@ -410,6 +568,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "c80cccaa5c2360a5cbe15874",
+      "title": "OpenAI Codex 版本 0.163.0-α.10.1",
+      "summary": "版本 0.163.0-α.10.1已发布。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T20:55:38.000Z",
+      "contentHash": "19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "01b163991f0f81389e00c4e3",
+      "title": "Claude Code v2.1.300",
+      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir pr",
+      "originalTitle": "Claude Code v2.1.300",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T18:24:25.000Z",
+      "contentHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
+      "translationStatus": "failed"
+    },
+    {
       "id": "1904ca1c2799eb5e2880361c",
       "title": "使用 Amazon Bedrock AgentCore 构建能够自我改进的文档处理系统",
       "summary": "本文介绍如何使用 Amazon Bedrock AgentCore 构建智能体式智能文档处理（IDP）系统，对业务文档进行分类、提取、校验和学习。系统尽量减少人工介入，可自动处理新格式，无需手动配置模板。",
@@ -439,6 +629,54 @@
       },
       "publishedAt": "2026-10-14T16:12:42.000Z",
       "contentHash": "d0ed3bc13d23e8526a873f69d887ba23d070b5e5e5529c30e40c5599152ee950",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "09041486b9fb6e73aa614e72",
+      "title": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
+      "summary": "Today, Meta, Pinacoteca di Brera and EssilorLuxottica are proud to launch “Sensing Art &#8211; Discovering Masterpieces Beyond What Meets the Eye.” This pilot aims to explore how AI glasses can make art more accessible for people who are blind or with low vision &#8211; in collaboration with the some of Italy’s leading sight loss charities &#8211; the Associazione Nazionale Subvedenti (ANS), the Unione Italiana dei C",
+      "originalTitle": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
+      "url": "https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-14T16:00:57.000Z",
+      "contentHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "a7b346710113fb3a18f9ef7c",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "summary": "Release 0.163.0-alpha.13",
+      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T14:46:39.000Z",
+      "contentHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "70dd1c878fb1a866d3b5fa69",
+      "title": "现在你可以邀请任何人参加WhatsApp通话了",
+      "summary": "现在，你可以邀请任何人参加WhatsApp通话，无论他们是否拥有WhatsApp账户。因此，你无需担心对方使用的应用程序。该帖子“Now You Can Invite Anyone to a WhatsApp Call”出现在Meta新闻稿中。",
+      "originalTitle": "Now You Can Invite Anyone to a WhatsApp Call",
+      "url": "https://about.fb.com/news/2026/10/introducing-whatsapp-guest-calling/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-14T14:24:37.000Z",
+      "contentHash": "b7bcb5977f6722194fac3c8fe27684d721b7cb9fbdabe334471893f69ef13d46",
       "translationStatus": "ok"
     },
     {
@@ -522,6 +760,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "c2700ed987ac334d7d880d5f",
+      "title": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
+      "summary": "Today the curtains came down on the Edits Film Festival in Mumbai, in the presence of filmmaker Farah Khan, festival judges Ahsaas Channa, Dolly Singh, Nikhil Taneja and Rajeev Masand and over 100 content creators in the audience. The post Farah Khan at Edits Film Festival: &#8220;Content breakthroughs come from spontaneity, relatability and realness&#8221; appeared first on Meta Newsroom .",
+      "originalTitle": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
+      "url": "https://about.fb.com/news/2026/10/farah-khan-at-edits-film-festival-content-breakthroughs-come-from-spontaneity-relatability-and-realness/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-14T11:39:32.000Z",
+      "contentHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "e449b88d5efbdd54bdf0f41b",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "summary": "Release 0.163.0-alpha.12",
+      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T09:38:13.000Z",
+      "contentHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
+      "translationStatus": "failed"
+    },
+    {
       "id": "4797be284c500a50c3088aeb",
       "title": "Block 如何利用 OpenAI 技术构建 AI 安全能力",
       "summary": "Block 正与 OpenAI 合作构建 AI 安全能力。其安全团队能够更快调查威胁，并在数分钟内提出补丁方案。",
@@ -586,6 +856,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "7da5b2124d104561d4e9beff",
+      "title": "OpenAI Codex 版本 0.163.0-α.11",
+      "summary": "版本 0.163.0-α.11",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T03:34:27.000Z",
+      "contentHash": "0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "7dc27ad74482bad0f719feef",
+      "title": "Claude Code v2.1.299",
+      "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change",
+      "originalTitle": "Claude Code v2.1.299",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-14T02:49:42.000Z",
+      "contentHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
+      "translationStatus": "failed"
+    },
+    {
       "id": "6b7d3b9ec448a14700480094",
       "title": "Google DeepMind 与新加坡政府合作，构建用于诈骗检测的微调 AI 模型",
       "summary": "了解 Google DeepMind 与新加坡 GovTech 如何利用轻量级端侧 Gemma 模型，拦截私人聊天中的对话式诈骗，且不向云端传出数据。",
@@ -647,6 +949,22 @@
       },
       "publishedAt": "2026-10-13T19:43:07.000Z",
       "contentHash": "50797368c42ba1274acd8b4b21d8846cfc1013b837a5e78a93a41887a8776a0f",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "2bb66388cf474a5969d4b6e6",
+      "title": "OpenAI Codex 版本 0.163.0-α.10",
+      "summary": "版本 0.163.0-alpha.10",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-13T19:12:24.000Z",
+      "contentHash": "ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab",
       "translationStatus": "ok"
     },
     {
@@ -730,6 +1048,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "cc869e29f43cb735c6102731",
+      "title": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
+      "summary": "We’re introducing new AI-powered tools that help you shape what you see in Feed and Reels by telling us what you’re interested in, in your own words. The post Your Algorithm, Your Words: New Ways to Shape What You See on Facebook appeared first on Meta Newsroom .",
+      "originalTitle": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
+      "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-13T16:00:29.000Z",
+      "contentHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
+      "translationStatus": "failed"
+    },
+    {
       "id": "c51fb173fad0a9b19c6b38f1",
       "title": "Gemini 4 Argon：为解决你最棘手的问题而打造",
       "summary": "我们正向开发者、企业、科学家及消费者开放最新前沿模型 Gemini 4 Argon。",
@@ -792,6 +1126,38 @@
       "publishedAt": "2026-10-13T15:17:09.000Z",
       "contentHash": "94b1bcbdf8bd30845ca6fe101a9600fa472a78f57615fc1af74453e3cfaa10c8",
       "translationStatus": "ok"
+    },
+    {
+      "id": "56efbf5108d50d07bd50b106",
+      "title": "宣布Edits电影节的官方入选影片",
+      "summary": "宣布了Edits电影节在本周进行的Mumbai官方选片。该帖子首发于Meta新闻室。",
+      "originalTitle": "Announcing the Official Selection for the Edits Film Festival",
+      "url": "https://about.fb.com/news/2026/10/announcing-the-official-selection-for-the-edits-film-festival/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-13T14:53:15.000Z",
+      "contentHash": "5a4a49a6e5b0224782d777bf0a2d18078e40de2add73881cf512a4e165fc2d15",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "baf7104295a2fcc3f911c7f9",
+      "title": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
+      "summary": "Meta and 14 other tech companies joined law enforcement from ten countries to disrupt scam networks operating in West Africa in the largest operation of its kind to date. The post Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks appeared first on Meta Newsroom .",
+      "originalTitle": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
+      "url": "https://about.fb.com/news/2026/10/meta-tech-companies-law-enforcement-crackdown-global-scam-networks/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-13T14:00:42.000Z",
+      "contentHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
+      "translationStatus": "pending"
     },
     {
       "id": "49297e6402035f005487c1fc",
@@ -858,6 +1224,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "188c49a098bdefe5c9bee89b",
+      "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+      "originalTitle": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-12T17:08:05.000Z",
+      "contentHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
+      "translationStatus": "pending"
+    },
+    {
       "id": "fd543b5cf06f283201fd9956",
       "title": "模拟学生学习，改进 AI 辅导",
       "summary": "StudentSim 是一个研究系统，用于在 AI 辅导工具接受真实学习者测试前，对其进行评估和改进。它模拟个人可能如何与辅导工具互动，提供反馈，以改善国际象棋、写作及数学等学科的辅导表现。本文《模拟学生学习，改进 AI 辅导》最初发表于 Microsoft Research。",
@@ -904,6 +1286,22 @@
       "publishedAt": "2026-10-12T15:50:14.000Z",
       "contentHash": "2f1e611bb59925ef1d01d63b544977f808c3fb967d3e12c15cbcc4296d7910af",
       "translationStatus": "ok"
+    },
+    {
+      "id": "8b457de188b9a591d277cfd8",
+      "title": "Claude Code v2.1.296",
+      "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workf",
+      "originalTitle": "Claude Code v2.1.296",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-09T19:28:59.000Z",
+      "contentHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713",
+      "translationStatus": "pending"
     },
     {
       "id": "7e2400f6a791f9f375440a02",
@@ -970,6 +1368,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "8858b92b79671e37d470a6c5",
+      "title": "Claude Code v2.1.295",
+      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Add",
+      "originalTitle": "Claude Code v2.1.295",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-08T19:48:38.000Z",
+      "contentHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d",
+      "translationStatus": "pending"
+    },
+    {
       "id": "9db7bb821207b37bc0f8e5c4",
       "title": "AI 智能体按次支付推理费用：BlockRun 与 Incarna 如何使用 Amazon Bedrock AgentCore payments",
       "summary": "Amazon Bedrock AgentCore payments 为 AI 智能体提供托管的按需服务付款方式，并由基础设施强制执行支出上限。了解 Incarna 的智能体如何通过 x402，逐次请求向 BlockRun 支付模型推理费用，将添加 x402 支付支持所需的工作从数月缩短至数天。",
@@ -984,6 +1398,22 @@
       "publishedAt": "2026-10-08T18:33:29.000Z",
       "contentHash": "aa682c665ed1062ab5bb9534ad0f6cfc495fe056287f3a1957399075e2953082",
       "translationStatus": "ok"
+    },
+    {
+      "id": "bed07c71f47773345667ee07",
+      "title": "Debunking the Biggest Data Center Myths",
+      "summary": "Developer and content creator Tom Shaw breaks down three of the biggest myths about data centers. The post Debunking the Biggest Data Center Myths appeared first on Meta Newsroom .",
+      "originalTitle": "Debunking the Biggest Data Center Myths",
+      "url": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-08T16:53:24.000Z",
+      "contentHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11",
+      "translationStatus": "pending"
     },
     {
       "id": "5cf5eb9da44fc021d7eccd2b",
@@ -1034,6 +1464,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "2e2b90621d3e6ea567d0fad6",
+      "title": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "summary": "Meta donates 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations to help persons with disabilities. The post Meta Donates 1,000 AI Glasses to Singapore&#8217;s Disability Community appeared first on Meta Newsroom .",
+      "originalTitle": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "url": "https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-08T05:49:36.000Z",
+      "contentHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "a24a4cc37e52401225041c8e",
+      "title": "Claude Code v2.1.294",
+      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "originalTitle": "Claude Code v2.1.294",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-08T05:03:54.000Z",
+      "contentHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
+      "translationStatus": "pending"
+    },
+    {
       "id": "1e3bbcebd0598f4ff4aa1d68",
       "title": "打击借助 AI 的“伪装门面”行动",
       "summary": "OpenAI 阻止了两项借助 AI 的影响力行动。这些行动利用充当伪装门面的记者和智库，传播地缘政治信息。",
@@ -1080,6 +1542,22 @@
       "publishedAt": "2026-10-07T18:45:28.000Z",
       "contentHash": "e77ac5634a33b0e548ea86149d602d7e9bd892d6ab2a8619198ee78395c5608e",
       "translationStatus": "ok"
+    },
+    {
+      "id": "56f8e09b1b593e92ddb53d2b",
+      "title": "Claude Code v2.1.293",
+      "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed",
+      "originalTitle": "Claude Code v2.1.293",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-07T18:10:20.000Z",
+      "contentHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
+      "translationStatus": "pending"
     },
     {
       "id": "9c6864cb3e2bcbe241f6cf86",
@@ -1194,6 +1672,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "a87e67ae638cd2790112d10d",
+      "title": "Claude Code v2.1.292",
+      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff whe",
+      "originalTitle": "Claude Code v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-06T18:59:30.000Z",
+      "contentHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
+      "translationStatus": "pending"
+    },
+    {
       "id": "b67caddda941eca8e4af9737",
       "title": "AI 会犯哪些错误，失败又能教会我们什么",
       "summary": "Jennifer Neville 原本不想从事计算机科学，但最终恰恰进入了这个领域。Neville 谈到了让她找到理想职业方向的曲折经历，以及她识别“令人意外的失败”的研究；这些失败使 AI 难以应对复杂性。本文《AI 会犯哪些错误，失败又能教会我们什么》最初发表于 Microsoft Research。",
@@ -1288,6 +1782,22 @@
       "publishedAt": "2026-10-06T10:00:00.000Z",
       "contentHash": "eaa5f2c9dc509e06c013939a4e30f592b01a6e75ddda85b5add949a904a2b538",
       "translationStatus": "ok"
+    },
+    {
+      "id": "9a0e13f6aeb57310be49a1bb",
+      "title": "Claude Code v2.1.291",
+      "summary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+      "originalTitle": "Claude Code v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-06T03:55:19.000Z",
+      "contentHash": "9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31",
+      "translationStatus": "pending"
     },
     {
       "id": "73a5ab1d5ced37596d03c667",
@@ -1546,6 +2056,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "ab874f2715592a8e658298fba837caa45015f0be99970f235e100922aefa2513",
-  "compiledAt": "2026-10-17T13:43:48.832Z"
+  "contentHash": "911d92080d87b97431c40a151b29df92a81e21cc2736d80865759fbf2bbdff63",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

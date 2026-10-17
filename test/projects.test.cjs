@@ -16,8 +16,8 @@ function mock({failId=null,tag='v1',licenseChange=false}={}){return async url=>{
  return new Response(JSON.stringify(value),{status:200});
 };}
 test('fixed official watchlist is Chinese, contains four priorities, and never implies model execution',async()=>{
- const data=await collectProjects({now:NOW,fetchImpl:mock()});assert.equal(data.status,'ok');assert.equal(data.projects.length,12);validateProjects(data);
- assert.deepEqual([...new Set(data.projects.map(r=>r.categoryZh))],['三维到交互成品','网站优化','脚本到视频','办公自动化']);
+ const data=await collectProjects({now:NOW,fetchImpl:mock()});assert.equal(data.status,'ok');assert.equal(data.projects.length,14);validateProjects(data);
+ assert.deepEqual([...new Set(data.projects.map(r=>r.categoryZh))],['重点AI产品','三维到交互成品','网站优化','脚本到视频','办公自动化']);
  // Synthetic fixture license bodies do not match the real reviewed SHA and must never appear reviewed.
  assert.ok(data.projects.every(r=>r.license.isOpenSource===null));
  assert.match(data.costNoteZh,/不触发/);assert.equal(data.changes.length,0);
@@ -33,17 +33,17 @@ test('partial repository failure preserves previous data and success timestamps 
 });
 test('all source failure retains previous stable snapshot content and marks stale',async()=>{
  const before=await collectProjects({now:NOW,fetchImpl:mock()}),after=await collectProjects({now:'2026-10-17T15:00:00.000Z',previous:before,fetchImpl:async()=>{throw Error('offline');}});
- assert.equal(after.status,'stale');assert.equal(after.lastSuccessAt,NOW);assert.equal(after.projects.length,12);assert.ok(after.projects.every(r=>r.latestRelease.tag==='v1'));
+ assert.equal(after.status,'stale');assert.equal(after.lastSuccessAt,NOW);assert.equal(after.projects.length,14);assert.ok(after.projects.every(r=>r.latestRelease.tag==='v1'));
 });
 test('only actual previous comparison creates release and license change records; unchanged polls do not duplicate',async()=>{
  const first=await collectProjects({now:NOW,fetchImpl:mock()}),second=await collectProjects({now:'2026-10-17T15:00:00.000Z',previous:first,fetchImpl:mock({tag:'v2',licenseChange:true})});
- assert.equal(second.changes.filter(r=>r.type==='release').length,12);assert.equal(second.changes.filter(r=>r.type==='license').length,12);
+ assert.equal(second.changes.filter(r=>r.type==='release').length,14);assert.equal(second.changes.filter(r=>r.type==='license').length,14);
  const third=await collectProjects({now:'2026-10-17T16:00:00.000Z',previous:second,fetchImpl:mock({tag:'v2',licenseChange:true})});assert.equal(third.changes.length,second.changes.length);assert.ok(third.projects.every(r=>r.changes.length===0));
 });
 test('arbitrary endpoints, identity redirects, huge bodies, and wrong returned repository are rejected',async()=>{
  await assert.rejects(()=>getJson('https://example.com'),/fixed watchlist/);
  await assert.rejects(()=>getJson('https://api.github.com/repos/'+WATCHLIST[0].id,{fetchImpl:async()=>({ok:true,status:200,url:'https://example.com',headers:new Headers()})}),/redirect/);
- await assert.rejects(()=>getJson('https://api.github.com/repos/'+WATCHLIST[0].id,{fetchImpl:async()=>new Response('x'.repeat(600000),{status:200})}),/limit/);
+ await assert.rejects(()=>getJson('https://api.github.com/repos/'+WATCHLIST[0].id,{fetchImpl:async()=>new Response('x'.repeat(3000000),{status:200})}),/limit/);
  const data=await collectProjects({now:NOW,fetchImpl:async()=>new Response(JSON.stringify({full_name:'other/repo'}),{status:200})});assert.equal(data.status,'unavailable');
 });
 test('validator rejects arbitrary projects and release links',async()=>{

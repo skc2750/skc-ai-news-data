@@ -12,10 +12,10 @@ function translated(a){return {titleZh:'OpenAI 发布新模型',summaryZh:'官�
 function empty(){return {articles:[],sources:[],reports:new Map(),cache:{entries:{}},monitoringSince:null,current:null,manifest:null};}
 function collected(rows){return {articles:rows,sources:[{id:'openai',status:'ok',articleCount:rows.length,articleIds:rows.map(a=>a.id),lastSuccessAt:NOW}],status:'partial',lastSuccessAt:NOW};}
 function temp(t){const root=fs.mkdtempSync(path.join(os.tmpdir(),'skc-ainews-test-'));t.after(()=>{const verified=path.resolve(root);assert.ok(verified.startsWith(path.resolve(os.tmpdir(),'skc-ainews-test-')));fs.rmSync(verified,{recursive:true,force:true});});return root;}
-function rss(source){return `<rss version="2.0"><channel><title>Test</title><item><title>Model update</title><link>${source.url.replace(/\/$/,'')}/test-entry</link><description>Engineering news.</description><pubDate>Fri, 16 Oct 2026 08:00:00 GMT</pubDate></item></channel></rss>`;}
+function rss(source){return `<rss version="2.0"><channel><title>Test</title><item><title>Model update</title><link>${source.pathPrefix?'https://github.com'+source.pathPrefix+'test-entry':source.url.replace(/\/$/,'')+'/test-entry'}</link><description>Engineering news.</description><pubDate>Fri, 16 Oct 2026 08:00:00 GMT</pubDate></item></channel></rss>`;}
 
-test('only seven news feeds; no auxiliary endpoints or arbitrary redirect target',async()=>{
-  assert.equal(SOURCES.length,7);
+test('fixed seven platform feeds plus product releases and Meta corporate news; no arbitrary redirect target',async()=>{
+  assert.equal(SOURCES.length,10);
   assert.throws(()=>parseFeed('<!DOCTYPE rss [<!ENTITY x "bad">]><rss/>',SOURCES[0],NOW),/DTD/);
   await assert.rejects(()=>fetchFeed({...SOURCES[0],feedUrl:'https://example.com/rss'},{fetchImpl:()=>{throw Error('must not fetch');}}),/fixed registry/);
   await assert.rejects(()=>fetchFeed(SOURCES[0],{fetchImpl:async()=>({ok:true,url:'https://example.com/rss',headers:new Headers()})}),/redirect/);

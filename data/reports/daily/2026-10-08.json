@@ -11,13 +11,16 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 6,
+  "articleCount": 9,
   "articleIds": [
     "69dee1e209ce825b3c5eb5a2",
     "ed7bea17e150a82889401cb8",
+    "2e2b90621d3e6ea567d0fad6",
+    "a24a4cc37e52401225041c8e",
     "1e3bbcebd0598f4ff4aa1d68",
     "6c87aa6d64973ff45d265bd4",
     "9aef4e0f354f1a886c884761",
+    "56f8e09b1b593e92ddb53d2b",
     "9c6864cb3e2bcbe241f6cf86"
   ],
   "items": [
@@ -52,6 +55,38 @@
       "publishedAt": "2026-10-08T12:00:00.000Z",
       "contentHash": "ffd4df2f5254b500c83b221c9a16f61b061835e69659e8f1570ef9edbb31ae6c",
       "translationStatus": "ok"
+    },
+    {
+      "id": "2e2b90621d3e6ea567d0fad6",
+      "title": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "summary": "Meta donates 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations to help persons with disabilities. The post Meta Donates 1,000 AI Glasses to Singapore&#8217;s Disability Community appeared first on Meta Newsroom .",
+      "originalTitle": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "url": "https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-08T05:49:36.000Z",
+      "contentHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "a24a4cc37e52401225041c8e",
+      "title": "Claude Code v2.1.294",
+      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "originalTitle": "Claude Code v2.1.294",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-08T05:03:54.000Z",
+      "contentHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
+      "translationStatus": "pending"
     },
     {
       "id": "1e3bbcebd0598f4ff4aa1d68",
@@ -102,6 +137,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "56f8e09b1b593e92ddb53d2b",
+      "title": "Claude Code v2.1.293",
+      "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed",
+      "originalTitle": "Claude Code v2.1.293",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-07T18:10:20.000Z",
+      "contentHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
+      "translationStatus": "pending"
+    },
+    {
       "id": "9c6864cb3e2bcbe241f6cf86",
       "title": "Agent Lightning v1.0：3,500 行代码的轻量智能体强化学习框架，支持在真实运行框架中训练智能体",
       "summary": "使用强化学习训练 AI 智能体可能很有挑战，因为它们的工具、上下文及决策由复杂框架管理。Agent Lightning 将现有智能体接入强化学习训练，让改进智能体变得更容易，无需重新构建。本文《Agent Lightning v1.0：3,500 行代码的轻量智能体强化学习框架，支持在真实运行框架中训练智能体》最初发表于 Microsoft Research。",
@@ -118,6 +169,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "a3b353baae183af8198d3179d0e86c3d809ba42eae1ee5e6b002884cd9912f28",
-  "compiledAt": "2026-10-17T09:15:06.995Z"
+  "contentHash": "b8965a9c6ab5f9b55100bc32bcf8498e360fe490a3cb384855e9939c56bdc022",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

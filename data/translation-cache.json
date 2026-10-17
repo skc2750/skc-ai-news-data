@@ -3504,6 +3504,182 @@
       },
       "originalTitle": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
       "originalSummary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#"
+    },
+    "1266f92abcd73b7cf3e23c71:d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c": {
+      "titleZh": "OpenAI Codex 版本 0.164.0-α.3",
+      "summaryZh": "版本 0.164.0-α.3",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.3",
+      "originalSummary": "Release 0.164.0-alpha.3"
+    },
+    "698dc682c93c792d65f9d9e1:2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124": {
+      "titleZh": "OpenAI Codex 版本 0.164.0-α.2",
+      "summaryZh": "版本 0.164.0-alpha.2",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.2",
+      "originalSummary": "Release 0.164.0-alpha.2"
+    },
+    "b9665ee028a870b8eb120785:b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f": {
+      "titleZh": "OpenAI Codex 版本 0.164.0-α.1",
+      "summaryZh": "版本 0.164.0-alpha.1",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
+      "originalSummary": "Release 0.164.0-alpha.1"
+    },
+    "1f6701ad725c5fdae43a4a24:20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553": {
+      "titleZh": "OpenAI Codex 0.163.0",
+      "summaryZh": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.163.0",
+      "originalSummary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay op"
+    },
+    "ac5010f8f5a7ee91a81f9a06:0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a": {
+      "titleZh": "OpenAI Codex 版本 0.163.0-α.10.2",
+      "summaryZh": "版本 0.163.0-α.10.2已发布。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
+      "originalSummary": "Release 0.163.0-alpha.10.2"
+    },
+    "2caae29cfb2b1811a61ab8ea:6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8": {
+      "titleZh": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
+      "summaryZh": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
+      "originalSummary": "New Meta research across nine APAC markets shows how AI is helping small businesses grow, compete with larger rivals and reach customers across borders. The post More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance appeared first on Meta Newsroom ."
+    },
+    "c80cccaa5c2360a5cbe15874:19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1": {
+      "titleZh": "OpenAI Codex 版本 0.163.0-α.10.1",
+      "summaryZh": "版本 0.163.0-α.10.1已发布。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
+      "originalSummary": "Release 0.163.0-alpha.10.1"
+    },
+    "70dd1c878fb1a866d3b5fa69:b7bcb5977f6722194fac3c8fe27684d721b7cb9fbdabe334471893f69ef13d46": {
+      "titleZh": "现在你可以邀请任何人参加WhatsApp通话了",
+      "summaryZh": "现在，你可以邀请任何人参加WhatsApp通话，无论他们是否拥有WhatsApp账户。因此，你无需担心对方使用的应用程序。该帖子“Now You Can Invite Anyone to a WhatsApp Call”出现在Meta新闻稿中。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b7bcb5977f6722194fac3c8fe27684d721b7cb9fbdabe334471893f69ef13d46",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "Now You Can Invite Anyone to a WhatsApp Call",
+      "originalSummary": "You can now invite anyone to a WhatsApp call, even if they don’t have a Whatsapp account, so you can connect with people without worrying what apps they have. The post Now You Can Invite Anyone to a WhatsApp Call appeared first on Meta Newsroom ."
+    },
+    "7da5b2124d104561d4e9beff:0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614": {
+      "titleZh": "OpenAI Codex 版本 0.163.0-α.11",
+      "summaryZh": "版本 0.163.0-α.11",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
+      "originalSummary": "Release 0.163.0-alpha.11"
+    },
+    "2bb66388cf474a5969d4b6e6:ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab": {
+      "titleZh": "OpenAI Codex 版本 0.163.0-α.10",
+      "summaryZh": "版本 0.163.0-alpha.10",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
+      "originalSummary": "Release 0.163.0-alpha.10"
+    },
+    "56efbf5108d50d07bd50b106:5a4a49a6e5b0224782d777bf0a2d18078e40de2add73881cf512a4e165fc2d15": {
+      "titleZh": "宣布Edits电影节的官方入选影片",
+      "summaryZh": "宣布了Edits电影节在本周进行的Mumbai官方选片。该帖子首发于Meta新闻室。",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "5a4a49a6e5b0224782d777bf0a2d18078e40de2add73881cf512a4e165fc2d15",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:34:59.473Z"
+      },
+      "originalTitle": "Announcing the Official Selection for the Edits Film Festival",
+      "originalSummary": "Announcing the Official Selection for the Edits Film Festival happening in Mumbai this week. The post Announcing the Official Selection for the Edits Film Festival appeared first on Meta Newsroom ."
     }
   }
 }

@@ -11,19 +11,25 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 27,
+  "articleCount": 35,
   "articleIds": [
+    "8b457de188b9a591d277cfd8",
     "7e2400f6a791f9f375440a02",
     "f0b86f5cb18b28c561142cbb",
     "1eb3663e8294faacd2b04622",
     "ac609b9f31e25f31c499443e",
+    "8858b92b79671e37d470a6c5",
     "9db7bb821207b37bc0f8e5c4",
+    "bed07c71f47773345667ee07",
     "5cf5eb9da44fc021d7eccd2b",
     "69dee1e209ce825b3c5eb5a2",
     "ed7bea17e150a82889401cb8",
+    "2e2b90621d3e6ea567d0fad6",
+    "a24a4cc37e52401225041c8e",
     "1e3bbcebd0598f4ff4aa1d68",
     "6c87aa6d64973ff45d265bd4",
     "9aef4e0f354f1a886c884761",
+    "56f8e09b1b593e92ddb53d2b",
     "9c6864cb3e2bcbe241f6cf86",
     "02f95a4124373db2015cd828",
     "3b00c9dae11f82a479b24f1e",
@@ -31,17 +37,35 @@
     "fb2a2e587d5460a607b178cc",
     "d4dcf2f9014761024c85ac52",
     "2de865185c69a3813d684e84",
+    "a87e67ae638cd2790112d10d",
     "b67caddda941eca8e4af9737",
     "a780e85e351703ee29da0462",
     "7fce2cb6ca46e19277f097fa",
     "39495ae3364ae55513528388",
     "fd879d0249e550c8f3f3ea67",
     "1ba96f0814583d964587215e",
+    "9a0e13f6aeb57310be49a1bb",
     "73a5ab1d5ced37596d03c667",
     "3ee405148e73ed5a240c34a1",
     "a6218267b47ebb44447a4204"
   ],
   "items": [
+    {
+      "id": "8b457de188b9a591d277cfd8",
+      "title": "Claude Code v2.1.296",
+      "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workf",
+      "originalTitle": "Claude Code v2.1.296",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-09T19:28:59.000Z",
+      "contentHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713",
+      "translationStatus": "pending"
+    },
     {
       "id": "7e2400f6a791f9f375440a02",
       "title": "本月回顾：2026 年 9 月面向 AI 开发者的新进展",
@@ -107,6 +131,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "8858b92b79671e37d470a6c5",
+      "title": "Claude Code v2.1.295",
+      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Add",
+      "originalTitle": "Claude Code v2.1.295",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-08T19:48:38.000Z",
+      "contentHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d",
+      "translationStatus": "pending"
+    },
+    {
       "id": "9db7bb821207b37bc0f8e5c4",
       "title": "AI 智能体按次支付推理费用：BlockRun 与 Incarna 如何使用 Amazon Bedrock AgentCore payments",
       "summary": "Amazon Bedrock AgentCore payments 为 AI 智能体提供托管的按需服务付款方式，并由基础设施强制执行支出上限。了解 Incarna 的智能体如何通过 x402，逐次请求向 BlockRun 支付模型推理费用，将添加 x402 支付支持所需的工作从数月缩短至数天。",
@@ -121,6 +161,22 @@
       "publishedAt": "2026-10-08T18:33:29.000Z",
       "contentHash": "aa682c665ed1062ab5bb9534ad0f6cfc495fe056287f3a1957399075e2953082",
       "translationStatus": "ok"
+    },
+    {
+      "id": "bed07c71f47773345667ee07",
+      "title": "Debunking the Biggest Data Center Myths",
+      "summary": "Developer and content creator Tom Shaw breaks down three of the biggest myths about data centers. The post Debunking the Biggest Data Center Myths appeared first on Meta Newsroom .",
+      "originalTitle": "Debunking the Biggest Data Center Myths",
+      "url": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-08T16:53:24.000Z",
+      "contentHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11",
+      "translationStatus": "pending"
     },
     {
       "id": "5cf5eb9da44fc021d7eccd2b",
@@ -171,6 +227,38 @@
       "translationStatus": "ok"
     },
     {
+      "id": "2e2b90621d3e6ea567d0fad6",
+      "title": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "summary": "Meta donates 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations to help persons with disabilities. The post Meta Donates 1,000 AI Glasses to Singapore&#8217;s Disability Community appeared first on Meta Newsroom .",
+      "originalTitle": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "url": "https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-08T05:49:36.000Z",
+      "contentHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
+      "translationStatus": "pending"
+    },
+    {
+      "id": "a24a4cc37e52401225041c8e",
+      "title": "Claude Code v2.1.294",
+      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "originalTitle": "Claude Code v2.1.294",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-08T05:03:54.000Z",
+      "contentHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
+      "translationStatus": "pending"
+    },
+    {
       "id": "1e3bbcebd0598f4ff4aa1d68",
       "title": "打击借助 AI 的“伪装门面”行动",
       "summary": "OpenAI 阻止了两项借助 AI 的影响力行动。这些行动利用充当伪装门面的记者和智库，传播地缘政治信息。",
@@ -217,6 +305,22 @@
       "publishedAt": "2026-10-07T18:45:28.000Z",
       "contentHash": "e77ac5634a33b0e548ea86149d602d7e9bd892d6ab2a8619198ee78395c5608e",
       "translationStatus": "ok"
+    },
+    {
+      "id": "56f8e09b1b593e92ddb53d2b",
+      "title": "Claude Code v2.1.293",
+      "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed",
+      "originalTitle": "Claude Code v2.1.293",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-07T18:10:20.000Z",
+      "contentHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
+      "translationStatus": "pending"
     },
     {
       "id": "9c6864cb3e2bcbe241f6cf86",
@@ -331,6 +435,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "a87e67ae638cd2790112d10d",
+      "title": "Claude Code v2.1.292",
+      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff whe",
+      "originalTitle": "Claude Code v2.1.292",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-06T18:59:30.000Z",
+      "contentHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
+      "translationStatus": "pending"
+    },
+    {
       "id": "b67caddda941eca8e4af9737",
       "title": "AI 会犯哪些错误，失败又能教会我们什么",
       "summary": "Jennifer Neville 原本不想从事计算机科学，但最终恰恰进入了这个领域。Neville 谈到了让她找到理想职业方向的曲折经历，以及她识别“令人意外的失败”的研究；这些失败使 AI 难以应对复杂性。本文《AI 会犯哪些错误，失败又能教会我们什么》最初发表于 Microsoft Research。",
@@ -427,6 +547,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "9a0e13f6aeb57310be49a1bb",
+      "title": "Claude Code v2.1.291",
+      "summary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+      "originalTitle": "Claude Code v2.1.291",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-06T03:55:19.000Z",
+      "contentHash": "9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31",
+      "translationStatus": "pending"
+    },
+    {
       "id": "73a5ab1d5ced37596d03c667",
       "title": "我们应对欧盟文本来源规则的方法",
       "summary": "介绍 OpenAI 如何依据欧盟规则推进文本水印。了解水印适用的范围、检测的工作方式，以及为何先向研究人员开放访问。",
@@ -475,6 +611,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "20d7ff4b1c0f16b09cd7ad62b87f83be9e8359043c8b13b20051ca9a7f8c3495",
-  "compiledAt": "2026-10-17T09:15:06.995Z"
+  "contentHash": "73dd1a1cd694c222dbfee8d9d6f9d696f607fa3dba7a9678c5d41d5ea3634d25",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }

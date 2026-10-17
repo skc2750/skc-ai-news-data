@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "daily:2026-10-10",
+  "kind": "daily",
+  "period": "2026-10-10",
+  "title": "2026-10-10 每日资讯汇编",
+  "startAt": "2026-10-09T16:00:00.000Z",
+  "endAt": "2026-10-10T16:00:00.000Z",
+  "periodState": "closed",
+  "partial": true,
+  "retroactive": true,
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
+  "method": "source_link_roundup",
+  "articleCount": 1,
+  "articleIds": [
+    "8b457de188b9a591d277cfd8"
+  ],
+  "items": [
+    {
+      "id": "8b457de188b9a591d277cfd8",
+      "title": "Claude Code v2.1.296",
+      "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workf",
+      "originalTitle": "Claude Code v2.1.296",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-09T19:28:59.000Z",
+      "contentHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713",
+      "translationStatus": "pending"
+    }
+  ],
+  "contentHash": "e7b4b9d297ac8d756d25b1adde530de591cd9ad2cc2106f6c1ea70d7936b4819",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
+}

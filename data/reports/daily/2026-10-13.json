@@ -11,15 +11,18 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 8,
+  "articleCount": 11,
   "articleIds": [
     "6c4bdc44985ec22acd3b26bf",
     "e2518036c8a34a40984d644c",
     "c123614c54143f15f75895aa",
+    "56efbf5108d50d07bd50b106",
+    "baf7104295a2fcc3f911c7f9",
     "49297e6402035f005487c1fc",
     "f363d75cdb3b86888658d398",
     "cd846c89c85b6b768fea72ef",
     "4c7df3728a9bc12840a54743",
+    "188c49a098bdefe5c9bee89b",
     "fd543b5cf06f283201fd9956"
   ],
   "items": [
@@ -70,6 +73,38 @@
       "publishedAt": "2026-10-13T15:17:09.000Z",
       "contentHash": "94b1bcbdf8bd30845ca6fe101a9600fa472a78f57615fc1af74453e3cfaa10c8",
       "translationStatus": "ok"
+    },
+    {
+      "id": "56efbf5108d50d07bd50b106",
+      "title": "宣布Edits电影节的官方入选影片",
+      "summary": "宣布了Edits电影节在本周进行的Mumbai官方选片。该帖子首发于Meta新闻室。",
+      "originalTitle": "Announcing the Official Selection for the Edits Film Festival",
+      "url": "https://about.fb.com/news/2026/10/announcing-the-official-selection-for-the-edits-film-festival/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-13T14:53:15.000Z",
+      "contentHash": "5a4a49a6e5b0224782d777bf0a2d18078e40de2add73881cf512a4e165fc2d15",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "baf7104295a2fcc3f911c7f9",
+      "title": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
+      "summary": "Meta and 14 other tech companies joined law enforcement from ten countries to disrupt scam networks operating in West Africa in the largest operation of its kind to date. The post Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks appeared first on Meta Newsroom .",
+      "originalTitle": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
+      "url": "https://about.fb.com/news/2026/10/meta-tech-companies-law-enforcement-crackdown-global-scam-networks/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-13T14:00:42.000Z",
+      "contentHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
+      "translationStatus": "pending"
     },
     {
       "id": "49297e6402035f005487c1fc",
@@ -136,6 +171,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "188c49a098bdefe5c9bee89b",
+      "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+      "originalTitle": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "source": {
+        "id": "meta-news",
+        "name": "Meta 公司新闻",
+        "url": "https://about.fb.com/news/",
+        "kind": "公司官方新闻（非研究完整覆盖）"
+      },
+      "publishedAt": "2026-10-12T17:08:05.000Z",
+      "contentHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
+      "translationStatus": "pending"
+    },
+    {
       "id": "fd543b5cf06f283201fd9956",
       "title": "模拟学生学习，改进 AI 辅导",
       "summary": "StudentSim 是一个研究系统，用于在 AI 辅导工具接受真实学习者测试前，对其进行评估和改进。它模拟个人可能如何与辅导工具互动，提供反馈，以改善国际象棋、写作及数学等学科的辅导表现。本文《模拟学生学习，改进 AI 辅导》最初发表于 Microsoft Research。",
@@ -152,6 +203,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "5e1f03f21ba074ff449b6814e7f906e9112a4a2635fefea96467e7301cde2703",
-  "compiledAt": "2026-10-17T09:15:06.995Z"
+  "contentHash": "0caf360698f7510153b5b632030a81ebbd7782ef1f1d9add3e008c322618b631",
+  "compiledAt": "2026-10-17T14:34:59.473Z"
 }
