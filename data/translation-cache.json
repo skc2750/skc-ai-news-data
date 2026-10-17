@@ -3506,116 +3506,109 @@
       "originalSummary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#"
     },
     "1266f92abcd73b7cf3e23c71:d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c": {
-      "titleZh": "OpenAI Codex 版本 0.164.0-α.3",
-      "summaryZh": "版本 0.164.0-α.3",
+      "titleZh": "OpenAI Codex 0.164.0-alpha.3（Alpha 预览版）",
+      "summaryZh": "发布 0.164.0-alpha.3（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.3",
+      "originalSummary": "Release 0.164.0-alpha.3",
       "translation": {
         "status": "ok",
         "sourceHash": "d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.3",
-      "originalSummary": "Release 0.164.0-alpha.3"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "698dc682c93c792d65f9d9e1:2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124": {
-      "titleZh": "OpenAI Codex 版本 0.164.0-α.2",
-      "summaryZh": "版本 0.164.0-alpha.2",
+      "titleZh": "OpenAI Codex 0.164.0-alpha.2（Alpha 预览版）",
+      "summaryZh": "发布 0.164.0-alpha.2（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.2",
+      "originalSummary": "Release 0.164.0-alpha.2",
       "translation": {
         "status": "ok",
         "sourceHash": "2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.2",
-      "originalSummary": "Release 0.164.0-alpha.2"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "b9665ee028a870b8eb120785:b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f": {
-      "titleZh": "OpenAI Codex 版本 0.164.0-α.1",
-      "summaryZh": "版本 0.164.0-alpha.1",
+      "titleZh": "OpenAI Codex 0.164.0-alpha.1（Alpha 预览版）",
+      "summaryZh": "发布 0.164.0-alpha.1（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
+      "originalSummary": "Release 0.164.0-alpha.1",
       "translation": {
         "status": "ok",
         "sourceHash": "b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
-      "originalSummary": "Release 0.164.0-alpha.1"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "1f6701ad725c5fdae43a4a24:20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553": {
-      "titleZh": "OpenAI Codex 0.163.0",
-      "summaryZh": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
+      "titleZh": "OpenAI Codex 0.163.0 版本发布",
+      "summaryZh": "新功能：打开 /config，可跨类别搜索偏好设置、立即修改受支持的设置，并查看哪些改动需要重启（#52990、#53429）。在 Codex 响应时发送后续消息，可立即调整任务方向；中断当前轮次也会停止正在运行的 Code Mode 单元及其嵌套工具调用（#51812、#51835）。可在 /keymap 配置前导键，默认为 Ctrl+X；快捷键提示部分的后续原文已在来源摘要中截断。",
+      "originalTitle": "OpenAI Codex 0.163.0",
+      "originalSummary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay op",
       "translation": {
         "status": "ok",
         "sourceHash": "20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.163.0",
-      "originalSummary": "New Features Open /config to search preferences across categories, change supported settings immediately, and see which changes require a restart. ( #52990 , #53429 ) Send a follow-up while Codex is responding to steer it immediately. Interrupting a turn also stops active Code Mode cells and their nested tool calls. ( #51812 , #51835 ) Configure a leader key in /keymap . The default is Ctrl+X , shortcut hints stay op"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "ac5010f8f5a7ee91a81f9a06:0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a": {
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.10.2",
-      "summaryZh": "版本 0.163.0-α.10.2已发布。",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.10.2（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.10.2（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
+      "originalSummary": "Release 0.163.0-alpha.10.2",
       "translation": {
         "status": "ok",
         "sourceHash": "0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
-      "originalSummary": "Release 0.163.0-alpha.10.2"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "2caae29cfb2b1811a61ab8ea:6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8": {
-      "titleZh": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
-      "summaryZh": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "titleZh": "逾四分之三小企业主称 AI 提高了生产力，但多数仍需更多指导",
+      "summaryZh": "Meta 对亚太地区九个市场开展的新研究显示，AI 正帮助小企业增长、与更大的竞争对手较量，并接触跨境客户。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
+      "originalSummary": "New Meta research across nine APAC markets shows how AI is helping small businesses grow, compete with larger rivals and reach customers across borders. The post More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance appeared first on Meta Newsroom .",
       "translation": {
         "status": "ok",
         "sourceHash": "6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
-      "originalSummary": "New Meta research across nine APAC markets shows how AI is helping small businesses grow, compete with larger rivals and reach customers across borders. The post More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance appeared first on Meta Newsroom ."
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "c80cccaa5c2360a5cbe15874:19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1": {
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.10.1",
-      "summaryZh": "版本 0.163.0-α.10.1已发布。",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.10.1（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.10.1（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
+      "originalSummary": "Release 0.163.0-alpha.10.1",
       "translation": {
         "status": "ok",
         "sourceHash": "19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
-      "originalSummary": "Release 0.163.0-alpha.10.1"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "70dd1c878fb1a866d3b5fa69:b7bcb5977f6722194fac3c8fe27684d721b7cb9fbdabe334471893f69ef13d46": {
       "titleZh": "现在你可以邀请任何人参加WhatsApp通话了",
@@ -3634,36 +3627,34 @@
       "originalSummary": "You can now invite anyone to a WhatsApp call, even if they don’t have a Whatsapp account, so you can connect with people without worrying what apps they have. The post Now You Can Invite Anyone to a WhatsApp Call appeared first on Meta Newsroom ."
     },
     "7da5b2124d104561d4e9beff:0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614": {
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.11",
-      "summaryZh": "版本 0.163.0-α.11",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.11（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.11（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
+      "originalSummary": "Release 0.163.0-alpha.11",
       "translation": {
         "status": "ok",
         "sourceHash": "0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
-      "originalSummary": "Release 0.163.0-alpha.11"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "2bb66388cf474a5969d4b6e6:ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab": {
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.10",
-      "summaryZh": "版本 0.163.0-alpha.10",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.10（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.10（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
+      "originalSummary": "Release 0.163.0-alpha.10",
       "translation": {
         "status": "ok",
         "sourceHash": "ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
-      },
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
-      "originalSummary": "Release 0.163.0-alpha.10"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     },
     "56efbf5108d50d07bd50b106:5a4a49a6e5b0224782d777bf0a2d18078e40de2add73881cf512a4e165fc2d15": {
       "titleZh": "宣布Edits电影节的官方入选影片",
@@ -3680,6 +3671,291 @@
       },
       "originalTitle": "Announcing the Official Selection for the Edits Film Festival",
       "originalSummary": "Announcing the Official Selection for the Edits Film Festival happening in Mumbai this week. The post Announcing the Official Selection for the Edits Film Festival appeared first on Meta Newsroom ."
+    },
+    "a7b346710113fb3a18f9ef7c:d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41": {
+      "titleZh": "OpenAI Codex rust-v0.163.0-alpha.13（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.13（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "originalSummary": "Release 0.163.0-alpha.13",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "e449b88d5efbdd54bdf0f41b:88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0": {
+      "titleZh": "OpenAI Codex rust-v0.163.0-alpha.12（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.12（Alpha 预览版）。",
+      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "originalSummary": "Release 0.163.0-alpha.12",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "1540794e1a6cdcd487e98db5:1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb": {
+      "titleZh": "Claude Code v2.1.302 版本更新",
+      "summaryZh": "更新内容：新增 CLAUDE_CODE_AUTO_MODE_MODEL，用于选择客户端自动模式分类器使用的模型，不改变服务端自动模式使用的模型。在 /config 新增 Idle compaction 项，可关闭或重新启用空闲压缩；压缩后的提示也会说明如何关闭。为 /design-sync 和 /design-login 添加了有关独立 Claude Design（claude.ai/design）的提示；后续原文已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.302",
+      "originalSummary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) c",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "886805fba48d1381d03b775f:f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318": {
+      "titleZh": "Claude Code v2.1.301 版本更新",
+      "summaryZh": "更新内容：新增 CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS，使无人值守重试模式（CLAUDE_CODE_RETRY_WATCHDOG）在遇到重置时间过远的用量限制时结束请求，而非一直等待。为 claude-api 技能补充 OpenTelemetry 链路追踪指南，包括通过 ant CLI 设置追踪目标。Vim 模式新增 % 动作，可跳到匹配括号，单独使用或配合 d/c/y。后续原文已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.301",
+      "originalSummary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "01b163991f0f81389e00c4e3:3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d": {
+      "titleZh": "Claude Code v2.1.300 版本更新",
+      "summaryZh": "更新内容：mod 的提示装饰新增 virtualText，文字显示在输入框内，但不会进入草稿或提交的提示。OpenTelemetry 的 api_request 事件新增 cache_creation_5m_tokens 和 cache_creation_1h_tokens，按缓存期限区分写入量。mod 新增 $.ui.view({ agentId })，可按请求在主视图展示某个智能体的记录；$.ui.view({}) 可返回原视图。后续原文已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.300",
+      "originalSummary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir pr",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "7dc27ad74482bad0f719feef:0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043": {
+      "titleZh": "Claude Code v2.1.299 版本更新",
+      "summaryZh": "更新内容：新增 CLAUDE_CODE_DISABLE_FILE_MENTIONS 环境变量；Claude 获得 @ 文件引用的路径，并通过文件工具读取，而非直接收到文件内容。终端新增空闲压缩：超过 200K token 的对话闲置约 54 分钟后，会在一小时提示缓存到期前压缩，避免下一条消息重新处理全部内容。新增 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 用于调整相关设置；具体后续说明已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.299",
+      "originalSummary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "8b457de188b9a591d277cfd8:5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713": {
+      "titleZh": "Claude Code v2.1.296 版本更新",
+      "summaryZh": "更新内容：Claude 应用网关的 managed.policies[] 新增 code 键，使用与 cli 相同的设置，并应用于 Claude Desktop 的 Code 标签页；与 desktop 配合，可开启 Claude Desktop 的网关模式。子智能体 frontmatter 和 --agents 定义新增 autoCompactWindow，允许子智能体比主对话更早自动压缩。另新增 CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL；其后续用途说明已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.296",
+      "originalSummary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's gateway mode Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main conversation's window Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workf",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "8858b92b79671e37d470a6c5:d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d": {
+      "titleZh": "Claude Code v2.1.295 版本更新",
+      "summaryZh": "更新内容：命令和 HTTP hook 新增 onFailure: \"block\"；hook 无法启动、超时或以意外退出码结束时，会阻止操作，而非放行。新增 Program Status Protocol（OSC 7501）支持，兼容终端可显示 Claude Code 正在工作、等待用户或已完成。/copy 选择器新增引用文本复制，复制草稿消息时可去除 > 标记。后续原文已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.295",
+      "originalSummary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Add",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "a24a4cc37e52401225041c8e:30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458": {
+      "titleZh": "Claude Code v2.1.294 版本更新",
+      "summaryZh": "更新内容：修复以指令形式编写的 prompt hook 和 agent hook（如“阻止……命令”）未能拦截应阻止操作的问题。改进对 Stop 和 SubagentStop 中指令式 prompt hook（如“如果构建失败就继续”）的判断，使 Claude 更不容易过早停止。",
+      "originalTitle": "Claude Code v2.1.294",
+      "originalSummary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "56f8e09b1b593e92ddb53d2b:156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09": {
+      "titleZh": "Claude Code v2.1.293 版本更新",
+      "summaryZh": "更新内容：新增 Claude Haiku 5.5（claude-haiku-5-5）；公告称其现为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为每百万 token $0.10/$0.50，提示超过 100K 时为 $0.50/$2.50。subagentStatusLine 载荷新增 agentType，使脚本可区分自定义子智能体类型。mod 的 $.tool.register 新增 isDeferred；设为 false 时，工具 schema 会从一开始列入提示，不必等待工具搜索。后续修复说明已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.293",
+      "originalSummary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:49:10.821Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "a87e67ae638cd2790112d10d:92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e": {
+      "titleZh": "Claude Code v2.1.292 版本更新",
+      "summaryZh": "更新内容：claude plugin install 新增 --marketplace；如有需要，先按 claude plugin marketplace add 相同策略检查并添加市场，再从中安装插件。Agent 工具新增 effort 参数，可按要求的推理强度运行子智能体。新增 CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS，用于设置更长的重试退避基础延迟；后续原文已在来源摘要中截断。",
+      "originalTitle": "Claude Code v2.1.292",
+      "originalSummary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff whe",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:49:10.821Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "9a0e13f6aeb57310be49a1bb:9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31": {
+      "titleZh": "Claude Code v2.1.291 版本更新",
+      "summaryZh": "更新内容：修复 2.1.290 引入的问题，云端会话可能丢失对权限提示的回答；修复 2.1.288 引入的问题，退出时可能丢失会话最后几条消息。",
+      "originalTitle": "Claude Code v2.1.291",
+      "originalSummary": "What's changed Fixed a regression in 2.1.290 where cloud sessions could drop answers to permission prompts Fixed a regression in 2.1.288 where the last messages of a session could be lost when quitting",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "09041486b9fb6e73aa614e72:b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266": {
+      "titleZh": "Meta、米兰布雷拉美术馆与 EssilorLuxottica 通过 AI 眼镜拓展艺术无障碍体验",
+      "summaryZh": "Meta、Pinacoteca di Brera 和 EssilorLuxottica 推出“Sensing Art——探索目光之外的杰作”试点，研究 AI 眼镜如何让盲人及低视力人士更方便地欣赏艺术。项目与意大利主要视障公益组织合作，包括 Associazione Nazionale Subvedenti（ANS）；其余组织名称在来源摘要中已截断。",
+      "originalTitle": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
+      "originalSummary": "Today, Meta, Pinacoteca di Brera and EssilorLuxottica are proud to launch “Sensing Art &#8211; Discovering Masterpieces Beyond What Meets the Eye.” This pilot aims to explore how AI glasses can make art more accessible for people who are blind or with low vision &#8211; in collaboration with the some of Italy’s leading sight loss charities &#8211; the Associazione Nazionale Subvedenti (ANS), the Unione Italiana dei C",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "c2700ed987ac334d7d880d5f:c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3": {
+      "titleZh": "Farah Khan 谈 Edits 电影节：“内容突破源于即兴、共鸣与真实”",
+      "summaryZh": "Edits 电影节在孟买落幕，电影人 Farah Khan、评委 Ahsaas Channa、Dolly Singh、Nikhil Taneja、Rajeev Masand，以及 100 多名内容创作者出席。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
+      "originalSummary": "Today the curtains came down on the Edits Film Festival in Mumbai, in the presence of filmmaker Farah Khan, festival judges Ahsaas Channa, Dolly Singh, Nikhil Taneja and Rajeev Masand and over 100 content creators in the audience. The post Farah Khan at Edits Film Festival: &#8220;Content breakthroughs come from spontaneity, relatability and realness&#8221; appeared first on Meta Newsroom .",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "cc869e29f43cb735c6102731:5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747": {
+      "titleZh": "用自己的话调整推荐：Facebook 推出塑造所见内容的新方式",
+      "summaryZh": "Meta 推出新的 AI 工具，让用户用自己的话表达兴趣，从而调整在 Feed 和 Reels 中看到的内容。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
+      "originalSummary": "We’re introducing new AI-powered tools that help you shape what you see in Feed and Reels by telling us what you’re interested in, in your own words. The post Your Algorithm, Your Words: New Ways to Shape What You See on Facebook appeared first on Meta Newsroom .",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "baf7104295a2fcc3f911c7f9:e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6": {
+      "titleZh": "主要科技公司联手多国执法部门，大规模打击西非诈骗网络",
+      "summaryZh": "Meta 与另外 14 家科技公司联合十个国家的执法部门，打击在西非活动的诈骗网络；原文称这是迄今规模最大的同类行动。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
+      "originalSummary": "Meta and 14 other tech companies joined law enforcement from ten countries to disrupt scam networks operating in West Africa in the largest operation of its kind to date. The post Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks appeared first on Meta Newsroom .",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "188c49a098bdefe5c9bee89b:a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba": {
+      "titleZh": "Meta 推出 Muse Wonder 和 Muse Wonder Full：面向智能体的前沿模型",
+      "summaryZh": "Meta 推出 Muse Wonder 和 Muse Wonder Full，称其为公司迄今能力最强的模型，旨在为个人及专业智能体任务提供前沿性能。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
+      "originalSummary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "bed07c71f47773345667ee07:a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11": {
+      "titleZh": "澄清关于数据中心的三大误解",
+      "summaryZh": "开发者及内容创作者 Tom Shaw 解析关于数据中心的三大误解。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "Debunking the Biggest Data Center Myths",
+      "originalSummary": "Developer and content creator Tom Shaw breaks down three of the biggest myths about data centers. The post Debunking the Biggest Data Center Myths appeared first on Meta Newsroom .",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
+    },
+    "2e2b90621d3e6ea567d0fad6:4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b": {
+      "titleZh": "Meta 向新加坡残障社群捐赠 1,000 副 AI 眼镜",
+      "summaryZh": "Meta 向新加坡四个社区组织捐赠 1,000 副 Ray-Ban Meta AI 眼镜，帮助残障人士。本文最初发表于 Meta Newsroom。",
+      "originalTitle": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
+      "originalSummary": "Meta donates 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations to help persons with disabilities. The post Meta Donates 1,000 AI Glasses to Singapore&#8217;s Disability Community appeared first on Meta Newsroom .",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
+      }
     }
   }
 }

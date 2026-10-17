@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generationId": "2573e95bb77dac56087d9506982e4e9c2b6ff6b189e87d2061c0cac68414bc97",
+  "generationId": "a481f6a1ad127b89c092bc6f75ee9d25a75e9497ecd1b9846a43ed20c83e5645",
   "generatedAt": "2026-10-17T14:34:59.473Z",
   "lastSuccessAt": "2026-10-17T14:33:49.167Z",
   "status": "ok",
@@ -440,8 +440,8 @@
       "bytes": 19337
     },
     "data/translation-cache.json": {
-      "sha256": "08f8a3fb291ed41ae6767156c28ab49bfe8b35a0f78a25e7d54adc1ff5a10318",
-      "bytes": 262259
+      "sha256": "e5b7d27de8107fdee2007bfb6cdfb54086d6b0763a949a6a7cabe58ec812715b",
+      "bytes": 287728
     }
   },
   "atomicity": "Read manifest and files at the same Git commit; manifest hashes omit manifest itself."
