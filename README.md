@@ -77,3 +77,12 @@ As verified on 2026-10-17, [GitHub standard runners for public repositories are 
 The workflow is a bounded publication job for this software project, not a server/CDN or an always-running service. Its root schedule, permissions, timeout and concurrency can be reviewed in `.github/workflows/update.yml`. See [schedule limitations](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) and [GitHub's Actions terms](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#actions).
 
 Verification covers content hashes, every manifest file, durable item counts, report references and exact-hash Chinese reuse. Unit tests additionally exercise all-source failure, partial fallback, real MYT boundaries, report idempotence, storage beyond 4000 and collector lock collisions. A green fixture test alone does not verify translation quality, a cloud run, or continuous scheduling.
+# GitHub 项目追踪
+
+`data/projects.json` 追踪 12 个固定官方仓库，按「三维到交互成品、网站优化、脚本到视频、办公自动化」分组。每小时与资讯采集同时读取仓库元数据、最新正式 Release 和许可证；更新计划可能延迟，并非全网或秒级实时。
+
+中文适配说明是基于公开功能的编辑判断，未在本任务中安装或运行这些项目。星数不等于质量、安全或当前电脑兼容性。首次读取只建立基线，不虚构新版本提醒；后续只依据前后实际差异记录 Release、仓库推送、归档和许可证变化。无正式 Release 的项目明确显示为无版本，推送不等于发布。
+
+免费与授权分开标注：Hunyuan、n8n、Dify 和 Remotion 含额外条件，不称为标准 OSI 开源。其他项目的模型权重、子模块、生成 API、云 GPU 与商业授权仍需分别核对。监控不会自动升级本地软件、上传图片或触发付费生成。
+
+GitHub Actions 仅在采集步骤临时使用内置仓库 Token 获取公共数据额度，Token 不保存到文件、日志或 URL。单项失败保留该项旧数据和上次成功时间；页面展示失败状态，稍后自动重试。

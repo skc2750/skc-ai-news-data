@@ -1,23 +1,21 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-17T13:43:48.832Z",
-  "lastSuccessAt": "2026-10-17T13:42:51.109Z",
+  "attemptAt": "2026-10-17T14:01:44.936Z",
+  "lastSuccessAt": "2026-10-17T14:01:43.477Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 7,
   "sourceStale": 0,
   "archiveArticles": 219,
-  "newArticles": 1,
+  "newArticles": 0,
   "changedArticles": 0,
-  "translationRequested": 1,
-  "translatedThisRun": 1,
+  "translationRequested": 0,
+  "translatedThisRun": 0,
   "translationFailed": 0,
   "translationDeferred": 0,
   "translationError": null,
   "translationNote": null,
-  "actualTranslationEngines": {
-    "offline_cpu_qwen": 1
-  },
+  "actualTranslationEngines": {},
   "pendingTranslations": 0,
   "translationLimit": 20,
   "configuredModel": {
@@ -29,9 +27,9 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-17T13:43:48.832Z",
-    "runId": "39037680302",
-    "event": "schedule",
+    "actualAttemptAt": "2026-10-17T14:01:44.936Z",
+    "runId": "39038982879",
+    "event": "push",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   }
 }
