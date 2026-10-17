@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generationId": "bb3f2ebdc8252e4e52b9680cf191b60ddf4d995fc0cb09c1e5c16cfa91a0ca87",
-  "generatedAt": "2026-10-17T19:38:55.741Z",
-  "lastSuccessAt": "2026-10-17T19:38:53.653Z",
+  "generationId": "124c3b0510bde49b437240f28361470a0f42225d9e03ec85c9f9ecbf8a5ae550",
+  "generatedAt": "2026-10-17T20:42:52.697Z",
+  "lastSuccessAt": "2026-10-17T20:42:50.533Z",
   "status": "ok",
   "archiveArticles": 249,
   "reportCount": 94,
   "files": {
     "data/archive.json": {
-      "sha256": "2f23eb2729c4c4039942490400d250653bf01183b42cf8edead0cbb383dc978b",
+      "sha256": "8d579ab79f2d23c87a2342f050f7a4bbced3a1cdfdcf669b2346ad7bb23563b3",
       "bytes": 548589
     },
     "data/archive/2026-05.json": {
@@ -40,19 +40,19 @@
       "bytes": 1688
     },
     "data/current.json": {
-      "sha256": "aef5566d8526e36785479edc4a44c590943503777b8dcc1fd1eda54f4903a3f6",
+      "sha256": "9b9bbdea33e068c5bc071506a4aaf6375391707e5db056a6d243ae162403d254",
       "bytes": 476667
     },
     "data/feed.xml": {
-      "sha256": "5ece4c5c2b35bbc39c30963bda2f5c9693167c6cca68eb3e2a1cf062bf85309f",
+      "sha256": "af2a62b6959bae258a99b0ea0d673a39bd5dcb1450ee8b17f417285b7e7722cc",
       "bytes": 31727
     },
     "data/projects.json": {
-      "sha256": "48edc366891c0982a80e8254bcb2bc8f2f9ad900dce60087c7dfa2d7c5d1452b",
-      "bytes": 41761
+      "sha256": "6f7ed9334193d49ef91042ba366a3b625d0733f515147b65a44092ef5f492923",
+      "bytes": 41960
     },
     "data/receipt.json": {
-      "sha256": "1f67a3028173050ae65e82e9d2c2925e57b1ed31915b593a81f84241586ff4c5",
+      "sha256": "ee303693d58f901a4045b3a8c3c17be0e71b7e045e8a25e047cd99d44dabee4b",
       "bytes": 1127
     },
     "data/reports/daily/2026-05-17.json": {
@@ -436,7 +436,7 @@
       "bytes": 67761
     },
     "data/showcases.json": {
-      "sha256": "fd6d3ae5160fc503902d8d7f566bbcb941a0ce3f2315bda324d116f5baaba442",
+      "sha256": "1dd0352691086224722c697bd2c5afb7e948bf42de0c8079cf7cbdc2543fb104",
       "bytes": 19337
     },
     "data/translation-cache.json": {
