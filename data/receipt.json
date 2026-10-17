@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-17T11:42:23.334Z",
-  "lastSuccessAt": "2026-10-17T11:42:22.292Z",
+  "attemptAt": "2026-10-17T12:52:09.581Z",
+  "lastSuccessAt": "2026-10-17T12:52:08.398Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 7,
@@ -27,8 +27,8 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-17T11:42:23.334Z",
-    "runId": "39029703805",
+    "actualAttemptAt": "2026-10-17T12:52:09.581Z",
+    "runId": "39034218778",
     "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   }
