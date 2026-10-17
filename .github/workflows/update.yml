@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - bootstrap.zip
+      - projects-bootstrap.zip
       - .github/workflows/update.yml
   schedule:
     - cron: '17 * * * *'
@@ -40,6 +41,62 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, verified official ref 2026-10-17
         with:
           persist-credentials: false
+      - name: Verify and unpack optional project monitor patch
+        if: hashFiles('projects-bootstrap.zip') != ''
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, stat, zipfile
+          from pathlib import Path
+          root = Path.cwd().resolve()
+          payload = root / 'projects-bootstrap.zip'
+          expected = '99eecaf5c9c9347023318f60b4f8391a8bb55391e422723b5e6a27d861017538'
+          exact = set(["lib/projects.cjs","lib/store.cjs","scripts/prepare.cjs","scripts/update.cjs","scripts/verify.cjs","test/projects.test.cjs","data/projects.json","README.md"])
+          if (root / 'bootstrap.zip').exists():
+              raise ValueError('Do not apply two different bootstrap versions together')
+          if payload.is_symlink() or not payload.is_file() or payload.stat().st_size > 2 * 1024 * 1024:
+              raise ValueError('Project patch payload is not a bounded regular file')
+          if hashlib.sha256(payload.read_bytes()).hexdigest() != expected:
+              raise ValueError('Project patch SHA-256 mismatch')
+          selected, seen, total = [], set(), 0
+          with zipfile.ZipFile(payload) as archive:
+              members = archive.infolist()
+              if len(members) != len(exact):
+                  raise ValueError('Unexpected project patch member count')
+              for item in members:
+                  name, parts = item.orig_filename, item.orig_filename.split('/')
+                  kind = stat.S_IFMT(item.external_attr >> 16)
+                  if name != item.filename or name not in exact or not name.isascii() or any(p in ('', '.', '..') for p in parts):
+                      raise ValueError('Project patch path is outside exact allowlist')
+                  if item.is_dir() or kind not in (0, stat.S_IFREG) or item.external_attr & 16 or item.flag_bits & 1 or item.compress_type not in (0, 8):
+                      raise ValueError('Project patch requires unencrypted regular files')
+                  if name.casefold() in seen or item.file_size < 0 or item.file_size > 1024 * 1024 or item.compress_size < 0 or item.file_size > max(1, item.compress_size) * 200:
+                      raise ValueError('Project patch has duplicate or oversized member')
+                  seen.add(name.casefold()); total += item.file_size
+                  if total > 4 * 1024 * 1024:
+                      raise ValueError('Project patch expanded size exceeds bounds')
+                  target = root.joinpath(*parts)
+                  target.resolve().relative_to(root)
+                  for parent in [target, *target.parents]:
+                      if parent == root:
+                          break
+                      if parent.is_symlink():
+                          raise ValueError('Project patch destination contains a symlink')
+                  with archive.open(item) as handle:
+                      body = handle.read(item.file_size + 1)
+                  if len(body) != item.file_size:
+                      raise ValueError('Project patch member size differs from header')
+                  selected.append((target, body))
+          if seen != {name.casefold() for name in exact}:
+              raise ValueError('Project patch exact file set differs')
+          targets = {target for target, _ in selected}
+          if any(parent in targets for target in targets for parent in target.parents):
+              raise ValueError('Project patch file and directory paths collide')
+          for target, body in selected:
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(body)
+          print('Verified and unpacked', len(selected), 'curated project patch files')
+          PY
       - name: Verify and unpack optional curated bootstrap
         if: hashFiles('bootstrap.zip') != ''
         shell: bash
@@ -106,6 +163,8 @@ jobs:
       - run: python3 -m unittest discover -s test -p '*_test.py'
       - name: Collect fixed public feeds and inspect translation queue
         id: prepare
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/prepare.cjs --translate-limit "$TRANSLATION_LIMIT"
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         if: steps.prepare.outputs.pending != '0' || inputs.translation_probe
@@ -188,6 +247,11 @@ jobs:
             # Every previous step, including publication verification, succeeded before removal is allowed.
             rm -- bootstrap.zip
             git add -u -- bootstrap.zip
+          fi
+          if test -f projects-bootstrap.zip; then
+            # Remove the transport only after collection, tests and verification succeed.
+            rm -- projects-bootstrap.zip
+            git add -u -- projects-bootstrap.zip
           fi
           if git diff --cached --quiet; then
             echo 'No changed data files.'
