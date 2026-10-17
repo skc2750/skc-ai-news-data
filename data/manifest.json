@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generationId": "684d8d6b968ceae485d74957077eae72f242fe85c10f1dcfd29bba5a785aa79c",
-  "generatedAt": "2026-10-17T14:57:06.115Z",
-  "lastSuccessAt": "2026-10-17T14:55:39.953Z",
+  "generationId": "31adea8724e1afeb20f7f9edbc386526bf5da3d8771a8d51f7b7867dfd11adc9",
+  "generatedAt": "2026-10-17T15:43:15.205Z",
+  "lastSuccessAt": "2026-10-17T15:43:12.800Z",
   "status": "ok",
   "archiveArticles": 249,
   "reportCount": 94,
   "files": {
     "data/archive.json": {
-      "sha256": "1901064184690335f4e33d060e8201388eea247a6b74931784795aba4d0d04cc",
+      "sha256": "66de4bab649ff51ee1a33583bd9fe4b088560806b494a4ca886bca5744b2d169",
       "bytes": 548587
     },
     "data/archive/2026-05.json": {
@@ -40,20 +40,20 @@
       "bytes": 1688
     },
     "data/current.json": {
-      "sha256": "fdadd44b58228e4d69ca6163d679b0349c3af66b67dc2ff9574b0daf96a7db94",
-      "bytes": 476676
+      "sha256": "cd8c533094d1bf922fea3c520a9f70825fe700b538c5d3226f982715ea5d127c",
+      "bytes": 476667
     },
     "data/feed.xml": {
-      "sha256": "dd835e38a84732b85ca2a8ec5c8f9c1714a11e697eb8771e9b1566b2c1c44227",
+      "sha256": "0b4a78e8a11ad88ef07ebd93c3e144d483b38150d2bca38f3165c9a275606a79",
       "bytes": 31727
     },
     "data/projects.json": {
-      "sha256": "aad402e0e0830209349b775a5829df685344ac8aa0814cf42a1674ca5c7f1545",
-      "bytes": 39688
+      "sha256": "cb378e3fdee86c51365278190853fbdf99df900547b8ea3af408dbb63327fe67",
+      "bytes": 39916
     },
     "data/receipt.json": {
-      "sha256": "ab3db97441c10f638e6555926fd919287ddf2fff7cf5c8e078f58216434e97d5",
-      "bytes": 1136
+      "sha256": "6a5e3fa960acef8a726a638eff2b6038103ddccfec53a32094933753271ecad4",
+      "bytes": 1127
     },
     "data/reports/daily/2026-05-17.json": {
       "sha256": "44ecbb528c7c2234493543124892666b961adb3fbbcbcdbc50000d3552e71862",
@@ -436,7 +436,7 @@
       "bytes": 67761
     },
     "data/showcases.json": {
-      "sha256": "31165aeb511debdcfde6d0eb832d39ca18ef9694c0eeb7894d581857644fd702",
+      "sha256": "dd80cb333e2b78c4e5f651ea9f510c04a3c1e2c8ef584f8ba51207667ca10ba0",
       "bytes": 19337
     },
     "data/translation-cache.json": {
