@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T20:42:52.697Z",
-  "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+  "generatedAt": "2026-10-17T21:43:37.593Z",
+  "lastSuccessAt": "2026-10-17T21:43:35.807Z",
   "status": "ok",
   "articles": [
     {
@@ -8898,8 +8898,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 50,
       "articleIds": [
         "ab999fe8f212727e7d3e9601",
@@ -8955,7 +8955,7 @@
       ],
       "feedItemCount": 1299,
       "bytes": 791461,
-      "sha256": "4f7cc35cae3f2afd75c1f7c997704af102248f645f95e1c323b619a306ea5e48",
+      "sha256": "b3307ea17ca7f5f42e0da66d5631aa631b5547eee799d2a3181b4a78bdbd99ca",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -8970,8 +8970,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 20,
       "articleIds": [
         "c51fb173fad0a9b19c6b38f1",
@@ -9012,8 +9012,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 50,
       "articleIds": [
         "2cc0f38f7481ac8d6e7d08ec",
@@ -9084,8 +9084,8 @@
       "kind": "平台及社区作者",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 50,
       "articleIds": [
         "690ff55655c843d38174cfaa",
@@ -9156,8 +9156,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 10,
       "articleIds": [
         "36b0709d3b06ff00ba872822",
@@ -9172,8 +9172,8 @@
         "91bfc16d543ac636fdc68594"
       ],
       "feedItemCount": 10,
-      "bytes": 269175,
-      "sha256": "70e3e1e5b1181494e631a2130a14261b0040f6e867449d24c993a3693cbcce35",
+      "bytes": 268383,
+      "sha256": "b7d8689412e7fcba95796bc9786e95238de83ddbb7c8fdaa95e37a11a36220d6",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9188,8 +9188,8 @@
       "kind": "官方工程",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 20,
       "articleIds": [
         "c57d65fcc265bc8a4b5b2659",
@@ -9230,8 +9230,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 18,
       "articleIds": [
         "24a2f8321eaf18e7f9a6dc0f",
@@ -9254,8 +9254,8 @@
         "5609622ec8767572e02480b3"
       ],
       "feedItemCount": 18,
-      "bytes": 264908,
-      "sha256": "b74a1a6bc1ec550cbfa4fbc502c3a4d1be4d488141c7b8f6e9b8da3df354ae0c",
+      "bytes": 264934,
+      "sha256": "469067142f16b839543ad81da5e9e0d88ce35628c0efe1f562400dd2587ed7e8",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9272,8 +9272,8 @@
       "kind": "官方版本（含预览版）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 10,
       "articleIds": [
         "1266f92abcd73b7cf3e23c71",
@@ -9306,8 +9306,8 @@
       "kind": "官方版本（含预览版）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 10,
       "articleIds": [
         "1540794e1a6cdcd487e98db5",
@@ -9338,8 +9338,8 @@
       "kind": "公司官方新闻（非研究完整覆盖）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T20:42:50.533Z",
-      "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+      "lastCheckedAt": "2026-10-17T21:43:35.807Z",
+      "lastSuccessAt": "2026-10-17T21:43:35.807Z",
       "articleCount": 10,
       "articleIds": [
         "2caae29cfb2b1811a61ab8ea",
@@ -9489,7 +9489,7 @@
   },
   "archive": {
     "url": "/news/data/archive.json",
-    "publishedAt": "2026-10-17T20:42:52.697Z",
+    "publishedAt": "2026-10-17T21:43:37.593Z",
     "totalArticles": 249,
     "indexUrl": "data/archive/index.json"
   },
@@ -9514,8 +9514,8 @@
   },
   "receipt": {
     "schemaVersion": 1,
-    "attemptAt": "2026-10-17T20:42:52.697Z",
-    "lastSuccessAt": "2026-10-17T20:42:50.533Z",
+    "attemptAt": "2026-10-17T21:43:37.593Z",
+    "lastSuccessAt": "2026-10-17T21:43:35.807Z",
     "status": "ok",
     "seeded": false,
     "sourceOk": 10,
@@ -9541,8 +9541,8 @@
     },
     "scheduler": {
       "expected": "hourly at minute 17 UTC",
-      "actualAttemptAt": "2026-10-17T20:42:52.697Z",
-      "runId": "39067859097",
+      "actualAttemptAt": "2026-10-17T21:43:37.593Z",
+      "runId": "39072131734",
       "event": "schedule",
       "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
     }
