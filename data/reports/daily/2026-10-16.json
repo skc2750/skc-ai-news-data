@@ -47,9 +47,11 @@
     },
     {
       "id": "b9665ee028a870b8eb120785",
-      "title": "OpenAI Codex 版本 0.164.0-α.1",
-      "summary": "版本 0.164.0-alpha.1",
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
+      "title": "OpenAI Codex 0.164.0-alpha.1（Alpha 预览版）",
+      "summary": "发布 0.164.0-alpha.1（Alpha 预览版）。",
+      "originalTitle": "0.164.0-alpha.1",
+      "sourceTitle": "0.164.0-alpha.1",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
       "source": {
         "id": "codex-releases",
@@ -127,9 +129,11 @@
     },
     {
       "id": "1f6701ad725c5fdae43a4a24",
-      "title": "OpenAI Codex 0.163.0",
-      "summary": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
-      "originalTitle": "OpenAI Codex 0.163.0",
+      "title": "OpenAI Codex 0.163.0 版本发布",
+      "summary": "新功能：打开 /config，可跨类别搜索偏好设置、立即修改受支持的设置，并查看哪些改动需要重启（#52990、#53429）。在 Codex 响应时发送后续消息，可立即调整任务方向；中断当前轮次也会停止正在运行的 Code Mode 单元及其嵌套工具调用（#51812、#51835）。可在 /keymap 配置前导键，默认为 Ctrl+X；快捷键提示部分的后续原文已在来源摘要中截断。",
+      "originalTitle": "0.163.0",
+      "sourceTitle": "0.163.0",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
       "source": {
         "id": "codex-releases",
@@ -159,9 +163,11 @@
     },
     {
       "id": "886805fba48d1381d03b775f",
-      "title": "Claude Code v2.1.301",
-      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a",
-      "originalTitle": "Claude Code v2.1.301",
+      "title": "Claude Code v2.1.301 版本更新",
+      "summary": "更新内容：新增 CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS，使无人值守重试模式（CLAUDE_CODE_RETRY_WATCHDOG）在遇到重置时间过远的用量限制时结束请求，而非一直等待。为 claude-api 技能补充 OpenTelemetry 链路追踪指南，包括通过 ant CLI 设置追踪目标。Vim 模式新增 % 动作，可跳到匹配括号，单独使用或配合 d/c/y。后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.301",
+      "sourceTitle": "v2.1.301",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
       "source": {
         "id": "claude-releases",
@@ -171,7 +177,7 @@
       },
       "publishedAt": "2026-10-15T19:22:06.000Z",
       "contentHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "3bd3b5c304f79f95fc2ba3b8",
@@ -191,9 +197,11 @@
     },
     {
       "id": "ac5010f8f5a7ee91a81f9a06",
-      "title": "OpenAI Codex 版本 0.163.0-α.10.2",
-      "summary": "版本 0.163.0-α.10.2已发布。",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
+      "title": "OpenAI Codex 0.163.0-alpha.10.2（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.10.2（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.10.2",
+      "sourceTitle": "0.163.0-alpha.10.2",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
       "source": {
         "id": "codex-releases",
@@ -254,6 +262,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "6818f8e9ad5ce2214df5d3802b4e1a24f2f98b8f8c89fe58a53b7205b7da3e1f",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "e7debfc34aece6d7be930532e35f43472e65ce6b9ce65ddaab69768dec12cd6c",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

@@ -9,7 +9,7 @@
   "periodState": "open",
   "partial": true,
   "retroactive": true,
-  "coverageNote": "当前周期尚未结束；仅收录已读取的七个平台订阅条目。",
+  "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
   "articleCount": 72,
   "articleIds": [
@@ -89,9 +89,11 @@
   "items": [
     {
       "id": "1266f92abcd73b7cf3e23c71",
-      "title": "OpenAI Codex 版本 0.164.0-α.3",
-      "summary": "版本 0.164.0-α.3",
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.3",
+      "title": "OpenAI Codex 0.164.0-alpha.3（Alpha 预览版）",
+      "summary": "发布 0.164.0-alpha.3（Alpha 预览版）。",
+      "originalTitle": "0.164.0-alpha.3",
+      "sourceTitle": "0.164.0-alpha.3",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
       "source": {
         "id": "codex-releases",
@@ -105,9 +107,11 @@
     },
     {
       "id": "1540794e1a6cdcd487e98db5",
-      "title": "Claude Code v2.1.302",
-      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) c",
-      "originalTitle": "Claude Code v2.1.302",
+      "title": "Claude Code v2.1.302 版本更新",
+      "summary": "更新内容：新增 CLAUDE_CODE_AUTO_MODE_MODEL，用于选择客户端自动模式分类器使用的模型，不改变服务端自动模式使用的模型。在 /config 新增 Idle compaction 项，可关闭或重新启用空闲压缩；压缩后的提示也会说明如何关闭。为 /design-sync 和 /design-login 添加了有关独立 Claude Design（claude.ai/design）的提示；后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.302",
+      "sourceTitle": "v2.1.302",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
       "source": {
         "id": "claude-releases",
@@ -117,7 +121,7 @@
       },
       "publishedAt": "2026-10-16T20:53:06.000Z",
       "contentHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "c57d65fcc265bc8a4b5b2659",
@@ -153,9 +157,11 @@
     },
     {
       "id": "698dc682c93c792d65f9d9e1",
-      "title": "OpenAI Codex 版本 0.164.0-α.2",
-      "summary": "版本 0.164.0-alpha.2",
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.2",
+      "title": "OpenAI Codex 0.164.0-alpha.2（Alpha 预览版）",
+      "summary": "发布 0.164.0-alpha.2（Alpha 预览版）。",
+      "originalTitle": "0.164.0-alpha.2",
+      "sourceTitle": "0.164.0-alpha.2",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
       "source": {
         "id": "codex-releases",
@@ -185,9 +191,11 @@
     },
     {
       "id": "b9665ee028a870b8eb120785",
-      "title": "OpenAI Codex 版本 0.164.0-α.1",
-      "summary": "版本 0.164.0-alpha.1",
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.1",
+      "title": "OpenAI Codex 0.164.0-alpha.1（Alpha 预览版）",
+      "summary": "发布 0.164.0-alpha.1（Alpha 预览版）。",
+      "originalTitle": "0.164.0-alpha.1",
+      "sourceTitle": "0.164.0-alpha.1",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.1",
       "source": {
         "id": "codex-releases",
@@ -265,9 +273,11 @@
     },
     {
       "id": "1f6701ad725c5fdae43a4a24",
-      "title": "OpenAI Codex 0.163.0",
-      "summary": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
-      "originalTitle": "OpenAI Codex 0.163.0",
+      "title": "OpenAI Codex 0.163.0 版本发布",
+      "summary": "新功能：打开 /config，可跨类别搜索偏好设置、立即修改受支持的设置，并查看哪些改动需要重启（#52990、#53429）。在 Codex 响应时发送后续消息，可立即调整任务方向；中断当前轮次也会停止正在运行的 Code Mode 单元及其嵌套工具调用（#51812、#51835）。可在 /keymap 配置前导键，默认为 Ctrl+X；快捷键提示部分的后续原文已在来源摘要中截断。",
+      "originalTitle": "0.163.0",
+      "sourceTitle": "0.163.0",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0",
       "source": {
         "id": "codex-releases",
@@ -297,9 +307,11 @@
     },
     {
       "id": "886805fba48d1381d03b775f",
-      "title": "Claude Code v2.1.301",
-      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of waiting Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y Added rows to a",
-      "originalTitle": "Claude Code v2.1.301",
+      "title": "Claude Code v2.1.301 版本更新",
+      "summary": "更新内容：新增 CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS，使无人值守重试模式（CLAUDE_CODE_RETRY_WATCHDOG）在遇到重置时间过远的用量限制时结束请求，而非一直等待。为 claude-api 技能补充 OpenTelemetry 链路追踪指南，包括通过 ant CLI 设置追踪目标。Vim 模式新增 % 动作，可跳到匹配括号，单独使用或配合 d/c/y。后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.301",
+      "sourceTitle": "v2.1.301",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
       "source": {
         "id": "claude-releases",
@@ -309,7 +321,7 @@
       },
       "publishedAt": "2026-10-15T19:22:06.000Z",
       "contentHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "3bd3b5c304f79f95fc2ba3b8",
@@ -329,9 +341,11 @@
     },
     {
       "id": "ac5010f8f5a7ee91a81f9a06",
-      "title": "OpenAI Codex 版本 0.163.0-α.10.2",
-      "summary": "版本 0.163.0-α.10.2已发布。",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.2",
+      "title": "OpenAI Codex 0.163.0-alpha.10.2（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.10.2（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.10.2",
+      "sourceTitle": "0.163.0-alpha.10.2",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.2",
       "source": {
         "id": "codex-releases",
@@ -457,8 +471,8 @@
     },
     {
       "id": "2caae29cfb2b1811a61ab8ea",
-      "title": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
-      "summary": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "title": "逾四分之三小企业主称 AI 提高了生产力，但多数仍需更多指导",
+      "summary": "Meta 对亚太地区九个市场开展的新研究显示，AI 正帮助小企业增长、与更大的竞争对手较量，并接触跨境客户。本文最初发表于 Meta Newsroom。",
       "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
       "url": "https://about.fb.com/news/2026/10/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-but-most-need-more-guidance/",
       "source": {
@@ -521,9 +535,11 @@
     },
     {
       "id": "c80cccaa5c2360a5cbe15874",
-      "title": "OpenAI Codex 版本 0.163.0-α.10.1",
-      "summary": "版本 0.163.0-α.10.1已发布。",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
+      "title": "OpenAI Codex 0.163.0-alpha.10.1（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.10.1（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.10.1",
+      "sourceTitle": "0.163.0-alpha.10.1",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
       "source": {
         "id": "codex-releases",
@@ -537,9 +553,11 @@
     },
     {
       "id": "01b163991f0f81389e00c4e3",
-      "title": "Claude Code v2.1.300",
-      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir pr",
-      "originalTitle": "Claude Code v2.1.300",
+      "title": "Claude Code v2.1.300 版本更新",
+      "summary": "更新内容：mod 的提示装饰新增 virtualText，文字显示在输入框内，但不会进入草稿或提交的提示。OpenTelemetry 的 api_request 事件新增 cache_creation_5m_tokens 和 cache_creation_1h_tokens，按缓存期限区分写入量。mod 新增 $.ui.view({ agentId })，可按请求在主视图展示某个智能体的记录；$.ui.view({}) 可返回原视图。后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.300",
+      "sourceTitle": "v2.1.300",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
       "source": {
         "id": "claude-releases",
@@ -549,7 +567,7 @@
       },
       "publishedAt": "2026-10-14T18:24:25.000Z",
       "contentHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "1904ca1c2799eb5e2880361c",
@@ -585,8 +603,8 @@
     },
     {
       "id": "09041486b9fb6e73aa614e72",
-      "title": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
-      "summary": "Today, Meta, Pinacoteca di Brera and EssilorLuxottica are proud to launch “Sensing Art &#8211; Discovering Masterpieces Beyond What Meets the Eye.” This pilot aims to explore how AI glasses can make art more accessible for people who are blind or with low vision &#8211; in collaboration with the some of Italy’s leading sight loss charities &#8211; the Associazione Nazionale Subvedenti (ANS), the Unione Italiana dei C",
+      "title": "Meta、米兰布雷拉美术馆与 EssilorLuxottica 通过 AI 眼镜拓展艺术无障碍体验",
+      "summary": "Meta、Pinacoteca di Brera 和 EssilorLuxottica 推出“Sensing Art——探索目光之外的杰作”试点，研究 AI 眼镜如何让盲人及低视力人士更方便地欣赏艺术。项目与意大利主要视障公益组织合作，包括 Associazione Nazionale Subvedenti（ANS）；其余组织名称在来源摘要中已截断。",
       "originalTitle": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
       "url": "https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/",
       "source": {
@@ -597,13 +615,15 @@
       },
       "publishedAt": "2026-10-14T16:00:57.000Z",
       "contentHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "a7b346710113fb3a18f9ef7c",
-      "title": "OpenAI Codex rust-v0.163.0-alpha.13",
-      "summary": "Release 0.163.0-alpha.13",
-      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.13（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.13（Alpha 预览版）。",
+      "originalTitle": "rust-v0.163.0-alpha.13",
+      "sourceTitle": "rust-v0.163.0-alpha.13",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
       "source": {
         "id": "codex-releases",
@@ -613,7 +633,7 @@
       },
       "publishedAt": "2026-10-14T14:46:39.000Z",
       "contentHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "70dd1c878fb1a866d3b5fa69",
@@ -713,8 +733,8 @@
     },
     {
       "id": "c2700ed987ac334d7d880d5f",
-      "title": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
-      "summary": "Today the curtains came down on the Edits Film Festival in Mumbai, in the presence of filmmaker Farah Khan, festival judges Ahsaas Channa, Dolly Singh, Nikhil Taneja and Rajeev Masand and over 100 content creators in the audience. The post Farah Khan at Edits Film Festival: &#8220;Content breakthroughs come from spontaneity, relatability and realness&#8221; appeared first on Meta Newsroom .",
+      "title": "Farah Khan 谈 Edits 电影节：“内容突破源于即兴、共鸣与真实”",
+      "summary": "Edits 电影节在孟买落幕，电影人 Farah Khan、评委 Ahsaas Channa、Dolly Singh、Nikhil Taneja、Rajeev Masand，以及 100 多名内容创作者出席。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
       "url": "https://about.fb.com/news/2026/10/farah-khan-at-edits-film-festival-content-breakthroughs-come-from-spontaneity-relatability-and-realness/",
       "source": {
@@ -725,13 +745,15 @@
       },
       "publishedAt": "2026-10-14T11:39:32.000Z",
       "contentHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "e449b88d5efbdd54bdf0f41b",
-      "title": "OpenAI Codex rust-v0.163.0-alpha.12",
-      "summary": "Release 0.163.0-alpha.12",
-      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.12（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.12（Alpha 预览版）。",
+      "originalTitle": "rust-v0.163.0-alpha.12",
+      "sourceTitle": "rust-v0.163.0-alpha.12",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
       "source": {
         "id": "codex-releases",
@@ -741,7 +763,7 @@
       },
       "publishedAt": "2026-10-14T09:38:13.000Z",
       "contentHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "4797be284c500a50c3088aeb",
@@ -809,9 +831,11 @@
     },
     {
       "id": "7da5b2124d104561d4e9beff",
-      "title": "OpenAI Codex 版本 0.163.0-α.11",
-      "summary": "版本 0.163.0-α.11",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
+      "title": "OpenAI Codex 0.163.0-alpha.11（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.11（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.11",
+      "sourceTitle": "0.163.0-alpha.11",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
       "source": {
         "id": "codex-releases",
@@ -825,9 +849,11 @@
     },
     {
       "id": "7dc27ad74482bad0f719feef",
-      "title": "Claude Code v2.1.299",
-      "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change",
-      "originalTitle": "Claude Code v2.1.299",
+      "title": "Claude Code v2.1.299 版本更新",
+      "summary": "更新内容：新增 CLAUDE_CODE_DISABLE_FILE_MENTIONS 环境变量；Claude 获得 @ 文件引用的路径，并通过文件工具读取，而非直接收到文件内容。终端新增空闲压缩：超过 200K token 的对话闲置约 54 分钟后，会在一小时提示缓存到期前压缩，避免下一条消息重新处理全部内容。新增 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 用于调整相关设置；具体后续说明已在来源摘要中截断。",
+      "originalTitle": "v2.1.299",
+      "sourceTitle": "v2.1.299",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
       "source": {
         "id": "claude-releases",
@@ -837,7 +863,7 @@
       },
       "publishedAt": "2026-10-14T02:49:42.000Z",
       "contentHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "6b7d3b9ec448a14700480094",
@@ -905,9 +931,11 @@
     },
     {
       "id": "2bb66388cf474a5969d4b6e6",
-      "title": "OpenAI Codex 版本 0.163.0-α.10",
-      "summary": "版本 0.163.0-alpha.10",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
+      "title": "OpenAI Codex 0.163.0-alpha.10（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.10（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.10",
+      "sourceTitle": "0.163.0-alpha.10",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
       "source": {
         "id": "codex-releases",
@@ -1001,8 +1029,8 @@
     },
     {
       "id": "cc869e29f43cb735c6102731",
-      "title": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
-      "summary": "We’re introducing new AI-powered tools that help you shape what you see in Feed and Reels by telling us what you’re interested in, in your own words. The post Your Algorithm, Your Words: New Ways to Shape What You See on Facebook appeared first on Meta Newsroom .",
+      "title": "用自己的话调整推荐：Facebook 推出塑造所见内容的新方式",
+      "summary": "Meta 推出新的 AI 工具，让用户用自己的话表达兴趣，从而调整在 Feed 和 Reels 中看到的内容。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
       "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
       "source": {
@@ -1013,7 +1041,7 @@
       },
       "publishedAt": "2026-10-13T16:00:29.000Z",
       "contentHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "c51fb173fad0a9b19c6b38f1",
@@ -1097,8 +1125,8 @@
     },
     {
       "id": "baf7104295a2fcc3f911c7f9",
-      "title": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
-      "summary": "Meta and 14 other tech companies joined law enforcement from ten countries to disrupt scam networks operating in West Africa in the largest operation of its kind to date. The post Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks appeared first on Meta Newsroom .",
+      "title": "主要科技公司联手多国执法部门，大规模打击西非诈骗网络",
+      "summary": "Meta 与另外 14 家科技公司联合十个国家的执法部门，打击在西非活动的诈骗网络；原文称这是迄今规模最大的同类行动。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
       "url": "https://about.fb.com/news/2026/10/meta-tech-companies-law-enforcement-crackdown-global-scam-networks/",
       "source": {
@@ -1109,7 +1137,7 @@
       },
       "publishedAt": "2026-10-13T14:00:42.000Z",
       "contentHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "49297e6402035f005487c1fc",
@@ -1177,8 +1205,8 @@
     },
     {
       "id": "188c49a098bdefe5c9bee89b",
-      "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
-      "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+      "title": "Meta 推出 Muse Wonder 和 Muse Wonder Full：面向智能体的前沿模型",
+      "summary": "Meta 推出 Muse Wonder 和 Muse Wonder Full，称其为公司迄今能力最强的模型，旨在为个人及专业智能体任务提供前沿性能。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
       "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
       "source": {
@@ -1189,7 +1217,7 @@
       },
       "publishedAt": "2026-10-12T17:08:05.000Z",
       "contentHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "fd543b5cf06f283201fd9956",
@@ -1240,6 +1268,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "61265778d4565e6727035c490a10cc13912428785f52d87bd05af2c7355241bf",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "3c3710878c87f5a9fedb210057dfaa941e5c4a321fa4c08f6391475e6c5b2fcd",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

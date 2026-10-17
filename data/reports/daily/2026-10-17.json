@@ -9,7 +9,7 @@
   "periodState": "open",
   "partial": true,
   "retroactive": true,
-  "coverageNote": "当前周期尚未结束；仅收录已读取的七个平台订阅条目。",
+  "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
   "articleCount": 5,
   "articleIds": [
@@ -22,9 +22,11 @@
   "items": [
     {
       "id": "1266f92abcd73b7cf3e23c71",
-      "title": "OpenAI Codex 版本 0.164.0-α.3",
-      "summary": "版本 0.164.0-α.3",
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.3",
+      "title": "OpenAI Codex 0.164.0-alpha.3（Alpha 预览版）",
+      "summary": "发布 0.164.0-alpha.3（Alpha 预览版）。",
+      "originalTitle": "0.164.0-alpha.3",
+      "sourceTitle": "0.164.0-alpha.3",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.3",
       "source": {
         "id": "codex-releases",
@@ -38,9 +40,11 @@
     },
     {
       "id": "1540794e1a6cdcd487e98db5",
-      "title": "Claude Code v2.1.302",
-      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how to turn it off Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) c",
-      "originalTitle": "Claude Code v2.1.302",
+      "title": "Claude Code v2.1.302 版本更新",
+      "summary": "更新内容：新增 CLAUDE_CODE_AUTO_MODE_MODEL，用于选择客户端自动模式分类器使用的模型，不改变服务端自动模式使用的模型。在 /config 新增 Idle compaction 项，可关闭或重新启用空闲压缩；压缩后的提示也会说明如何关闭。为 /design-sync 和 /design-login 添加了有关独立 Claude Design（claude.ai/design）的提示；后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.302",
+      "sourceTitle": "v2.1.302",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
       "source": {
         "id": "claude-releases",
@@ -50,7 +54,7 @@
       },
       "publishedAt": "2026-10-16T20:53:06.000Z",
       "contentHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "c57d65fcc265bc8a4b5b2659",
@@ -86,9 +90,11 @@
     },
     {
       "id": "698dc682c93c792d65f9d9e1",
-      "title": "OpenAI Codex 版本 0.164.0-α.2",
-      "summary": "版本 0.164.0-alpha.2",
-      "originalTitle": "OpenAI Codex 0.164.0-alpha.2",
+      "title": "OpenAI Codex 0.164.0-alpha.2（Alpha 预览版）",
+      "summary": "发布 0.164.0-alpha.2（Alpha 预览版）。",
+      "originalTitle": "0.164.0-alpha.2",
+      "sourceTitle": "0.164.0-alpha.2",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.2",
       "source": {
         "id": "codex-releases",
@@ -101,6 +107,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "fe39288c8a93fa13251fd69c12b7fff2262bb46834de4e282779a1c7797adfc5",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "216d995fd9e623e8db57428934564b30690189b3ddef83c507f26b3805b15297",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

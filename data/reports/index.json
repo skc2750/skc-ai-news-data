@@ -9,9 +9,9 @@
       "period": "2026-10-17",
       "articleCount": 5,
       "periodState": "open",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 5025,
-      "sha256": "cf78c7aedac9b77e4c16bb7863e5f0ea653eac29ec1515e16f0cf884dd754160"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 5469,
+      "sha256": "f54b9d5315d155ff1ab9304c720a596450e5d3032c0e164fc7b55afdb6af7ef2"
     },
     {
       "id": "daily:2026-10-16",
@@ -20,9 +20,9 @@
       "period": "2026-10-16",
       "articleCount": 14,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 12555,
-      "sha256": "31b78a7518d0ebf50aeb1565820deac1d3659170d9bc1a3c529c4b01bce1c711"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 13172,
+      "sha256": "703e423f2eafaaec5b38a3d6a8107c1d324c9a4502dd57e0c46c512270f976e5"
     },
     {
       "id": "daily:2026-10-15",
@@ -31,9 +31,9 @@
       "period": "2026-10-15",
       "articleCount": 13,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 12678,
-      "sha256": "81f90afa466575fb5409453d7dc4daea4b17347a0afd99bc87e723c934c8c90e"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 12818,
+      "sha256": "de525e6552b7d35c88e291746eac6d81317ac13ae140be8084b91530f3c115a1"
     },
     {
       "id": "daily:2026-10-14",
@@ -42,9 +42,9 @@
       "period": "2026-10-14",
       "articleCount": 27,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 24346,
-      "sha256": "c6ae86d26e7e9c9c38eeb22aa53ed53db927f878cc7325416c1eaf1e108cfba8"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 24819,
+      "sha256": "15b1d78b93432385ce9085542681e325fa81327ee6e0e858a9003d383fc3f11a"
     },
     {
       "id": "daily:2026-10-13",
@@ -53,9 +53,9 @@
       "period": "2026-10-13",
       "articleCount": 11,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 11974,
-      "sha256": "6701f630cee01f1d03468fdde039553d369bd09a44d26d7dffc8f56f447c354e"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 11730,
+      "sha256": "432dfa7ff0de20c3b2ed8127edb6a86d3b34d1c3127de710604daedb040cfb9f"
     },
     {
       "id": "daily:2026-10-12",
@@ -75,9 +75,9 @@
       "period": "2026-10-12",
       "articleCount": 72,
       "periodState": "open",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 66331,
-      "sha256": "30c647fa5537556987b6f8c1d88cf2c3417870e8d628ebd6bbe7f7d115c39326"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 67761,
+      "sha256": "3db6453e5885b70fa0454e1c0555ba6c4cfa000ad7d261d1058d6a559edb4515"
     },
     {
       "id": "daily:2026-10-10",
@@ -86,9 +86,9 @@
       "period": "2026-10-10",
       "articleCount": 1,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 1693,
-      "sha256": "649a9c1556d35b09a3fb2dfddafe74a7e84e8137e3cfbe81bf5815b769e57579"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 1831,
+      "sha256": "5c85adf193c4ed788799f0814a4c0df552b1dbf624939f886b0a47704ad013f6"
     },
     {
       "id": "daily:2026-10-09",
@@ -97,9 +97,9 @@
       "period": "2026-10-09",
       "articleCount": 8,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 8301,
-      "sha256": "30ecb6e0e74a6bb4dbc3d08e7246ec16c06e3719d4bc4c2cdb198faaf091e384"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 8340,
+      "sha256": "51ea7441c3dbbce0789498d65a7ba207873b83820a9b7bafbf21ea5fc96c95e4"
     },
     {
       "id": "daily:2026-10-08",
@@ -108,9 +108,9 @@
       "period": "2026-10-08",
       "articleCount": 9,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 9169,
-      "sha256": "ed06f8ce605150a6a14e11aac1586e2fd435db5d0f55112cd26a49de5663062d"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 9343,
+      "sha256": "9ed63fcd295dadc4fb564561a8eaf0f209229fcd1c9f16b3d956bb9b9373c875"
     },
     {
       "id": "daily:2026-10-07",
@@ -119,9 +119,9 @@
       "period": "2026-10-07",
       "articleCount": 9,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 8030,
-      "sha256": "20768544ab9b601fc1769b486de0971bc648f70280f20afecd3229b2048f9d34"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 8133,
+      "sha256": "fc643dd8d303442419da4252c15d82cc58697c6b59d31f98453224a1af71c7d4"
     },
     {
       "id": "daily:2026-10-06",
@@ -130,9 +130,9 @@
       "period": "2026-10-06",
       "articleCount": 5,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 4765,
-      "sha256": "f72cd7f4d1e0bee8ba1a00692c32afdc271116878613dfe1ec28c645c80f9faf"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 4861,
+      "sha256": "bbad27e7197fa297752b3bd6d3877982d743ec7a0accb24c86fd8a5cb0d38394"
     },
     {
       "id": "daily:2026-10-05",
@@ -152,9 +152,9 @@
       "period": "2026-10-05",
       "articleCount": 35,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 32179,
-      "sha256": "23b2fee430e9abb468bce83e647285b000f63f8173abedc83e3b2c3efa0fe4b3"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 32729,
+      "sha256": "ee9619b5bf7afe06bbe03779ad3b48aada98586be00ffe9d33d5d32c069b8301"
     },
     {
       "id": "daily:2026-10-04",
@@ -207,9 +207,9 @@
       "period": "2026-10",
       "articleCount": 120,
       "periodState": "open",
-      "compiledAt": "2026-10-17T14:34:59.473Z",
-      "bytes": 108718,
-      "sha256": "4567b4d62ff5ebd7212d9ce6445636f08d9ce82aff40288f164c2c7ac80f12c7"
+      "compiledAt": "2026-10-17T14:57:06.115Z",
+      "bytes": 110698,
+      "sha256": "ce9d5570e9526c3cf97ea87e9a59de5898e732212b989221ef36aa905159f41a"
     },
     {
       "id": "daily:2026-09-30",

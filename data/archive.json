@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-17T14:34:59.473Z",
+  "publishedAt": "2026-10-17T14:57:06.115Z",
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "articles": [
     {
@@ -26,17 +26,16 @@
       "contentHash": "d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.164.0-α.3",
-      "summaryZh": "版本 0.164.0-α.3",
+      "titleZh": "OpenAI Codex 0.164.0-alpha.3（Alpha 预览版）",
+      "summaryZh": "发布 0.164.0-alpha.3（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "d843aa402396d398a3fc6558d0539d5087eff1d94cc7b8609163f057e511030c",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -62,11 +61,16 @@
       "contentHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.302 版本更新",
+      "summaryZh": "更新内容：新增 CLAUDE_CODE_AUTO_MODE_MODEL，用于选择客户端自动模式分类器使用的模型，不改变服务端自动模式使用的模型。在 /config 新增 Idle compaction 项，可关闭或重新启用空闲压缩；压缩后的提示也会说明如何关闭。为 /design-sync 和 /design-login 添加了有关独立 Claude Design（claude.ai/design）的提示；后续原文已在来源摘要中截断。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb"
+        "status": "ok",
+        "sourceHash": "1cd0bea7c2dece9da15325d147527d1e8389ddacbdce645fbb934682bf178edb",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -164,17 +168,16 @@
       "contentHash": "2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.164.0-α.2",
-      "summaryZh": "版本 0.164.0-alpha.2",
+      "titleZh": "OpenAI Codex 0.164.0-alpha.2（Alpha 预览版）",
+      "summaryZh": "发布 0.164.0-alpha.2（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "2ab9f24da960af6c1ea562266289948bb878b7600fce24966a3c8f8aed9fb124",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -240,17 +243,16 @@
       "contentHash": "b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.164.0-α.1",
-      "summaryZh": "版本 0.164.0-alpha.1",
+      "titleZh": "OpenAI Codex 0.164.0-alpha.1（Alpha 预览版）",
+      "summaryZh": "发布 0.164.0-alpha.1（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "b3008b521c867cb9747186dc527f42605c6ecebeb3cc5d6e4a3ed004c0918a3f",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -414,17 +416,16 @@
       "contentHash": "20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 0.163.0",
-      "summaryZh": "新功能：/config 可以在各个类别中搜索偏好设置，立即更改支持的设置，并查看哪些更改需要重启。 (#52990, #53429) 在 Codex 回应时发送跟进消息，以便立即引导它。中断回合也会停止活动的代码模式单元格及其嵌套工具调用。 (#51812, #51835) 在 /keymap 中配置领导键。默认情况下是 Ctrl+X ，快捷提示保持打开。",
+      "titleZh": "OpenAI Codex 0.163.0 版本发布",
+      "summaryZh": "新功能：打开 /config，可跨类别搜索偏好设置、立即修改受支持的设置，并查看哪些改动需要重启（#52990、#53429）。在 Codex 响应时发送后续消息，可立即调整任务方向；中断当前轮次也会停止正在运行的 Code Mode 单元及其嵌套工具调用（#51812、#51835）。可在 /keymap 配置前导键，默认为 Ctrl+X；快捷键提示部分的后续原文已在来源摘要中截断。",
       "translation": {
         "status": "ok",
         "sourceHash": "20e83f50bb17e7681582c8cc23cca39f3ddbea01ca7bffa6acd6eeef99207553",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -484,11 +485,16 @@
       "contentHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.301 版本更新",
+      "summaryZh": "更新内容：新增 CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS，使无人值守重试模式（CLAUDE_CODE_RETRY_WATCHDOG）在遇到重置时间过远的用量限制时结束请求，而非一直等待。为 claude-api 技能补充 OpenTelemetry 链路追踪指南，包括通过 ant CLI 设置追踪目标。Vim 模式新增 % 动作，可跳到匹配括号，单独使用或配合 d/c/y。后续原文已在来源摘要中截断。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318"
+        "status": "ok",
+        "sourceHash": "f607ecc81f9afdfd3997988214559d13d95d2fad3888e849032a749274923318",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -550,17 +556,16 @@
       "contentHash": "0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.10.2",
-      "summaryZh": "版本 0.163.0-α.10.2已发布。",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.10.2（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.10.2（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "0cee82c64fa26f032875f9e55bff3e3786f4c445f26bc7baec718af4d3a7648a",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -852,17 +857,16 @@
       "contentHash": "6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
-      "summaryZh": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "titleZh": "逾四分之三小企业主称 AI 提高了生产力，但多数仍需更多指导",
+      "summaryZh": "Meta 对亚太地区九个市场开展的新研究显示，AI 正帮助小企业增长、与更大的竞争对手较量，并接触跨境客户。本文最初发表于 Meta Newsroom。",
       "translation": {
         "status": "ok",
         "sourceHash": "6fed99d85afa26754856006d705178ec6e1a139cb2493ce54ee2be28ca9b74a8",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -990,17 +994,16 @@
       "contentHash": "19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.10.1",
-      "summaryZh": "版本 0.163.0-α.10.1已发布。",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.10.1（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.10.1（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "19e1d0d23b9c3bc771aebd58d4b362df399cfd9f08691edaa7f6305cc63a8de1",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1026,11 +1029,16 @@
       "contentHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.300 版本更新",
+      "summaryZh": "更新内容：mod 的提示装饰新增 virtualText，文字显示在输入框内，但不会进入草稿或提交的提示。OpenTelemetry 的 api_request 事件新增 cache_creation_5m_tokens 和 cache_creation_1h_tokens，按缓存期限区分写入量。mod 新增 $.ui.view({ agentId })，可按请求在主视图展示某个智能体的记录；$.ui.view({}) 可返回原视图。后续原文已在来源摘要中截断。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d"
+        "status": "ok",
+        "sourceHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1129,11 +1137,16 @@
       "contentHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Meta、米兰布雷拉美术馆与 EssilorLuxottica 通过 AI 眼镜拓展艺术无障碍体验",
+      "summaryZh": "Meta、Pinacoteca di Brera 和 EssilorLuxottica 推出“Sensing Art——探索目光之外的杰作”试点，研究 AI 眼镜如何让盲人及低视力人士更方便地欣赏艺术。项目与意大利主要视障公益组织合作，包括 Associazione Nazionale Subvedenti（ANS）；其余组织名称在来源摘要中已截断。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266"
+        "status": "ok",
+        "sourceHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1159,11 +1172,16 @@
       "contentHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "OpenAI Codex rust-v0.163.0-alpha.13（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.13（Alpha 预览版）。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41"
+        "status": "ok",
+        "sourceHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1412,11 +1430,16 @@
       "contentHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Farah Khan 谈 Edits 电影节：“内容突破源于即兴、共鸣与真实”",
+      "summaryZh": "Edits 电影节在孟买落幕，电影人 Farah Khan、评委 Ahsaas Channa、Dolly Singh、Nikhil Taneja、Rajeev Masand，以及 100 多名内容创作者出席。本文最初发表于 Meta Newsroom。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3"
+        "status": "ok",
+        "sourceHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1442,11 +1465,16 @@
       "contentHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "OpenAI Codex rust-v0.163.0-alpha.12（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.12（Alpha 预览版）。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0"
+        "status": "ok",
+        "sourceHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1624,17 +1652,16 @@
       "contentHash": "0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.11",
-      "summaryZh": "版本 0.163.0-α.11",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.11（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.11（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "0d3dd99d95aaa8154bd76e5b2ee922953d8f0e87e47bdd41002c935758a72614",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1660,11 +1687,16 @@
       "contentHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.299 版本更新",
+      "summaryZh": "更新内容：新增 CLAUDE_CODE_DISABLE_FILE_MENTIONS 环境变量；Claude 获得 @ 文件引用的路径，并通过文件工具读取，而非直接收到文件内容。终端新增空闲压缩：超过 200K token 的对话闲置约 54 分钟后，会在一小时提示缓存到期前压缩，避免下一条消息重新处理全部内容。新增 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 用于调整相关设置；具体后续说明已在来源摘要中截断。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043"
+        "status": "ok",
+        "sourceHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -1832,17 +1864,16 @@
       "contentHash": "ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "OpenAI Codex 版本 0.163.0-α.10",
-      "summaryZh": "版本 0.163.0-alpha.10",
+      "titleZh": "OpenAI Codex 0.163.0-alpha.10（Alpha 预览版）",
+      "summaryZh": "发布 0.163.0-alpha.10（Alpha 预览版）。",
       "translation": {
         "status": "ok",
         "sourceHash": "ce9f1867bc38fa1010170e42f758f5d8dcca1cff5c11e0a05cfab88e8cf721ab",
-        "model": "Qwen/Qwen2.5-1.5B-Instruct",
-        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-        "engine": "offline_cpu_qwen",
-        "precision": "float32",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-        "translatedAt": "2026-10-17T14:34:59.473Z"
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2048,11 +2079,16 @@
       "contentHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "用自己的话调整推荐：Facebook 推出塑造所见内容的新方式",
+      "summaryZh": "Meta 推出新的 AI 工具，让用户用自己的话表达兴趣，从而调整在 Feed 和 Reels 中看到的内容。本文最初发表于 Meta Newsroom。",
       "translation": {
-        "status": "failed",
-        "sourceHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747"
+        "status": "ok",
+        "sourceHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2273,11 +2309,16 @@
       "contentHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "主要科技公司联手多国执法部门，大规模打击西非诈骗网络",
+      "summaryZh": "Meta 与另外 14 家科技公司联合十个国家的执法部门，打击在西非活动的诈骗网络；原文称这是迄今规模最大的同类行动。本文最初发表于 Meta Newsroom。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6"
+        "status": "ok",
+        "sourceHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2463,11 +2504,16 @@
       "contentHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Meta 推出 Muse Wonder 和 Muse Wonder Full：面向智能体的前沿模型",
+      "summaryZh": "Meta 推出 Muse Wonder 和 Muse Wonder Full，称其为公司迄今能力最强的模型，旨在为个人及专业智能体任务提供前沿性能。本文最初发表于 Meta Newsroom。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba"
+        "status": "ok",
+        "sourceHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2605,11 +2651,16 @@
       "contentHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.296 版本更新",
+      "summaryZh": "更新内容：Claude 应用网关的 managed.policies[] 新增 code 键，使用与 cli 相同的设置，并应用于 Claude Desktop 的 Code 标签页；与 desktop 配合，可开启 Claude Desktop 的网关模式。子智能体 frontmatter 和 --agents 定义新增 autoCompactWindow，允许子智能体比主对话更早自动压缩。另新增 CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL；其后续用途说明已在来源摘要中截断。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713"
+        "status": "ok",
+        "sourceHash": "5f28874d6cfe2b9cbe6571adb4561b450d26114f8bd3d679f992faf4a7259713",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2780,11 +2831,16 @@
       "contentHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.295 版本更新",
+      "summaryZh": "更新内容：命令和 HTTP hook 新增 onFailure: \"block\"；hook 无法启动、超时或以意外退出码结束时，会阻止操作，而非放行。新增 Program Status Protocol（OSC 7501）支持，兼容终端可显示 Claude Code 正在工作、等待用户或已完成。/copy 选择器新增引用文本复制，复制草稿消息时可去除 > 标记。后续原文已在来源摘要中截断。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d"
+        "status": "ok",
+        "sourceHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2853,11 +2909,16 @@
       "contentHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "澄清关于数据中心的三大误解",
+      "summaryZh": "开发者及内容创作者 Tom Shaw 解析关于数据中心的三大误解。本文最初发表于 Meta Newsroom。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11"
+        "status": "ok",
+        "sourceHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -2987,11 +3048,16 @@
       "contentHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Meta 向新加坡残障社群捐赠 1,000 副 AI 眼镜",
+      "summaryZh": "Meta 向新加坡四个社区组织捐赠 1,000 副 Ray-Ban Meta AI 眼镜，帮助残障人士。本文最初发表于 Meta Newsroom。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b"
+        "status": "ok",
+        "sourceHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -3017,11 +3083,16 @@
       "contentHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.294 版本更新",
+      "summaryZh": "更新内容：修复以指令形式编写的 prompt hook 和 agent hook（如“阻止……命令”）未能拦截应阻止操作的问题。改进对 Stop 和 SubagentStop 中指令式 prompt hook（如“如果构建失败就继续”）的判断，使 Claude 更不容易过早停止。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458"
+        "status": "ok",
+        "sourceHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -3158,11 +3229,16 @@
       "contentHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.293 版本更新",
+      "summaryZh": "更新内容：新增 Claude Haiku 5.5（claude-haiku-5-5）；公告称其现为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为每百万 token $0.10/$0.50，提示超过 100K 时为 $0.50/$2.50。subagentStatusLine 载荷新增 agentType，使脚本可区分自定义子智能体类型。mod 的 $.tool.register 新增 isDeferred；设为 false 时，工具 schema 会从一开始列入提示，不必等待工具搜索。后续修复说明已在来源摘要中截断。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09"
+        "status": "ok",
+        "sourceHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:49:10.821Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -3434,11 +3510,16 @@
       "contentHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.292 版本更新",
+      "summaryZh": "更新内容：claude plugin install 新增 --marketplace；如有需要，先按 claude plugin marketplace add 相同策略检查并添加市场，再从中安装插件。Agent 工具新增 effort 参数，可按要求的推理强度运行子智能体。新增 CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS，用于设置更长的重试退避基础延迟；后续原文已在来源摘要中截断。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e"
+        "status": "ok",
+        "sourceHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:49:10.821Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -3683,11 +3764,16 @@
       "contentHash": "9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31",
       "firstSeenAt": "2026-10-17T14:33:49.167Z",
       "lastChangedAt": "2026-10-17T14:34:59.473Z",
-      "titleZh": "",
-      "summaryZh": "",
+      "titleZh": "Claude Code v2.1.291 版本更新",
+      "summaryZh": "更新内容：修复 2.1.290 引入的问题，云端会话可能丢失对权限提示的回答；修复 2.1.288 引入的问题，退出时可能丢失会话最后几条消息。",
       "translation": {
-        "status": "pending",
-        "sourceHash": "9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31"
+        "status": "ok",
+        "sourceHash": "9df277997671f6ff18b044861a5618a07a8a1e0db75d1accb705aef09ef93d31",
+        "engine": "editorial_seed",
+        "model": "Codex session editorial review",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T14:46:00.034Z",
+        "reviewNoteZh": "本次会话人工整理初始中文；不是后台Qwen翻译"
       }
     },
     {
@@ -8816,7 +8902,7 @@
         "698dc682c93c792d65f9d9e1"
       ],
       "articleCount": 5,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
@@ -8851,7 +8937,7 @@
         "36b0709d3b06ff00ba872822"
       ],
       "articleCount": 14,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -8894,7 +8980,7 @@
         "09041486b9fb6e73aa614e72"
       ],
       "articleCount": 13,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -8950,7 +9036,7 @@
         "c51fb173fad0a9b19c6b38f1"
       ],
       "articleCount": 27,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9004,7 +9090,7 @@
         "fd543b5cf06f283201fd9956"
       ],
       "articleCount": 11,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9123,7 +9209,7 @@
         "b58417184dda9742722bacfe"
       ],
       "articleCount": 72,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
@@ -9212,7 +9298,7 @@
         "8b457de188b9a591d277cfd8"
       ],
       "articleCount": 1,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9237,7 +9323,7 @@
         "5cf5eb9da44fc021d7eccd2b"
       ],
       "articleCount": 8,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9270,7 +9356,7 @@
         "9c6864cb3e2bcbe241f6cf86"
       ],
       "articleCount": 9,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9304,7 +9390,7 @@
         "a780e85e351703ee29da0462"
       ],
       "articleCount": 9,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9334,7 +9420,7 @@
         "9a0e13f6aeb57310be49a1bb"
       ],
       "articleCount": 5,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9412,7 +9498,7 @@
         "a6218267b47ebb44447a4204"
       ],
       "articleCount": 35,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9673,7 +9759,7 @@
         "eddbf971051f0f2ff5d5fa3d"
       ],
       "articleCount": 120,
-      "compiledAt": "2026-10-17T14:34:59.473Z",
+      "compiledAt": "2026-10-17T14:57:06.115Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,

@@ -94,8 +94,8 @@
     },
     {
       "id": "2caae29cfb2b1811a61ab8ea",
-      "title": "三分之二的小企业主表示，人工智能使他们更有效率，但大多数人需要更多的指导。",
-      "summary": "Meta的一项跨九个亚太地区市场的研究显示，人工智能正在帮助小型企业成长、与大型竞争对手竞争并跨越国界接触客户。该文章首次发布于Meta新闻室。",
+      "title": "逾四分之三小企业主称 AI 提高了生产力，但多数仍需更多指导",
+      "summary": "Meta 对亚太地区九个市场开展的新研究显示，AI 正帮助小企业增长、与更大的竞争对手较量，并接触跨境客户。本文最初发表于 Meta Newsroom。",
       "originalTitle": "More Than Three Quarters of Small Business Owners Say AI Makes Them More Productive, But Most Need More Guidance",
       "url": "https://about.fb.com/news/2026/10/more-than-three-quarters-of-small-business-owners-say-ai-makes-them-more-productive-but-most-need-more-guidance/",
       "source": {
@@ -158,9 +158,11 @@
     },
     {
       "id": "c80cccaa5c2360a5cbe15874",
-      "title": "OpenAI Codex 版本 0.163.0-α.10.1",
-      "summary": "版本 0.163.0-α.10.1已发布。",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10.1",
+      "title": "OpenAI Codex 0.163.0-alpha.10.1（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.10.1（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.10.1",
+      "sourceTitle": "0.163.0-alpha.10.1",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10.1",
       "source": {
         "id": "codex-releases",
@@ -174,9 +176,11 @@
     },
     {
       "id": "01b163991f0f81389e00c4e3",
-      "title": "Claude Code v2.1.300",
-      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back Added a dir pr",
-      "originalTitle": "Claude Code v2.1.300",
+      "title": "Claude Code v2.1.300 版本更新",
+      "summary": "更新内容：mod 的提示装饰新增 virtualText，文字显示在输入框内，但不会进入草稿或提交的提示。OpenTelemetry 的 api_request 事件新增 cache_creation_5m_tokens 和 cache_creation_1h_tokens，按缓存期限区分写入量。mod 新增 $.ui.view({ agentId })，可按请求在主视图展示某个智能体的记录；$.ui.view({}) 可返回原视图。后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.300",
+      "sourceTitle": "v2.1.300",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
       "source": {
         "id": "claude-releases",
@@ -186,7 +190,7 @@
       },
       "publishedAt": "2026-10-14T18:24:25.000Z",
       "contentHash": "3fb3b1c61d8bb6879ef02a6d05306f08fb348f00f7cb55f11c3ade0c86bf212d",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "1904ca1c2799eb5e2880361c",
@@ -222,8 +226,8 @@
     },
     {
       "id": "09041486b9fb6e73aa614e72",
-      "title": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
-      "summary": "Today, Meta, Pinacoteca di Brera and EssilorLuxottica are proud to launch “Sensing Art &#8211; Discovering Masterpieces Beyond What Meets the Eye.” This pilot aims to explore how AI glasses can make art more accessible for people who are blind or with low vision &#8211; in collaboration with the some of Italy’s leading sight loss charities &#8211; the Associazione Nazionale Subvedenti (ANS), the Unione Italiana dei C",
+      "title": "Meta、米兰布雷拉美术馆与 EssilorLuxottica 通过 AI 眼镜拓展艺术无障碍体验",
+      "summary": "Meta、Pinacoteca di Brera 和 EssilorLuxottica 推出“Sensing Art——探索目光之外的杰作”试点，研究 AI 眼镜如何让盲人及低视力人士更方便地欣赏艺术。项目与意大利主要视障公益组织合作，包括 Associazione Nazionale Subvedenti（ANS）；其余组织名称在来源摘要中已截断。",
       "originalTitle": "Meta, Milan’s Pinacoteca di Brera, and EssilorLuxottica Expand Access to Art Through AI Glasses",
       "url": "https://about.fb.com/news/2026/10/meta-milans-pinacoteca-di-brera-and-essilorluxottica-expand-access-to-art-through-ai-glasses/",
       "source": {
@@ -234,9 +238,9 @@
       },
       "publishedAt": "2026-10-14T16:00:57.000Z",
       "contentHash": "b35c6f148090a514dc2af10383a2d4451c7b43d0841779c72a544eba7aea4266",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     }
   ],
-  "contentHash": "b9ee67f27a25f17d020e7caa17549e3dc29cc9a488f46c7dc5faf38f33bb2878",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "aa6d2735e4d16eb0de2369435821f47180454a0cbe123496a877f747f1a1390a",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

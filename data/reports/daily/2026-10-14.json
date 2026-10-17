@@ -44,9 +44,11 @@
   "items": [
     {
       "id": "a7b346710113fb3a18f9ef7c",
-      "title": "OpenAI Codex rust-v0.163.0-alpha.13",
-      "summary": "Release 0.163.0-alpha.13",
-      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.13",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.13（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.13（Alpha 预览版）。",
+      "originalTitle": "rust-v0.163.0-alpha.13",
+      "sourceTitle": "rust-v0.163.0-alpha.13",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.13",
       "source": {
         "id": "codex-releases",
@@ -56,7 +58,7 @@
       },
       "publishedAt": "2026-10-14T14:46:39.000Z",
       "contentHash": "d45e957990b264b299802779175c24a9e660b9872fe59dff7c87c838237d4d41",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "70dd1c878fb1a866d3b5fa69",
@@ -156,8 +158,8 @@
     },
     {
       "id": "c2700ed987ac334d7d880d5f",
-      "title": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
-      "summary": "Today the curtains came down on the Edits Film Festival in Mumbai, in the presence of filmmaker Farah Khan, festival judges Ahsaas Channa, Dolly Singh, Nikhil Taneja and Rajeev Masand and over 100 content creators in the audience. The post Farah Khan at Edits Film Festival: &#8220;Content breakthroughs come from spontaneity, relatability and realness&#8221; appeared first on Meta Newsroom .",
+      "title": "Farah Khan 谈 Edits 电影节：“内容突破源于即兴、共鸣与真实”",
+      "summary": "Edits 电影节在孟买落幕，电影人 Farah Khan、评委 Ahsaas Channa、Dolly Singh、Nikhil Taneja、Rajeev Masand，以及 100 多名内容创作者出席。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Farah Khan at Edits Film Festival: “Content breakthroughs come from spontaneity, relatability and realness”",
       "url": "https://about.fb.com/news/2026/10/farah-khan-at-edits-film-festival-content-breakthroughs-come-from-spontaneity-relatability-and-realness/",
       "source": {
@@ -168,13 +170,15 @@
       },
       "publishedAt": "2026-10-14T11:39:32.000Z",
       "contentHash": "c0dc83889dff9c18f7d56c2bc47ea5f07e77136b4b7e8c861d8d1b38b73ad0d3",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "e449b88d5efbdd54bdf0f41b",
-      "title": "OpenAI Codex rust-v0.163.0-alpha.12",
-      "summary": "Release 0.163.0-alpha.12",
-      "originalTitle": "OpenAI Codex rust-v0.163.0-alpha.12",
+      "title": "OpenAI Codex rust-v0.163.0-alpha.12（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.12（Alpha 预览版）。",
+      "originalTitle": "rust-v0.163.0-alpha.12",
+      "sourceTitle": "rust-v0.163.0-alpha.12",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.12",
       "source": {
         "id": "codex-releases",
@@ -184,7 +188,7 @@
       },
       "publishedAt": "2026-10-14T09:38:13.000Z",
       "contentHash": "88caa62d2a035d46ae5233892f6774aa7a078bfcc6329bfa0f5918ca34da6fd0",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "4797be284c500a50c3088aeb",
@@ -252,9 +256,11 @@
     },
     {
       "id": "7da5b2124d104561d4e9beff",
-      "title": "OpenAI Codex 版本 0.163.0-α.11",
-      "summary": "版本 0.163.0-α.11",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.11",
+      "title": "OpenAI Codex 0.163.0-alpha.11（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.11（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.11",
+      "sourceTitle": "0.163.0-alpha.11",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.11",
       "source": {
         "id": "codex-releases",
@@ -268,9 +274,11 @@
     },
     {
       "id": "7dc27ad74482bad0f719feef",
-      "title": "Claude Code v2.1.299",
-      "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt cache expires, so your next message doesn't reprocess it all Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change",
-      "originalTitle": "Claude Code v2.1.299",
+      "title": "Claude Code v2.1.299 版本更新",
+      "summary": "更新内容：新增 CLAUDE_CODE_DISABLE_FILE_MENTIONS 环境变量；Claude 获得 @ 文件引用的路径，并通过文件工具读取，而非直接收到文件内容。终端新增空闲压缩：超过 200K token 的对话闲置约 54 分钟后，会在一小时提示缓存到期前压缩，避免下一条消息重新处理全部内容。新增 CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS 用于调整相关设置；具体后续说明已在来源摘要中截断。",
+      "originalTitle": "v2.1.299",
+      "sourceTitle": "v2.1.299",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
       "source": {
         "id": "claude-releases",
@@ -280,7 +288,7 @@
       },
       "publishedAt": "2026-10-14T02:49:42.000Z",
       "contentHash": "0bc9271b4776aca40c6c2de7ddf087f9bc7f2a14e923454855db140f7c8ae043",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "6b7d3b9ec448a14700480094",
@@ -348,9 +356,11 @@
     },
     {
       "id": "2bb66388cf474a5969d4b6e6",
-      "title": "OpenAI Codex 版本 0.163.0-α.10",
-      "summary": "版本 0.163.0-alpha.10",
-      "originalTitle": "OpenAI Codex 0.163.0-alpha.10",
+      "title": "OpenAI Codex 0.163.0-alpha.10（Alpha 预览版）",
+      "summary": "发布 0.163.0-alpha.10（Alpha 预览版）。",
+      "originalTitle": "0.163.0-alpha.10",
+      "sourceTitle": "0.163.0-alpha.10",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.163.0-alpha.10",
       "source": {
         "id": "codex-releases",
@@ -444,8 +454,8 @@
     },
     {
       "id": "cc869e29f43cb735c6102731",
-      "title": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
-      "summary": "We’re introducing new AI-powered tools that help you shape what you see in Feed and Reels by telling us what you’re interested in, in your own words. The post Your Algorithm, Your Words: New Ways to Shape What You See on Facebook appeared first on Meta Newsroom .",
+      "title": "用自己的话调整推荐：Facebook 推出塑造所见内容的新方式",
+      "summary": "Meta 推出新的 AI 工具，让用户用自己的话表达兴趣，从而调整在 Feed 和 Reels 中看到的内容。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Your Algorithm, Your Words: New Ways to Shape What You See on Facebook",
       "url": "https://about.fb.com/news/2026/10/introducing-your-algorithm-facebook/",
       "source": {
@@ -456,7 +466,7 @@
       },
       "publishedAt": "2026-10-13T16:00:29.000Z",
       "contentHash": "5b1ffd1fccacc448c7a68030a7a7c323dc8f0861e0bd179586bf660176f7f747",
-      "translationStatus": "failed"
+      "translationStatus": "ok"
     },
     {
       "id": "c51fb173fad0a9b19c6b38f1",
@@ -475,6 +485,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "d6091bba2228709053a8212a54e785c3446646b803a0ff4169f1a964b29332f1",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "b741411eaa52bddf6b22c9ca05a7019f85f14ebfff1e1e3235e47d5237c63b97",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

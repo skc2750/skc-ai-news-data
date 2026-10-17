@@ -89,9 +89,11 @@
     },
     {
       "id": "8858b92b79671e37d470a6c5",
-      "title": "Claude Code v2.1.295",
-      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or done Added quoted text to the /copy picker, so a drafted message copies without its > markers Add",
-      "originalTitle": "Claude Code v2.1.295",
+      "title": "Claude Code v2.1.295 版本更新",
+      "summary": "更新内容：命令和 HTTP hook 新增 onFailure: \"block\"；hook 无法启动、超时或以意外退出码结束时，会阻止操作，而非放行。新增 Program Status Protocol（OSC 7501）支持，兼容终端可显示 Claude Code 正在工作、等待用户或已完成。/copy 选择器新增引用文本复制，复制草稿消息时可去除 > 标记。后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.295",
+      "sourceTitle": "v2.1.295",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
       "source": {
         "id": "claude-releases",
@@ -101,7 +103,7 @@
       },
       "publishedAt": "2026-10-08T19:48:38.000Z",
       "contentHash": "d4333b37ad54174f0030eb240f76909574b0f25e66c373467fabaf1762d1476d",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "9db7bb821207b37bc0f8e5c4",
@@ -121,8 +123,8 @@
     },
     {
       "id": "bed07c71f47773345667ee07",
-      "title": "Debunking the Biggest Data Center Myths",
-      "summary": "Developer and content creator Tom Shaw breaks down three of the biggest myths about data centers. The post Debunking the Biggest Data Center Myths appeared first on Meta Newsroom .",
+      "title": "澄清关于数据中心的三大误解",
+      "summary": "开发者及内容创作者 Tom Shaw 解析关于数据中心的三大误解。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Debunking the Biggest Data Center Myths",
       "url": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/",
       "source": {
@@ -133,7 +135,7 @@
       },
       "publishedAt": "2026-10-08T16:53:24.000Z",
       "contentHash": "a22eb4acd970a19f209866cc4cfddd6c57fa2324e052f6795427d1cab63e3f11",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "5cf5eb9da44fc021d7eccd2b",
@@ -152,6 +154,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "9097d02f4fa0b12603fde1b1aa7040682b93aff2f7c08c52b66bb8339ca2df67",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "c3df6acbe62df34654d9dc4321a8ccb7fce7170d9f8d6559a19964cea11650e3",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

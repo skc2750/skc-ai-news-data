@@ -58,8 +58,8 @@
     },
     {
       "id": "2e2b90621d3e6ea567d0fad6",
-      "title": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
-      "summary": "Meta donates 1,000 Ray-Ban Meta AI glasses to four Singapore community organisations to help persons with disabilities. The post Meta Donates 1,000 AI Glasses to Singapore&#8217;s Disability Community appeared first on Meta Newsroom .",
+      "title": "Meta 向新加坡残障社群捐赠 1,000 副 AI 眼镜",
+      "summary": "Meta 向新加坡四个社区组织捐赠 1,000 副 Ray-Ban Meta AI 眼镜，帮助残障人士。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Meta Donates 1,000 AI Glasses to Singapore’s Disability Community",
       "url": "https://about.fb.com/news/2026/10/meta-donates-1000-ai-glasses-to-singapores-disability-community/",
       "source": {
@@ -70,13 +70,15 @@
       },
       "publishedAt": "2026-10-08T05:49:36.000Z",
       "contentHash": "4f5e415abf835d4d25d1911afc4e8add159ff8f0ebe8bbd50fb697a72081692b",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "a24a4cc37e52401225041c8e",
-      "title": "Claude Code v2.1.294",
-      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so Claude is less likely to stop early",
-      "originalTitle": "Claude Code v2.1.294",
+      "title": "Claude Code v2.1.294 版本更新",
+      "summary": "更新内容：修复以指令形式编写的 prompt hook 和 agent hook（如“阻止……命令”）未能拦截应阻止操作的问题。改进对 Stop 和 SubagentStop 中指令式 prompt hook（如“如果构建失败就继续”）的判断，使 Claude 更不容易过早停止。",
+      "originalTitle": "v2.1.294",
+      "sourceTitle": "v2.1.294",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
       "source": {
         "id": "claude-releases",
@@ -86,7 +88,7 @@
       },
       "publishedAt": "2026-10-08T05:03:54.000Z",
       "contentHash": "30b4e66a6e71721247fd5fcb0a1c614b830397bd14fbfe09dc879d34567e4458",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "1e3bbcebd0598f4ff4aa1d68",
@@ -138,9 +140,11 @@
     },
     {
       "id": "56f8e09b1b593e92ddb53d2b",
-      "title": "Claude Code v2.1.293",
-      "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search Fixed",
-      "originalTitle": "Claude Code v2.1.293",
+      "title": "Claude Code v2.1.293 版本更新",
+      "summary": "更新内容：新增 Claude Haiku 5.5（claude-haiku-5-5）；公告称其现为 Anthropic API 默认 Haiku 模型，支持 1M 上下文，价格为每百万 token $0.10/$0.50，提示超过 100K 时为 $0.50/$2.50。subagentStatusLine 载荷新增 agentType，使脚本可区分自定义子智能体类型。mod 的 $.tool.register 新增 isDeferred；设为 false 时，工具 schema 会从一开始列入提示，不必等待工具搜索。后续修复说明已在来源摘要中截断。",
+      "originalTitle": "v2.1.293",
+      "sourceTitle": "v2.1.293",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
       "source": {
         "id": "claude-releases",
@@ -150,7 +154,7 @@
       },
       "publishedAt": "2026-10-07T18:10:20.000Z",
       "contentHash": "156600524c7290f69709d3175e22ec6f8522fe44cd6afa0ccd4f778e66429b09",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "9c6864cb3e2bcbe241f6cf86",
@@ -169,6 +173,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "b8965a9c6ab5f9b55100bc32bcf8498e360fe490a3cb384855e9939c56bdc022",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "773b35153a3c1d987571128dcbf0dab77364c706f463deb86378b8a83e607ab0",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

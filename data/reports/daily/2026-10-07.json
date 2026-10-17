@@ -122,9 +122,11 @@
     },
     {
       "id": "a87e67ae638cd2790112d10d",
-      "title": "Claude Code v2.1.292",
-      "summary": "What's changed Added --marketplace to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff whe",
-      "originalTitle": "Claude Code v2.1.292",
+      "title": "Claude Code v2.1.292 版本更新",
+      "summary": "更新内容：claude plugin install 新增 --marketplace；如有需要，先按 claude plugin marketplace add 相同策略检查并添加市场，再从中安装插件。Agent 工具新增 effort 参数，可按要求的推理强度运行子智能体。新增 CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS，用于设置更长的重试退避基础延迟；后续原文已在来源摘要中截断。",
+      "originalTitle": "v2.1.292",
+      "sourceTitle": "v2.1.292",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
       "source": {
         "id": "claude-releases",
@@ -134,7 +136,7 @@
       },
       "publishedAt": "2026-10-06T18:59:30.000Z",
       "contentHash": "92c0e6c91c0e1008d7d5fac8781803778a9ce135e44b86c88f54a7571413ef9e",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "b67caddda941eca8e4af9737",
@@ -169,6 +171,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "113b392d17c49113d7edadfa3545fb61ef68518a3d9a3307a5c1cf0536806f9b",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "2e05087f86f22111f8474e3129edc1dfdd1dd3ac3b33cc0e2598758b59e46359",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }

@@ -1,24 +1,22 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-17T14:34:59.473Z",
-  "lastSuccessAt": "2026-10-17T14:33:49.167Z",
+  "attemptAt": "2026-10-17T14:57:06.115Z",
+  "lastSuccessAt": "2026-10-17T14:55:39.953Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
   "sourceStale": 0,
   "archiveArticles": 249,
-  "newArticles": 30,
+  "newArticles": 0,
   "changedArticles": 0,
-  "translationRequested": 20,
-  "translatedThisRun": 11,
-  "translationFailed": 9,
+  "translationRequested": 0,
+  "translatedThisRun": 0,
+  "translationFailed": 0,
   "translationDeferred": 0,
   "translationError": null,
   "translationNote": null,
-  "actualTranslationEngines": {
-    "offline_cpu_qwen": 11
-  },
-  "pendingTranslations": 19,
+  "actualTranslationEngines": {},
+  "pendingTranslations": 0,
   "translationLimit": 20,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -29,9 +27,9 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-17T14:34:59.473Z",
-    "runId": "39041262680",
-    "event": "push",
+    "actualAttemptAt": "2026-10-17T14:57:06.115Z",
+    "runId": "39042806975",
+    "event": "workflow_dispatch",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   }
 }

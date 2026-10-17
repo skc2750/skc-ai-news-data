@@ -92,8 +92,8 @@
     },
     {
       "id": "baf7104295a2fcc3f911c7f9",
-      "title": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
-      "summary": "Meta and 14 other tech companies joined law enforcement from ten countries to disrupt scam networks operating in West Africa in the largest operation of its kind to date. The post Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks appeared first on Meta Newsroom .",
+      "title": "主要科技公司联手多国执法部门，大规模打击西非诈骗网络",
+      "summary": "Meta 与另外 14 家科技公司联合十个国家的执法部门，打击在西非活动的诈骗网络；原文称这是迄今规模最大的同类行动。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Leading Tech Companies Join Global Law Enforcement in Major Crackdown on West African Scam Networks",
       "url": "https://about.fb.com/news/2026/10/meta-tech-companies-law-enforcement-crackdown-global-scam-networks/",
       "source": {
@@ -104,7 +104,7 @@
       },
       "publishedAt": "2026-10-13T14:00:42.000Z",
       "contentHash": "e81eea65feae77c6d76ea6af99c739dd1b55a9c8247314516016d68be23344a6",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "49297e6402035f005487c1fc",
@@ -172,8 +172,8 @@
     },
     {
       "id": "188c49a098bdefe5c9bee89b",
-      "title": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
-      "summary": "Meta is introducing Muse Wonder and Muse Wonder Full, our most capable models to date, built to deliver state-of-the-art performance on personal and professional agentic tasks. The post Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents appeared first on Meta Newsroom .",
+      "title": "Meta 推出 Muse Wonder 和 Muse Wonder Full：面向智能体的前沿模型",
+      "summary": "Meta 推出 Muse Wonder 和 Muse Wonder Full，称其为公司迄今能力最强的模型，旨在为个人及专业智能体任务提供前沿性能。本文最初发表于 Meta Newsroom。",
       "originalTitle": "Introducing Muse Wonder and Muse Wonder Full: Frontier Models for Agents",
       "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
       "source": {
@@ -184,7 +184,7 @@
       },
       "publishedAt": "2026-10-12T17:08:05.000Z",
       "contentHash": "a9fcc4e50a21954a22849e14f345100628a6188c9e9d312459bf940dbae24aba",
-      "translationStatus": "pending"
+      "translationStatus": "ok"
     },
     {
       "id": "fd543b5cf06f283201fd9956",
@@ -203,6 +203,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "0caf360698f7510153b5b632030a81ebbd7782ef1f1d9add3e008c322618b631",
-  "compiledAt": "2026-10-17T14:34:59.473Z"
+  "contentHash": "594a0bc977a3d1c969b307478be033b47502654d0fd97dc65e6e327ebe9b48be",
+  "compiledAt": "2026-10-17T14:57:06.115Z"
 }
