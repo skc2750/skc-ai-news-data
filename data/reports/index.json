@@ -8,10 +8,10 @@
       "kind": "daily",
       "period": "2026-10-17",
       "articleCount": 5,
-      "periodState": "open",
-      "compiledAt": "2026-10-17T14:57:06.115Z",
-      "bytes": 5469,
-      "sha256": "f54b9d5315d155ff1ab9304c720a596450e5d3032c0e164fc7b55afdb6af7ef2"
+      "periodState": "closed",
+      "compiledAt": "2026-10-17T16:44:50.948Z",
+      "bytes": 5453,
+      "sha256": "d54dea502cb6ee0a7666c2851313e6df3d50ba5772c02627ff24092321cb4234"
     },
     {
       "id": "daily:2026-10-16",

@@ -6,10 +6,10 @@
   "title": "2026-10-17 每日资讯汇编",
   "startAt": "2026-10-16T16:00:00.000Z",
   "endAt": "2026-10-17T16:00:00.000Z",
-  "periodState": "open",
+  "periodState": "closed",
   "partial": true,
   "retroactive": true,
-  "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
   "articleCount": 5,
   "articleIds": [
@@ -107,6 +107,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "216d995fd9e623e8db57428934564b30690189b3ddef83c507f26b3805b15297",
-  "compiledAt": "2026-10-17T14:57:06.115Z"
+  "contentHash": "251bc149ba698d2159c7d6c7b4129ea73fcf0e56da581e945bb42ff5ba1d44f2",
+  "compiledAt": "2026-10-17T16:44:50.948Z"
 }
