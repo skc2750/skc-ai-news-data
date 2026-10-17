@@ -29,11 +29,11 @@
       "path": "reports/daily/2026-10-15.json",
       "kind": "daily",
       "period": "2026-10-15",
-      "articleCount": 8,
+      "articleCount": 9,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T09:11:50.688Z",
-      "bytes": 7281,
-      "sha256": "b6c049f7acd01ebcc872e345f4a16757e7caf8a031cf4f810e221069a3507da2"
+      "compiledAt": "2026-10-17T13:43:48.832Z",
+      "bytes": 8461,
+      "sha256": "c1f459f03e8d0d726b59a5cd351cdfb5bc7acc26b4775d659ea548a24bd4a24a"
     },
     {
       "id": "daily:2026-10-14",
@@ -73,11 +73,11 @@
       "path": "reports/weekly/2026-10-12.json",
       "kind": "weekly",
       "period": "2026-10-12",
-      "articleCount": 49,
+      "articleCount": 50,
       "periodState": "open",
-      "compiledAt": "2026-10-17T09:15:06.995Z",
-      "bytes": 44649,
-      "sha256": "39e9d548cc84ea6319ef9b54929a007f813d17b9ecd9b1fcd96e60b9e9d3cdc0"
+      "compiledAt": "2026-10-17T13:43:48.832Z",
+      "bytes": 45829,
+      "sha256": "5b5c9e3a675397e53370a9cc33e02137a04c7135080a9ddefd8ca14f0447f49e"
     },
     {
       "id": "daily:2026-10-09",
@@ -194,11 +194,11 @@
       "path": "reports/monthly/2026-10.json",
       "kind": "monthly",
       "period": "2026-10",
-      "articleCount": 89,
+      "articleCount": 90,
       "periodState": "open",
-      "compiledAt": "2026-10-17T09:15:06.995Z",
-      "bytes": 78892,
-      "sha256": "0a9e46bf94e36ea0d6993f9b31a9e7a2528831a0ae5f3a78b96ac25403824bf7"
+      "compiledAt": "2026-10-17T13:43:48.832Z",
+      "bytes": 80072,
+      "sha256": "a47a7b89bdc32abc798a65e0ad84107174e9200e5a721ce4d06d85ecb0225da7"
     },
     {
       "id": "daily:2026-09-30",

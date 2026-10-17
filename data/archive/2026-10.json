@@ -507,6 +507,47 @@
       }
     },
     {
+      "id": "5aae1c9b16779eadc501ea9b",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Rod Evans",
+      "publishedAt": "2026-10-15T10:00:12.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "AI Factory",
+        "Artificial Intelligence",
+        "Climate",
+        "Deep Learning Institute",
+        "Events"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T13:42:51.109Z",
+      "contentHash": "a6498f69a7481d7931fb172bff1d1960069ce55c6b4f2e7c9445020bfc982bcd",
+      "firstSeenAt": "2026-10-17T13:42:51.109Z",
+      "lastChangedAt": "2026-10-17T13:43:48.832Z",
+      "titleZh": "NVIDIA通过开放学习资源、合作和计算能力，扩大对欧洲科学社区的高级技术访问。",
+      "summaryZh": "今天的许多科学进步始于计算。但将加速计算的潜力转化为科学研究——建模气候系统、设计分子、模拟材料等——不仅需要突破性技术，还需要更多的因素。特别是对于小型实验室、早期职业科学家或以科学为基础的初创公司来说，研究过程中最困难的部分往往是科学之前的一切：[...]",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a6498f69a7481d7931fb172bff1d1960069ce55c6b4f2e7c9445020bfc982bcd",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T13:43:48.832Z"
+      }
+    },
+    {
       "id": "24a2f8321eaf18e7f9a6dc0f",
       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
       "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",

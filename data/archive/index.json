@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "monitoringSince": "2026-10-17T08:58:15.450Z",
-  "totalArticles": 218,
+  "totalArticles": 219,
   "coverageNote": "七个平台有限订阅源已读取条目的标题、短摘要与来源链接。不是全网覆盖；中文为机器翻译。回溯数据不表示历史连续监测。",
   "partitions": [
     {
       "month": "2026-10",
       "path": "archive/2026-10.json",
-      "articleCount": 86,
-      "bytes": 166749,
-      "sha256": "11dc729b837334e423f7be79ce22c8a4a0bc345689a618d6e1ac61909370fe4e"
+      "articleCount": 87,
+      "bytes": 169192,
+      "sha256": "818b90994298106118e96ba242b9a16179c6f48cdf66ee8a5319217244051a1b"
     },
     {
       "month": "2026-09",

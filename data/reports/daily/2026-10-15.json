@@ -11,10 +11,11 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 8,
+  "articleCount": 9,
   "articleIds": [
     "93fcfd2229e3c08ebbcee526",
     "c97a88b17fcedacb5bba7b24",
+    "5aae1c9b16779eadc501ea9b",
     "24a2f8321eaf18e7f9a6dc0f",
     "0c78145ed9f3ed658f86dcb6",
     "631b0df93ea5d5fec2372d13",
@@ -53,6 +54,22 @@
       },
       "publishedAt": "2026-10-15T13:00:00.000Z",
       "contentHash": "0b7e73b2f13cbce41fbf1e7b977ae56efc7e891e338d2a52371b5c2ff76c3938",
+      "translationStatus": "ok"
+    },
+    {
+      "id": "5aae1c9b16779eadc501ea9b",
+      "title": "NVIDIA通过开放学习资源、合作和计算能力，扩大对欧洲科学社区的高级技术访问。",
+      "summary": "今天的许多科学进步始于计算。但将加速计算的潜力转化为科学研究——建模气候系统、设计分子、模拟材料等——不仅需要突破性技术，还需要更多的因素。特别是对于小型实验室、早期职业科学家或以科学为基础的初创公司来说，研究过程中最困难的部分往往是科学之前的一切：[...]",
+      "originalTitle": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T10:00:12.000Z",
+      "contentHash": "a6498f69a7481d7931fb172bff1d1960069ce55c6b4f2e7c9445020bfc982bcd",
       "translationStatus": "ok"
     },
     {
@@ -152,6 +169,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "f2647b299f1ac16f11c358af7e9d9ebeffe69494e2a523c82ce6aa707009af81",
-  "compiledAt": "2026-10-17T09:11:50.688Z"
+  "contentHash": "8e5e82d8be7e87bf9b60c8f0b0517f4ae43631d9726730590dcdf6840d512903",
+  "compiledAt": "2026-10-17T13:43:48.832Z"
 }

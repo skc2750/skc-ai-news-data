@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T12:52:09.581Z",
-  "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+  "generatedAt": "2026-10-17T13:43:48.832Z",
+  "lastSuccessAt": "2026-10-17T13:42:51.109Z",
   "status": "ok",
   "articles": [
     {
@@ -506,6 +506,47 @@
         "modelRevision": "2026-10-17",
         "translatedAt": "2026-10-17T09:11:50.688Z",
         "note": "初始公开订阅标题与短摘要由本次已有 Codex 会话翻译复核；未调用外部收费翻译接口。后续新增条目使用离线 CPU 自动翻译。"
+      }
+    },
+    {
+      "id": "5aae1c9b16779eadc501ea9b",
+      "title": "NVIDIA Expands Advanced Technology Access for Europe’s Scientific Community Through Open Learning Resources, Collaborations and Compute",
+      "summary": "Much of today’s scientific progress begins with computation. But turning accelerated computing’s potential into scientific progress — modeling climate systems, designing molecules, simulating materials and more — depends on more than breakthrough technology. Especially for smaller labs, early-career scientists or science-based startups, the hardest part of research can be everything that comes before the science: [&#",
+      "url": "https://blogs.nvidia.com/blog/ec-scientific-computing-pledge/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Rod Evans",
+      "publishedAt": "2026-10-15T10:00:12.000Z",
+      "category": "研究",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "AI Factory",
+        "Artificial Intelligence",
+        "Climate",
+        "Deep Learning Institute",
+        "Events"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-17T13:42:51.109Z",
+      "contentHash": "a6498f69a7481d7931fb172bff1d1960069ce55c6b4f2e7c9445020bfc982bcd",
+      "firstSeenAt": "2026-10-17T13:42:51.109Z",
+      "lastChangedAt": "2026-10-17T13:43:48.832Z",
+      "titleZh": "NVIDIA通过开放学习资源、合作和计算能力，扩大对欧洲科学社区的高级技术访问。",
+      "summaryZh": "今天的许多科学进步始于计算。但将加速计算的潜力转化为科学研究——建模气候系统、设计分子、模拟材料等——不仅需要突破性技术，还需要更多的因素。特别是对于小型实验室、早期职业科学家或以科学为基础的初创公司来说，研究过程中最困难的部分往往是科学之前的一切：[...]",
+      "translation": {
+        "status": "ok",
+        "sourceHash": "a6498f69a7481d7931fb172bff1d1960069ce55c6b4f2e7c9445020bfc982bcd",
+        "model": "Qwen/Qwen2.5-1.5B-Instruct",
+        "modelRevision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+        "engine": "offline_cpu_qwen",
+        "precision": "float32",
+        "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
+        "translatedAt": "2026-10-17T13:43:48.832Z"
       }
     },
     {
@@ -7783,8 +7824,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 50,
       "articleIds": [
         "ab999fe8f212727e7d3e9601",
@@ -7840,7 +7881,7 @@
       ],
       "feedItemCount": 1299,
       "bytes": 791461,
-      "sha256": "6b4da407cebfca16ec465335158a7a54e3084c5e756fd6e1fe37157d3728dc39",
+      "sha256": "b63fec25f174a5d6084d42ccd0beec5a897be01704535ea4a19e9f08a385fe1e",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -7855,8 +7896,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 20,
       "articleIds": [
         "c51fb173fad0a9b19c6b38f1",
@@ -7897,8 +7938,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 50,
       "articleIds": [
         "2cc0f38f7481ac8d6e7d08ec",
@@ -7969,8 +8010,8 @@
       "kind": "平台及社区作者",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 50,
       "articleIds": [
         "690ff55655c843d38174cfaa",
@@ -8041,8 +8082,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 10,
       "articleIds": [
         "36b0709d3b06ff00ba872822",
@@ -8057,8 +8098,8 @@
         "91bfc16d543ac636fdc68594"
       ],
       "feedItemCount": 10,
-      "bytes": 268705,
-      "sha256": "ab016bc24acfe05e9148230e047fd1b17cffa6e0be5b4d8f4a7b295ff2834533",
+      "bytes": 268327,
+      "sha256": "43117c8490b8057da57c219a86e777ed12260b3256eed51c9e12383fb823b469",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -8073,8 +8114,8 @@
       "kind": "官方工程",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 20,
       "articleIds": [
         "c57d65fcc265bc8a4b5b2659",
@@ -8115,10 +8156,11 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-17T12:52:08.398Z",
-      "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+      "lastCheckedAt": "2026-10-17T13:42:51.109Z",
+      "lastSuccessAt": "2026-10-17T13:42:51.109Z",
       "articleCount": 18,
       "articleIds": [
+        "5aae1c9b16779eadc501ea9b",
         "24a2f8321eaf18e7f9a6dc0f",
         "690c816bcd4662991b34ba7e",
         "ffdd507c1009629071c71d79",
@@ -8135,12 +8177,11 @@
         "4a17bcadbd38f7de3bbbfca6",
         "b52ffa6581c3011aa276ab7a",
         "c52bd700f991138bb84f8978",
-        "adb07246d1b16d3011602e8e",
-        "5609622ec8767572e02480b3"
+        "adb07246d1b16d3011602e8e"
       ],
       "feedItemCount": 18,
-      "bytes": 264908,
-      "sha256": "646bdb3bed80a157f4ba9a945ac00bb6a93a2dff0707292ced39d997bf5442b8",
+      "bytes": 271967,
+      "sha256": "832234f691980b66d4dbd9a7e0709f2cba4465cc65ebcd64a1d58e1e6531746d",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -8247,8 +8288,8 @@
   },
   "archive": {
     "url": "/news/data/archive.json",
-    "publishedAt": "2026-10-17T12:52:09.581Z",
-    "totalArticles": 218,
+    "publishedAt": "2026-10-17T13:43:48.832Z",
+    "totalArticles": 219,
     "indexUrl": "data/archive/index.json"
   },
   "refreshPolicy": {
@@ -8258,10 +8299,11 @@
   },
   "translation": {
     "method": "machine_translation_with_provenance",
-    "translated": 218,
+    "translated": 219,
     "pending": 0,
     "engines": {
-      "editorial_seed": 218
+      "editorial_seed": 218,
+      "offline_cpu_qwen": 1
     }
   },
   "limits": {
@@ -8271,22 +8313,24 @@
   },
   "receipt": {
     "schemaVersion": 1,
-    "attemptAt": "2026-10-17T12:52:09.581Z",
-    "lastSuccessAt": "2026-10-17T12:52:08.398Z",
+    "attemptAt": "2026-10-17T13:43:48.832Z",
+    "lastSuccessAt": "2026-10-17T13:42:51.109Z",
     "status": "ok",
     "seeded": false,
     "sourceOk": 7,
     "sourceStale": 0,
-    "archiveArticles": 218,
-    "newArticles": 0,
+    "archiveArticles": 219,
+    "newArticles": 1,
     "changedArticles": 0,
-    "translationRequested": 0,
-    "translatedThisRun": 0,
+    "translationRequested": 1,
+    "translatedThisRun": 1,
     "translationFailed": 0,
     "translationDeferred": 0,
     "translationError": null,
     "translationNote": null,
-    "actualTranslationEngines": {},
+    "actualTranslationEngines": {
+      "offline_cpu_qwen": 1
+    },
     "pendingTranslations": 0,
     "translationLimit": 20,
     "configuredModel": {
@@ -8298,8 +8342,8 @@
     },
     "scheduler": {
       "expected": "hourly at minute 17 UTC",
-      "actualAttemptAt": "2026-10-17T12:52:09.581Z",
-      "runId": "39034218778",
+      "actualAttemptAt": "2026-10-17T13:43:48.832Z",
+      "runId": "39037680302",
       "event": "schedule",
       "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
     }
