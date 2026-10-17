@@ -5,6 +5,7 @@ on:
     paths:
       - bootstrap.zip
       - projects-bootstrap.zip
+      - focus-bootstrap.zip
       - .github/workflows/update.yml
   schedule:
     - cron: '17 * * * *'
@@ -41,6 +42,62 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, verified official ref 2026-10-17
         with:
           persist-credentials: false
+      - name: Verify and unpack optional focused products and showcases patch
+        if: hashFiles('focus-bootstrap.zip') != ''
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, stat, zipfile
+          from pathlib import Path
+          root = Path.cwd().resolve()
+          payload = root / 'focus-bootstrap.zip'
+          expected = '76913800be3e9d266c22bfecedafb35b81fce4755ab5f1df40e028f453d58f65'
+          exact = set(["lib/projects.cjs","lib/showcases.cjs","lib/core.cjs","lib/collect.cjs","lib/store.cjs","scripts/prepare.cjs","scripts/update.cjs","scripts/verify.cjs","test/projects.test.cjs","test/pipeline.test.cjs","test/showcases.test.cjs","README.md","data/projects.json","data/showcases.json"])
+          if (root / 'bootstrap.zip').exists() or (root / 'projects-bootstrap.zip').exists():
+              raise ValueError('Do not apply two different bootstrap versions together')
+          if payload.is_symlink() or not payload.is_file() or payload.stat().st_size > 2 * 1024 * 1024:
+              raise ValueError('Focus patch payload is not a bounded regular file')
+          if hashlib.sha256(payload.read_bytes()).hexdigest() != expected:
+              raise ValueError('Focus patch SHA-256 mismatch')
+          selected, seen, total = [], set(), 0
+          with zipfile.ZipFile(payload) as archive:
+              members = archive.infolist()
+              if len(members) != len(exact):
+                  raise ValueError('Unexpected focus patch member count')
+              for item in members:
+                  name, parts = item.orig_filename, item.orig_filename.split('/')
+                  kind = stat.S_IFMT(item.external_attr >> 16)
+                  if name != item.filename or name not in exact or not name.isascii() or any(p in ('', '.', '..') for p in parts):
+                      raise ValueError('Focus patch path is outside exact allowlist')
+                  if item.is_dir() or kind not in (0, stat.S_IFREG) or item.external_attr & 16 or item.flag_bits & 1 or item.compress_type not in (0, 8):
+                      raise ValueError('Focus patch requires unencrypted regular files')
+                  if name.casefold() in seen or item.file_size < 0 or item.file_size > 1024 * 1024 or item.compress_size < 0 or item.file_size > max(1, item.compress_size) * 200:
+                      raise ValueError('Focus patch has duplicate or oversized member')
+                  seen.add(name.casefold()); total += item.file_size
+                  if total > 4 * 1024 * 1024:
+                      raise ValueError('Focus patch expanded size exceeds bounds')
+                  target = root.joinpath(*parts)
+                  target.resolve().relative_to(root)
+                  for parent in [target, *target.parents]:
+                      if parent == root:
+                          break
+                      if parent.is_symlink():
+                          raise ValueError('Focus patch destination contains a symlink')
+                  with archive.open(item) as handle:
+                      body = handle.read(item.file_size + 1)
+                  if len(body) != item.file_size:
+                      raise ValueError('Focus patch member size differs from header')
+                  selected.append((target, body))
+          if seen != {name.casefold() for name in exact}:
+              raise ValueError('Focus patch exact file set differs')
+          targets = {target for target, _ in selected}
+          if any(parent in targets for target in targets for parent in target.parents):
+              raise ValueError('Focus patch file and directory paths collide')
+          for target, body in selected:
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(body)
+          print('Verified and unpacked', len(selected), 'curated focus patch files')
+          PY
       - name: Verify and unpack optional project monitor patch
         if: hashFiles('projects-bootstrap.zip') != ''
         shell: bash
@@ -252,6 +309,11 @@ jobs:
             # Remove the transport only after collection, tests and verification succeed.
             rm -- projects-bootstrap.zip
             git add -u -- projects-bootstrap.zip
+          fi
+          if test -f focus-bootstrap.zip; then
+            # Transport removal only follows tests, collection and durable verification.
+            rm -- focus-bootstrap.zip
+            git add -u -- focus-bootstrap.zip
           fi
           if git diff --cached --quiet; then
             echo 'No changed data files.'
