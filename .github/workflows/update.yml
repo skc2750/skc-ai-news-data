@@ -1,0 +1,157 @@
+name: Publish AI news data
+
+on:
+  push:
+    paths:
+      - bootstrap.zip
+      - .github/workflows/update.yml
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      translation_limit:
+        description: 'Maximum NEW or changed records to translate (0-500; hourly default 20)'
+        required: false
+        default: '20'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-ai-news-data
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
+      HF_HUB_DISABLE_TELEMETRY: '1'
+      CUDA_VISIBLE_DEVICES: ''
+      TRANSLATION_LIMIT: ${{ inputs.translation_limit || '20' }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, verified official ref 2026-10-17
+        with:
+          persist-credentials: false
+      - name: Verify and unpack optional curated bootstrap
+        if: hashFiles('bootstrap.zip') != ''
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          # BEGIN BOOTSTRAP GUARD
+          import hashlib, re, stat, zipfile
+          from pathlib import Path
+          root = Path.cwd().resolve()
+          payload = root / 'bootstrap.zip'
+          expected = 'fa04b4cc92ea53f4c69f807e36faf727dcbac2cf667fc97dfa553febe4cfdc5c'
+          if not re.fullmatch(r'[a-f0-9]{64}', expected):
+              raise ValueError('Bootstrap SHA-256 has not been pinned')
+          if payload.stat().st_size > 20 * 1024 * 1024:
+              raise ValueError('Bootstrap compressed size exceeds 20 MB')
+          if hashlib.sha256(payload.read_bytes()).hexdigest() != expected:
+              raise ValueError('Bootstrap SHA-256 mismatch')
+          exact = {'.gitignore', 'LICENSE', 'README.md', 'package.json', 'package-lock.json', 'requirements.translation.txt'}
+          data_pattern = r'data/(?:(?:current|archive|translation-cache|receipt|manifest)\.json|feed\.xml|archive/(?:index|undated|\d{4}-\d{2})\.json|reports/index\.json|reports/(?:daily|weekly)/\d{4}-\d{2}-\d{2}\.json|reports/monthly/\d{4}-\d{2}\.json)'
+          selected, seen, total = [], set(), 0
+          with zipfile.ZipFile(payload) as archive:
+              members = archive.infolist()
+              if not members or len(members) > 1000:
+                  raise ValueError('Bootstrap member count exceeds bounds')
+              for item in members:
+                  name, parts = item.orig_filename, item.orig_filename.split('/')
+                  kind = stat.S_IFMT(item.external_attr >> 16)
+                  if name != item.filename or not name.isascii() or not re.fullmatch(r'[A-Za-z0-9_./-]+', name) or any(p in ('', '.', '..') for p in parts):
+                      raise ValueError('Unsafe bootstrap member path')
+                  if item.is_dir() or kind not in (0, stat.S_IFREG) or item.external_attr & 16 or item.flag_bits & 1:
+                      raise ValueError('Bootstrap requires unencrypted regular files')
+                  allowed = name in exact or bool(re.fullmatch(data_pattern, name)) or (len(parts) > 1 and parts[0] in ('lib', 'scripts', 'test') and not any(p.startswith('.') for p in parts) and name.endswith(('.cjs', '.py')))
+                  if not allowed or re.search(r'(^|[/._-])(?:auth|secrets?|credentials?|tokens?|private|browser)([/._-]|$)', name, re.I):
+                      raise ValueError('Bootstrap member is outside the public allowlist')
+                  if name.casefold() in seen or item.file_size > 8 * 1024 * 1024 or item.file_size < 0:
+                      raise ValueError('Duplicate or oversized bootstrap member')
+                  seen.add(name.casefold()); total += item.file_size
+                  if total > 50 * 1024 * 1024:
+                      raise ValueError('Bootstrap expanded size exceeds 50 MB')
+                  target = root.joinpath(*parts)
+                  target.resolve().relative_to(root)
+                  if any(p.is_symlink() for p in [target, *target.parents] if p != root):
+                      raise ValueError('Bootstrap destination contains a symlink')
+                  with archive.open(item) as handle:
+                      body = handle.read(item.file_size + 1)
+                  if len(body) != item.file_size:
+                      raise ValueError('Bootstrap member size differs from header')
+                  selected.append((target, body))
+          targets = {target for target, _ in selected}
+          if any(parent in targets for target in targets for parent in target.parents):
+              raise ValueError('Bootstrap file/directory path collision')
+          for target, body in selected:
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(body)
+          print('Verified and unpacked', len(selected), 'curated public files')
+          # END BOOTSTRAP GUARD
+          PY
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22.23.2'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - run: python3 -m unittest discover -s test -p '*_test.py'
+      - name: Collect fixed public feeds and inspect translation queue
+        id: prepare
+        run: node scripts/prepare.cjs --translate-limit "$TRANSLATION_LIMIT"
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        if: steps.prepare.outputs.pending != '0'
+        continue-on-error: true
+        with:
+          python-version: '3.11.14'
+          cache: pip
+          cache-dependency-path: requirements.translation.txt
+      - uses: actions/cache@caa296126883cff596d87d8935842f9db880ef25 # v5
+        if: steps.prepare.outputs.pending != '0'
+        continue-on-error: true
+        with:
+          path: ~/.cache/huggingface/hub
+          key: cpu-qwen-en-zh-989aa7980e4cf806f80c7fef2b1adb7bc71aa306-v1
+      - name: Install pinned offline CPU translator
+        if: steps.prepare.outputs.pending != '0'
+        continue-on-error: true
+        run: python -m pip install --disable-pip-version-check -r requirements.translation.txt
+      - name: Translate new content and assemble durable data
+        run: node scripts/update.cjs --prepared .work/prepared.json --translate-limit "$TRANSLATION_LIMIT"
+      - run: npm run verify
+      - name: Commit one validated generation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_TERMINAL_PROMPT: '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          # Curated bootstrap sources and generated data only; workflows are already installed by the owner.
+          git add -- .gitignore LICENSE README.md package.json package-lock.json requirements.translation.txt lib scripts test data
+          if test -f bootstrap.zip; then
+            # Every previous step, including publication verification, succeeded before removal is allowed.
+            rm -- bootstrap.zip
+            git add -u -- bootstrap.zip
+          fi
+          if git diff --cached --quiet; then
+            echo 'No changed data files.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update verified news data and source reports'
+          # The token stays in the environment, never in a URL, command argument, or Git config.
+          ASKPASS="$RUNNER_TEMP/ainews-git-askpass.sh"
+          cat > "$ASKPASS" <<'ASKPASS_SCRIPT'
+          #!/usr/bin/env bash
+          case "$1" in
+            *Username*) printf '%s\n' 'x-access-token' ;;
+            *Password*) printf '%s\n' "$GITHUB_TOKEN" ;;
+          esac
+          ASKPASS_SCRIPT
+          chmod 700 "$ASKPASS"
+          trap 'rm -f -- "$ASKPASS"' EXIT
+          GIT_ASKPASS="$ASKPASS" git push origin "HEAD:${GITHUB_REF_NAME}"
