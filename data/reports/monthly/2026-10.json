@@ -11,8 +11,9 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 122,
+  "articleCount": 123,
   "articleIds": [
+    "884d832230ee974a19bc72f4",
     "1266f92abcd73b7cf3e23c71",
     "1540794e1a6cdcd487e98db5",
     "c57d65fcc265bc8a4b5b2659",
@@ -137,6 +138,24 @@
     "eddbf971051f0f2ff5d5fa3d"
   ],
   "items": [
+    {
+      "id": "884d832230ee974a19bc72f4",
+      "title": "Claude Code v2.1.303",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "originalTitle": "v2.1.303",
+      "sourceTitle": "v2.1.303",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-18T22:26:54.000Z",
+      "contentHash": "7f05dc0e2bc94e1627c8ba68b5b4b2c5627b0fff75c7027c1f32990fd3dd7f68",
+      "translationStatus": "failed"
+    },
     {
       "id": "1266f92abcd73b7cf3e23c71",
       "title": "OpenAI Codex 0.164.0-alpha.3（Alpha 预览版）",
@@ -2130,6 +2149,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "c6ad5a61b442981457619c1fc9ccdf9d614f04165987ffb0e07c09cd14465fb4",
-  "compiledAt": "2026-10-18T06:56:54.768Z"
+  "contentHash": "5f65e752f06cef9b70fca01a5faef84131b54b33bae6b9d01d69ff116882ca57",
+  "compiledAt": "2026-10-18T22:43:08.777Z"
 }

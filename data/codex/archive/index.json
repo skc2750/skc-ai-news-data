@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T21:44:59.697Z",
+  "generatedAt": "2026-10-18T22:43:08.777Z",
   "totalEvents": 36,
   "coverageNote": "每小时计划读取两个免费公开跟踪页，每6小时补充一次 Tibo 作者限定的免费搜索索引，再使用 X 官方公开嵌入核对原文。不是完整 X 时间线或实时推送，索引、跟踪页、原帖可读取性及 GitHub 排程均可能延迟。第三方线索、原文核验和个人账户到账相互独立；未公布的准确时间始终标为未知，历史回溯不表示当时已经持续监测。",
   "partitions": [
@@ -8,8 +8,8 @@
       "month": "2026-10",
       "path": "codex/archive/2026-10.json",
       "eventCount": 29,
-      "bytes": 51569,
-      "sha256": "e8f270bb84157459c74ed9020d6d32290f07c7ba06275b59a7c3d4677d2f7381"
+      "bytes": 51538,
+      "sha256": "3faadea0e76660038fce5040f6aa7098ff8b8dc49e9a3384cd07e6ae650aa4bf"
     },
     {
       "month": "2026-09",

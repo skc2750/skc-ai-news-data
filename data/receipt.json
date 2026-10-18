@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-18T21:44:59.697Z",
-  "lastSuccessAt": "2026-10-18T21:43:31.658Z",
+  "attemptAt": "2026-10-18T22:43:08.777Z",
+  "lastSuccessAt": "2026-10-18T22:41:59.310Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
   "sourceStale": 0,
-  "archiveArticles": 251,
-  "newArticles": 0,
+  "archiveArticles": 252,
+  "newArticles": 1,
   "changedArticles": 0,
-  "translationRequested": 2,
+  "translationRequested": 3,
   "translatedThisRun": 0,
-  "translationFailed": 2,
+  "translationFailed": 3,
   "translationDeferred": 0,
   "translationError": null,
   "translationNote": null,
   "actualTranslationEngines": {},
-  "pendingTranslations": 2,
+  "pendingTranslations": 3,
   "translationLimit": 20,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -27,26 +27,26 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-18T21:44:59.697Z",
-    "runId": "39169082389",
+    "actualAttemptAt": "2026-10-18T22:43:08.777Z",
+    "runId": "39173344318",
     "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
     "eventCount": 36,
-    "checkedAt": "2026-10-18T21:43:31.658Z",
-    "lastSuccessAt": "2026-10-18T21:43:31.658Z",
+    "checkedAt": "2026-10-18T22:41:59.310Z",
+    "lastSuccessAt": "2026-10-18T22:41:59.310Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-18T21:43:31.658Z"
+        "checkedAt": "2026-10-18T22:41:59.310Z"
       },
       {
         "id": "whenreset-codex",
-        "status": "ok",
-        "checkedAt": "2026-10-18T21:43:31.658Z"
+        "status": "stale",
+        "checkedAt": "2026-10-18T22:41:59.310Z"
       },
       {
         "id": "tibo-search-index",
@@ -56,7 +56,7 @@
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-18T21:43:31.658Z"
+        "checkedAt": "2026-10-18T22:41:59.310Z"
       }
     ]
   }

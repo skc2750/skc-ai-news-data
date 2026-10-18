@@ -3,6 +3,28 @@
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "reports": [
     {
+      "id": "daily:2026-10-19",
+      "path": "reports/daily/2026-10-19.json",
+      "kind": "daily",
+      "period": "2026-10-19",
+      "articleCount": 1,
+      "periodState": "open",
+      "compiledAt": "2026-10-18T22:43:08.777Z",
+      "bytes": 1451,
+      "sha256": "67ff980911c4d0d6bbbb91f259a5c8b98febaa81d9f2f17ff0f8e7229f414dca"
+    },
+    {
+      "id": "weekly:2026-10-19",
+      "path": "reports/weekly/2026-10-19.json",
+      "kind": "weekly",
+      "period": "2026-10-19",
+      "articleCount": 1,
+      "periodState": "open",
+      "compiledAt": "2026-10-18T22:43:08.777Z",
+      "bytes": 1468,
+      "sha256": "0a0e64f3a4fade401d3520103fabbf6fb1fd9566a8469270fa5d516f8c2d9c86"
+    },
+    {
       "id": "daily:2026-10-17",
       "path": "reports/daily/2026-10-17.json",
       "kind": "daily",
@@ -205,11 +227,11 @@
       "path": "reports/monthly/2026-10.json",
       "kind": "monthly",
       "period": "2026-10",
-      "articleCount": 122,
+      "articleCount": 123,
       "periodState": "open",
-      "compiledAt": "2026-10-18T06:56:54.768Z",
-      "bytes": 112863,
-      "sha256": "46676c4d4a112ec5473eadc69ece72e5574b87cfd4d3f01f0fa05128a9fa3430"
+      "compiledAt": "2026-10-18T22:43:08.777Z",
+      "bytes": 113703,
+      "sha256": "0c52cae3ab466e69c5d2c0ae451340a860eaa6670a890bfa11bbbecf9f9da754"
     },
     {
       "id": "daily:2026-09-30",
