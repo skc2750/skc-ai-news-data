@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T12:51:54.751Z",
-  "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+  "generatedAt": "2026-10-18T13:43:12.513Z",
+  "lastSuccessAt": "2026-10-18T13:43:12.513Z",
   "status": "ok",
   "coverageZh": "11 项个人开发者作品，另保留 7 项社区应用、官方示例和工作流；人工精选与规则自动收录分别标识，原型、视频和可交互演示分别说明。",
   "updatePolicyZh": "每小时检查已收录来源；每6小时轮换搜索 Codex、Claude Code、Muse Code 的个人三维、视频和办公作品，计划可能延迟。证据与可达链接齐全后按规则自动收录，缺项进入候选区；自动收录是原作者自述的规则筛查，不等于人工或运行验收。",
@@ -69,23 +69,23 @@
       "repoUrl": "https://github.com/simonw/raccoon-heist-codex",
       "monitoredSourceUrl": "https://github.com/simonw/raccoon-heist-codex/blob/main/README.md",
       "linkChecks": {
-        "process": {
+        "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
-        "demo": {
+        "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -168,21 +168,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -265,21 +265,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -356,21 +356,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -459,21 +459,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
-          "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
+          "status": "stale",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
           "lastSuccessAt": "2026-10-18T12:51:54.751Z",
-          "httpStatus": 200,
-          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+          "httpStatus": null,
+          "noteZh": "本次链接检查未成功；保留原链接和上次成功时间，不能据此断言作品已下线。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -548,21 +548,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -637,21 +637,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -726,21 +726,21 @@
       "linkChecks": {
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -821,21 +821,21 @@
       "linkChecks": {
         "process": {
           "status": "unverified",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
           "lastSuccessAt": null,
           "httpStatus": 403,
           "noteZh": "本次无法直接确认链接可达，可能受限流、登录、重定向或站点故障影响；保留作者原入口。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -918,21 +918,21 @@
       "linkChecks": {
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1012,21 +1012,21 @@
       "linkChecks": {
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-18T12:51:54.751Z",
-          "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+          "checkedAt": "2026-10-18T13:43:12.513Z",
+          "lastSuccessAt": "2026-10-18T13:43:12.513Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1071,8 +1071,8 @@
       "aiEvidenceSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1116,8 +1116,8 @@
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1162,8 +1162,8 @@
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
       "monitoredSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1171,7 +1171,7 @@
       "reviewedEvidenceHash": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "activity": {
         "lastPushAt": "2026-10-08T17:34:23.000Z",
-        "stars": 18533,
+        "stars": 18546,
         "archived": false,
         "latestRelease": null
       }
@@ -1209,8 +1209,8 @@
       "aiEvidenceSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1218,7 +1218,7 @@
       "reviewedEvidenceHash": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "activity": {
         "lastPushAt": "2026-10-16T08:09:18.000Z",
-        "stars": 5312,
+        "stars": 5314,
         "archived": false,
         "latestRelease": null
       }
@@ -1255,8 +1255,8 @@
       "aiEvidenceSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1302,8 +1302,8 @@
       "aiEvidenceSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1347,8 +1347,8 @@
       "aiEvidenceSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1356,7 +1356,7 @@
       "reviewedEvidenceHash": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "activity": {
         "lastPushAt": "2025-10-28T09:58:12.000Z",
-        "stars": 15151,
+        "stars": 15152,
         "archived": false,
         "latestRelease": null
       }
@@ -1368,8 +1368,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/simonw/raccoon-heist-codex/main/README.md",
       "repoUrl": "https://github.com/simonw/raccoon-heist-codex",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "cea79651ee2072c2bac851a487deedcde475ef333de60b323add3eab59ae7c1c",
       "reviewStatus": "verified_source"
     },
@@ -1378,8 +1378,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/chongdashu/threejs-forest-census/main/README.md",
       "repoUrl": "https://github.com/chongdashu/threejs-forest-census",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "5fdeba662278d17093fe26c9d246b79d72c819a6db28e3617684fbd514ab37c2",
       "reviewStatus": "verified_source"
     },
@@ -1388,8 +1388,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/TakashiYoshinaga/AgenticCodingBlog/main/README.md",
       "repoUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "b82424eb050cda317da7f178a129d5725a9bacd93bc594ce79f284367d32519b",
       "reviewStatus": "verified_source"
     },
@@ -1398,8 +1398,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Duoasa/Duoasa-Design/main/README.md",
       "repoUrl": "https://github.com/Duoasa/Duoasa-Design",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "d152f9b6a6e9bf2bc6c12056cbf2ea91be3ec282f852d0e2f6cc83728d15a9ba",
       "reviewStatus": "verified_source"
     },
@@ -1408,8 +1408,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/klzc3377/klzc-portfolio/main/README.md",
       "repoUrl": "https://github.com/klzc3377/klzc-portfolio",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "ec322ac7587c87c6b56a3da9377c0e10f31c22a21a8cb2b387d2b304e3783e94",
       "reviewStatus": "verified_source"
     },
@@ -1418,8 +1418,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/jason-c-dev/iridium-reach-demo/main/README.md",
       "repoUrl": "https://github.com/jason-c-dev/iridium-reach-demo",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "ab8077e11748b7aa7e92c750a2ee9de6e8d33b036ee32dc2ef31bcc26640da25",
       "reviewStatus": "verified_source"
     },
@@ -1428,8 +1428,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/pmmathias/hotelSim/main/README.md",
       "repoUrl": "https://github.com/pmmathias/hotelSim",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "d2229e148d2a13115b0adf1c678aa1c5de8a21431ee497d7c8102956b6b393c6",
       "reviewStatus": "verified_source"
     },
@@ -1438,8 +1438,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/specstoryai/zero-to-product-video-hero/main/README.md",
       "repoUrl": "https://github.com/specstoryai/zero-to-product-video-hero",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "8462545145e4480ee64cdec65864662c21f4c948058bcfe552a8caddeeb00c54",
       "reviewStatus": "verified_source"
     },
@@ -1448,8 +1448,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/prajwal-y/video_explainer/main/README.md",
       "repoUrl": "https://github.com/prajwal-y/video_explainer",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "3c388b8fcab532a23a78a2f6536d5436b2b68591d80b777adc04dbd41593f35b",
       "reviewStatus": "verified_source"
     },
@@ -1458,8 +1458,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/ninihen1/copilot-studio-itsm-agent/main/README.md",
       "repoUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "1d2e95a0481537e6af6778e978a585074063f8d5ea2f044b82ec955b58aaed35",
       "reviewStatus": "verified_source"
     },
@@ -1468,8 +1468,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/dilmerv/MinimalGolfVR/master/README.md",
       "repoUrl": "https://github.com/dilmerv/MinimalGolfVR",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "564f1398aa8d49db88faac771f638ba36c23062fc1a06b4a015f043b9ed73446",
       "reviewStatus": "verified_source"
     },
@@ -1478,8 +1478,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/openai/codex-action/main/README.md",
       "repoUrl": "https://github.com/openai/codex-action",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "reviewStatus": "verified_source"
     },
@@ -1488,8 +1488,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code-action/main/README.md",
       "repoUrl": "https://github.com/anthropics/claude-code-action",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "reviewStatus": "verified_source"
     },
@@ -1498,8 +1498,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/autonomous-coding/README.md",
       "repoUrl": "https://github.com/anthropics/claude-quickstarts",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "reviewStatus": "verified_source"
     },
@@ -1508,8 +1508,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/remotion-dev/skills/main/README.md",
       "repoUrl": "https://github.com/remotion-dev/skills",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "reviewStatus": "verified_source"
     },
@@ -1518,8 +1518,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Nutlope/llamacoder/main/README.md",
       "repoUrl": "https://github.com/Nutlope/llamacoder",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "3faebc929a5f8f7f18469934ef48cd79459449720b064f388bdd4df5b5411eca",
       "reviewStatus": "verified_source"
     },
@@ -1528,8 +1528,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/README.md",
       "repoUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "reviewStatus": "verified_source"
     },
@@ -1538,8 +1538,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md",
       "repoUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "status": "ok",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
-      "lastSuccessAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
+      "lastSuccessAt": "2026-10-18T13:43:12.513Z",
       "sha256": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "reviewStatus": "verified_source"
     }
@@ -1865,7 +1865,7 @@
   "socialDiscovery": {
     "schemaVersion": 1,
     "status": "idle",
-    "checkedAt": "2026-10-18T12:51:54.751Z",
+    "checkedAt": "2026-10-18T13:43:12.513Z",
     "lastAttemptAt": "2026-10-18T08:46:15.481Z",
     "lastSuccessAt": "2026-10-18T08:46:15.481Z",
     "nextCheckAt": "2026-10-18T14:46:15.481Z",
@@ -2358,7 +2358,7 @@
   ],
   "discoveryState": {
     "schemaVersion": 1,
-    "checkedAt": "2026-10-18T12:51:54.751Z",
+    "checkedAt": "2026-10-18T13:43:12.513Z",
     "lastSuccessAt": null,
     "status": "idle",
     "lastRunStatus": "partial",
@@ -2823,7 +2823,7 @@
     "social": {
       "schemaVersion": 1,
       "status": "idle",
-      "checkedAt": "2026-10-18T12:51:54.751Z",
+      "checkedAt": "2026-10-18T13:43:12.513Z",
       "lastAttemptAt": "2026-10-18T08:46:15.481Z",
       "lastSuccessAt": "2026-10-18T08:46:15.481Z",
       "nextCheckAt": "2026-10-18T14:46:15.481Z",
