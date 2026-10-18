@@ -8,6 +8,7 @@ on:
       - focus-bootstrap.zip
       - creator-bootstrap.zip
       - discovery-bootstrap.zip
+      - social-bootstrap.zip
       - .github/workflows/update.yml
   schedule:
     - cron: '17 * * * *'
@@ -44,6 +45,76 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, verified official ref 2026-10-17
         with:
           persist-credentials: false
+      - name: Verify and unpack social creator discovery sources
+        if: hashFiles('social-bootstrap.zip') != ''
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib, re, stat, zipfile
+          from pathlib import Path
+          
+          root = Path.cwd().resolve()
+          payload = root / 'social-bootstrap.zip'
+          expected = '7b6f8df7f0b56e8b85ebb89e54adde353721e77bf23d8726728bfd706fa52dee'
+          exact = set(["lib/social-discovery.cjs","lib/creator-discovery.cjs","lib/showcases.cjs","scripts/prepare.cjs","scripts/update.cjs","test/social-discovery.test.cjs","test/social-pipeline.test.cjs","README.md"])
+          
+          if not re.fullmatch(r'[a-f0-9]{64}', expected):
+              raise ValueError('Social patch requires a pinned SHA-256')
+          for entry in root.iterdir():
+              if entry.name != payload.name and (entry.name.casefold() == 'bootstrap.zip' or entry.name.casefold().endswith('-bootstrap.zip')):
+                  raise ValueError('Retired or competing bootstrap transport is forbidden')
+          if payload.is_symlink() or not payload.is_file() or payload.stat().st_nlink != 1 or payload.stat().st_size > 2 * 1024 * 1024:
+              raise ValueError('Social patch payload is not a bounded regular file')
+          if hashlib.sha256(payload.read_bytes()).hexdigest() != expected:
+              raise ValueError('Social patch SHA-256 mismatch')
+          
+          selected, seen, total = [], set(), 0
+          with zipfile.ZipFile(payload) as archive:
+              members = archive.infolist()
+              if len(members) != len(exact):
+                  raise ValueError('Unexpected social patch member count')
+              for item in members:
+                  name, parts = item.orig_filename, item.orig_filename.split('/')
+                  kind = stat.S_IFMT(item.external_attr >> 16)
+                  if name != item.filename or name not in exact or not name.isascii() or any(p in ('', '.', '..') for p in parts):
+                      raise ValueError('Social patch path is outside the eight-file allowlist')
+                  if item.is_dir() or kind not in (0, stat.S_IFREG) or item.external_attr & 16 or item.flag_bits & 1 or item.compress_type not in (0, 8):
+                      raise ValueError('Social patch requires unencrypted regular files')
+                  if name.casefold() in seen or item.file_size < 0 or item.file_size > 1024 * 1024 or item.compress_size < 0 or item.file_size > max(1, item.compress_size) * 200:
+                      raise ValueError('Social patch has duplicate or oversized member')
+                  seen.add(name.casefold())
+                  total += item.file_size
+                  if total > 3 * 1024 * 1024:
+                      raise ValueError('Social patch expanded size exceeds bounds')
+                  target = root.joinpath(*parts)
+                  target.resolve().relative_to(root)
+                  for parent in [target, *target.parents]:
+                      if parent == root:
+                          break
+                      if parent.is_symlink() or getattr(parent, 'is_junction', lambda: False)():
+                          raise ValueError('Social patch destination contains a link')
+                  if target.exists() and (not target.is_file() or target.stat().st_nlink != 1):
+                      raise ValueError('Social patch destination is not a regular unshared file')
+                  with archive.open(item) as handle:
+                      body = handle.read(item.file_size + 1)
+                  if len(body) != item.file_size:
+                      raise ValueError('Social patch member size differs from its header')
+                  selected.append((target, body))
+          if seen != {name.casefold() for name in exact}:
+              raise ValueError('Social patch exact file set differs')
+          
+          # Every byte and destination is checked before any existing source is changed.
+          for target, body in selected:
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(body)
+          print('Verified and unpacked eight social source files; no data snapshot was supplied')
+          PY
+      - name: Reject retired bootstrap transports
+        if: hashFiles('bootstrap.zip', 'projects-bootstrap.zip', 'focus-bootstrap.zip', 'creator-bootstrap.zip', 'discovery-bootstrap.zip') != ''
+        shell: bash
+        run: |
+          echo 'Retired bootstrap transport refused; current data must not be replaced by old payloads.' >&2
+          exit 1
       - name: Verify and unpack automatic creator discovery sources
         if: hashFiles('discovery-bootstrap.zip') != ''
         shell: bash
@@ -108,12 +179,6 @@ jobs:
               target.write_bytes(body)
           print('Verified and unpacked eight discovery source files; no data snapshot was supplied')
           PY
-      - name: Reject retired bootstrap transports
-        if: hashFiles('bootstrap.zip', 'projects-bootstrap.zip', 'focus-bootstrap.zip', 'creator-bootstrap.zip') != ''
-        shell: bash
-        run: |
-          echo 'Retired bootstrap transport refused; current data must not be replaced by old payloads.' >&2
-          exit 1
       - name: Verify and unpack optional personal creator patch
         if: hashFiles('creator-bootstrap.zip') != ''
         shell: bash
@@ -460,6 +525,11 @@ jobs:
             # Remove only after source tests, fresh collection and manifest verification.
             rm -- discovery-bootstrap.zip
             git add -u -- discovery-bootstrap.zip
+          fi
+          if test -f social-bootstrap.zip; then
+            # Delete only this transport after tests, fresh collection and manifest verification.
+            rm -- social-bootstrap.zip
+            git add -u -- social-bootstrap.zip
           fi
           if git diff --cached --quiet; then
             echo 'No changed data files.'
