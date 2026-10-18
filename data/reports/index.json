@@ -18,22 +18,22 @@
       "path": "reports/daily/2026-10-16.json",
       "kind": "daily",
       "period": "2026-10-16",
-      "articleCount": 14,
+      "articleCount": 15,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:57:06.115Z",
-      "bytes": 13172,
-      "sha256": "703e423f2eafaaec5b38a3d6a8107c1d324c9a4502dd57e0c46c512270f976e5"
+      "compiledAt": "2026-10-18T06:56:54.768Z",
+      "bytes": 14185,
+      "sha256": "db4f79fb2620f4c7feea84b0e6196ce6b0a47ffb856fb51f42952f4b19a1bcb6"
     },
     {
       "id": "daily:2026-10-15",
       "path": "reports/daily/2026-10-15.json",
       "kind": "daily",
       "period": "2026-10-15",
-      "articleCount": 13,
+      "articleCount": 14,
       "periodState": "closed",
-      "compiledAt": "2026-10-17T14:57:06.115Z",
-      "bytes": 12818,
-      "sha256": "de525e6552b7d35c88e291746eac6d81317ac13ae140be8084b91530f3c115a1"
+      "compiledAt": "2026-10-18T06:56:54.768Z",
+      "bytes": 13970,
+      "sha256": "77aa11b83a11c4bd1a2d233241be2ad2be155760d9323d41842eb922f5a822ce"
     },
     {
       "id": "daily:2026-10-14",
@@ -73,11 +73,11 @@
       "path": "reports/weekly/2026-10-12.json",
       "kind": "weekly",
       "period": "2026-10-12",
-      "articleCount": 72,
+      "articleCount": 74,
       "periodState": "open",
-      "compiledAt": "2026-10-17T14:57:06.115Z",
-      "bytes": 67761,
-      "sha256": "3db6453e5885b70fa0454e1c0555ba6c4cfa000ad7d261d1058d6a559edb4515"
+      "compiledAt": "2026-10-18T06:56:54.768Z",
+      "bytes": 69926,
+      "sha256": "1be0b7e0d1fda8f50a7dc0af5632a4edb578c46398a9897c1e49e364e3ffa1f5"
     },
     {
       "id": "daily:2026-10-10",
@@ -205,11 +205,11 @@
       "path": "reports/monthly/2026-10.json",
       "kind": "monthly",
       "period": "2026-10",
-      "articleCount": 120,
+      "articleCount": 122,
       "periodState": "open",
-      "compiledAt": "2026-10-17T14:57:06.115Z",
-      "bytes": 110698,
-      "sha256": "ce9d5570e9526c3cf97ea87e9a59de5898e732212b989221ef36aa905159f41a"
+      "compiledAt": "2026-10-18T06:56:54.768Z",
+      "bytes": 112863,
+      "sha256": "46676c4d4a112ec5473eadc69ece72e5574b87cfd4d3f01f0fa05128a9fa3430"
     },
     {
       "id": "daily:2026-09-30",

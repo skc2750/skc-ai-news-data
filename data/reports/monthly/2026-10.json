@@ -11,7 +11,7 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 120,
+  "articleCount": 122,
   "articleIds": [
     "1266f92abcd73b7cf3e23c71",
     "1540794e1a6cdcd487e98db5",
@@ -30,9 +30,11 @@
     "3bd3b5c304f79f95fc2ba3b8",
     "ac5010f8f5a7ee91a81f9a06",
     "8345e0464ecffddb219479ca",
+    "1936e36c4fc792da8823cc30",
     "2cc0f38f7481ac8d6e7d08ec",
     "36b0709d3b06ff00ba872822",
     "93fcfd2229e3c08ebbcee526",
+    "6684b990f4489dbdf7916510",
     "c97a88b17fcedacb5bba7b24",
     "5aae1c9b16779eadc501ea9b",
     "24a2f8321eaf18e7f9a6dc0f",
@@ -422,6 +424,22 @@
       "translationStatus": "ok"
     },
     {
+      "id": "1936e36c4fc792da8823cc30",
+      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "summary": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark Every PC has a story. What was your first Windows PC, and [&#8230;]",
+      "originalTitle": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T17:00:23.000Z",
+      "contentHash": "52107602c14251737e89e04233a47569586c67bf774c918f193a7470f54c171c",
+      "translationStatus": "failed"
+    },
+    {
       "id": "2cc0f38f7481ac8d6e7d08ec",
       "title": "使用 Google Antigravity 加快寻找抗菌肽",
       "summary": "利用 Google Antigravity for Science，加快发现新型抗菌肽。",
@@ -468,6 +486,22 @@
       "publishedAt": "2026-10-15T15:05:35.000Z",
       "contentHash": "f204380ca11e62e0b2e1f456b2c5bb11e9276c7494c87c574ee304d574d3fc34",
       "translationStatus": "ok"
+    },
+    {
+      "id": "6684b990f4489dbdf7916510",
+      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "summary": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B 24GB, optimized to balance intelligence and speed per GB for local agentic workloads, and Nemotron 3.5 Bolt E4B 4GB, optimized [&#8230;]",
+      "originalTitle": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
+      "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-15T15:00:24.000Z",
+      "contentHash": "26db70afc415623a4471c50f47cd2dcd872c2190cf18e46690b79399380a4d5a",
+      "translationStatus": "failed"
     },
     {
       "id": "c97a88b17fcedacb5bba7b24",
@@ -2096,6 +2130,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "596a0c48f240162a13922d49bf029bc18763d0d19b8b5b3cef75ce71cad6a37b",
-  "compiledAt": "2026-10-17T14:57:06.115Z"
+  "contentHash": "c6ad5a61b442981457619c1fc9ccdf9d614f04165987ffb0e07c09cd14465fb4",
+  "compiledAt": "2026-10-18T06:56:54.768Z"
 }
