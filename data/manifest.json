@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "generationId": "defcb5e3b4d3038587aefb32d954d2f93f8ab32253d35a87143827b23e8183bf",
-  "generatedAt": "2026-10-18T15:44:50.710Z",
-  "lastSuccessAt": "2026-10-18T15:43:28.594Z",
+  "generationId": "1be6f016c119f53304f22a1a774afb1943235c9d164d4ef24f472f312777ecd3",
+  "generatedAt": "2026-10-18T16:46:43.817Z",
+  "lastSuccessAt": "2026-10-18T16:45:40.621Z",
   "status": "ok",
   "archiveArticles": 251,
   "reportCount": 94,
   "files": {
     "data/archive.json": {
-      "sha256": "319c30e7e15b30daa6cae020baa64e78fe267eba86e8a2a77d4151b70c08825b",
-      "bytes": 551999
+      "sha256": "911e28872906095f565a112c5e43ad50e18e4366e7c756c95abaeeea65018f1c",
+      "bytes": 552001
     },
     "data/archive/2026-05.json": {
       "sha256": "347ede196c39f97d0460d7a0169fc52af86f9a5d4fc5ec4de51ea36607259c51",
@@ -40,39 +40,39 @@
       "bytes": 1688
     },
     "data/codex-archive.json": {
-      "sha256": "3701533aa24e9600d2628afb1a269b7c76b688b2f8cf972a2c51c5a572438d36",
+      "sha256": "1a043fcdc56a067ffbd6d674819832ba88486f277a7dd4bd0dcd8f04331b3446",
       "bytes": 64372
     },
     "data/codex.json": {
-      "sha256": "27252df675199901074bb04f9cb4158bd7a97f2e9ebd872affc7c8f1db238662",
+      "sha256": "e618eb15153380cdae67135fb4ac99d80e38c98957383b9866c7332a40cb9aa4",
       "bytes": 66408
     },
     "data/codex/archive/2026-09.json": {
-      "sha256": "c9fa45b89f5a3c410ecdbda6dc89c5340a74fdc7a67bf2eb7c6cd17f3ed63a99",
+      "sha256": "1dd44a0b50eae21c2f5552b42c2be5bb4a75fd34524ff1ed2968d5c51ccacfcf",
       "bytes": 12299
     },
     "data/codex/archive/2026-10.json": {
-      "sha256": "1ff73888aa5cd5773d9830e86e2d7d0e168104171c7e27957729492e7ec4fd17",
+      "sha256": "9fe38dbc6747ff0142c1bf1f7fed5ec4e7585bbadedc6e16b5e37e60bb6355a0",
       "bytes": 51569
     },
     "data/codex/archive/index.json": {
-      "sha256": "c8e0fc25db5cd1405e36dd4222689ccce6f82a4dfadf41bb5cf53955604db131",
+      "sha256": "ede38cf442c07189ada08e49e06b7ca0267f320f42377b79204d4bc6658cb341",
       "bytes": 993
     },
     "data/current.json": {
-      "sha256": "a479135c8a0e307f972e8c3647cf01af1db72d9903d6b900cdee8594c9a817f6",
+      "sha256": "9583e9e1455e2e4ccd41845f5d824ee77baac5098360ab7e41743fa7ba9e9173",
       "bytes": 549115
     },
     "data/feed.xml": {
-      "sha256": "a3141c3ae57799237d30f957b3c2f08ab136f6c65bc0446488436cfe55a36795",
+      "sha256": "320e835568e0f5a85df64c2b529bd672b38291402a45f5cf22574e1cf0868efe",
       "bytes": 31961
     },
     "data/projects.json": {
-      "sha256": "1a8745e01a2aba0e4018eb9519d304376463aeaadadb64c34862e4dc13a42672",
-      "bytes": 55249
+      "sha256": "5561826947c754e292080d2d6a8abae2e201760d55c8b8a33d26fb5ff9b3c05b",
+      "bytes": 55355
     },
     "data/receipt.json": {
-      "sha256": "cd55c0fdebc5604e3c3659a5a033516a735ab86d1fd509f7d61c9ed49b10229d",
+      "sha256": "e92d79daf7dbf2332790e7f0aa12270ff5d07f7e7a43ae8e10ce15b8cc96e635",
       "bytes": 1797
     },
     "data/reports/daily/2026-05-17.json": {
@@ -348,8 +348,8 @@
       "bytes": 5453
     },
     "data/reports/index.json": {
-      "sha256": "07ecfb4ad9ef2ce1af628444a05320147952bde3eb6856d4cb1c5d7e130052f7",
-      "bytes": 33613
+      "sha256": "83f2aec8ce045d8271cd0bd1a27fb951c8b2d9798f4e5f8344f2489d39f39d31",
+      "bytes": 33615
     },
     "data/reports/monthly/2026-05.json": {
       "sha256": "c12b805c7ed2a66c335fb7bbc43c3253e94fc27c5a8c2ad2e958956d7a6552e0",
@@ -452,12 +452,12 @@
       "bytes": 32729
     },
     "data/reports/weekly/2026-10-12.json": {
-      "sha256": "1be0b7e0d1fda8f50a7dc0af5632a4edb578c46398a9897c1e49e364e3ffa1f5",
-      "bytes": 69926
+      "sha256": "ded6cd0339c2921da6afd4c3ac58772f4f581c59211988b38f8e9cce26e9a565",
+      "bytes": 69910
     },
     "data/showcases.json": {
-      "sha256": "8d4753ccf26371d7f12626ba86ea9a7e3cb23333999f2171e2bb653e200a3fa3",
-      "bytes": 194540
+      "sha256": "48a60e52f046172ccdfcc5147600b1d493cce33489d38a69167c3c2de362a602",
+      "bytes": 193276
     },
     "data/translation-cache.json": {
       "sha256": "e5b7d27de8107fdee2007bfb6cdfb54086d6b0763a949a6a7cabe58ec812715b",

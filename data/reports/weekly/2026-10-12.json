@@ -6,10 +6,10 @@
   "title": "2026-10-12 每周（周一起）资讯汇编",
   "startAt": "2026-10-11T16:00:00.000Z",
   "endAt": "2026-10-18T16:00:00.000Z",
-  "periodState": "open",
+  "periodState": "closed",
   "partial": true,
   "retroactive": true,
-  "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
+  "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
   "articleCount": 74,
   "articleIds": [
@@ -1302,6 +1302,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "cd83e4c0a70f2d942600b77ccae86332e71081749e601880103930247538bf41",
-  "compiledAt": "2026-10-18T06:56:54.768Z"
+  "contentHash": "fe37c9afd2e976e2ec706eb021f5b0961f20ed0e1f38157c587516f05e62c0db",
+  "compiledAt": "2026-10-18T16:46:43.817Z"
 }
