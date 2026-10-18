@@ -11,7 +11,7 @@ async function prepare(opts){
   try{
     const now=new Date().toISOString(),state=loadState(opts.output);
     const [collected,projects]=await Promise.all([collectNews(state,{now}),collectProjects({now,previous:state.projects})]);
-    const creatorDiscovery=await collectCreatorDiscovery({now,previous:state.showcases?.discoveryState});
+    const creatorDiscovery=await collectCreatorDiscovery({now,previous:state.showcases?.discoveryState,enableSocial:true});
     const showcases=await collectShowcases({now,previous:state.showcases,projects,creatorDiscovery});
     const all=combineArticles(state.articles,collected.articles,state.cache,now);
     const pending=all.filter(a=>a.language!=='zh'&&!validTranslation(state.cache.entries[cacheKey(a)],a)&&!validTranslation(a,a)).slice(0,opts.limit).length;

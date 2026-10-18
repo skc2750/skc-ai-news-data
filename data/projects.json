@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T01:57:32.393Z",
-  "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+  "generatedAt": "2026-10-18T02:36:17.445Z",
+  "lastSuccessAt": "2026-10-18T02:36:17.445Z",
   "status": "ok",
   "coverageZh": "精选 14 个固定官方仓库，优先追踪 Codex 与 Claude Code；Meta Muse 未确认官方公开仓库，不捏造 GitHub 项目。不是全网排行榜，也不自动安装或更新本地软件。",
   "updatePolicyZh": "后台每小时检查正式版本、仓库推送、归档状态和许可证；GitHub 调度与网页缓存可能延迟，不是秒级实时。",
@@ -28,13 +28,13 @@
       "costZh": "仓库代码 Apache-2.0 不等于模型推理免费。可按官方说明使用适用 ChatGPT 计划或 API 登录；额度、额外用量和 API 费用以账号及官方方案为准，本监控不读取个人额度，也不自动付费。",
       "url": "https://github.com/openai/codex",
       "sourceUrl": "https://api.github.com/repos/openai/codex",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 129654,
-      "forks": 20409,
+      "stars": 129657,
+      "forks": 20410,
       "archived": false,
-      "lastPushAt": "2026-10-17T23:34:21.000Z",
+      "lastPushAt": "2026-10-18T01:58:20.000Z",
       "latestRelease": {
         "tag": "rust-v0.163.0",
         "name": "0.163.0",
@@ -54,7 +54,15 @@
         "noteZh": "标准开源许可证；分发义务见原文。下载模型、插件、素材或连接第三方服务仍有各自条款。"
       },
       "activityZh": "近两天有仓库推送（可能包含非主分支）",
-      "changes": []
+      "changes": [
+        {
+          "type": "push",
+          "projectId": "openai/codex",
+          "at": "2026-10-18T02:36:17.445Z",
+          "titleZh": "OpenAI Codex 有仓库推送；不等于新正式版",
+          "url": "https://github.com/openai/codex"
+        }
+      ]
     },
     {
       "id": "anthropics/claude-code",
@@ -76,10 +84,10 @@
       "costZh": "不是“下载公开仓库即可免费推理”。Claude Code 产品、订阅及 API 按 Anthropic 官方方案计费；免费/试用资格未从仓库确认，不能假定有固定免费额度。本监控只读公开发布，不购买计划。",
       "url": "https://github.com/anthropics/claude-code",
       "sourceUrl": "https://api.github.com/repos/anthropics/claude-code",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 151781,
+      "stars": 151807,
       "forks": 26879,
       "archived": false,
       "lastPushAt": "2026-10-17T23:14:51.000Z",
@@ -123,8 +131,8 @@
       "costZh": "本地按社区许可证使用，无统一免费生成次数；需要硬件、电费和模型权重。托管 API 或租 GPU 可能收费；不保证一句话直接生成可用交互成品。",
       "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "sourceUrl": "https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 15144,
       "forks": 1571,
@@ -163,11 +171,11 @@
       "costZh": "主体代码和模型官方说明为 MIT，但部分子模块另有许可；本地无统一生成额度。GPU 云租赁、图像前置 API、托管服务可能收费。",
       "url": "https://github.com/microsoft/TRELLIS",
       "sourceUrl": "https://api.github.com/repos/microsoft/TRELLIS",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 13984,
-      "forks": 1383,
+      "forks": 1384,
       "archived": false,
       "lastPushAt": "2026-06-26T07:27:56.000Z",
       "latestRelease": null,
@@ -203,8 +211,8 @@
       "costZh": "工具免费，无统一处理文件次数额度；本地 CPU、电费与网站流量由自己承担。",
       "url": "https://github.com/donmccurdy/glTF-Transform",
       "sourceUrl": "https://api.github.com/repos/donmccurdy/glTF-Transform",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 1988,
       "forks": 210,
@@ -243,8 +251,8 @@
       "costZh": "桥接代码免费，无统一生成模型额度；AI 客户端、模型 API、第三方三维生成服务可能收费。",
       "url": "https://github.com/ahujasid/mcp-for-blender",
       "sourceUrl": "https://api.github.com/repos/ahujasid/mcp-for-blender",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 31414,
       "forks": 2908,
@@ -283,10 +291,10 @@
       "costZh": "库免费，无统一浏览次数额度；素材授权、网站托管和流量仍可能收费。",
       "url": "https://github.com/mrdoob/three.js",
       "sourceUrl": "https://api.github.com/repos/mrdoob/three.js",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 116551,
+      "stars": 116552,
       "forks": 36664,
       "archived": false,
       "lastPushAt": "2026-10-17T16:28:33.000Z",
@@ -330,8 +338,8 @@
       "costZh": "本地工具免费，无统一审计次数额度；云监测平台和额外托管服务另有收费方案。",
       "url": "https://github.com/GoogleChrome/lighthouse",
       "sourceUrl": "https://api.github.com/repos/GoogleChrome/lighthouse",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 30903,
       "forks": 9766,
@@ -377,8 +385,8 @@
       "costZh": "代码可免费本地运行，无统一分钟额度；硬件、电费、模型下载由自己承担。GPU 云租赁若使用会另外收费。",
       "url": "https://github.com/SYSTRAN/faster-whisper",
       "sourceUrl": "https://api.github.com/repos/SYSTRAN/faster-whisper",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 25928,
       "forks": 2143,
@@ -424,10 +432,10 @@
       "costZh": "代码与适用模型可本地试验，没有统一免费字符额度；权重条款单独核对。云 GPU 与托管 API 可能收费。",
       "url": "https://github.com/QwenLM/Qwen3-TTS",
       "sourceUrl": "https://api.github.com/repos/QwenLM/Qwen3-TTS",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 13836,
+      "stars": 13837,
       "forks": 1797,
       "archived": false,
       "lastPushAt": "2026-03-17T06:38:41.000Z",
@@ -464,13 +472,13 @@
       "costZh": "核心软件免费，无统一生成次数额度；模型权重、部分节点、云 GPU 或 API 有独立条款/费用。",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "sourceUrl": "https://api.github.com/repos/Comfy-Org/ComfyUI",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 138073,
+      "stars": 138077,
       "forks": 16451,
       "archived": false,
-      "lastPushAt": "2026-10-18T01:10:15.000Z",
+      "lastPushAt": "2026-10-18T02:30:12.000Z",
       "latestRelease": {
         "tag": "v0.41.0",
         "name": "v0.41.0",
@@ -490,7 +498,15 @@
         "noteZh": "标准开源许可证；分发义务见原文。下载模型、插件、素材或连接第三方服务仍有各自条款。"
       },
       "activityZh": "近两天有仓库推送（可能包含非主分支）",
-      "changes": []
+      "changes": [
+        {
+          "type": "push",
+          "projectId": "Comfy-Org/ComfyUI",
+          "at": "2026-10-18T02:36:17.445Z",
+          "titleZh": "ComfyUI 有仓库推送；不等于新正式版",
+          "url": "https://github.com/Comfy-Org/ComfyUI"
+        }
+      ]
     },
     {
       "id": "remotion-dev/remotion",
@@ -511,10 +527,10 @@
       "costZh": "当前许可证对个人、最多 3 名雇员的营利组织等列明范围允许免费制作视频；其他公司需公司授权。云渲染/托管另计费，条款变化需复核。",
       "url": "https://github.com/remotion-dev/remotion",
       "sourceUrl": "https://api.github.com/repos/remotion-dev/remotion",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 64782,
+      "stars": 64788,
       "forks": 5134,
       "archived": false,
       "lastPushAt": "2026-10-17T14:14:04.000Z",
@@ -558,11 +574,11 @@
       "costZh": "社区自托管可用于条款允许的内部业务/个人用途，没有统一执行次数免费配额；主机、外部 API、官方云版及企业功能可能收费。",
       "url": "https://github.com/n8n-io/n8n",
       "sourceUrl": "https://api.github.com/repos/n8n-io/n8n",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
       "stars": 207834,
-      "forks": 61170,
+      "forks": 61169,
       "archived": false,
       "lastPushAt": "2026-10-17T21:01:17.000Z",
       "latestRelease": {
@@ -605,13 +621,13 @@
       "costZh": "可按许可证条件自托管，软件不提供统一免费推理额度；模型 API、云托管与商业授权可能收费。",
       "url": "https://github.com/langgenius/dify",
       "sourceUrl": "https://api.github.com/repos/langgenius/dify",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
       "status": "ok",
-      "stars": 158730,
-      "forks": 25087,
+      "stars": 158734,
+      "forks": 25088,
       "archived": false,
-      "lastPushAt": "2026-10-18T01:26:24.000Z",
+      "lastPushAt": "2026-10-18T02:32:27.000Z",
       "latestRelease": {
         "tag": "1.17.1",
         "name": "v1.17.1 - Bug Fixes and Improvements",
@@ -631,10 +647,39 @@
         "noteZh": "修改版 Apache 2.0，含多租户与品牌附加条件；不应视为标准 Apache-2.0 或无限制 OSI 开源。"
       },
       "activityZh": "近两天有仓库推送（可能包含非主分支）",
-      "changes": []
+      "changes": [
+        {
+          "type": "push",
+          "projectId": "langgenius/dify",
+          "at": "2026-10-18T02:36:17.445Z",
+          "titleZh": "Dify 有仓库推送；不等于新正式版",
+          "url": "https://github.com/langgenius/dify"
+        }
+      ]
     }
   ],
   "changes": [
+    {
+      "type": "push",
+      "projectId": "openai/codex",
+      "at": "2026-10-18T02:36:17.445Z",
+      "titleZh": "OpenAI Codex 有仓库推送；不等于新正式版",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "type": "push",
+      "projectId": "langgenius/dify",
+      "at": "2026-10-18T02:36:17.445Z",
+      "titleZh": "Dify 有仓库推送；不等于新正式版",
+      "url": "https://github.com/langgenius/dify"
+    },
+    {
+      "type": "push",
+      "projectId": "Comfy-Org/ComfyUI",
+      "at": "2026-10-18T02:36:17.445Z",
+      "titleZh": "ComfyUI 有仓库推送；不等于新正式版",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
     {
       "type": "push",
       "projectId": "langgenius/dify",
@@ -837,99 +882,99 @@
       "id": "openai/codex",
       "sourceUrl": "https://api.github.com/repos/openai/codex",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "anthropics/claude-code",
       "sourceUrl": "https://api.github.com/repos/anthropics/claude-code",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "Tencent-Hunyuan/Hunyuan3D-2",
       "sourceUrl": "https://api.github.com/repos/Tencent-Hunyuan/Hunyuan3D-2",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "microsoft/TRELLIS",
       "sourceUrl": "https://api.github.com/repos/microsoft/TRELLIS",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "donmccurdy/glTF-Transform",
       "sourceUrl": "https://api.github.com/repos/donmccurdy/glTF-Transform",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "GoogleChrome/lighthouse",
       "sourceUrl": "https://api.github.com/repos/GoogleChrome/lighthouse",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "n8n-io/n8n",
       "sourceUrl": "https://api.github.com/repos/n8n-io/n8n",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "langgenius/dify",
       "sourceUrl": "https://api.github.com/repos/langgenius/dify",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "SYSTRAN/faster-whisper",
       "sourceUrl": "https://api.github.com/repos/SYSTRAN/faster-whisper",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "QwenLM/Qwen3-TTS",
       "sourceUrl": "https://api.github.com/repos/QwenLM/Qwen3-TTS",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "Comfy-Org/ComfyUI",
       "sourceUrl": "https://api.github.com/repos/Comfy-Org/ComfyUI",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "ahujasid/mcp-for-blender",
       "sourceUrl": "https://api.github.com/repos/ahujasid/mcp-for-blender",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "mrdoob/three.js",
       "sourceUrl": "https://api.github.com/repos/mrdoob/three.js",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     },
     {
       "id": "remotion-dev/remotion",
       "sourceUrl": "https://api.github.com/repos/remotion-dev/remotion",
       "status": "ok",
-      "checkedAt": "2026-10-18T01:57:32.393Z",
-      "lastSuccessAt": "2026-10-18T01:57:32.393Z"
+      "checkedAt": "2026-10-18T02:36:17.445Z",
+      "lastSuccessAt": "2026-10-18T02:36:17.445Z"
     }
   ]
 }

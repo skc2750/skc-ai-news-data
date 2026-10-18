@@ -96,6 +96,18 @@ GitHub Actions 仅在采集步骤临时使用内置仓库 Token 获取公共数�
 Codex 与 Claude Code 的代码/仓库许可不等于订阅、模型 API 或推理免费。Codex 代码为 Apache-2.0；Claude Code 的 LICENSE.md 保留权利并适用商业服务条款。监控本身不调用这些模型或开通付费服务。
 
 官方 GitHub 发布流可能包含 alpha/beta 等预览版本。为便于理解，处理标题加入产品名前缀，同时用 `sourceTitle` 保留来源的逐字发布标题，并用 `titleTransform` 明示处理方式；来源日期仍用发布流提供的日期。
+## YouTube、X、Reddit 作品线索（2026-10-18）
+
+`lib/social-discovery.cjs` 使用 [Exa 官方无密钥免费 MCP](https://exa.ai/docs/get-started/exa-mcp) 的公开搜索索引，调用高级搜索并限定平台域名，再自行校验原帖路径。没有平台登录、Cookie、API Key、付费账户或付费降级。免费入口有限流、可能返回空结果或不可用，没有服务等级或完整覆盖保证；遇到限流、额度或访问错误会保存状态并停止，至少退避 6 小时，之后自动尝试，不购买额度。固定入口为 `https://mcp.exa.ai/mcp?tools=web_search_advanced_exa`；只发送公开查询，不向结果中的网站发起 GET、下载媒体或运行代码。
+
+每 6 小时轮换三维、视频、办公三个用途之一，并分别查询 YouTube、X、Reddit；查询同时包含 Codex、Claude Code、Muse Code。每轮最多 3 次索引搜索、每次最多 5 个结果，完整用途轮转通常需 18 小时，GitHub 调度可能延迟。平台状态、实际查询次数、真实成功日期与下次计划分别保存。零结果不是完整扫描证明；索引没有发布日期时保持未知，不将发现时间冒充发布时间。
+
+线索与成品分开：`showcases.json` 新增 `socialDiscovery` 和 `socialCandidates`，持久游标及队列在原 `discoveryState.social` 内，不增加 manifest 路径。最多保留 60 条线索，未再次被索引观察到的线索在 7 天后移出当前列表；只保留最少网址、中文分类、实际时间和未核实状态，不保存平台正文、评论、字幕或索引作者资料。提取到的 GitHub 引用每轮最多转入 4 个检查队列，仍共享原有每天最多 2 项的成品收录限制。未找到源码、未明确说明 AI 制作关系，或缺少演示和过程的线索不会成为成品。
+
+社交链接只是发现途径，不证明社交账号与 GitHub 作者为同一人；所有 `acquisitionSources` 明确 `authorVerified:false`，网站单独展示为“搜索索引线索，未直接读取平台原文”。作者制作声明仍来自本人仓库；演示与过程仍通过原 HTTPS 安全检查。来源随去重、后续复查和滚动归档保留。一个平台失败不阻断原 GitHub 流程。GitHub 退避时，新引用先保存在社交队列，等允许访问后再检查。
+
+未启用直接平台接口：[X 官方价格](https://docs.x.com/x-api/getting-started/pricing)涉及预付积分和按量读取；[Reddit 官方 API 说明](https://support.reddithelp.com/hc/en-us/articles/16160319875092-Reddit-Data-API-Wiki)涉及申请、OAuth 与使用限制，其 [2026-10-08 公告](https://support.reddithelp.com/hc/en-us/articles/54353370049684-Changelog-October-8-2026)也公布停止 RSS，因此不依赖它做长期采集。[YouTube 的已知频道推送](https://developers.google.com/youtube/data/guides/push_notifications)与关键词 API 是不同能力，当前未创建 Google 项目或 Key。以后需要付费服务、额外额度或账号接入时先告知用户；作品自身运行费用与免费额度仍需单项查证。
+
 # 个人开发作品：人工精选与自动发现（2026-10-18）
 
 人工基础清单保留 11 项经人工核对作者制作证据的个人作品，另保留 7 项社区应用、官方示例和工作流，共 18 项。`lib/personal-showcases.json` 管理个人精选；`lib/showcases.cjs` 合并精选与动态收录。每项保留作者、演示、源码、实现过程、AI 实际参与范围及费用边界。可玩网页、已发布视频、Unity VR 原型与办公概念验证分别标识，不把“兼容某模型”当作“由该模型开发”的证据。

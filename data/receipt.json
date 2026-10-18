@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-18T01:57:37.823Z",
-  "lastSuccessAt": "2026-10-18T01:57:32.393Z",
+  "attemptAt": "2026-10-18T02:36:35.172Z",
+  "lastSuccessAt": "2026-10-18T02:36:17.445Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
@@ -27,9 +27,9 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-18T01:57:37.823Z",
-    "runId": "39088325420",
-    "event": "workflow_dispatch",
+    "actualAttemptAt": "2026-10-18T02:36:35.172Z",
+    "runId": "39090667389",
+    "event": "push",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   }
 }
