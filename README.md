@@ -29,11 +29,11 @@ npm run verify
 
 The normal translation limit is 20 newly seen or changed articles per run; a local bootstrap can queue up to 500 and repeat bounded batches. Each title is bounded at 300 characters and each feed excerpt at 420. The translator checkpoints every completed record, stops starting new records after a default 720-second budget, and keeps the remainder pending for the next run. `--translation-seconds` can select 30–900 seconds; the Node wrapper allows a 90-second grace, capped at 16.5 minutes, and retains verified checkpoints after a deadline. A missing/failed translator retains originals and records pending/failed status. It never silently switches to a paid service. To check storage without loading any model, use `--skip-translation --output .work/check-data --work .work/check-lock`.
 
-The Actions workflow first prepares a bounded collection in `.work/`, installs Python/model dependencies only when translation is needed, finishes the publication, and runs verification. It uses only the repository-scoped built-in `GITHUB_TOKEN` for the final Git push; it needs no Vercel, Supabase or Hugging Face key. It does not initialize, create, or configure a GitHub account/repository itself. The repository owner must allow Actions and the workflow's `contents: write` permission.
+The Actions workflow first prepares a bounded collection in `.work/`, installs Python/model dependencies only when translation is needed, finishes the publication, and runs verification. It uses only the repository-scoped built-in `GITHUB_TOKEN` for public GitHub metadata requests and the final Git push; metadata authorization is sent only to `api.github.com`, never to external demonstration sites. It needs no Vercel, Supabase or Hugging Face key. It does not initialize, create, or configure a GitHub account/repository itself. The repository owner must allow Actions and the workflow's `contents: write` permission.
 
-For an initial upload through the already authenticated repository owner's browser, the workflow optionally unpacks `bootstrap.zip` before Node setup. The owner must first replace `ROOT_BOOTSTRAP_SHA256` in the workflow with the exact curated ZIP's SHA-256, upload that ZIP, then create this final workflow outside the ZIP. Pushes touching either file trigger the initial run; ordinary data-only commits are outside the push path filter. The ZIP must contain only regular file entries at this repository's public root filenames or allowed `lib/`, `scripts/`, `test/`, and generated `data/` paths, with no containing top-level folder. `.github` is deliberately excluded because the built-in token cannot install or modify workflows.
+Initial bootstrap uploads are historical, not the normal update mechanism. The current workflow rejects retired `bootstrap.zip`, `projects-bootstrap.zip` and `focus-bootstrap.zip` transports. Do not replay an older archive against current news, translations, reports or source state. An owner-authorized maintenance patch must use its own exact SHA-256 and source-file allowlist in the reviewed workflow; do not infer authorization from an old patch's filename or digest. The owner installs the workflow separately, since the built-in publishing token cannot install or modify workflows. Ordinary generated data-only commits remain outside the push path filter.
 
-The inline bootstrap guard validates the entire archive before writing anything: exact checksum, ASCII relative paths, public file allowlist, no traversal, symlinks, encryption, duplicate/case-alias paths or file/directory collisions. Bounds are 20 MB compressed, 50 MB expanded, 8 MB per file and 1000 files. Node/Python tests, collection, translation fallback and manifest verification must succeed before the ZIP is removed. The final commit explicitly stages public program files and data plus the ZIP deletion; the token is passed only to Git's temporary askpass helper. A failed run leaves the previously committed ZIP available for diagnosis/retry.
+For an explicitly enabled maintenance transport, the inline guard validates the complete archive before any source writes: exact checksum and file set, bounded regular entries, and rejection of traversal, symlinks, encryption, duplicate/case-alias names and unsafe destinations. The actual enabled transport and its size limits are defined by the current workflow, not by historical bootstrap instructions. Source-only patches must not carry stale generated data, caches or manifests. Node/Python tests, fresh collection, translation fallback and manifest verification must succeed before transport deletion is staged in the final commit. A failed run preserves the committed transport for diagnosis; normal scheduled updates do not require an archive or manual publication.
 
 ## Public files and reader contract
 
@@ -89,18 +89,28 @@ GitHub Actions 仅在采集步骤临时使用内置仓库 Token 获取公共数�
 
 ## AI 作品与工作流编辑精选
 
-`data/showcases.json` 收录有作者原文证明 AI 用法的精选，清楚区分个人作品、社区应用、官方示例和工作流。每项包含作者、原作链接、AI 证据链接、适配判断、可借鉴做法及潜在费用。不是人气或“大神”认证；各项人工核查范围分别记录，自动监测不等于运行和验收作品。
+`data/showcases.json` 同时保存人工精选和规则自动收录。本节描述其中的人工精选，动态发现机制见下节。精选清楚区分个人作品、社区应用、官方示例和工作流；每项包含作者、原作链接、AI 证据链接、适配判断、可借鉴做法及潜在费用。不是人气或“大神”认证；各项人工核查范围分别记录，自动监测不等于运行和验收作品。
 
-后台检查来源可读性、仓库活跃状态及 README 哈希；`reviewedAt` 和已审查哈希固定，原文变化时标记 `needs_review`，中文选注等待人工复核，不把新抓取时间当作新人工审查。来源失败保留旧数据和上次成功时间。
+后台检查人工精选的来源可读性、仓库活跃状态及 README 哈希；`reviewedAt` 和已审查哈希固定，原文变化时标记 `needs_review`，中文选注等待人工复核，不把新抓取时间当作新人工审查。来源失败保留旧数据和上次成功时间。
 
 Codex 与 Claude Code 的代码/仓库许可不等于订阅、模型 API 或推理免费。Codex 代码为 Apache-2.0；Claude Code 的 LICENSE.md 保留权利并适用商业服务条款。监控本身不调用这些模型或开通付费服务。
 
 官方 GitHub 发布流可能包含 alpha/beta 等预览版本。为便于理解，处理标题加入产品名前缀，同时用 `sourceTitle` 保留来源的逐字发布标题，并用 `titleTransform` 明示处理方式；来源日期仍用发布流提供的日期。
-# 个人开发作品追踪（2026-10-18）
+# 个人开发作品：人工精选与自动发现（2026-10-18）
 
-收录 11 项经人工核对作者制作证据的个人作品，另保留 7 项社区应用、官方示例和工作流。每项提供作者、演示、源码、实现过程、AI 实际参与范围及费用边界。可玩网页、已发布视频、Unity VR 原型与办公概念验证分别标识，不把“兼容某模型”当作“由该模型开发”的证据。
+人工基础清单保留 11 项经人工核对作者制作证据的个人作品，另保留 7 项社区应用、官方示例和工作流，共 18 项。`lib/personal-showcases.json` 管理个人精选；`lib/showcases.cjs` 合并精选与动态收录。每项保留作者、演示、源码、实现过程、AI 实际参与范围及费用边界。可玩网页、已发布视频、Unity VR 原型与办公概念验证分别标识，不把“兼容某模型”当作“由该模型开发”的证据。
 
-每小时计划对固定清单中的源码说明、仓库活跃情况、演示和过程链接进行核查；GitHub 调度可能延迟，网站显示实际检查时间。链接仅做 HTTP HEAD 可达性检查，未播放视频或自动验收交互；失败保留原链接和上次成功时间。仓库说明哈希改变时标待人工复核，不自动刷新编辑核查日期。外部作者文章仍保留独立出处；新增作品须人工核实，不声称全网自动发现。
+自动发现由 `lib/creator-discovery.cjs` 执行，沿用每小时的 Actions 发布任务，不另建常驻服务。每次先检查距上次搜索是否已满 6 小时及是否仍在限流退避中；到期才启动下一轮，实际时间可能因 GitHub 调度延迟。已收录的自动作品在平常小时轮次仍重新读取源码说明并检查链接；不在退避期内的“本轮不新搜”不等于跳过已有作品核查。退避期间不重新访问这些来源，也不伪造更新后的核查时间。
 
-固定注册表为 `lib/personal-showcases.json`，禁止运行作品代码或向演示提交生成任务。本站采集和检查不接付费模型；作品自身可能需要 AI 用量、第三方 API、商业授权或硬件，详见每项中文费用说明。不会自动购买、充值或订阅。
+搜索分为 **9 条轮转任务**：Codex、Claude Code、Muse Code × 三维到交互成品、脚本到视频、办公自动化。这里只搜索 GitHub 公开仓库的 README（`in:readme`），按 `updated` 倒序，每轮最多 3 个查询、每个查询最多 5 个结果，并逐次轮换第 1–3 页；不是全网、秒级或完整覆盖，不保证每轮都有新作品，也不据此确认某产品一定有合格作品。每轮最多深入检查 4 个候选仓库，尚未检查的记录排队；同一仓库去重，失败和资料不足按记录的重试时间再检查。每日自动收录上限为 **2 项，按 UTC 日期重置**，与资讯简报使用的 MYT 日历不同；达到每日额度后仍可轮转搜索和排队，不继续深入收录。GitHub 403/429 会停止后续请求并保存退避时间，不换渠道或绕过限额。
+
+自动收录须同时满足：GitHub 作者为个人账号，仓库公开、非 fork、未归档；本人仓库 README 明确自述使用目标 AI 开发本作品；提供实际演示入口、源码及制作过程链接，仓库与作者身份一致。代码块、引用、提示示例、兼容列表、单纯调用模型 API、技能/模板/框架目录不当作成品制作证据。同一 README 的过程锚点须真实存在且有过程内容。原文只保留有上限的短摘录及出处；中文说明使用确定性分类模板，不调用 LLM 补写事实。
+
+动态演示和过程入口还须通过公开 HTTPS 安全检查及有时限的 HEAD 可达性检查。动态检查拒绝凭证 URL、非 443 端口、私网/IP 字面值、未知或混合私网 DNS、重定向等不符合条件的目标；默认将核实的公网地址固定到 TLS 请求，并保留原域名/SNI，避免再次解析造成 DNS 重绑定。外部页面不接收 GitHub Token。HEAD 成功仅表示当时入口直接可达，不证明视频内容、交互效果、代码安全、可部署性或作品质量。
+
+通过规则的动态条目标记为 `admissionMethod: automated_rules`、`editorial: false`、`reviewStatus: automated_rules`、`reviewedAt: null`，与人工精选明确区分；每项记录规则版本、首次发现/收录时间、作者原文短摘录及来源。已有自动作品每次复查重新核对身份、制作声明和链接；证据或来源未通过时保留旧条目为 `stale`，保留上次成功时间。人工精选仍保留原人工日期及已审查哈希，来源改变时标记 `needs_review`；自动抓取不冒充人工审查或运行验收。
+
+候选列表最多 **80 项**，显示缺项原因和重试状态；自动作品当前目录最多 **24 项滚动展示**，人工 18 项不占此容量。新自动作品加入后，把最早收录的旧自动项移入历史；页面保留最近 **200 项精简归档**，包括源码、演示、制作过程、AI 证据链接及收录/归档日期。当前与保留的归档仓库参与去重，容量达到 24 不会永久停止发现；更早的完整版本可在公开 Git 仓库历史中追溯。归档不表示作品已下线，也不等于刚做过一次可达性检查。搜索游标、分页、候选队列、退避与日额度状态随 `data/showcases.json` 的 `discoveryState` 一并进入带哈希的发布 generation，避免每次运行从头发现或重置额度。
+
+本模块只读取有上限的公开 GitHub REST 元数据和链接 HEAD，不执行候选源码、不登录、不提交生成任务、不上传个人素材，也不接收费推理 API。采集使用现有标准 Actions 运行器并遵守其额度，不能据此承诺无限免费运行。外部作品的免费额度与实际费用通常尚未核实：AI 订阅/用量、第三方 API、商业授权、素材、渲染、托管或本地硬件可能另收费，须以作者及服务商条款为准。不会自动购买、充值、订阅或切换收费服务；涉及新增收费资源先告知所有者。
 

@@ -4,14 +4,15 @@ const fs=require('node:fs'),path=require('node:path');
 const {options}=require('./update.cjs');
 const {collectNews}=require('../lib/collect.cjs');
 const {collectProjects}=require('../lib/projects.cjs');
-const {collectShowcases}=require('../lib/showcases.cjs');
+const {collectShowcases,collectCreatorDiscovery}=require('../lib/showcases.cjs');
 const {loadState,combineArticles,cacheKey,validTranslation,acquireLock}=require('../lib/store.cjs');
 async function prepare(opts){
   const release=acquireLock(opts.work);
   try{
     const now=new Date().toISOString(),state=loadState(opts.output);
     const [collected,projects]=await Promise.all([collectNews(state,{now}),collectProjects({now,previous:state.projects})]);
-    const showcases=await collectShowcases({now,previous:state.showcases,projects});
+    const creatorDiscovery=await collectCreatorDiscovery({now,previous:state.showcases?.discoveryState});
+    const showcases=await collectShowcases({now,previous:state.showcases,projects,creatorDiscovery});
     const all=combineArticles(state.articles,collected.articles,state.cache,now);
     const pending=all.filter(a=>a.language!=='zh'&&!validTranslation(state.cache.entries[cacheKey(a)],a)&&!validTranslation(a,a)).slice(0,opts.limit).length;
     fs.writeFileSync(path.join(opts.work,'prepared.json'),JSON.stringify({schemaVersion:1,preparedAt:now,

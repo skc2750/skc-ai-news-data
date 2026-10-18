@@ -3,7 +3,7 @@
 const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:child_process');
 const {collectNews,seedNews}=require('../lib/collect.cjs');
 const {collectProjects}=require('../lib/projects.cjs');
-const {collectShowcases}=require('../lib/showcases.cjs');
+const {collectShowcases,collectCreatorDiscovery}=require('../lib/showcases.cjs');
 const {loadState,cacheKey,validTranslation,combineArticles,makePublication,publish,acquireLock}=require('../lib/store.cjs');
 const ROOT=path.resolve(__dirname,'..');
 
@@ -37,7 +37,7 @@ async function update(opts,{now=new Date().toISOString(),fetchImpl=globalThis.fe
     const state=loadState(opts.output);
     let collected,projects=state.projects||null,showcases=state.showcases||null;
     if(opts.prepared){const ready=JSON.parse(fs.readFileSync(opts.prepared,'utf8'));if(ready.previousGenerationId!==(state.manifest?.generationId||null))throw Error('Published state changed after preparation');collected=ready.collected;projects=ready.projects||projects;showcases=ready.showcases||showcases;}
-    else {collected=opts.seed?seedNews(JSON.parse(fs.readFileSync(opts.seed,'utf8')),now):await collectNews(state,{fetchImpl,now});if(!opts.seed){projects=await collectProjects({fetchImpl,now,previous:state.projects});showcases=await collectShowcases({fetchImpl,now,previous:state.showcases,projects});}}
+    else {collected=opts.seed?seedNews(JSON.parse(fs.readFileSync(opts.seed,'utf8')),now):await collectNews(state,{fetchImpl,now});if(!opts.seed){projects=await collectProjects({fetchImpl,now,previous:state.projects});const creatorDiscovery=await collectCreatorDiscovery({fetchImpl,now,previous:state.showcases?.discoveryState});showcases=await collectShowcases({fetchImpl,now,previous:state.showcases,projects,creatorDiscovery});}}
     const all=combineArticles(state.articles,collected.articles,state.cache,now);
     const requests=all.filter(a=>a.language!=='zh'&&!validTranslation(state.cache.entries[cacheKey(a)],a)&&!validTranslation(a,a)).slice(0,opts.limit)
       .map(a=>({id:a.id,contentHash:a.contentHash,title:a.title,summary:a.summary}));

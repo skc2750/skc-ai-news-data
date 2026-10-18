@@ -13,7 +13,7 @@ function mock({fail=null,changed=false,linkStatus=200}={}){return async(url,opti
 test('editorial sources have named authors, AI evidence, costs and precise work type rather than popularity claims',async()=>{
  const out=await collectShowcases({now:NOW,fetchImpl:mock()});validateShowcases(out);assert.equal(out.status,'ok');assert.equal(out.showcases.length,SHOWCASES.length);assert.equal(out.showcases.filter(r=>r.authorType==='personal').length,11);
  for(const row of out.showcases){assert.ok(row.author&&row.kindZh&&row.aiTools.length&&row.aiEvidenceSourceUrl&&row.costZh);assert.equal(row.reviewStatus,'needs_review');}
- assert.equal(out.showcases.find(r=>r.id==='llamacoder-prompt-app').focusId,'other');assert.match(out.coverageZh,/不是人气/);
+ assert.equal(out.showcases.find(r=>r.id==='llamacoder-prompt-app').focusId,'other');assert.match(out.coverageZh,/人工精选与规则自动收录分别标识/);
 });
 test('personal works have distinct demo, source, process and author AI build proof',async()=>{
  const out=await collectShowcases({now:NOW,fetchImpl:mock()});for(const r of out.showcases.filter(r=>r.authorType==='personal')){assert.ok(r.repoUrl&&r.demoUrl&&r.processUrl&&r.authorUrl&&r.buildRelationshipZh);assert.equal(r.linkChecks.demo.status,'reachable');assert.match(r.linkChecks.demo.noteZh,/未播放/);assert.equal(r.reviewedAt,'2026-10-18');}
