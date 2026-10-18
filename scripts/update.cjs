@@ -4,6 +4,7 @@ const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:chil
 const {collectNews,seedNews}=require('../lib/collect.cjs');
 const {collectProjects}=require('../lib/projects.cjs');
 const {collectShowcases,collectCreatorDiscovery}=require('../lib/showcases.cjs');
+const {collectCodexActivity,translationRequests}=require('../lib/codex-activity.cjs');
 const {loadState,cacheKey,validTranslation,combineArticles,makePublication,publish,acquireLock}=require('../lib/store.cjs');
 const ROOT=path.resolve(__dirname,'..');
 
@@ -35,12 +36,12 @@ async function update(opts,{now=new Date().toISOString(),fetchImpl=globalThis.fe
   const release=acquireLock(opts.work);
   try{
     const state=loadState(opts.output);
-    let collected,projects=state.projects||null,showcases=state.showcases||null;
-    if(opts.prepared){const ready=JSON.parse(fs.readFileSync(opts.prepared,'utf8'));if(ready.previousGenerationId!==(state.manifest?.generationId||null))throw Error('Published state changed after preparation');collected=ready.collected;projects=ready.projects||projects;showcases=ready.showcases||showcases;}
-    else {collected=opts.seed?seedNews(JSON.parse(fs.readFileSync(opts.seed,'utf8')),now):await collectNews(state,{fetchImpl,now});if(!opts.seed){projects=await collectProjects({fetchImpl,now,previous:state.projects});const creatorDiscovery=await collectCreatorDiscovery({fetchImpl,now,previous:state.showcases?.discoveryState,enableSocial:true});showcases=await collectShowcases({fetchImpl,now,previous:state.showcases,projects,creatorDiscovery});}}
+    let collected,projects=state.projects||null,showcases=state.showcases||null,codex=state.codex||null;
+    if(opts.prepared){const ready=JSON.parse(fs.readFileSync(opts.prepared,'utf8'));if(ready.previousGenerationId!==(state.manifest?.generationId||null))throw Error('Published state changed after preparation');collected=ready.collected;projects=ready.projects||projects;showcases=ready.showcases||showcases;codex=ready.codex||codex;}
+    else {collected=opts.seed?seedNews(JSON.parse(fs.readFileSync(opts.seed,'utf8')),now):await collectNews(state,{fetchImpl,now});if(!opts.seed){projects=await collectProjects({fetchImpl,now,previous:state.projects});const creatorDiscovery=await collectCreatorDiscovery({fetchImpl,now,previous:state.showcases?.discoveryState,enableSocial:true});showcases=await collectShowcases({fetchImpl,now,previous:state.showcases,projects,creatorDiscovery});codex=await collectCodexActivity({fetchImpl,now,previous:state.codex});}}
     const all=combineArticles(state.articles,collected.articles,state.cache,now);
-    const requests=all.filter(a=>a.language!=='zh'&&!validTranslation(state.cache.entries[cacheKey(a)],a)&&!validTranslation(a,a)).slice(0,opts.limit)
-      .map(a=>({id:a.id,contentHash:a.contentHash,title:a.title,summary:a.summary}));
+    const newsRequests=all.filter(a=>a.language!=='zh'&&!validTranslation(state.cache.entries[cacheKey(a)],a)&&!validTranslation(a,a)).map(a=>({id:a.id,contentHash:a.contentHash,title:a.title,summary:a.summary}));
+    const requests=[...translationRequests(codex,state.cache,validTranslation),...newsRequests].slice(0,opts.limit);
     let result={entries:{}},translationError=null,translationNote=null;
     if(requests.length&&!opts.skipTranslation){
       try{
@@ -59,7 +60,7 @@ async function update(opts,{now=new Date().toISOString(),fetchImpl=globalThis.fe
     const translationErrors=result.errors||{};if(translationError)for(const a of requests)translationErrors[cacheKey(a)]='Translation unavailable';
     const deferred=opts.skipTranslation?0:Math.max(0,requests.length-Object.keys(result.entries||{}).length-Object.keys(translationErrors).length);
     const publication=makePublication(state,collected,{now,translations:result.entries||{},translationErrors,translationError,translationDeferred:deferred,translationNote,
-      translationRequested:opts.skipTranslation?0:requests.length,translationLimit:opts.limit,seeded:!!opts.seed,projects,showcases});
+      translationRequested:opts.skipTranslation?0:requests.length,translationLimit:opts.limit,seeded:!!opts.seed,projects,showcases,codex});
     return publish(opts.output,publication);
   }finally{release();}
 }
