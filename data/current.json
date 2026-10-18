@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-18T02:36:35.172Z",
-  "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+  "generatedAt": "2026-10-18T02:45:58.783Z",
+  "lastSuccessAt": "2026-10-18T02:45:53.534Z",
   "status": "ok",
   "articles": [
     {
@@ -8898,8 +8898,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 50,
       "articleIds": [
         "ab999fe8f212727e7d3e9601",
@@ -8955,7 +8955,7 @@
       ],
       "feedItemCount": 1299,
       "bytes": 791461,
-      "sha256": "dd4ac0e18e0390d1c926f6960469de0dd20cde11e46e6916f78262f18592ba1f",
+      "sha256": "fbef9a18d0e5650a30e0fc02ddb24acffedbf80295cec580ddfa2ab19bd39f88",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -8970,8 +8970,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 20,
       "articleIds": [
         "c51fb173fad0a9b19c6b38f1",
@@ -9012,8 +9012,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 50,
       "articleIds": [
         "2cc0f38f7481ac8d6e7d08ec",
@@ -9084,8 +9084,8 @@
       "kind": "平台及社区作者",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 50,
       "articleIds": [
         "690ff55655c843d38174cfaa",
@@ -9156,8 +9156,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 10,
       "articleIds": [
         "36b0709d3b06ff00ba872822",
@@ -9172,8 +9172,8 @@
         "91bfc16d543ac636fdc68594"
       ],
       "feedItemCount": 10,
-      "bytes": 268678,
-      "sha256": "0f880fe13571189e4f2db0347523864232552ca46ed7cb83835148fffbb2a693",
+      "bytes": 268240,
+      "sha256": "6b1b72f4befaf5dadac2f2cebb6f4dc4ec2ff027a89ef506e7d4d69c0318c013",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9188,8 +9188,8 @@
       "kind": "官方工程",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 20,
       "articleIds": [
         "c57d65fcc265bc8a4b5b2659",
@@ -9230,11 +9230,10 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 18,
       "articleIds": [
-        "5aae1c9b16779eadc501ea9b",
         "24a2f8321eaf18e7f9a6dc0f",
         "690c816bcd4662991b34ba7e",
         "ffdd507c1009629071c71d79",
@@ -9251,11 +9250,12 @@
         "4a17bcadbd38f7de3bbbfca6",
         "b52ffa6581c3011aa276ab7a",
         "c52bd700f991138bb84f8978",
-        "adb07246d1b16d3011602e8e"
+        "adb07246d1b16d3011602e8e",
+        "5609622ec8767572e02480b3"
       ],
       "feedItemCount": 18,
-      "bytes": 271967,
-      "sha256": "832234f691980b66d4dbd9a7e0709f2cba4465cc65ebcd64a1d58e1e6531746d",
+      "bytes": 264908,
+      "sha256": "b74a1a6bc1ec550cbfa4fbc502c3a4d1be4d488141c7b8f6e9b8da3df354ae0c",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9272,8 +9272,8 @@
       "kind": "官方版本（含预览版）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 10,
       "articleIds": [
         "1266f92abcd73b7cf3e23c71",
@@ -9306,8 +9306,8 @@
       "kind": "官方版本（含预览版）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 10,
       "articleIds": [
         "1540794e1a6cdcd487e98db5",
@@ -9338,8 +9338,8 @@
       "kind": "公司官方新闻（非研究完整覆盖）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-18T02:36:17.445Z",
-      "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+      "lastCheckedAt": "2026-10-18T02:45:53.534Z",
+      "lastSuccessAt": "2026-10-18T02:45:53.534Z",
       "articleCount": 10,
       "articleIds": [
         "2caae29cfb2b1811a61ab8ea",
@@ -9489,7 +9489,7 @@
   },
   "archive": {
     "url": "/news/data/archive.json",
-    "publishedAt": "2026-10-18T02:36:35.172Z",
+    "publishedAt": "2026-10-18T02:45:58.783Z",
     "totalArticles": 249,
     "indexUrl": "data/archive/index.json"
   },
@@ -9514,8 +9514,8 @@
   },
   "receipt": {
     "schemaVersion": 1,
-    "attemptAt": "2026-10-18T02:36:35.172Z",
-    "lastSuccessAt": "2026-10-18T02:36:17.445Z",
+    "attemptAt": "2026-10-18T02:45:58.783Z",
+    "lastSuccessAt": "2026-10-18T02:45:53.534Z",
     "status": "ok",
     "seeded": false,
     "sourceOk": 10,
@@ -9541,9 +9541,9 @@
     },
     "scheduler": {
       "expected": "hourly at minute 17 UTC",
-      "actualAttemptAt": "2026-10-18T02:36:35.172Z",
-      "runId": "39090667389",
-      "event": "push",
+      "actualAttemptAt": "2026-10-18T02:45:58.783Z",
+      "runId": "39091227644",
+      "event": "schedule",
       "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
     }
   }
