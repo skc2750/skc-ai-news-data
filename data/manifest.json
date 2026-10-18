@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "generationId": "421e7c60df240f4f467d4d5634d5fed20d6ff29640cb6ceb93cf9049306f3c2b",
-  "generatedAt": "2026-10-18T08:47:35.714Z",
-  "lastSuccessAt": "2026-10-18T08:46:15.481Z",
+  "generationId": "e6cc151dfbf6cb5d2fc5dbb19a366d51c3c25a5a0faabc052b3c94e995a2a52d",
+  "generatedAt": "2026-10-18T09:46:25.738Z",
+  "lastSuccessAt": "2026-10-18T09:45:07.600Z",
   "status": "ok",
   "archiveArticles": 251,
   "reportCount": 94,
   "files": {
     "data/archive.json": {
-      "sha256": "e43a29ea2ef3378ede5051f425ce56d25b050e572d72328b1b233ebaad59a367",
+      "sha256": "8a04ae1762464cdbcdab09a686f71e9541b01e935eb707e3a106d9767d8dd3be",
       "bytes": 551999
     },
     "data/archive/2026-05.json": {
@@ -40,19 +40,19 @@
       "bytes": 1688
     },
     "data/current.json": {
-      "sha256": "21cd6ef6b954f6532bd08e02004f253833868d96b58629e77262ce9a3e8a00c1",
+      "sha256": "343f20bcb693759d440bfd04199570cb286495c8da0d34edc743a7fdc89aebab",
       "bytes": 479717
     },
     "data/feed.xml": {
-      "sha256": "a799b2d8e96628a64781c382af64fd1f3befbf691fa42de468bd5f562f5e17f6",
+      "sha256": "1b453453aef0ddc039911adb7aaaf4b6c6cf971809a4e52d541db048cc100bde",
       "bytes": 31961
     },
     "data/projects.json": {
-      "sha256": "ee8eea3b9c279ace1b0b30cdca9365a9eb36340056ae5f081e381140da13237f",
-      "bytes": 50153
+      "sha256": "ce9c8f9e06054dc49c7f913c7c56724e9db2351ef07f237ac83a473cea3b13e5",
+      "bytes": 50552
     },
     "data/receipt.json": {
-      "sha256": "9e8d93cac182e45abc3abcde421005dfc7a0f5fef9cf0ce2d58972331449b53b",
+      "sha256": "4ea09b80aca5f398436154f9f6301feaea860e3661aa4f730fd698c80754d3ab",
       "bytes": 1127
     },
     "data/reports/daily/2026-05-17.json": {
@@ -436,8 +436,8 @@
       "bytes": 69926
     },
     "data/showcases.json": {
-      "sha256": "539207bc1392b0b29624aea14b72300145a76a6768e964cf97723473fb56b259",
-      "bytes": 164125
+      "sha256": "f6dafd781b6b091264565de61e4b16bfffd83e7ab13b8870ac14bb5300ae318d",
+      "bytes": 162879
     },
     "data/translation-cache.json": {
       "sha256": "e5b7d27de8107fdee2007bfb6cdfb54086d6b0763a949a6a7cabe58ec812715b",
