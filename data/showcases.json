@@ -1,12 +1,1022 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-17T23:36:33.148Z",
-  "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+  "generatedAt": "2026-10-18T00:46:44.030Z",
+  "lastSuccessAt": "2026-10-18T00:46:44.030Z",
   "status": "ok",
-  "coverageZh": "七项编辑精选，包含社区应用、官方示例和工作流；不是人气或“大神”认证，不表示已经替你安装、运行或验收。所有 AI 用法都有作者原文出处。",
-  "updatePolicyZh": "后台按小时核查固定来源是否可读、仓库活跃状态和原文哈希；中文选注为人工编辑，原文变化时标记待复核，不自动把旧说明认证为最新。",
+  "coverageZh": "11 项个人开发者作品，另保留 7 项社区应用、官方示例和工作流；不是人气或“大神”认证。原型、视频和可交互演示分别标识，AI 制作关系都有原作者出处。",
+  "updatePolicyZh": "每小时计划核查已收录作品的仓库说明、活跃时间及演示/过程链接，计划可能延迟。新作品需核实作者制作证据后收录；中文选注不会自动改写，源码说明变化标记待复核。",
   "recommendationNoteZh": "适配说明属于编辑判断。只展示公开信息，不执行作品代码、不上传个人素材，也不调用生成或付费 API。",
   "showcases": [
+    {
+      "id": "codex-personal-raccoon-heist",
+      "focusId": "codex",
+      "focusIds": [
+        "codex"
+      ],
+      "titleZh": "浣熊大劫案：可直接玩的三维小游戏",
+      "author": "Simon Willison",
+      "authorUrl": "https://simonwillison.net/",
+      "authorType": "personal",
+      "categoryZh": "三维网页游戏",
+      "summaryZh": "在博物馆里营救浣熊同伴、躲避巡逻并偷走金色沙丁鱼。成品、代码、素材提示词、完整开发对话和修错提交都能追溯，适合学习从创意到可玩的网页交付。",
+      "aiEvidenceZh": "作者 README 与博客均明确说明，游戏由 Codex Desktop 中的 GPT-5.6 Sol Ultra 实现；仓库还公开完整 Codex 对话。",
+      "aiEvidenceSourceUrl": "https://github.com/simonw/raccoon-heist-codex/blob/main/README.md",
+      "sourceUrl": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/",
+      "demoUrl": "https://simonw.github.io/raccoon-heist-codex/",
+      "demoKindZh": "可交互网页 · 三维小游戏",
+      "processUrl": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/",
+      "buildRelationshipZh": "Codex 制作游戏，作者复核并追加提示修正眼球比例；使用 gpt-image-2 生成部分贴图。",
+      "demoVerificationZh": "2026-10-18：在线演示 HTTP 200；桌面三维场景加载成功，可进入游戏，无需登录。",
+      "fitZh": [
+        "三维交互网页",
+        "从一句创意到成品",
+        "代码与画面联合验收"
+      ],
+      "takeawaysZh": [
+        "先交付可玩的循环，再按真实画面修正比例问题。",
+        "把完整对话、素材提示词与修复提交作为过程档案。",
+        "静态 Three.js 成品可独立浏览，浏览者不需要运行模型。"
+      ],
+      "costZh": "本次公开演示和源码无需登录或付费即可查看。作者当时使用月度 Codex 订阅；博客的 US$23.28 是按完整 API 价格估算的会话成本，不是实际账单、当前价格或免费额度。重新生成贴图与使用 Codex 可能产生费用，未代为调用。",
+      "verificationNoteZh": "已读作者博客和 README，实际浏览器看到三维场景并点击开始进入任务界面；没有通关、移动端性能或所有交互测试。未核实代码与贴图的再分发许可，公开源码不等于可以直接复制所有素材。",
+      "primaryEvidence": [
+        {
+          "labelZh": "作者制作与修错记录",
+          "sourceUrl": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/",
+          "claimZh": "作者明确 Codex Desktop、模型、贴图生成、眼球缺陷修复、52 分钟开发及订阅/API估算的区别。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "作者源码与开发对话",
+          "sourceUrl": "https://github.com/simonw/raccoon-heist-codex/blob/main/transcript.md",
+          "claimZh": "公开与该游戏对应的完整 Codex 开发对话；README 链接同一演示。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "公开成品",
+          "sourceUrl": "https://simonw.github.io/raccoon-heist-codex/",
+          "claimZh": "实际页面可显示三维游戏并进入任务。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "aiTools": [
+        "OpenAI Codex"
+      ],
+      "kindZh": "个人开发作品",
+      "repoUrl": "https://github.com/simonw/raccoon-heist-codex",
+      "monitoredSourceUrl": "https://github.com/simonw/raccoon-heist-codex/blob/main/README.md",
+      "linkChecks": {
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "cea79651ee2072c2bac851a487deedcde475ef333de60b323add3eab59ae7c1c",
+      "reviewedEvidenceHash": "cea79651ee2072c2bac851a487deedcde475ef333de60b323add3eab59ae7c1c",
+      "activity": {
+        "lastPushAt": "2026-08-07T19:43:09.000Z",
+        "stars": 6,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "codex-personal-forest-census",
+      "focusId": "codex",
+      "focusIds": [
+        "codex"
+      ],
+      "titleZh": "Forest Census：用资产清单搭建三维森林小游戏",
+      "author": "Chong-U（chongdashu）",
+      "authorUrl": "https://github.com/chongdashu",
+      "authorType": "personal",
+      "categoryZh": "三维网页游戏",
+      "summaryZh": "在有树木、动物与遮挡的三维森林里，于 20 秒内数出黄色小鸡。项目把 GLTF 资产路径集中在清单中，并公开玩法规格、技术设计和静态部署结构。",
+      "aiEvidenceZh": "作者仓库 About 明确写此游戏使用 Codex CLI 和 Agent Skills 制作；README 指向实际使用的本地 threejs-builder skill。",
+      "aiEvidenceSourceUrl": "https://github.com/chongdashu/threejs-forest-census",
+      "sourceUrl": "https://github.com/chongdashu/threejs-forest-census",
+      "demoUrl": "https://forestcensus.aioriented.dev/forest",
+      "demoKindZh": "可交互网页 · 三维小游戏",
+      "processUrl": "https://github.com/chongdashu/threejs-forest-census/blob/main/public/forest/TDD.md",
+      "buildRelationshipZh": "作者自述使用 Codex CLI 与 Agent Skills 制作；PRD、TDD 和资产清单公开，但未见与本作品对应的完整会话实录。",
+      "demoVerificationZh": "2026-10-18：演示 HTTP 200；开始界面及三维森林背景已实际显示，无需登录。",
+      "fitZh": [
+        "三维资产组装",
+        "可交互网页",
+        "小范围可交付原型"
+      ],
+      "takeawaysZh": [
+        "先用 PRD 明确操作、计时、结果和失败状态。",
+        "用资产清单作为模型路径的统一来源。",
+        "TDD 把加载、输入、NPC、相机和渲染性能分成独立系统。"
+      ],
+      "costZh": "本次成品与文档可免费公开浏览，无需账号或模型 API Key。重新开发时 Codex 额度或订阅及托管成本另计；作者未在该作品文档披露实际开发总费用。本次未安装、运行仓库或调用生成。",
+      "verificationNoteZh": "已读作者仓库、PRD、TDD 与个人主页；实际浏览器看到带三维背景的游戏开始界面和控制说明。未开始完整一局，未验证计数正确性、手机操控或资产再分发许可；设计文档不等于每条功能已逐项测试。",
+      "primaryEvidence": [
+        {
+          "labelZh": "作者明确 Codex 使用",
+          "sourceUrl": "https://github.com/chongdashu/threejs-forest-census",
+          "claimZh": "仓库 About 说明使用 Codex CLI 和 Agent Skills 制作此游戏。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "作者及成品对应关系",
+          "sourceUrl": "https://forestcensus.aioriented.dev/",
+          "claimZh": "作者站给出游戏入口、同名源码链接及 Chongdashu 署名。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "技术设计与实现拆分",
+          "sourceUrl": "https://github.com/chongdashu/threejs-forest-census/blob/main/public/forest/TDD.md",
+          "claimZh": "技术文档说明 GLTF、资产清单、输入状态、相机和加载降级设计。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "玩法设计",
+          "sourceUrl": "https://github.com/chongdashu/threejs-forest-census/blob/main/public/forest/PRD.md",
+          "claimZh": "20秒黄色小鸡计数玩法、操作与验收项。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "aiTools": [
+        "OpenAI Codex"
+      ],
+      "kindZh": "个人开发作品",
+      "repoUrl": "https://github.com/chongdashu/threejs-forest-census",
+      "monitoredSourceUrl": "https://github.com/chongdashu/threejs-forest-census",
+      "linkChecks": {
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "5fdeba662278d17093fe26c9d246b79d72c819a6db28e3617684fbd514ab37c2",
+      "reviewedEvidenceHash": "5fdeba662278d17093fe26c9d246b79d72c819a6db28e3617684fbd514ab37c2",
+      "activity": {
+        "lastPushAt": "2025-12-31T12:39:12.000Z",
+        "stars": 35,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "codex-personal-solar-web3d",
+      "focusId": "codex",
+      "focusIds": [
+        "codex"
+      ],
+      "titleZh": "太阳系 Web3D：从提示词到浏览器与 AR 演示",
+      "author": "Takashi Yoshinaga",
+      "authorUrl": "https://github.com/TakashiYoshinaga",
+      "authorType": "personal",
+      "categoryZh": "交互三维网页",
+      "summaryZh": "浏览器中显示太阳、八大行星、月球、轨道与标签，支持拖动、缩放和相机移动。作者展示了用照片反馈修正 AR 过曝与阴影、把木星条纹改为 CanvasTexture 的过程。",
+      "aiEvidenceZh": "作者制作文章明确使用 Codex 桌面应用和 GPT-5.5，实现 Three.js 太陽系；包含 Plan 模式提示、实现截图、木星纹理修正及 Quest AR 光照调校。",
+      "aiEvidenceSourceUrl": "https://qiita.com/Tks_Yoshinaga/items/e338160c5c8c55403267",
+      "sourceUrl": "https://qiita.com/Tks_Yoshinaga/items/e338160c5c8c55403267",
+      "demoUrl": "https://takashiyoshinaga.github.io/AgenticCodingBlog/",
+      "demoKindZh": "可交互网页 · 可选 WebXR AR",
+      "processUrl": "https://qiita.com/Tks_Yoshinaga/items/e338160c5c8c55403267",
+      "buildRelationshipZh": "作者用 Codex 实现和反复调整代码，自己在 Quest 实机验收并反馈照片；文章写作也有 Codex 协助。",
+      "demoVerificationZh": "2026-10-18：HTTP 200，桌面行星/轨道已实际渲染；AR 按钮在当前设备禁用，AR 未实测。",
+      "fitZh": [
+        "三维教学与展示",
+        "材质和灯光反馈",
+        "网页与 AR 适配"
+      ],
+      "takeawaysZh": [
+        "把开发要求和过程文档要求分开交给 Codex。",
+        "用真实截图反馈光照与几何问题。",
+        "按普通网页和 AR 环境分别设置光照，不把桌面效果直接套用到实机。"
+      ],
+      "costZh": "公开网页和制作文章本次无需登录或付费；运行此静态演示无需模型 API。仓库 LICENSE 为 MIT，需保留许可；重新使用 Codex 的计划/额度及 AR 设备成本另计，作者未给出该项目实际总费用。本次未启动生成。",
+      "verificationNoteZh": "已读作者完整制作文章、源码 README 与 LICENSE，桌面浏览器实际显示行星和轨道。本次环境提示 WebXR AR 不受支持，因此仅验证普通三维网页；没有测试 Quest/AR 或天文尺度准确性，作者本来也以演示可读性优先。",
+      "primaryEvidence": [
+        {
+          "labelZh": "原作者完整制作过程",
+          "sourceUrl": "https://qiita.com/Tks_Yoshinaga/items/e338160c5c8c55403267",
+          "claimZh": "明确 Codex 桌面应用、模型、提示词、截图反馈和材质/AR光照修正过程；成品为演示尺度。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "源码与作者过程链接",
+          "sourceUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog",
+          "claimZh": "README 关联同一在线演示、日文/英文制作文章与控制方式。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "源码许可证",
+          "sourceUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog/blob/main/LICENSE",
+          "claimZh": "MIT 许可需遵守原版权与许可声明。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "公开三维演示",
+          "sourceUrl": "https://takashiyoshinaga.github.io/AgenticCodingBlog/",
+          "claimZh": "实际正常浏览器渲染可见，当前设备 AR 不支持。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "aiTools": [
+        "OpenAI Codex"
+      ],
+      "kindZh": "个人开发作品",
+      "repoUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog",
+      "monitoredSourceUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog/blob/main/README.md",
+      "linkChecks": {
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "b82424eb050cda317da7f178a129d5725a9bacd93bc594ce79f284367d32519b",
+      "reviewedEvidenceHash": "b82424eb050cda317da7f178a129d5725a9bacd93bc594ce79f284367d32519b",
+      "activity": {
+        "lastPushAt": "2026-09-06T01:02:01.000Z",
+        "stars": 0,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "codex-personal-duoasa-design",
+      "focusId": "codex",
+      "focusIds": [
+        "codex"
+      ],
+      "titleZh": "Duoasa Design：用 Codex 迭代的个人设计站",
+      "author": "XuChenChen／Duoasa",
+      "authorUrl": "https://github.com/Duoasa",
+      "authorType": "personal",
+      "categoryZh": "网页设计与优化",
+      "summaryZh": "一个静态 HTML/CSS/JavaScript 个人设计站，结合 WebGL 动态背景、滚动动效和独立案例页。可参考的重点是把设计约束写进 Markdown，让长期迭代保持一致。",
+      "aiEvidenceZh": "作者 README 明确把此站定义为使用 OpenAI Codex 的个人设计到代码项目，并逐步描述本人定方向、Codex 读现有代码、维护规则、人工视觉验收的协作流程。",
+      "aiEvidenceSourceUrl": "https://github.com/Duoasa/Duoasa-Design#overview",
+      "sourceUrl": "https://github.com/Duoasa/Duoasa-Design",
+      "demoUrl": "https://design.duoasa.com/",
+      "demoKindZh": "可交互网页 · WebGL 视觉设计",
+      "processUrl": "https://github.com/Duoasa/Duoasa-Design#codex-collaboration-workflow",
+      "buildRelationshipZh": "设计者主导、Codex 协作实现和迭代；使用与改编 GSAP、WebGL 等参考，不能归为全部视觉由 AI 原创。",
+      "demoVerificationZh": "2026-10-18：HTTP 200；桌面首页、WebGL 动态背景、导航和项目内容已实际显示，无需登录。",
+      "fitZh": [
+        "个人网站优化",
+        "视觉动效与可维护性",
+        "Codex 开发规则"
+      ],
+      "takeawaysZh": [
+        "让 AGENTS.md 路由到具体的页面与动效规则。",
+        "已完成的案例页独立维护，避免新实验影响成品。",
+        "保留外部组件归属、渲染约束与缓存更新要求。"
+      ],
+      "costZh": "网站和源码本次可公开免费浏览，无登录或模型调用。重新使用 Codex 与托管的成本不由公开源码保证；作者未在 README 披露实际开发总费用。第三方组件、作品内容和品牌素材须分别核对许可，本次未验证整站再分发授权。",
+      "verificationNoteZh": "已读 README 的作者身份、Codex 流程、技术结构与引用清单，并在桌面 Chrome 看到实际 WebGL 网格背景和完整导航/作品内容。未逐页验证、测试手机性能，也未把其站内所有历史项目都归因于 Codex。",
+      "primaryEvidence": [
+        {
+          "labelZh": "作者和 Codex 协作说明",
+          "sourceUrl": "https://github.com/Duoasa/Duoasa-Design#codex-collaboration-workflow",
+          "claimZh": "明确本站由 XuChenChen / Duoasa 与 Codex 迭代完成，并记录职责与人工复核。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "实现与外部组件来源",
+          "sourceUrl": "https://github.com/Duoasa/Duoasa-Design#motion-and-open-source-references",
+          "claimZh": "列出 GSAP、Three.js/OGL 等动效参考及静态技术结构。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "实际个人站",
+          "sourceUrl": "https://design.duoasa.com/",
+          "claimZh": "首页署名和三维网格视觉实际可见；这里只收录该站本身。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "aiTools": [
+        "OpenAI Codex"
+      ],
+      "kindZh": "个人开发作品",
+      "repoUrl": "https://github.com/Duoasa/Duoasa-Design",
+      "monitoredSourceUrl": "https://github.com/Duoasa/Duoasa-Design/blob/main/README.md",
+      "linkChecks": {
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "d152f9b6a6e9bf2bc6c12056cbf2ea91be3ec282f852d0e2f6cc83728d15a9ba",
+      "reviewedEvidenceHash": "d152f9b6a6e9bf2bc6c12056cbf2ea91be3ec282f852d0e2f6cc83728d15a9ba",
+      "activity": {
+        "lastPushAt": "2026-09-08T10:04:10.000Z",
+        "stars": 3,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "codex-personal-klzc-portfolio",
+      "focusId": "codex",
+      "focusIds": [
+        "codex"
+      ],
+      "titleZh": "KLzc 机械记忆：真实装配模型驱动的个人网站",
+      "author": "Cheng Zhang（KLzc）",
+      "authorUrl": "https://github.com/klzc3377",
+      "authorType": "personal",
+      "categoryZh": "交互三维网页",
+      "summaryZh": "将机器人装配、经历、证书和项目组织为机械风格个人档案。作者制作页说明装配模型转 GLB、网页三维场景、电脑/手机适配和路由/触控验收。",
+      "aiEvidenceZh": "作者 README 与 Devpost 明确说明，已有个人站在 Build Week 期间使用 Codex 与 GPT-5.6 做实质扩展：三维/GLB 叙事、移动渲染、导航与反复浏览器 QA。",
+      "aiEvidenceSourceUrl": "https://github.com/klzc3377/klzc-portfolio#openai-build-week-2026",
+      "sourceUrl": "https://devpost.com/software/klzc-a-cinematic-mechanical-memory",
+      "demoUrl": "https://klzc-portfolio.vercel.app/",
+      "demoKindZh": "可交互网页 · 三维滚动叙事",
+      "processUrl": "https://devpost.com/software/klzc-a-cinematic-mechanical-memory",
+      "buildRelationshipZh": "Codex 协作改造已有作品；不是完全由 Codex 从零创建，也不把所有后续提交归为 Codex 独立成果。",
+      "demoVerificationZh": "2026-10-18：HTTP 200；实际浏览器显示三维机械主体，滚动构图有变化，无需登录；未全面测试。",
+      "fitZh": [
+        "现有 Blender/GLB 资产上网页",
+        "连续滚动三维叙事",
+        "移动端三维网站优化"
+      ],
+      "takeawaysZh": [
+        "先核对个人内容和模型来源，再组织章节。",
+        "用真实装配 GLB 作为主体，而不是截图伪装三维。",
+        "把移动渲染、路由、弹窗、触控与真实浏览器 QA 当作交付的一部分。"
+      ],
+      "costZh": "本次公开成品与源码无需登录或收费即可查看；未披露该项目实际 Codex/托管总费用，重新开发可能需计划额度。源码 MIT，但个人照片、证书、文字档案、机器人/CAD 与 public/assets、public/models 媒体排除在 MIT 之外，不能直接当成可自由复用的素材包。",
+      "verificationNoteZh": "已读 README、Devpost 与作者制作页。协作研究员在真实浏览器看到机械机器人、金属、粒子及光轨，滚动一屏时角度与卡片构图连续变化；这里只做有限显示/滚动核查，未完成手机、性能或所有互动测试。文本阅读器出现过降级文字，不代表真实浏览器本次渲染失败。",
+      "primaryEvidence": [
+        {
+          "labelZh": "作者身份及 Codex 贡献",
+          "sourceUrl": "https://github.com/klzc3377/klzc-portfolio",
+          "claimZh": "README 明确作者 Cheng Zhang、已有项目的 Codex 扩展范围以及人类负责的内容和最终判断。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "作者制作过程",
+          "sourceUrl": "https://devpost.com/software/klzc-a-cinematic-mechanical-memory",
+          "claimZh": "明确使用 Codex 与 GPT-5.6 改造现有项目，不声称从零全自动。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "装配模型到网页的过程",
+          "sourceUrl": "https://klzc-portfolio.vercel.app/projects/klzc-portfolio",
+          "claimZh": "作者说明装配转 GLB、网页场景、设备适配与发布验收。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "许可边界",
+          "sourceUrl": "https://github.com/klzc3377/klzc-portfolio/blob/main/LICENSE",
+          "claimZh": "代码 MIT；个人内容和媒体不包含在 MIT 许可。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        },
+        {
+          "labelZh": "实际成品",
+          "sourceUrl": "https://klzc-portfolio.vercel.app/",
+          "claimZh": "实际浏览器显示机械场景与滚动变化。",
+          "checkedAt": "2026-10-18T00:34:36.935Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "aiTools": [
+        "OpenAI Codex"
+      ],
+      "kindZh": "个人开发作品",
+      "repoUrl": "https://github.com/klzc3377/klzc-portfolio",
+      "monitoredSourceUrl": "https://github.com/klzc3377/klzc-portfolio/blob/main/README.md",
+      "linkChecks": {
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "ec322ac7587c87c6b56a3da9377c0e10f31c22a21a8cb2b387d2b304e3783e94",
+      "reviewedEvidenceHash": "ec322ac7587c87c6b56a3da9377c0e10f31c22a21a8cb2b387d2b304e3783e94",
+      "activity": {
+        "lastPushAt": "2026-10-13T01:54:16.000Z",
+        "stars": 1,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "personal-claude-iridium-reach",
+      "focusId": "claude",
+      "titleZh": "Jason Croucher：Claude Code 迭代出的可玩太空驾驶舱",
+      "author": "Jason Croucher",
+      "authorUrl": "https://github.com/jason-c-dev",
+      "authorType": "personal",
+      "kindZh": "个人可玩三维技术演示",
+      "categoryZh": "三维到交互成品",
+      "summaryZh": "可在浏览器驾驶太空飞船的三维技术演示。网格、贴图与多数声音按程序生成，作者公开说明视觉上仍达不到其参考游戏的质量，不能把目标当成成果。",
+      "aiTools": [
+        "Claude Code"
+      ],
+      "aiEvidenceZh": "作者署名 Jason Croucher，并明确表示代码由 Claude Code 智能体迭代构建，自己负责指导和试玩；README 记录多轮建造、批评与截图对照流程。这是开发方法证据，不仅是游戏运行时调用 Claude API。",
+      "aiEvidenceSourceUrl": "https://github.com/jason-c-dev/iridium-reach-demo#credits",
+      "sourceUrl": "https://github.com/jason-c-dev/iridium-reach-demo",
+      "demoUrl": "https://jason-c-dev.github.io/iridium-reach-demo/",
+      "demoKindZh": "可交互网页 / Three.js 三维游戏技术演示",
+      "processUrl": "https://github.com/jason-c-dev/iridium-reach-demo#how-it-was-built",
+      "fitZh": [
+        "学习从一句话目标逐轮迭代到可交互 Three.js 成品",
+        "借鉴参考图对照、性能目标与缺陷清单，适合你的 Roadster 网页后续打磨"
+      ],
+      "takeawaysZh": [
+        "把渲染、敌机、音效等分成独立任务，再进行截图评审",
+        "保留作者主动披露的画质差距与性能适用范围"
+      ],
+      "costZh": "公开演示与源码可查看，本次仅检查网页。复刻时 Claude Code 用量及重新生成 ElevenLabs 语音可能收费；README说明代码与语音资产适用不同许可，不能将全部素材当作 MIT。",
+      "verificationNoteZh": "演示 HTML 当前返回 200，标题为 Iridium Reach；未执行网页脚本、试玩或复测 60fps。作者称 Chrome 优先、1080p性能取决于 GPU；开发耗时、轮次和质量结论均为作者自述。",
+      "focusIds": [
+        "claude"
+      ],
+      "buildRelationshipZh": "作者署名 Jason Croucher，并明确表示代码由 Claude Code 智能体迭代构建，自己负责指导和试玩；README 记录多轮建造、批评与截图对照流程。这是开发方法证据，不仅是游戏运行时调用 Claude API。",
+      "demoVerificationZh": "演示 HTML 当前返回 200，标题为 Iridium Reach；未执行网页脚本、试玩或复测 60fps。作者称 Chrome 优先、1080p性能取决于 GPU；开发耗时、轮次和质量结论均为作者自述。",
+      "primaryEvidence": [
+        {
+          "labelZh": "author_readme",
+          "sourceUrl": "https://github.com/jason-c-dev/iridium-reach-demo#how-it-was-built",
+          "claimZh": "作者解释 Claude Code 编排与多轮建造/评审。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "author_credit",
+          "sourceUrl": "https://github.com/jason-c-dev/iridium-reach-demo#credits",
+          "claimZh": "作者姓名、Claude Code代码来源、语音素材许可均明确。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "author_linked_demo",
+          "sourceUrl": "https://jason-c-dev.github.io/iridium-reach-demo/",
+          "claimZh": "README链接的真实部署；HTML可达，未执行。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "repoUrl": "https://github.com/jason-c-dev/iridium-reach-demo",
+      "monitoredSourceUrl": "https://github.com/jason-c-dev/iridium-reach-demo/blob/main/README.md",
+      "linkChecks": {
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "ab8077e11748b7aa7e92c750a2ee9de6e8d33b036ee32dc2ef31bcc26640da25",
+      "reviewedEvidenceHash": "ab8077e11748b7aa7e92c750a2ee9de6e8d33b036ee32dc2ef31bcc26640da25",
+      "activity": {
+        "lastPushAt": "2026-08-14T14:51:18.000Z",
+        "stars": 2,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "personal-claude-hotelsim",
+      "focusId": "claude",
+      "titleZh": "pmmathias：用 Claude Code 做酒店三维第一人称漫游",
+      "author": "pmmathias",
+      "authorUrl": "https://github.com/pmmathias",
+      "authorType": "personal",
+      "kindZh": "个人三维空间漫游成品",
+      "categoryZh": "三维到交互成品",
+      "summaryZh": "具有可进入大厅、房间、泳池、日夜灯光与第一人称行走的浏览器酒店场景，可借鉴到房产空间演示。它是作者根据公开资料重建的场景，不是官方测绘或精确数字孪生。",
+      "aiTools": [
+        "Claude Code"
+      ],
+      "aiEvidenceZh": "作者以自己与儿子的旅行经历开场，明确称大部分项目在一次 Claude Code 会话里完成，自己提供目标、反馈、审美方向与错误报告；公开列出 Claude 编写程序纹理、材质、碰撞、灯光和性能测试的分工。",
+      "aiEvidenceSourceUrl": "https://github.com/pmmathias/hotelSim#the-story-behind-this-project",
+      "sourceUrl": "https://github.com/pmmathias/hotelSim",
+      "demoUrl": "https://pmmathias.github.io/hotelSim/",
+      "demoKindZh": "可交互网页 / Three.js 三维酒店漫游",
+      "processUrl": "https://github.com/pmmathias/hotelSim#the-story-behind-this-project",
+      "fitZh": [
+        "与你的地产/REN工作直接相关：可先研究楼盘空间演示的交互方式",
+        "对照 PBR 玻璃、金属、程序纹理和日夜光照的组合方法"
+      ],
+      "takeawaysZh": [
+        "用可观察的反馈继续修正，例如碰撞、楼梯与灯光问题",
+        "用 LOD、共享材质、空间网格和具体测试解决网页性能瓶颈"
+      ],
+      "costZh": "作者提供公开演示与标注 MIT 的源码。本次不安装或调用生成；复刻开发的 Claude Code、托管、硬件与素材权利须另核对，不能据作者开发经历承诺免费或一次完成。",
+      "verificationNoteZh": "演示 HTML 当前返回 200，标题为 Dream World Hotels – Side, Kumköy (3D)；未执行脚本、实际行走或复测作者的性能数据。作者“99%/100%由Claude编码”是其自述，不是独立代码来源审计。",
+      "focusIds": [
+        "claude"
+      ],
+      "buildRelationshipZh": "作者以自己与儿子的旅行经历开场，明确称大部分项目在一次 Claude Code 会话里完成，自己提供目标、反馈、审美方向与错误报告；公开列出 Claude 编写程序纹理、材质、碰撞、灯光和性能测试的分工。",
+      "demoVerificationZh": "演示 HTML 当前返回 200，标题为 Dream World Hotels – Side, Kumköy (3D)；未执行脚本、实际行走或复测作者的性能数据。作者“99%/100%由Claude编码”是其自述，不是独立代码来源审计。",
+      "primaryEvidence": [
+        {
+          "labelZh": "author_story",
+          "sourceUrl": "https://github.com/pmmathias/hotelSim#the-story-behind-this-project",
+          "claimZh": "个人旅行故事、Claude Code使用和人类反馈职责。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "author_process",
+          "sourceUrl": "https://github.com/pmmathias/hotelSim#how-to-replicate-this-yourself",
+          "claimZh": "目标、指出错误、创意指导、要求性能检查、反复迭代的过程。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "author_linked_demo",
+          "sourceUrl": "https://pmmathias.github.io/hotelSim/",
+          "claimZh": "仓库直接链接的公开部署，HTML可达但未运行。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "repoUrl": "https://github.com/pmmathias/hotelSim",
+      "monitoredSourceUrl": "https://github.com/pmmathias/hotelSim/blob/main/README.md",
+      "linkChecks": {
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "d2229e148d2a13115b0adf1c678aa1c5de8a21431ee497d7c8102956b6b393c6",
+      "reviewedEvidenceHash": "d2229e148d2a13115b0adf1c678aa1c5de8a21431ee497d7c8102956b6b393c6",
+      "activity": {
+        "lastPushAt": "2026-05-21T14:03:46.000Z",
+        "stars": 0,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "personal-claude-greg-product-video",
+      "focusId": "claude",
+      "titleZh": "Greg Ceccarelli：从脚本到 39 秒产品宣传片",
+      "author": "Greg Ceccarelli",
+      "authorUrl": "https://www.gregceccarelli.com/",
+      "authorType": "personal",
+      "kindZh": "个人创作的已发布产品视频",
+      "categoryZh": "脚本到视频",
+      "summaryZh": "公开的产品宣传成片，以及从分镜、React动画到外部素材与音乐后期的全过程。作者署名个人，源码托管于其产品的组织账号；这不是 Anthropic 官方示例。",
+      "aiTools": [
+        "Claude Code"
+      ],
+      "aiEvidenceZh": "个人作者博客明确记录自己让 Claude Code 编写与调整 Remotion 动画代码；仓库公开实现与两份实际构建对话。作者还说明 Midjourney、Veo 和 CapCut 分别负责素材与后期，因此不能说整片只靠 Claude 生成。",
+      "aiEvidenceSourceUrl": "https://github.com/specstoryai/zero-to-product-video-hero#how-this-was-built",
+      "sourceUrl": "https://www.gregceccarelli.com/writing/build-product-video-with-ai",
+      "demoUrl": "https://www.youtube.com/watch?v=0mTtPDFm5_I",
+      "demoKindZh": "已发布成片 / YouTube 视频，非网页三维模型",
+      "processUrl": "https://www.gregceccarelli.com/writing/build-product-video-with-ai",
+      "fitZh": [
+        "适合你从已确认脚本制作有节奏的网页/产品介绍片",
+        "可学习用代码做标题、产品界面、转场，再导出真正视频"
+      ],
+      "takeawaysZh": [
+        "保留原始分镜和真实对话，观察如何逐条调整字号、位置与时长",
+        "把程序动画与外部视频素材分工；代码许可与音乐/品牌素材权利分别判断"
+      ],
+      "costZh": "源码仓库标注 MIT，但不自动授权品牌、音乐或外部 AI 素材。复刻可能涉及 Claude Code、Midjourney、Veo 等付费服务与 Remotion 对应许可；本次仅阅读和检查公开视频元数据，未使用任何生成额度。",
+      "verificationNoteZh": "YouTube oEmbed 当前返回 200，确认成片标题与 SpecStory 发布频道。未下载、播放或逐帧验收成片，亦未运行源码。作者博客的发布字段与开发时间叙述有不同日期，未据此推定精确首发日；耗时/对话数为作者自述。",
+      "focusIds": [
+        "claude"
+      ],
+      "buildRelationshipZh": "个人作者博客明确记录自己让 Claude Code 编写与调整 Remotion 动画代码；仓库公开实现与两份实际构建对话。作者还说明 Midjourney、Veo 和 CapCut 分别负责素材与后期，因此不能说整片只靠 Claude 生成。",
+      "demoVerificationZh": "YouTube oEmbed 当前返回 200，确认成片标题与 SpecStory 发布频道。未下载、播放或逐帧验收成片，亦未运行源码。作者博客的发布字段与开发时间叙述有不同日期，未据此推定精确首发日；耗时/对话数为作者自述。",
+      "primaryEvidence": [
+        {
+          "labelZh": "personal_author_process",
+          "sourceUrl": "https://www.gregceccarelli.com/writing/build-product-video-with-ai",
+          "claimZh": "作者逐场景描述Claude Code代码创作、素材生成与最终CapCut后期。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "source_and_chat_history",
+          "sourceUrl": "https://github.com/specstoryai/zero-to-product-video-hero#how-this-was-built",
+          "claimZh": "仓库包含源码和两份构建对话，并直接链接该成片。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "released_video",
+          "sourceUrl": "https://www.youtube.com/watch?v=0mTtPDFm5_I",
+          "claimZh": "README指向39秒成片；oEmbed确认视频与频道。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "repoUrl": "https://github.com/specstoryai/zero-to-product-video-hero",
+      "monitoredSourceUrl": "https://github.com/specstoryai/zero-to-product-video-hero/blob/main/README.md",
+      "linkChecks": {
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "8462545145e4480ee64cdec65864662c21f4c948058bcfe552a8caddeeb00c54",
+      "reviewedEvidenceHash": "8462545145e4480ee64cdec65864662c21f4c948058bcfe552a8caddeeb00c54",
+      "activity": {
+        "lastPushAt": "2025-08-06T20:12:41.000Z",
+        "stars": 30,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "personal-claude-prajwal-video-explainer",
+      "focusId": "claude",
+      "titleZh": "prajwal-y：资料到科普视频与短片的实际流水线",
+      "author": "prajwal-y（GitHub）/ prajwal_y（原帖）",
+      "authorUrl": "https://github.com/prajwal-y",
+      "authorType": "personal",
+      "kindZh": "个人视频工具及已发布成片",
+      "categoryZh": "脚本到视频",
+      "summaryZh": "将资料转为脚本、配音、Remotion画面并导出长视频或竖屏短片的个人项目，仓库列出多条已发布成片。作者强调首片实际采用自己的录音，不能误写成所有成片配音均由TTS自动完成。",
+      "aiTools": [
+        "Claude Code"
+      ],
+      "aiEvidenceZh": "u/prajwal_y 的原作者公开帖明确说自己用 Claude Code 开发整套解释视频系统，并链接该源码与最初成片；仓库还展示由 claude 共同署名的提交。此证据是开发这套系统，不只是系统内部提供 Claude API 选项。",
+      "aiEvidenceSourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1q1cexp/i_built_an_entire_automated_video_generation/",
+      "sourceUrl": "https://github.com/prajwal-y/video_explainer",
+      "demoUrl": "https://www.youtube.com/watch?v=FWGlRy1lPxM",
+      "demoKindZh": "已发布视频成片 / YouTube 科普视频",
+      "processUrl": "https://www.reddit.com/r/ClaudeAI/comments/1q1cexp/i_built_an_entire_automated_video_generation/",
+      "fitZh": [
+        "与你的标题/资料到科普视频成品目标高度接近",
+        "可研究先确定音频时序，再生成分镜画面，以及中文/双语流程的改造点"
+      ],
+      "takeawaysZh": [
+        "原作者把脚本、音频、分镜、场景和成片按项目归档",
+        "保留自然语言修改入口，但仍检查事实、字幕位置、节奏和最终导出"
+      ],
+      "costZh": "仓库标注 MIT 并提供 mock、Claude Code、API与不同TTS选项；mock不等于真实成片生成。Claude、ElevenLabs、GPU/托管和商用视频许可可能产生费用，免费额度未在此逐项核实；本次没有执行生成。",
+      "verificationNoteZh": "仓库当前可读，YouTube oEmbed返回200，视频为PY频道的World Models: The Missing Piece for AGI。开发证据来自作者公开帖与关联仓库；未登录Reddit，公开帖由网页服务提取。未播放视频、运行流水线或验证作者的速度、测试数量与事实准确性声明。",
+      "focusIds": [
+        "claude"
+      ],
+      "buildRelationshipZh": "u/prajwal_y 的原作者公开帖明确说自己用 Claude Code 开发整套解释视频系统，并链接该源码与最初成片；仓库还展示由 claude 共同署名的提交。此证据是开发这套系统，不只是系统内部提供 Claude API 选项。",
+      "demoVerificationZh": "仓库当前可读，YouTube oEmbed返回200，视频为PY频道的World Models: The Missing Piece for AGI。开发证据来自作者公开帖与关联仓库；未登录Reddit，公开帖由网页服务提取。未播放视频、运行流水线或验证作者的速度、测试数量与事实准确性声明。",
+      "primaryEvidence": [
+        {
+          "labelZh": "author_self_report",
+          "sourceUrl": "https://www.reddit.com/r/ClaudeAI/comments/1q1cexp/i_built_an_entire_automated_video_generation/",
+          "claimZh": "原帖作者为u/prajwal_y，明确用Claude Code开发并链接源码与已发布视频。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "repository_examples",
+          "sourceUrl": "https://github.com/prajwal-y/video_explainer#example-videos",
+          "claimZh": "作者仓库列出多条公开长片与Shorts，并说明实现与成本相关组件。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "development_history",
+          "sourceUrl": "https://github.com/prajwal-y/video_explainer/commits/main/",
+          "claimZh": "公开提交列表显示prajwal-y与claude共同署名；不等于全部提交已独立审核。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "released_video",
+          "sourceUrl": "https://www.youtube.com/watch?v=FWGlRy1lPxM",
+          "claimZh": "作者README直接列出的成片，YouTube元数据当前可达。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "repoUrl": "https://github.com/prajwal-y/video_explainer",
+      "monitoredSourceUrl": "https://github.com/prajwal-y/video_explainer/blob/main/README.md",
+      "linkChecks": {
+        "process": {
+          "status": "unverified",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": null,
+          "httpStatus": 403,
+          "noteZh": "本次无法直接确认链接可达，可能受限流、登录、重定向或站点故障影响；保留作者原入口。"
+        },
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "3c388b8fcab532a23a78a2f6536d5436b2b68591d80b777adc04dbd41593f35b",
+      "reviewedEvidenceHash": "3c388b8fcab532a23a78a2f6536d5436b2b68591d80b777adc04dbd41593f35b",
+      "activity": {
+        "lastPushAt": "2026-02-24T19:26:46.000Z",
+        "stars": 248,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "personal-claude-catherine-itsm",
+      "focusId": "claude",
+      "titleZh": "Catherine Han：Claude 与 Copilot 协作搭建办公服务台",
+      "author": "Catherine Han（ninihen1 / FlowStudio）",
+      "authorUrl": "https://github.com/ninihen1",
+      "authorType": "personal",
+      "kindZh": "个人办公自动化PoC及演示录像",
+      "categoryZh": "办公自动化",
+      "summaryZh": "在Microsoft 365租户中实现工单、分流、审批与执行的个人参考项目，有作者公开的实际流程录像。它是可工作的概念验证，作者明确不保证已达到生产部署标准。",
+      "aiTools": [
+        "Claude Code",
+        "Copilot Cowork",
+        "FlowStudio MCP"
+      ],
+      "aiEvidenceZh": "作者README明确写明由一个人指导 Copilot Cowork 与 Claude Code 协作，分别编写Power Automate流程、Copilot Studio代理和SPFx界面；不是仅在服务台运行时接入一个聊天模型。GitHub个人资料与视频发布者同为Catherine Han。",
+      "aiEvidenceSourceUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent#-how-we-built-it--co-worked-by-two-ai-agents",
+      "sourceUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent",
+      "demoUrl": "https://www.youtube.com/watch?v=4oKlENZGW5M",
+      "demoKindZh": "真实租户工作流程录像 / YouTube 演示，非公开可操作SaaS",
+      "processUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent#-how-we-built-it--co-worked-by-two-ai-agents",
+      "fitZh": [
+        "可借鉴到办公自动化中“请求→校验→人工审批→执行→记录”的分层",
+        "适合研究如何让AI搭建真实流程，同时保留权限范围与人类审核"
+      ],
+      "takeawaysZh": [
+        "作者将不同执行器的权限分开，并让人类审查变更",
+        "遇到流程失败先读取真实执行记录，再修复；不把已设计但未接线的路径当作完成"
+      ],
+      "costZh": "源码公开不等于微软服务免费。复刻依赖Microsoft 365、Copilot Studio、Claude/代理工具、FlowStudio及可能的Azure资源许可或用量；不能承诺RM0。本文仅展示原作，不建立租户、不授予权限、不执行办公操作或收费调用。",
+      "verificationNoteZh": "YouTube oEmbed当前200，发布者Catherine Han (FlowStudio)，标题明确为Copilot Cowork + Claude Built My IT Help Desk in M365。未播放、登录租户或运行流程。作者README写working proof of concept且not production-hardened；作者与FlowStudio有推广关系，不是独立第三方测评。",
+      "focusIds": [
+        "claude"
+      ],
+      "buildRelationshipZh": "作者README明确写明由一个人指导 Copilot Cowork 与 Claude Code 协作，分别编写Power Automate流程、Copilot Studio代理和SPFx界面；不是仅在服务台运行时接入一个聊天模型。GitHub个人资料与视频发布者同为Catherine Han。",
+      "demoVerificationZh": "YouTube oEmbed当前200，发布者Catherine Han (FlowStudio)，标题明确为Copilot Cowork + Claude Built My IT Help Desk in M365。未播放、登录租户或运行流程。作者README写working proof of concept且not production-hardened；作者与FlowStudio有推广关系，不是独立第三方测评。",
+      "primaryEvidence": [
+        {
+          "labelZh": "author_build_account",
+          "sourceUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent#-how-we-built-it--co-worked-by-two-ai-agents",
+          "claimZh": "作者明确说明一人指导Claude Code和Copilot Cowork分别创建实际技术栈。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "author_identity",
+          "sourceUrl": "https://github.com/ninihen1",
+          "claimZh": "公开GitHub个人资料名为Catherine Han。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "author_demo",
+          "sourceUrl": "https://www.youtube.com/watch?v=4oKlENZGW5M",
+          "claimZh": "README链接的真实流程演示，oEmbed作者名与GitHub资料一致。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        },
+        {
+          "labelZh": "status_limitations",
+          "sourceUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent#autonomous-it-service-desk-for-small--medium-business",
+          "claimZh": "README主动标明PoC、未生产加固和尚未接线路径。",
+          "checkedAt": "2026-10-18T00:34:45.968Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "repoUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent",
+      "monitoredSourceUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent/blob/main/README.md",
+      "linkChecks": {
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "1d2e95a0481537e6af6778e978a585074063f8d5ea2f044b82ec955b58aaed35",
+      "reviewedEvidenceHash": "1d2e95a0481537e6af6778e978a585074063f8d5ea2f044b82ec955b58aaed35",
+      "activity": {
+        "lastPushAt": "2026-06-29T07:15:23.000Z",
+        "stars": 22,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
+    {
+      "id": "personal-muse-minimal-golf-vr",
+      "focusId": "muse",
+      "focusIds": [
+        "muse",
+        "codex"
+      ],
+      "titleZh": "Dilmer：把迷你高尔夫改造成 VR，并公开提示词与测试过程",
+      "author": "Dilmer Valecillos",
+      "authorUrl": "https://github.com/dilmerv",
+      "authorType": "personal",
+      "kindZh": "个人 VR 原型 / 视频与 GIF 演示",
+      "categoryZh": "三维到交互成品",
+      "summaryZh": "个人作者以现有迷你高尔夫为基础，用 Muse Code 配合 Unity CLI 和 Meta VR CLI 做 VR 改造、Play Mode 测试与模拟器验证，并公开计划提示词和演示。适合参考三维交互项目如何分步改造和验收。",
+      "aiTools": [
+        "Meta Muse Code",
+        "Muse Spark 1.2 Contributor",
+        "OpenAI Codex",
+        "Unity CLI",
+        "Meta VR CLI"
+      ],
+      "aiEvidenceZh": "作者仓库介绍明确 Codex 原作与 Muse VR 改造的分工；README 明确 Muse Spark 1.2 Contributor、Unity CLI、Meta VR CLI，并链接提示词计划与 Quest/模拟器演示。",
+      "aiEvidenceSourceUrl": "https://github.com/dilmerv/MinimalGolfVR/blob/master/README.md",
+      "sourceUrl": "https://github.com/dilmerv/MinimalGolfVR",
+      "demoUrl": "https://www.youtube.com/watch?v=5iOIck1AWAg",
+      "demoKindZh": "视频 / VR 原型，非浏览器即玩",
+      "processUrl": "https://github.com/dilmerv/MinimalGolfVR/tree/master/.agents/plans",
+      "buildRelationshipZh": "原高尔夫项目由 Codex 制作；作者用 Muse Code 将既有项目改造成 VR，未声称整套资产由 Muse 从零生成。",
+      "demoVerificationZh": "作者已发布视频及 Quest 3 / XR Simulator GIF；本次未播放或运行 VR。",
+      "fitZh": [
+        "学习三维场景的交互改造、控制器操作与测试",
+        "借鉴测试历史、截图与提示词归档；它使用 Unity，不能直接替换你的 Three.js 网站"
+      ],
+      "takeawaysZh": [
+        "保留现有场景，按输入、交互、渲染和验收逐项改造",
+        "先模拟器与小样本测试，再考虑设备和发布"
+      ],
+      "costZh": "公开源码标示 MIT，作者演示和提示词可查看。复刻时 Muse/Codex 模型额度、Unity 授权、硬件和资产条款分别计算；Contributor 模型不等于免费或无需数据条款。未购买头显、订阅、调用模型或启动生成。",
+      "verificationNoteZh": "已读取原作者 README、公开制作帖与提示词入口；未在 Unity/Quest 执行，也未将 VR 原型认证为生产产品。视频可达性与源码核查分开记录。",
+      "primaryEvidence": [
+        {
+          "labelZh": "作者源码与分工",
+          "sourceUrl": "https://github.com/dilmerv/MinimalGolfVR",
+          "claimZh": "Codex 原项目，Muse Code VR 改造。",
+          "checkedAt": "2026-10-18T00:37:18.791Z"
+        },
+        {
+          "labelZh": "作者提示词",
+          "sourceUrl": "https://github.com/dilmerv/MinimalGolfVR/tree/master/.agents/plans",
+          "claimZh": "公开分步计划与提示词。",
+          "checkedAt": "2026-10-18T00:37:18.792Z"
+        },
+        {
+          "labelZh": "作者制作说明",
+          "sourceUrl": "https://www.patreon.com/dilmerv/posts/i-tested-meta-it-168208419",
+          "claimZh": "公开介绍 Unity CLI、测试历史网站、三维移植与 VR 改造；付费内容不在本次范围。",
+          "checkedAt": "2026-10-18T00:37:18.792Z"
+        }
+      ],
+      "reviewedAt": "2026-10-18",
+      "repoUrl": "https://github.com/dilmerv/MinimalGolfVR",
+      "monitoredSourceUrl": "https://github.com/dilmerv/MinimalGolfVR/blob/master/README.md",
+      "linkChecks": {
+        "process": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        },
+        "demo": {
+          "status": "reachable",
+          "checkedAt": "2026-10-18T00:46:44.030Z",
+          "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+          "httpStatus": 200,
+          "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
+        }
+      },
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "status": "ok",
+      "reviewStatus": "verified_source",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
+      "evidenceHash": "564f1398aa8d49db88faac771f638ba36c23062fc1a06b4a015f043b9ed73446",
+      "reviewedEvidenceHash": "564f1398aa8d49db88faac771f638ba36c23062fc1a06b4a015f043b9ed73446",
+      "activity": {
+        "lastPushAt": "2026-09-09T17:18:13.000Z",
+        "stars": 5,
+        "archived": false,
+        "latestRelease": null
+      }
+    },
     {
       "id": "codex-pr-bot",
       "focusId": "codex",
@@ -31,14 +1041,17 @@
       ],
       "costZh": "Action 代码许可不包含模型调用；官方示例需要所选服务商的 API key，通常按模型用量计费。此网站仅展示与追踪，未启用机器人或收费 API。",
       "verificationNoteZh": "已核实官方工作流说明，未安装或运行。它是代码审核示例，不是自动保证网站通过审计的服务。",
+      "authorType": "official",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/openai/codex-action",
       "aiEvidenceSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "reviewedEvidenceHash": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "activity": {
@@ -71,14 +1084,17 @@
       ],
       "costZh": "Action 为 MIT；调用 Anthropic、Bedrock、Vertex 等模型服务通常另计费用。GitHub 运行器是否免费也取决于仓库和运行器类型。本网站未启用此工作流。",
       "verificationNoteZh": "已核实官方来源，未运行其模型调用；自动提建议不等于问题已修复。",
+      "authorType": "official",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/anthropics/claude-code-action",
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "reviewedEvidenceHash": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "activity": {
@@ -112,19 +1128,22 @@
       ],
       "costZh": "示例需 Anthropic API key；多轮构建会产生模型用量，完整示例可能运行多小时，不能当作免费体验。此网站没有执行它。",
       "verificationNoteZh": "仅核实官方参考实现与说明，未生成或验收示例应用，也不保证无人干预即可交付。",
+      "authorType": "official",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/anthropics/claude-quickstarts",
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "reviewedEvidenceHash": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "activity": {
         "lastPushAt": "2026-10-08T17:34:23.000Z",
-        "stars": 18365,
+        "stars": 18389,
         "archived": false,
         "latestRelease": null
       }
@@ -154,19 +1173,22 @@
       ],
       "costZh": "AI 代理订阅/API 与渲染资源各自计费；Remotion 本体有个人及小型组织等免费资格和公司授权条件。技能可读不代表整条生产流程免费。",
       "verificationNoteZh": "这是官方技能和工作流集合，未在本次安装运行，也不是已经生成的视频成品。",
+      "authorType": "official",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/remotion-dev/skills",
       "aiEvidenceSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "reviewedEvidenceHash": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "activity": {
         "lastPushAt": "2026-10-16T08:09:18.000Z",
-        "stars": 5292,
+        "stars": 5293,
         "archived": false,
         "latestRelease": null
       }
@@ -195,14 +1217,17 @@
       ],
       "costZh": "源码许可不包含 Together AI 推理费用；自托管还需要数据库和可选存储/观测服务。在线演示的免费额度未核实，不承诺免费。",
       "verificationNoteZh": "核实了作者源码和应用入口，未登录、提交生成或运行其代码；README 的 Claude Artifacts 类比不表示它使用 Claude。",
+      "authorType": "community",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/Nutlope/llamacoder",
       "aiEvidenceSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "3faebc929a5f8f7f18469934ef48cd79459449720b064f388bdd4df5b5411eca",
       "reviewedEvidenceHash": "3faebc929a5f8f7f18469934ef48cd79459449720b064f388bdd4df5b5411eca",
       "activity": {
@@ -237,14 +1262,17 @@
       ],
       "costZh": "模板标示 Apache-2.0，但 n8n 平台及各组件有各自条款；本地硬件、电费与存储自付，接外部模型/API、云主机或企业功能可能收费。",
       "verificationNoteZh": "官方明确该模板面向起步与概念验证，未完全为生产优化；本网站未启动它或导入任何工作流。",
+      "authorType": "official",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "aiEvidenceSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "reviewedEvidenceHash": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "activity": {
@@ -277,14 +1305,17 @@
       ],
       "costZh": "社区许可证有地域及额外商业条件，不是标准 OSI 开源；本地需足够显存和模型权重。托管 API、云 GPU 或额外授权可能收费，未启动生成。",
       "verificationNoteZh": "核实官方示例，不把生成图片当三维成品；本次未上传参考图、生成模型或执行示例。",
+      "authorType": "official",
+      "reviewedAt": "2026-10-17",
       "repoUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "aiEvidenceSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "monitoredSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
+      "linkChecks": {},
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "status": "ok",
-      "reviewedAt": "2026-10-17",
       "reviewStatus": "verified_source",
-      "reviewNoteZh": "作者来源与本次人工核实的版本一致；未运行作品。",
+      "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "reviewedEvidenceHash": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "activity": {
@@ -297,12 +1328,122 @@
   ],
   "sources": [
     {
+      "id": "codex-personal-raccoon-heist",
+      "sourceUrl": "https://raw.githubusercontent.com/simonw/raccoon-heist-codex/main/README.md",
+      "repoUrl": "https://github.com/simonw/raccoon-heist-codex",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "cea79651ee2072c2bac851a487deedcde475ef333de60b323add3eab59ae7c1c",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "codex-personal-forest-census",
+      "sourceUrl": "https://raw.githubusercontent.com/chongdashu/threejs-forest-census/main/README.md",
+      "repoUrl": "https://github.com/chongdashu/threejs-forest-census",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "5fdeba662278d17093fe26c9d246b79d72c819a6db28e3617684fbd514ab37c2",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "codex-personal-solar-web3d",
+      "sourceUrl": "https://raw.githubusercontent.com/TakashiYoshinaga/AgenticCodingBlog/main/README.md",
+      "repoUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "b82424eb050cda317da7f178a129d5725a9bacd93bc594ce79f284367d32519b",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "codex-personal-duoasa-design",
+      "sourceUrl": "https://raw.githubusercontent.com/Duoasa/Duoasa-Design/main/README.md",
+      "repoUrl": "https://github.com/Duoasa/Duoasa-Design",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "d152f9b6a6e9bf2bc6c12056cbf2ea91be3ec282f852d0e2f6cc83728d15a9ba",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "codex-personal-klzc-portfolio",
+      "sourceUrl": "https://raw.githubusercontent.com/klzc3377/klzc-portfolio/main/README.md",
+      "repoUrl": "https://github.com/klzc3377/klzc-portfolio",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "ec322ac7587c87c6b56a3da9377c0e10f31c22a21a8cb2b387d2b304e3783e94",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "personal-claude-iridium-reach",
+      "sourceUrl": "https://raw.githubusercontent.com/jason-c-dev/iridium-reach-demo/main/README.md",
+      "repoUrl": "https://github.com/jason-c-dev/iridium-reach-demo",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "ab8077e11748b7aa7e92c750a2ee9de6e8d33b036ee32dc2ef31bcc26640da25",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "personal-claude-hotelsim",
+      "sourceUrl": "https://raw.githubusercontent.com/pmmathias/hotelSim/main/README.md",
+      "repoUrl": "https://github.com/pmmathias/hotelSim",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "d2229e148d2a13115b0adf1c678aa1c5de8a21431ee497d7c8102956b6b393c6",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "personal-claude-greg-product-video",
+      "sourceUrl": "https://raw.githubusercontent.com/specstoryai/zero-to-product-video-hero/main/README.md",
+      "repoUrl": "https://github.com/specstoryai/zero-to-product-video-hero",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "8462545145e4480ee64cdec65864662c21f4c948058bcfe552a8caddeeb00c54",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "personal-claude-prajwal-video-explainer",
+      "sourceUrl": "https://raw.githubusercontent.com/prajwal-y/video_explainer/main/README.md",
+      "repoUrl": "https://github.com/prajwal-y/video_explainer",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "3c388b8fcab532a23a78a2f6536d5436b2b68591d80b777adc04dbd41593f35b",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "personal-claude-catherine-itsm",
+      "sourceUrl": "https://raw.githubusercontent.com/ninihen1/copilot-studio-itsm-agent/main/README.md",
+      "repoUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "1d2e95a0481537e6af6778e978a585074063f8d5ea2f044b82ec955b58aaed35",
+      "reviewStatus": "verified_source"
+    },
+    {
+      "id": "personal-muse-minimal-golf-vr",
+      "sourceUrl": "https://raw.githubusercontent.com/dilmerv/MinimalGolfVR/master/README.md",
+      "repoUrl": "https://github.com/dilmerv/MinimalGolfVR",
+      "status": "ok",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
+      "sha256": "564f1398aa8d49db88faac771f638ba36c23062fc1a06b4a015f043b9ed73446",
+      "reviewStatus": "verified_source"
+    },
+    {
       "id": "codex-pr-bot",
       "sourceUrl": "https://raw.githubusercontent.com/openai/codex-action/main/README.md",
       "repoUrl": "https://github.com/openai/codex-action",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "reviewStatus": "verified_source"
     },
@@ -311,8 +1452,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code-action/main/README.md",
       "repoUrl": "https://github.com/anthropics/claude-code-action",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "reviewStatus": "verified_source"
     },
@@ -321,8 +1462,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/autonomous-coding/README.md",
       "repoUrl": "https://github.com/anthropics/claude-quickstarts",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "reviewStatus": "verified_source"
     },
@@ -331,8 +1472,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/remotion-dev/skills/main/README.md",
       "repoUrl": "https://github.com/remotion-dev/skills",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "reviewStatus": "verified_source"
     },
@@ -341,8 +1482,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Nutlope/llamacoder/main/README.md",
       "repoUrl": "https://github.com/Nutlope/llamacoder",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "3faebc929a5f8f7f18469934ef48cd79459449720b064f388bdd4df5b5411eca",
       "reviewStatus": "verified_source"
     },
@@ -351,8 +1492,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/README.md",
       "repoUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "reviewStatus": "verified_source"
     },
@@ -361,8 +1502,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md",
       "repoUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "status": "ok",
-      "checkedAt": "2026-10-17T23:36:33.148Z",
-      "lastSuccessAt": "2026-10-17T23:36:33.148Z",
+      "checkedAt": "2026-10-18T00:46:44.030Z",
+      "lastSuccessAt": "2026-10-18T00:46:44.030Z",
       "sha256": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "reviewStatus": "verified_source"
     }
