@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-19T07:08:36.443Z",
-  "lastSuccessAt": "2026-10-19T07:07:32.694Z",
+  "attemptAt": "2026-10-19T08:02:21.397Z",
+  "lastSuccessAt": "2026-10-19T08:01:17.246Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
@@ -27,26 +27,26 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-19T07:08:36.443Z",
-    "runId": "39213941005",
+    "actualAttemptAt": "2026-10-19T08:02:21.397Z",
+    "runId": "39219781427",
     "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
     "eventCount": 37,
-    "checkedAt": "2026-10-19T07:07:32.694Z",
-    "lastSuccessAt": "2026-10-19T07:07:32.694Z",
+    "checkedAt": "2026-10-19T08:01:17.246Z",
+    "lastSuccessAt": "2026-10-19T08:01:17.246Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-19T07:07:32.694Z"
+        "checkedAt": "2026-10-19T08:01:17.246Z"
       },
       {
         "id": "whenreset-codex",
         "status": "ok",
-        "checkedAt": "2026-10-19T07:07:32.694Z"
+        "checkedAt": "2026-10-19T08:01:17.246Z"
       },
       {
         "id": "tibo-search-index",
@@ -56,7 +56,7 @@
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-19T07:07:32.694Z"
+        "checkedAt": "2026-10-19T08:01:17.246Z"
       }
     ]
   }
