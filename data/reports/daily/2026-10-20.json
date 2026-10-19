@@ -11,14 +11,86 @@
   "retroactive": false,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 4,
+  "articleCount": 8,
   "articleIds": [
+    "ee7a8711b7efa9d39fef1b4f",
+    "506a411bdd0429b488085824",
+    "0846eb9322ab55c3f77f0136",
+    "2a71818b7fd327c9556a3a51",
     "02515040d2b8a0644579b54e",
     "671f221b14e555a66b5b72c8",
     "8c372d950b596c7cc5982689",
     "b3f039915071cfc1ba49758c"
   ],
   "items": [
+    {
+      "id": "ee7a8711b7efa9d39fef1b4f",
+      "title": "OpenAI Codex 0.164.0-alpha.6",
+      "summary": "Release 0.164.0-alpha.6",
+      "originalTitle": "0.164.0-alpha.6",
+      "sourceTitle": "0.164.0-alpha.6",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-19T22:55:47.000Z",
+      "contentHash": "da485d57b763395c00a059aec5efaafe3d051e8dfbb72375e160d1f02af73cd4",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "506a411bdd0429b488085824",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "summary": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
+      "originalTitle": "Developers can now access SageMaker Studio through the new AWS experience",
+      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T22:39:24.000Z",
+      "contentHash": "0be3d3e3ca80ca2bab17aaa8dbb1cae577087b47a23a83c1d5d28fc1a217611c",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "0846eb9322ab55c3f77f0136",
+      "title": "Claude Code v2.1.304",
+      "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only Added /auto-mod",
+      "originalTitle": "v2.1.304",
+      "sourceTitle": "v2.1.304",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-19T21:34:39.000Z",
+      "contentHash": "9e4a5e43dbe7cd70c2457ae997fef63542cf989888d38224c62eb32df2381d90",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "2a71818b7fd327c9556a3a51",
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face deep link integration.",
+      "originalTitle": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T21:14:44.000Z",
+      "contentHash": "7029ecd40f6c354ad777c1d2571cd88d2be8bb29293410a783ce9875331e0045",
+      "translationStatus": "failed"
+    },
     {
       "id": "02515040d2b8a0644579b54e",
       "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
@@ -84,6 +156,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "f8c249dbd1234791168ce5edcac1d3fb02815625a7f1c65fd643d0e670dce998",
-  "compiledAt": "2026-10-19T18:46:22.723Z"
+  "contentHash": "633d7a2c5d6467e60a12da4f2711454109c9e4cbfb94ccb68bdf3c65833a107e",
+  "compiledAt": "2026-10-19T22:56:57.919Z"
 }

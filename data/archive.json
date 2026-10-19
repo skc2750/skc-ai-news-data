@@ -1,8 +1,133 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T18:46:22.723Z",
+  "publishedAt": "2026-10-19T22:56:57.919Z",
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "articles": [
+    {
+      "id": "ee7a8711b7efa9d39fef1b4f",
+      "title": "OpenAI Codex 0.164.0-alpha.6",
+      "sourceTitle": "0.164.0-alpha.6",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "summary": "Release 0.164.0-alpha.6",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.6",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "author": "github-actions[bot]",
+      "publishedAt": "2026-10-19T22:55:47.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T22:55:49.189Z",
+      "contentHash": "da485d57b763395c00a059aec5efaafe3d051e8dfbb72375e160d1f02af73cd4",
+      "firstSeenAt": "2026-10-19T22:55:49.189Z",
+      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "da485d57b763395c00a059aec5efaafe3d051e8dfbb72375e160d1f02af73cd4"
+      }
+    },
+    {
+      "id": "506a411bdd0429b488085824",
+      "title": "Developers can now access SageMaker Studio through the new AWS experience",
+      "summary": "New Amazon SageMaker AI customers can now land in a fully configured SageMaker Studio environment in only a few steps. Sign up with an identity you already have, such as Amazon, Apple, GitHub, or Google, with no advanced AWS account or credit card required for most customers, plus $100 in AWS Free Tier credits.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/developers-can-now-access-sagemaker-studio-through-the-new-aws-experience/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Hazim Qudah",
+      "publishedAt": "2026-10-19T22:39:24.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Advanced (300)",
+        "Amazon SageMaker AI",
+        "Amazon SageMaker Studio",
+        "Announcements"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T22:55:49.189Z",
+      "contentHash": "0be3d3e3ca80ca2bab17aaa8dbb1cae577087b47a23a83c1d5d28fc1a217611c",
+      "firstSeenAt": "2026-10-19T22:55:49.189Z",
+      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "0be3d3e3ca80ca2bab17aaa8dbb1cae577087b47a23a83c1d5d28fc1a217611c"
+      }
+    },
+    {
+      "id": "0846eb9322ab55c3f77f0136",
+      "title": "Claude Code v2.1.304",
+      "sourceTitle": "v2.1.304",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is refused with the mod's reason where nobody can be asked Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only Added /auto-mod",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "author": "ashwin-ant",
+      "publishedAt": "2026-10-19T21:34:39.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T22:55:49.189Z",
+      "contentHash": "9e4a5e43dbe7cd70c2457ae997fef63542cf989888d38224c62eb32df2381d90",
+      "firstSeenAt": "2026-10-19T22:55:49.189Z",
+      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "9e4a5e43dbe7cd70c2457ae997fef63542cf989888d38224c62eb32df2381d90"
+      }
+    },
+    {
+      "id": "2a71818b7fd327c9556a3a51",
+      "title": "Amazon SageMaker JumpStart: 2026 year-to-date in review",
+      "summary": "Amazon SageMaker JumpStart onboarded over 100 new models from 30 providers in the first three quarters of 2026. This recap covers the model-onboarding highlights and JumpStart enhancements, including the simplified Model Hub, pre-configured deployment options, and Hugging Face deep link integration.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-jumpstart-2026-year-to-date-in-review/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Vamsi Goparaju",
+      "publishedAt": "2026-10-19T21:14:44.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Amazon SageMaker JumpStart",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T22:55:49.189Z",
+      "contentHash": "7029ecd40f6c354ad777c1d2571cd88d2be8bb29293410a783ce9875331e0045",
+      "firstSeenAt": "2026-10-19T22:55:49.189Z",
+      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "7029ecd40f6c354ad777c1d2571cd88d2be8bb29293410a783ce9875331e0045"
+      }
+    },
     {
       "id": "02515040d2b8a0644579b54e",
       "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
@@ -160,6 +285,36 @@
       }
     },
     {
+      "id": "b746ba28400ff4acda309e30",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Publication"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T22:55:49.189Z",
+      "contentHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5",
+      "firstSeenAt": "2026-10-19T22:55:49.189Z",
+      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5"
+      }
+    },
+    {
       "id": "f23c6d3d5eb0b56f279a34ec",
       "title": "OpenAI Codex 0.164.0-alpha.4",
       "sourceTitle": "0.164.0-alpha.4",
@@ -187,6 +342,34 @@
       "translation": {
         "status": "failed",
         "sourceHash": "56aee9f69e103b5a17508161ccecb9a2318dca654ae2d5e046e9f3aad683df94"
+      }
+    },
+    {
+      "id": "c905f1106f5cafa643986b49",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "summary": "",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T22:55:49.189Z",
+      "contentHash": "f6fbfe5509441572ebab0e579e63c70ef5b8c42673790d14a7070dc29b5ddadd",
+      "firstSeenAt": "2026-10-19T22:55:49.189Z",
+      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "f6fbfe5509441572ebab0e579e63c70ef5b8c42673790d14a7070dc29b5ddadd"
       }
     },
     {
@@ -9269,18 +9452,26 @@
       "period": "2026-10-20",
       "title": "2026-10-20 每日资讯汇编",
       "articleIds": [
+        "ee7a8711b7efa9d39fef1b4f",
+        "506a411bdd0429b488085824",
+        "0846eb9322ab55c3f77f0136",
+        "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
         "671f221b14e555a66b5b72c8",
         "8c372d950b596c7cc5982689",
         "b3f039915071cfc1ba49758c"
       ],
-      "articleCount": 4,
-      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "articleCount": 8,
+      "compiledAt": "2026-10-19T22:56:57.919Z",
       "partial": true,
       "periodState": "open",
       "retroactive": false,
       "url": "data/reports/daily/2026-10-20.json",
       "loadedArticleIds": [
+        "ee7a8711b7efa9d39fef1b4f",
+        "506a411bdd0429b488085824",
+        "0846eb9322ab55c3f77f0136",
+        "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
         "671f221b14e555a66b5b72c8",
         "8c372d950b596c7cc5982689",
@@ -9294,18 +9485,22 @@
       "title": "2026-10-19 每日资讯汇编",
       "articleIds": [
         "f4e31257b048792063d0c460",
+        "b746ba28400ff4acda309e30",
         "f23c6d3d5eb0b56f279a34ec",
+        "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4"
       ],
-      "articleCount": 3,
-      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "articleCount": 5,
+      "compiledAt": "2026-10-19T22:56:57.919Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": false,
       "url": "data/reports/daily/2026-10-19.json",
       "loadedArticleIds": [
         "f4e31257b048792063d0c460",
+        "b746ba28400ff4acda309e30",
         "f23c6d3d5eb0b56f279a34ec",
+        "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4"
       ]
     },
@@ -9315,27 +9510,39 @@
       "period": "2026-10-19",
       "title": "2026-10-19 每周（周一起）资讯汇编",
       "articleIds": [
+        "ee7a8711b7efa9d39fef1b4f",
+        "506a411bdd0429b488085824",
+        "0846eb9322ab55c3f77f0136",
+        "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
         "671f221b14e555a66b5b72c8",
         "8c372d950b596c7cc5982689",
         "b3f039915071cfc1ba49758c",
         "f4e31257b048792063d0c460",
+        "b746ba28400ff4acda309e30",
         "f23c6d3d5eb0b56f279a34ec",
+        "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4"
       ],
-      "articleCount": 7,
-      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "articleCount": 13,
+      "compiledAt": "2026-10-19T22:56:57.919Z",
       "partial": true,
       "periodState": "open",
       "retroactive": false,
       "url": "data/reports/weekly/2026-10-19.json",
       "loadedArticleIds": [
+        "ee7a8711b7efa9d39fef1b4f",
+        "506a411bdd0429b488085824",
+        "0846eb9322ab55c3f77f0136",
+        "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
         "671f221b14e555a66b5b72c8",
         "8c372d950b596c7cc5982689",
         "b3f039915071cfc1ba49758c",
         "f4e31257b048792063d0c460",
+        "b746ba28400ff4acda309e30",
         "f23c6d3d5eb0b56f279a34ec",
+        "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4"
       ]
     },
@@ -10119,12 +10326,18 @@
       "period": "2026-10",
       "title": "2026-10 每月资讯汇编",
       "articleIds": [
+        "ee7a8711b7efa9d39fef1b4f",
+        "506a411bdd0429b488085824",
+        "0846eb9322ab55c3f77f0136",
+        "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
         "671f221b14e555a66b5b72c8",
         "8c372d950b596c7cc5982689",
         "b3f039915071cfc1ba49758c",
         "f4e31257b048792063d0c460",
+        "b746ba28400ff4acda309e30",
         "f23c6d3d5eb0b56f279a34ec",
+        "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4",
         "c9c355e51b263fe2baa19280",
         "1266f92abcd73b7cf3e23c71",
@@ -10251,19 +10464,25 @@
         "b0015e130574884506dfc9f5",
         "eddbf971051f0f2ff5d5fa3d"
       ],
-      "articleCount": 131,
-      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "articleCount": 137,
+      "compiledAt": "2026-10-19T22:56:57.919Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
       "url": "data/reports/monthly/2026-10.json",
       "loadedArticleIds": [
+        "ee7a8711b7efa9d39fef1b4f",
+        "506a411bdd0429b488085824",
+        "0846eb9322ab55c3f77f0136",
+        "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
         "671f221b14e555a66b5b72c8",
         "8c372d950b596c7cc5982689",
         "b3f039915071cfc1ba49758c",
         "f4e31257b048792063d0c460",
+        "b746ba28400ff4acda309e30",
         "f23c6d3d5eb0b56f279a34ec",
+        "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4",
         "c9c355e51b263fe2baa19280",
         "1266f92abcd73b7cf3e23c71",
@@ -12398,7 +12617,7 @@
       ]
     }
   ],
-  "totalArticles": 261,
+  "totalArticles": 267,
   "windowed": false,
   "archiveIndexUrl": "data/archive/index.json",
   "note": "此兼容文件最多载入最新 4000 条；全部历史仍按月保存在 archive/，不会从永久档案删除。"

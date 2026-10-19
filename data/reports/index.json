@@ -7,33 +7,33 @@
       "path": "reports/daily/2026-10-20.json",
       "kind": "daily",
       "period": "2026-10-20",
-      "articleCount": 4,
+      "articleCount": 8,
       "periodState": "open",
-      "compiledAt": "2026-10-19T18:46:22.723Z",
-      "bytes": 5103,
-      "sha256": "e030d37b2bd153708e6077ac8420ba6311f92516409a36222f6122cae3b26c9a"
+      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "bytes": 9270,
+      "sha256": "c1a3fdb1bd4a1067c4f70fde7de7635d14763056cd19776eed8b36b825b4d0bf"
     },
     {
       "id": "daily:2026-10-19",
       "path": "reports/daily/2026-10-19.json",
       "kind": "daily",
       "period": "2026-10-19",
-      "articleCount": 3,
+      "articleCount": 5,
       "periodState": "closed",
-      "compiledAt": "2026-10-19T18:46:22.723Z",
-      "bytes": 3092,
-      "sha256": "ddd3f471c2c79a424f31f7fb525aefd3ac06c54c88a4f748468a74ff8669755f"
+      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "bytes": 4607,
+      "sha256": "fdbc0e8f9bf8f9b0508a23cf885c4f289d19493a67905a7467e4f073880d546f"
     },
     {
       "id": "weekly:2026-10-19",
       "path": "reports/weekly/2026-10-19.json",
       "kind": "weekly",
       "period": "2026-10-19",
-      "articleCount": 7,
+      "articleCount": 13,
       "periodState": "open",
-      "compiledAt": "2026-10-19T18:46:22.723Z",
-      "bytes": 7590,
-      "sha256": "fc9f65e3f36a0aa18f301da84e35a1c5310475d0cd55280b379ddcd9ff7825ad"
+      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "bytes": 13273,
+      "sha256": "9a6cc30d409d745f02b996c675e61b4584ddb3045e569526bca04760fa289619"
     },
     {
       "id": "daily:2026-10-18",
@@ -249,11 +249,11 @@
       "path": "reports/monthly/2026-10.json",
       "kind": "monthly",
       "period": "2026-10",
-      "articleCount": 131,
+      "articleCount": 137,
       "periodState": "open",
-      "compiledAt": "2026-10-19T18:46:22.723Z",
-      "bytes": 121513,
-      "sha256": "25bc139af4d3895d7970eba64e87e7ce84052f40974a9b4ed23bb429d01ea7c3"
+      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "bytes": 127195,
+      "sha256": "15c1a7ae25eccc0c3c0c0d2e75b6e459d0e403d67983cae66991da66f9c5a8f0"
     },
     {
       "id": "daily:2026-09-30",

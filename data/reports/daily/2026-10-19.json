@@ -11,10 +11,12 @@
   "retroactive": false,
   "coverageNote": "周期已结束；有限订阅源汇编，不能证明全网或来源完整覆盖。",
   "method": "source_link_roundup",
-  "articleCount": 3,
+  "articleCount": 5,
   "articleIds": [
     "f4e31257b048792063d0c460",
+    "b746ba28400ff4acda309e30",
     "f23c6d3d5eb0b56f279a34ec",
+    "c905f1106f5cafa643986b49",
     "884d832230ee974a19bc72f4"
   ],
   "items": [
@@ -37,6 +39,22 @@
       "translationStatus": "failed"
     },
     {
+      "id": "b746ba28400ff4acda309e30",
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "originalTitle": "Advancing Coding in Low-Resource Programming Languages",
+      "url": "https://openai.com/index/low-resource-programming-languages",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-19T12:00:00.000Z",
+      "contentHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5",
+      "translationStatus": "failed"
+    },
+    {
       "id": "f23c6d3d5eb0b56f279a34ec",
       "title": "OpenAI Codex 0.164.0-alpha.4",
       "summary": "Release 0.164.0-alpha.4",
@@ -52,6 +70,22 @@
       },
       "publishedAt": "2026-10-19T10:48:26.000Z",
       "contentHash": "56aee9f69e103b5a17508161ccecb9a2318dca654ae2d5e046e9f3aad683df94",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "c905f1106f5cafa643986b49",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "summary": "",
+      "originalTitle": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "contentHash": "f6fbfe5509441572ebab0e579e63c70ef5b8c42673790d14a7070dc29b5ddadd",
       "translationStatus": "failed"
     },
     {
@@ -73,6 +107,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "4ebfc8aedadaef989d777314ecaa3deda524053e829e1135b47a32780ef28dbe",
-  "compiledAt": "2026-10-19T18:46:22.723Z"
+  "contentHash": "89fc97013e16092f027154f200cd56de8dcee07f99a1716500e30a2102cd2938",
+  "compiledAt": "2026-10-19T22:56:57.919Z"
 }
