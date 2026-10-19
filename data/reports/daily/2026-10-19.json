@@ -11,11 +11,30 @@
   "retroactive": false,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 1,
+  "articleCount": 2,
   "articleIds": [
+    "f23c6d3d5eb0b56f279a34ec",
     "884d832230ee974a19bc72f4"
   ],
   "items": [
+    {
+      "id": "f23c6d3d5eb0b56f279a34ec",
+      "title": "OpenAI Codex rust-v0.164.0-alpha.4",
+      "summary": "Release 0.164.0-alpha.4",
+      "originalTitle": "rust-v0.164.0-alpha.4",
+      "sourceTitle": "rust-v0.164.0-alpha.4",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-19T09:13:00.000Z",
+      "contentHash": "7729133f08c448f0ed072ee256f20aecf07c641ec39fc08eb0c02904007f1d57",
+      "translationStatus": "failed"
+    },
     {
       "id": "884d832230ee974a19bc72f4",
       "title": "Claude Code v2.1.303",
@@ -35,6 +54,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "a4f6388ebbe07721ae28036cf527bdd51b1609df037008483aabc8f4fc031023",
-  "compiledAt": "2026-10-18T22:43:08.777Z"
+  "contentHash": "d2403d4cbb8585737953d4633e7d99a5d5ba9a276fe63ba377a474de0279d106",
+  "compiledAt": "2026-10-19T09:54:11.092Z"
 }
