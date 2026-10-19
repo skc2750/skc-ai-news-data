@@ -61,6 +61,40 @@ test('author index runs at most once per six hours, respects 429 backoff, and ne
  const third=await collectCodexActivity({now:late,previous:second,fetchImpl:limitFetch});assert.equal(limited,1);assert.match(third.sources.find(s=>s.id==='tibo-search-index').error,/未启用付费/);assert.equal(third.discoveryState.search.nextRetryAt,'2026-10-19T19:00:00.000Z');
  await collectCodexActivity({now:'2026-10-18T20:00:00.000Z',previous:third,fetchImpl:limitFetch});assert.equal(limited,1);
 });
+test('a transient WhenReset 503 gets only one short retry and does not publish a false stale incident after recovery',async()=>{
+ const mock=network();let attempts=0;const fetchImpl=async(url,opts)=>{if(url===DISCOVERY[1].sourceUrl&&++attempts===1)return new Response('Unavailable',{status:503});return mock.fetchImpl(url,opts);};
+ const result=await collectCodexActivity({now:NOW,fetchImpl,discoveryConfig:{retryDelayMs:0}}),source=result.sources.find(s=>s.id==='whenreset-codex');
+ assert.equal(attempts,2);assert.equal(source.status,'ok');assert.equal(source.attemptsThisRun,2);assert.equal(source.lastSuccessAt,NOW);assert.equal(source.consecutiveFailures,0);assert.equal(source.error,undefined);assert.equal(source.incidentId,undefined);assert.match(source.retryNoteChinese,/短重试 1 次/);
+});
+test('one failed source cannot block a newly original-verified reset from another source; incident backoff stays stable and later recovery clears it',async()=>{
+ const mock=network(),baseline=await collectCodexActivity({now:NOW,fetchImpl:mock.fetchImpl}),NEW=BASE+'2111492673890824349';let whenCalls=0,addNew=false,unavailable=true;
+ const fetchImpl=async(url,opts)=>{
+  if(url===DISCOVERY[1].sourceUrl){whenCalls++;if(unavailable)return new Response('Unavailable',{status:503});}
+  if(addNew&&url===DISCOVERY[0].sourceUrl){const encoded=encodeURIComponent(JSON.stringify({entries:[{outcome:'reset',post:{url:NEW,text:'All usage limits have now been reset.'}}]}));return new Response(`<section data-state="${encoded}"></section>`);}
+  if(addNew&&url.startsWith('https://publish.twitter.com/')&&new URL(url).searchParams.get('url')===NEW)return new Response(JSON.stringify({url:NEW,author_url:'https://x.com/thsottiaux',html:'<p>All usage limits have now been reset.</p>'}));
+  return mock.fetchImpl(url,opts);
+ };
+ const failed=await collectCodexActivity({now:LATER,previous:baseline,fetchImpl,discoveryConfig:{retryDelayMs:0}}),incident=failed.sources.find(s=>s.id==='whenreset-codex');
+ assert.equal(whenCalls,2);assert.equal(incident.errorCode,'http_503');assert.equal(incident.checkedAt,LATER);assert.equal(incident.lastSuccessAt,NOW);assert.equal(incident.failureSince,LATER);assert.equal(incident.nextRetryAt,'2026-10-18T13:15:00.000Z');
+ addNew=true;const BACKOFF='2026-10-18T13:05:00.000Z',continued=await collectCodexActivity({now:BACKOFF,previous:failed,fetchImpl,discoveryConfig:{retryDelayMs:0}}),still=continued.sources.find(s=>s.id==='whenreset-codex'),newEvent=continued.events.find(e=>e.sourceUrl===NEW);
+ assert.equal(whenCalls,2);assert.equal(still.backoff,true);assert.equal(still.attemptsThisRun,0);assert.equal(still.checkedAt,LATER);assert.equal(still.lastSuccessAt,NOW);assert.equal(still.incidentId,incident.incidentId);assert.equal(still.lastFailureAt,LATER);assert.ok(newEvent);assert.equal(newEvent.kind,'reset_completed');assert.equal(newEvent.verification,'original_verified');assert.equal(newEvent.effectiveAt,null);
+ for(const old of baseline.events){const retained=continued.events.find(e=>e.sourceUrl===old.sourceUrl);assert.ok(retained);for(const key of ['publishedAt','effectiveAt','firstSeenAt','kind','verification'])assert.equal(retained[key],old[key],key);}
+ const AGAIN='2026-10-18T14:00:00.000Z',repeated=await collectCodexActivity({now:AGAIN,previous:continued,fetchImpl,discoveryConfig:{retryDelayMs:0}}),same=repeated.sources.find(s=>s.id==='whenreset-codex');assert.equal(whenCalls,4);assert.equal(same.consecutiveFailures,2);assert.equal(same.incidentId,incident.incidentId);assert.equal(same.failureSince,LATER);assert.equal(same.nextRetryAt,'2026-10-18T15:00:00.000Z');
+ unavailable=false;const RECOVERED='2026-10-18T15:00:00.000Z',recovered=await collectCodexActivity({now:RECOVERED,previous:repeated,fetchImpl,discoveryConfig:{retryDelayMs:0}}),healthy=recovered.sources.find(s=>s.id==='whenreset-codex');assert.equal(whenCalls,5);assert.equal(healthy.status,'ok');assert.equal(healthy.lastSuccessAt,RECOVERED);assert.equal(healthy.checkedAt,RECOVERED);assert.equal(healthy.recoveredAt,RECOVERED);assert.equal(healthy.consecutiveFailures,0);assert.equal(healthy.error,undefined);assert.equal(healthy.incidentId,undefined);assert.equal(healthy.nextRetryAt,undefined);assert.ok(recovered.events.some(e=>e.sourceUrl===NEW));
+});
+test('HTTP 403/429 and Retry-After stop immediate retry without blocking the healthy source or requesting paid alternatives',async()=>{
+ for(const [status,retryAfter] of [[403,null],[429,null],[403,'86400'],[429,'86400'],[503,'86400']]){
+  const mock=network();let attempts=0;const fetchImpl=async(url,opts)=>{if(url===DISCOVERY[1].sourceUrl){attempts++;return new Response('Wait',{status,headers:retryAfter?{'retry-after':retryAfter}:{}});}return mock.fetchImpl(url,opts);};
+  const first=await collectCodexActivity({now:NOW,fetchImpl,discoveryConfig:{retryDelayMs:0}}),source=first.sources.find(s=>s.id==='whenreset-codex');assert.equal(attempts,1);assert.equal(source.errorCode,'http_'+status);assert.equal(source.nextRetryAt,retryAfter?'2026-10-19T12:00:00.000Z':'2026-10-18T18:00:00.000Z');if(retryAfter)assert.match(source.retryNoteChinese,/Retry-After/);assert.equal(first.sources.find(s=>s.id==='codexlimits-tibo').status,'ok');assert.ok(first.events.some(e=>e.verification==='original_verified'));
+  await collectCodexActivity({now:LATER,previous:first,fetchImpl,discoveryConfig:{retryDelayMs:0}});assert.equal(attempts,1);for(const url of mock.calls)assert.doesNotMatch(url,/api\.x\.com|api\.openai|paid|oauth/i);
+ }
+});
+test('a timeout and a format change have distinct failure evidence; a format change is not retried as an empty successful scan',async()=>{
+ for(const [mode,expectedAttempts,code] of [['timeout',2,'timeout'],['parser',1,'parser']]){
+  const mock=network();let attempts=0;const fetchImpl=async(url,opts)=>{if(url===DISCOVERY[1].sourceUrl){attempts++;if(mode==='timeout'){const error=new Error('fixture timeout');error.name='TimeoutError';throw error;}return new Response('<html>Temporary maintenance</html>');}return mock.fetchImpl(url,opts);};
+  const out=await collectCodexActivity({now:NOW,fetchImpl,discoveryConfig:{retryDelayMs:0}}),source=out.sources.find(s=>s.id==='whenreset-codex');assert.equal(attempts,expectedAttempts);assert.equal(source.status,'unavailable');assert.equal(source.errorCode,code);assert.equal(source.lastSuccessAt,null);assert.ok(source.nextRetryAt);assert.equal(out.sources.find(s=>s.id==='codexlimits-tibo').status,'ok');
+ }
+});
 test('third-party claims never become original-verified when original fetch or author check fails',async()=>{
  for(const flags of [{failOriginal:true},{wrongAuthor:true}]){const result=await collectCodexActivity({now:NOW,fetchImpl:network(flags).fetchImpl});assert.equal(result.status,'partial');assert.ok(result.events.every(e=>e.verification==='secondary_only'));assert.equal(result.nextResetAt,null);}
  const weak=eventFrom(candidate(DONE,'reset_completed'),'Done',{now:LATER,verified:false}),strong=eventFrom(candidate(DONE,'reset_completed'),'Done',{now:NOW,verified:true});assert.equal(mergeEvents([strong],[weak])[0].verification,'original_verified');
