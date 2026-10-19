@@ -1243,6 +1243,34 @@
       }
     },
     {
+      "id": "489d25d7bc550c793820a122",
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "author": null,
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T01:47:10.453Z",
+      "contentHash": "4dfb05f791beda7ea44d93c4c7355a8c19594981ead0a2ad88e870c592906d71",
+      "firstSeenAt": "2026-10-19T01:47:10.453Z",
+      "lastChangedAt": "2026-10-19T01:48:17.887Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "4dfb05f791beda7ea44d93c4c7355a8c19594981ead0a2ad88e870c592906d71"
+      }
+    },
+    {
       "id": "700c0adbb423ff58a5b26523",
       "title": "At AI Day Singapore, NVIDIA and Partners Showcase AI Advancements Across Southeast Asia",
       "summary": "NVIDIA AI Day Singapore, which takes place Sept. 22-23 at the Raffles City Convention Centre, is offering attendees opportunities to explore the hands-on training, expert-led sessions and advanced tools to accelerate their work in AI and high-performance computing. At the event, NVIDIA and its partners are showcasing breakthrough AI advancements across the Southeast Asia region [&#8230;]",

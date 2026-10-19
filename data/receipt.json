@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-19T01:01:49.420Z",
-  "lastSuccessAt": "2026-10-19T01:00:29.303Z",
+  "attemptAt": "2026-10-19T01:48:17.887Z",
+  "lastSuccessAt": "2026-10-19T01:47:10.453Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
   "sourceStale": 0,
-  "archiveArticles": 252,
-  "newArticles": 0,
+  "archiveArticles": 253,
+  "newArticles": 1,
   "changedArticles": 0,
-  "translationRequested": 3,
+  "translationRequested": 5,
   "translatedThisRun": 0,
-  "translationFailed": 3,
+  "translationFailed": 4,
   "translationDeferred": 0,
-  "translationError": null,
+  "translationError": "Offline CPU translation unavailable; original retained",
   "translationNote": null,
   "actualTranslationEngines": {},
-  "pendingTranslations": 3,
+  "pendingTranslations": 4,
   "translationLimit": 20,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -27,26 +27,26 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-19T01:01:49.420Z",
-    "runId": "39183293397",
+    "actualAttemptAt": "2026-10-19T01:48:17.887Z",
+    "runId": "39186909437",
     "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
-    "eventCount": 36,
-    "checkedAt": "2026-10-19T01:00:29.303Z",
-    "lastSuccessAt": "2026-10-19T01:00:29.303Z",
+    "eventCount": 37,
+    "checkedAt": "2026-10-19T01:47:10.453Z",
+    "lastSuccessAt": "2026-10-19T01:47:10.453Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-19T01:00:29.303Z"
+        "checkedAt": "2026-10-19T01:47:10.453Z"
       },
       {
         "id": "whenreset-codex",
         "status": "ok",
-        "checkedAt": "2026-10-19T01:00:29.303Z"
+        "checkedAt": "2026-10-19T01:47:10.453Z"
       },
       {
         "id": "tibo-search-index",
@@ -56,7 +56,7 @@
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-19T01:00:29.303Z"
+        "checkedAt": "2026-10-19T01:47:10.453Z"
       }
     ]
   }
