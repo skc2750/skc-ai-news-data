@@ -3,26 +3,37 @@
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "reports": [
     {
+      "id": "daily:2026-10-20",
+      "path": "reports/daily/2026-10-20.json",
+      "kind": "daily",
+      "period": "2026-10-20",
+      "articleCount": 4,
+      "periodState": "open",
+      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "bytes": 5103,
+      "sha256": "e030d37b2bd153708e6077ac8420ba6311f92516409a36222f6122cae3b26c9a"
+    },
+    {
       "id": "daily:2026-10-19",
       "path": "reports/daily/2026-10-19.json",
       "kind": "daily",
       "period": "2026-10-19",
-      "articleCount": 2,
-      "periodState": "open",
-      "compiledAt": "2026-10-19T10:50:36.243Z",
-      "bytes": 2266,
-      "sha256": "424bbab4fd58ffcf18e02bc573f523de6c49f330cda934bfa2c6592be49cb76d"
+      "articleCount": 3,
+      "periodState": "closed",
+      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "bytes": 3092,
+      "sha256": "ddd3f471c2c79a424f31f7fb525aefd3ac06c54c88a4f748468a74ff8669755f"
     },
     {
       "id": "weekly:2026-10-19",
       "path": "reports/weekly/2026-10-19.json",
       "kind": "weekly",
       "period": "2026-10-19",
-      "articleCount": 2,
+      "articleCount": 7,
       "periodState": "open",
-      "compiledAt": "2026-10-19T10:50:36.243Z",
-      "bytes": 2283,
-      "sha256": "579c2d39077b215a056bc8aa2df8a8eb34f61d789baee5780b0abf1c5249f3b6"
+      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "bytes": 7590,
+      "sha256": "fc9f65e3f36a0aa18f301da84e35a1c5310475d0cd55280b379ddcd9ff7825ad"
     },
     {
       "id": "daily:2026-10-18",
@@ -238,11 +249,11 @@
       "path": "reports/monthly/2026-10.json",
       "kind": "monthly",
       "period": "2026-10",
-      "articleCount": 126,
+      "articleCount": 131,
       "periodState": "open",
-      "compiledAt": "2026-10-19T10:50:36.243Z",
-      "bytes": 116206,
-      "sha256": "0abbedf45a8059fcb5063e87ed02595d145e6466f1dbbb3755a896aa474533fb"
+      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "bytes": 121513,
+      "sha256": "25bc139af4d3895d7970eba64e87e7ce84052f40974a9b4ed23bb429d01ea7c3"
     },
     {
       "id": "daily:2026-09-30",

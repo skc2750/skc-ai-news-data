@@ -11,8 +11,13 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 126,
+  "articleCount": 131,
   "articleIds": [
+    "02515040d2b8a0644579b54e",
+    "671f221b14e555a66b5b72c8",
+    "8c372d950b596c7cc5982689",
+    "b3f039915071cfc1ba49758c",
+    "f4e31257b048792063d0c460",
     "f23c6d3d5eb0b56f279a34ec",
     "884d832230ee974a19bc72f4",
     "c9c355e51b263fe2baa19280",
@@ -141,6 +146,88 @@
     "eddbf971051f0f2ff5d5fa3d"
   ],
   "items": [
+    {
+      "id": "02515040d2b8a0644579b54e",
+      "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+      "summary": "TwelveLabs Pegasus 1.5 is now available in Amazon Bedrock. The video language model turns long-form video into structured, timestamped metadata: define the moments that matter and get every matching segment back as JSON, with new video segmentation, multimodal prompting with reference images, and on-the-fly processing of up to two hours of video.",
+      "originalTitle": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T16:49:19.000Z",
+      "contentHash": "679eb0d7082761d3a9c408cf384b400d0c08021af65083e3bdbf013f19a81635",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "671f221b14e555a66b5b72c8",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "summary": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.",
+      "originalTitle": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T16:23:22.000Z",
+      "contentHash": "253c949e707dac1984de614634c84c6df42220235fcd8fd5d2ec2b57fdad3c42",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "8c372d950b596c7cc5982689",
+      "title": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
+      "summary": "vLLM's prefill-decode disaggregation splits LLM inference across engine instances but must transfer the KV cache between them. This post introduces a push-based NIXL connector that moves transfer coordination off the critical path, delivering up to 3x better TTFT and 30% better TPOT in benchmarks on Amazon EC2 P5en instances with AWS EFA.",
+      "originalTitle": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T16:05:17.000Z",
+      "contentHash": "99615252d61d575eafdde01a573bd082de950f8bc924ca7d2eb85f88aea032f9",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "b3f039915071cfc1ba49758c",
+      "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "summary": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.",
+      "originalTitle": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T16:03:23.000Z",
+      "contentHash": "d8baf8e77fcae477654edbe7bc24b9be9a1d092622314578466423b68d0b6a2f",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "f4e31257b048792063d0c460",
+      "title": "OpenAI Codex 0.164.0-alpha.5",
+      "summary": "Release 0.164.0-alpha.5",
+      "originalTitle": "0.164.0-alpha.5",
+      "sourceTitle": "0.164.0-alpha.5",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-19T14:33:55.000Z",
+      "contentHash": "7ba1507509d335ab52ae80d2195832899d4d21575129a57ee0904ab3d7da77ac",
+      "translationStatus": "failed"
+    },
     {
       "id": "f23c6d3d5eb0b56f279a34ec",
       "title": "OpenAI Codex 0.164.0-alpha.4",
@@ -2202,6 +2289,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "e8d6dabe24f67de39db39ac25c114c2713feb27d645b321ff384ba9c9d47ce9f",
-  "compiledAt": "2026-10-19T10:50:36.243Z"
+  "contentHash": "881bd3cbaebc5c748c13eee3291c297f1a2a8c8df1128dee50c7bb0a98fa8c5c",
+  "compiledAt": "2026-10-19T18:46:22.723Z"
 }

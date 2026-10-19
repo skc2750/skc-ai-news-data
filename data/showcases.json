@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T11:50:33.410Z",
-  "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+  "generatedAt": "2026-10-19T18:44:36.844Z",
+  "lastSuccessAt": "2026-10-19T18:44:36.844Z",
   "status": "ok",
   "coverageZh": "11 项个人开发者作品，另保留 7 项社区应用、官方示例和工作流；人工精选与规则自动收录分别标识，原型、视频和可交互演示分别说明。",
   "updatePolicyZh": "每小时检查已收录来源；每6小时轮换搜索 Codex、Claude Code、Muse Code 的个人三维、视频和办公作品，计划可能延迟。证据与可达链接齐全后按规则自动收录，缺项进入候选区；自动收录是原作者自述的规则筛查，不等于人工或运行验收。",
@@ -71,21 +71,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -168,21 +168,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -265,21 +265,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -356,21 +356,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -459,21 +459,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -548,21 +548,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -637,21 +637,21 @@
       "linkChecks": {
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -726,21 +726,21 @@
       "linkChecks": {
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -821,21 +821,21 @@
       "linkChecks": {
         "process": {
           "status": "unverified",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
           "lastSuccessAt": null,
           "httpStatus": 403,
           "noteZh": "本次无法直接确认链接可达，可能受限流、登录、重定向或站点故障影响；保留作者原入口。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -916,23 +916,23 @@
       "repoUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent",
       "monitoredSourceUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent/blob/main/README.md",
       "linkChecks": {
-        "demo": {
+        "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
-        "process": {
+        "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1012,21 +1012,21 @@
       "linkChecks": {
         "process": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         },
         "demo": {
           "status": "reachable",
-          "checkedAt": "2026-10-19T11:50:33.410Z",
-          "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "httpStatus": 200,
           "noteZh": "链接 HTTP 可达；未播放视频、执行脚本或验收交互。"
         }
       },
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1071,8 +1071,8 @@
       "aiEvidenceSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/openai/codex-action/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1080,7 +1080,7 @@
       "reviewedEvidenceHash": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "activity": {
         "lastPushAt": "2026-10-14T13:13:45.000Z",
-        "stars": 1271,
+        "stars": 1273,
         "archived": false,
         "latestRelease": null
       }
@@ -1116,8 +1116,8 @@
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/anthropics/claude-code-action/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1125,7 +1125,7 @@
       "reviewedEvidenceHash": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "activity": {
         "lastPushAt": "2026-10-18T22:35:58.000Z",
-        "stars": 9570,
+        "stars": 9576,
         "archived": false,
         "latestRelease": null
       }
@@ -1162,8 +1162,8 @@
       "aiEvidenceSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
       "monitoredSourceUrl": "https://github.com/anthropics/claude-quickstarts/blob/main/autonomous-coding/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1171,7 +1171,7 @@
       "reviewedEvidenceHash": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "activity": {
         "lastPushAt": "2026-10-08T17:34:23.000Z",
-        "stars": 18763,
+        "stars": 18829,
         "archived": false,
         "latestRelease": null
       }
@@ -1209,16 +1209,16 @@
       "aiEvidenceSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/remotion-dev/skills/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
       "evidenceHash": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "reviewedEvidenceHash": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "activity": {
-        "lastPushAt": "2026-10-16T08:09:18.000Z",
-        "stars": 5358,
+        "lastPushAt": "2026-10-19T16:31:02.000Z",
+        "stars": 5379,
         "archived": false,
         "latestRelease": null
       }
@@ -1255,8 +1255,8 @@
       "aiEvidenceSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/Nutlope/llamacoder/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1302,8 +1302,8 @@
       "aiEvidenceSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1311,7 +1311,7 @@
       "reviewedEvidenceHash": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "activity": {
         "lastPushAt": "2026-10-12T08:50:13.000Z",
-        "stars": 15295,
+        "stars": 15296,
         "archived": false,
         "latestRelease": null
       }
@@ -1347,8 +1347,8 @@
       "aiEvidenceSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
       "monitoredSourceUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2/blob/main/README.md",
       "linkChecks": {},
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "status": "ok",
       "reviewStatus": "verified_source",
       "reviewNoteZh": "监测的仓库说明与人工核实版本一致；制作证据、演示核查分别列出，未自动验收作品。",
@@ -1356,7 +1356,7 @@
       "reviewedEvidenceHash": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "activity": {
         "lastPushAt": "2025-10-28T09:58:12.000Z",
-        "stars": 15159,
+        "stars": 15160,
         "archived": false,
         "latestRelease": null
       }
@@ -1368,8 +1368,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/simonw/raccoon-heist-codex/main/README.md",
       "repoUrl": "https://github.com/simonw/raccoon-heist-codex",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "cea79651ee2072c2bac851a487deedcde475ef333de60b323add3eab59ae7c1c",
       "reviewStatus": "verified_source"
     },
@@ -1378,8 +1378,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/chongdashu/threejs-forest-census/main/README.md",
       "repoUrl": "https://github.com/chongdashu/threejs-forest-census",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "5fdeba662278d17093fe26c9d246b79d72c819a6db28e3617684fbd514ab37c2",
       "reviewStatus": "verified_source"
     },
@@ -1388,8 +1388,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/TakashiYoshinaga/AgenticCodingBlog/main/README.md",
       "repoUrl": "https://github.com/TakashiYoshinaga/AgenticCodingBlog",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "b82424eb050cda317da7f178a129d5725a9bacd93bc594ce79f284367d32519b",
       "reviewStatus": "verified_source"
     },
@@ -1398,8 +1398,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Duoasa/Duoasa-Design/main/README.md",
       "repoUrl": "https://github.com/Duoasa/Duoasa-Design",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "d152f9b6a6e9bf2bc6c12056cbf2ea91be3ec282f852d0e2f6cc83728d15a9ba",
       "reviewStatus": "verified_source"
     },
@@ -1408,8 +1408,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/klzc3377/klzc-portfolio/main/README.md",
       "repoUrl": "https://github.com/klzc3377/klzc-portfolio",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "ec322ac7587c87c6b56a3da9377c0e10f31c22a21a8cb2b387d2b304e3783e94",
       "reviewStatus": "verified_source"
     },
@@ -1418,8 +1418,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/jason-c-dev/iridium-reach-demo/main/README.md",
       "repoUrl": "https://github.com/jason-c-dev/iridium-reach-demo",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "ab8077e11748b7aa7e92c750a2ee9de6e8d33b036ee32dc2ef31bcc26640da25",
       "reviewStatus": "verified_source"
     },
@@ -1428,8 +1428,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/pmmathias/hotelSim/main/README.md",
       "repoUrl": "https://github.com/pmmathias/hotelSim",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "d2229e148d2a13115b0adf1c678aa1c5de8a21431ee497d7c8102956b6b393c6",
       "reviewStatus": "verified_source"
     },
@@ -1438,8 +1438,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/specstoryai/zero-to-product-video-hero/main/README.md",
       "repoUrl": "https://github.com/specstoryai/zero-to-product-video-hero",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "8462545145e4480ee64cdec65864662c21f4c948058bcfe552a8caddeeb00c54",
       "reviewStatus": "verified_source"
     },
@@ -1448,8 +1448,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/prajwal-y/video_explainer/main/README.md",
       "repoUrl": "https://github.com/prajwal-y/video_explainer",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "3c388b8fcab532a23a78a2f6536d5436b2b68591d80b777adc04dbd41593f35b",
       "reviewStatus": "verified_source"
     },
@@ -1458,8 +1458,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/ninihen1/copilot-studio-itsm-agent/main/README.md",
       "repoUrl": "https://github.com/ninihen1/copilot-studio-itsm-agent",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "1d2e95a0481537e6af6778e978a585074063f8d5ea2f044b82ec955b58aaed35",
       "reviewStatus": "verified_source"
     },
@@ -1468,8 +1468,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/dilmerv/MinimalGolfVR/master/README.md",
       "repoUrl": "https://github.com/dilmerv/MinimalGolfVR",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "564f1398aa8d49db88faac771f638ba36c23062fc1a06b4a015f043b9ed73446",
       "reviewStatus": "verified_source"
     },
@@ -1478,8 +1478,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/openai/codex-action/main/README.md",
       "repoUrl": "https://github.com/openai/codex-action",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "00083d3f3b7ab6b887e1efa198c79a3791e53c5aae534588c9eba6c7b056b741",
       "reviewStatus": "verified_source"
     },
@@ -1488,8 +1488,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-code-action/main/README.md",
       "repoUrl": "https://github.com/anthropics/claude-code-action",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
       "reviewStatus": "verified_source"
     },
@@ -1498,8 +1498,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/anthropics/claude-quickstarts/main/autonomous-coding/README.md",
       "repoUrl": "https://github.com/anthropics/claude-quickstarts",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "46886061c3558c864e6ce42d229038d220bc5dea10735f2a552ec5d50bb6ef83",
       "reviewStatus": "verified_source"
     },
@@ -1508,8 +1508,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/remotion-dev/skills/main/README.md",
       "repoUrl": "https://github.com/remotion-dev/skills",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "6e0e9a0bf53e2c7f14b3f35a5ad6195cc07ac20c5a0bb1fd8ffe3198408cf50d",
       "reviewStatus": "verified_source"
     },
@@ -1518,8 +1518,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/Nutlope/llamacoder/main/README.md",
       "repoUrl": "https://github.com/Nutlope/llamacoder",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "3faebc929a5f8f7f18469934ef48cd79459449720b064f388bdd4df5b5411eca",
       "reviewStatus": "verified_source"
     },
@@ -1528,8 +1528,8 @@
       "sourceUrl": "https://raw.githubusercontent.com/n8n-io/self-hosted-ai-starter-kit/main/README.md",
       "repoUrl": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "0e44ff17c196b8c28ff8fc130534615308baeb01a0ee6520408477b5eb911d2e",
       "reviewStatus": "verified_source"
     },
@@ -1538,21 +1538,21 @@
       "sourceUrl": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hunyuan3D-2/main/README.md",
       "repoUrl": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2",
       "status": "ok",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastSuccessAt": "2026-10-19T11:50:33.410Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "sha256": "edc4d006b977c8e28a0d3135ffc22b0dcad8e8dcb31fc9152c906eb21e29a886",
       "reviewStatus": "verified_source"
     }
   ],
   "discovery": {
-    "status": "idle",
-    "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-    "lastSuccessAt": null,
-    "nextCheckAt": "2026-10-19T15:52:33.966Z",
-    "queriesExecuted": 0,
-    "candidateCount": 53,
+    "status": "ok",
+    "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+    "lastSuccessAt": "2026-10-19T18:44:36.844Z",
+    "nextCheckAt": "2026-10-20T00:44:36.844Z",
+    "queriesExecuted": 3,
+    "candidateCount": 61,
     "admittedTotal": 0,
-    "pendingCount": 53,
+    "pendingCount": 61,
     "sourceUrl": "https://docs.github.com/en/rest/search/search#search-repositories",
     "policyZh": "免费 GitHub 公开仓库搜索，每6小时轮换三种 AI 与三种用途；每轮最多3个查询、4个深入检查，每日最多2个自动收录。当前目录最多展示24个自动作品，旧项滚动归档，页面保留最近200项历史来源，更早记录可查公开仓库历史。缺证据的条目保留为待核候选。搜索、作者自述与实际运行验收是不同的核查范围。"
   },
@@ -1973,14 +1973,16 @@
       "title": "savi0909/mcp-gateway-java",
       "focusId": "claude",
       "firstSeenAt": "2026-10-18T15:43:28.594Z",
-      "lastSeenAt": "2026-10-18T15:43:28.594Z",
-      "checkedAt": "2026-10-18T15:43:28.594Z",
-      "status": "pending",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "rejected",
       "reasons": [
-        "pending"
+        "claim",
+        "demo",
+        "process"
       ],
-      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-      "retryAt": null,
+      "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+      "retryAt": "2026-10-20T18:44:36.844Z",
       "queryId": "claude-office"
     },
     {
@@ -1990,14 +1992,16 @@
       "title": "longbkit/clisbot",
       "focusId": "muse",
       "firstSeenAt": "2026-10-18T15:43:28.594Z",
-      "lastSeenAt": "2026-10-18T15:43:28.594Z",
-      "checkedAt": "2026-10-18T15:43:28.594Z",
-      "status": "pending",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "rejected",
       "reasons": [
-        "pending"
+        "claim",
+        "demo",
+        "process"
       ],
-      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-      "retryAt": null,
+      "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+      "retryAt": "2026-10-20T18:44:36.844Z",
       "queryId": "muse-office"
     },
     {
@@ -2007,14 +2011,18 @@
       "title": "Goldziher/ai-rulez",
       "focusId": "muse",
       "firstSeenAt": "2026-10-18T15:43:28.594Z",
-      "lastSeenAt": "2026-10-18T15:43:28.594Z",
-      "checkedAt": "2026-10-18T15:43:28.594Z",
-      "status": "pending",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "rejected",
       "reasons": [
-        "pending"
+        "claim",
+        "category",
+        "non_product",
+        "demo",
+        "process"
       ],
-      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-      "retryAt": null,
+      "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 作品主体未明确属于三维、视频或办公自动化。 仓库主要是技能、框架、模板或资料目录，未满足实际个人成品规则。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+      "retryAt": "2026-10-20T18:44:36.844Z",
       "queryId": "muse-office"
     },
     {
@@ -2024,14 +2032,17 @@
       "title": "damianvtran/local-operator",
       "focusId": "muse",
       "firstSeenAt": "2026-10-18T15:43:28.594Z",
-      "lastSeenAt": "2026-10-18T15:43:28.594Z",
-      "checkedAt": "2026-10-18T15:43:28.594Z",
-      "status": "pending",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "rejected",
       "reasons": [
-        "pending"
+        "claim",
+        "category",
+        "demo",
+        "process"
       ],
-      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-      "retryAt": null,
+      "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 作品主体未明确属于三维、视频或办公自动化。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+      "retryAt": "2026-10-20T18:44:36.844Z",
       "queryId": "muse-office"
     },
     {
@@ -2492,60 +2503,199 @@
       "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
       "retryAt": null,
       "queryId": "muse-office"
+    },
+    {
+      "id": "discovery-2f00940eeae3884ae1bfaa99",
+      "repository": "pietrobb/Ketchup",
+      "repoUrl": "https://github.com/pietrobb/Ketchup",
+      "title": "pietrobb/Ketchup",
+      "focusId": "codex",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "codex-3d"
+    },
+    {
+      "id": "discovery-89bf5357b9213e9c86a1b2ce",
+      "repository": "matthewsteross/bg3-homeless-californian",
+      "repoUrl": "https://github.com/matthewsteross/bg3-homeless-californian",
+      "title": "matthewsteross/bg3-homeless-californian",
+      "focusId": "codex",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "codex-3d"
+    },
+    {
+      "id": "discovery-1cc8d5b49c5e90d42e5fa7bb",
+      "repository": "tomik520i/uie-map",
+      "repoUrl": "https://github.com/tomik520i/uie-map",
+      "title": "tomik520i/uie-map",
+      "focusId": "codex",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "codex-3d"
+    },
+    {
+      "id": "discovery-bf16101d5d6e3f06ec22ea2b",
+      "repository": "treverhatch-glitch/3d-deep-sim-studio-harness",
+      "repoUrl": "https://github.com/treverhatch-glitch/3d-deep-sim-studio-harness",
+      "title": "treverhatch-glitch/3d-deep-sim-studio-harness",
+      "focusId": "claude",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "discovery-10bca7afd0411d538bedbe09",
+      "repository": "superiorlu/AITreasureBox",
+      "repoUrl": "https://github.com/superiorlu/AITreasureBox",
+      "title": "superiorlu/AITreasureBox",
+      "focusId": "claude",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "discovery-423c9c8796f372525b66363b",
+      "repository": "JesseQin123/solo_unicorn_toolbox",
+      "repoUrl": "https://github.com/JesseQin123/solo_unicorn_toolbox",
+      "title": "JesseQin123/solo_unicorn_toolbox",
+      "focusId": "muse",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "muse-3d"
+    },
+    {
+      "id": "discovery-d484c262c822c9b1a4d6cbc2",
+      "repository": "ikaijua/Awesome-AITools",
+      "repoUrl": "https://github.com/ikaijua/Awesome-AITools",
+      "title": "ikaijua/Awesome-AITools",
+      "focusId": "muse",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "muse-3d"
+    },
+    {
+      "id": "discovery-e87e4677b1b94470bcdc6ecd",
+      "repository": "bradAGI/awesome-cli-coding-agents",
+      "repoUrl": "https://github.com/bradAGI/awesome-cli-coding-agents",
+      "title": "bradAGI/awesome-cli-coding-agents",
+      "focusId": "muse",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "status": "pending",
+      "reasons": [
+        "pending"
+      ],
+      "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+      "retryAt": null,
+      "queryId": "muse-3d"
     }
   ],
   "archivedShowcases": [],
   "socialDiscovery": {
     "schemaVersion": 1,
-    "status": "idle",
-    "checkedAt": "2026-10-19T11:50:33.410Z",
-    "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-    "lastSuccessAt": "2026-10-19T09:52:33.966Z",
-    "nextCheckAt": "2026-10-19T15:52:33.966Z",
-    "queriesExecuted": 0,
+    "status": "ok",
+    "checkedAt": "2026-10-19T18:44:36.844Z",
+    "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+    "lastSuccessAt": "2026-10-19T18:44:36.844Z",
+    "nextCheckAt": "2026-10-20T00:44:36.844Z",
+    "queriesExecuted": 3,
     "platforms": [
       {
         "id": "youtube",
         "labelZh": "YouTube",
         "mode": "public_search_index",
-        "status": "not_checked",
-        "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-        "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+        "lastSuccessAt": "2026-10-19T18:44:36.844Z",
         "nextRetryAt": null,
-        "queriesExecuted": 0,
+        "queriesExecuted": 1,
         "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-        "noteZh": "本轮尚未查询此平台；保留最近实际搜索时间。搜索索引不代表平台全量或即时覆盖。"
+        "noteZh": "已完成此用途的公开搜索索引查询；未直接读取平台原文，未验证作者身份或运行作品。",
+        "requestId": "5975daa5528ff4e442fcc892a6b9f56d"
       },
       {
         "id": "x",
         "labelZh": "X",
         "mode": "public_search_index",
-        "status": "not_checked",
-        "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-        "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+        "lastSuccessAt": "2026-10-19T18:44:36.844Z",
         "nextRetryAt": null,
-        "queriesExecuted": 0,
+        "queriesExecuted": 1,
         "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-        "noteZh": "本轮尚未查询此平台；保留最近实际搜索时间。搜索索引不代表平台全量或即时覆盖。"
+        "noteZh": "已完成此用途的公开搜索索引查询；未直接读取平台原文，未验证作者身份或运行作品。",
+        "requestId": "daa60113bf7ba084e2688d0f84bd97b3"
       },
       {
         "id": "reddit",
         "labelZh": "Reddit",
         "mode": "public_search_index",
-        "status": "not_checked",
-        "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-        "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+        "status": "ok",
+        "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+        "lastSuccessAt": "2026-10-19T18:44:36.844Z",
         "nextRetryAt": null,
-        "queriesExecuted": 0,
+        "queriesExecuted": 1,
         "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-        "noteZh": "本轮尚未查询此平台；保留最近实际搜索时间。搜索索引不代表平台全量或即时覆盖。"
+        "noteZh": "已完成此用途的公开搜索索引查询；未直接读取平台原文，未验证作者身份或运行作品。",
+        "requestId": "1b827298654c14a8038caafaf3729f2b"
       }
     ],
     "coverageZh": "通过免费公开搜索索引轮换发现 YouTube、X、Reddit 上 Codex、Claude 与 Muse Code 的三维、视频和办公线索。未直接抓取平台、登录、播放或核实作者身份；结果不是全量、即时或完整覆盖。",
     "policyZh": "每6小时轮换一个用途，依次查询三个平台，每次最多5条结果；线索保留7天，最多60条。公开 GitHub 引用只排队接受原有身份、README 制作声明、演示和制作过程规则，不直接当成已收录成品。限流后停止本轮并退避，不绕过访问限制。",
     "costNoteZh": "仅使用无需账号或 API Key 的公开 Exa MCP 搜索入口，受免费额度、可用性与索引时效限制；未启用付费 API 或自动充值。没有稳定性或完整性保证，免费入口失效时保留历史并显示状态。",
     "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-    "candidateCount": 32
+    "candidateCount": 34
   },
   "socialCandidates": [
     {
@@ -2569,28 +2719,6 @@
         "等待核对真实演示和制作过程"
       ],
       "queryId": "claude-video"
-    },
-    {
-      "id": "social-2115ba11b0c10a81b51a2d5a",
-      "platform": "youtube",
-      "sourceUrl": "https://www.youtube.com/watch?v=t9N0a1Uz1Tk",
-      "titleZh": "YouTube：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T02:36:17.445Z",
-      "expiresAt": "2026-10-25T02:36:17.445Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
     },
     {
       "id": "social-f3b6710b061521e929cbb7df",
@@ -2714,160 +2842,6 @@
       "method": "public_search_index",
       "status": "needs_evidence",
       "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
-    },
-    {
-      "id": "social-13411af5b1af37029ab7022e",
-      "platform": "reddit",
-      "sourceUrl": "https://www.reddit.com/r/aigamedev/comments/1wroc6f/spiderman_threejs/",
-      "titleZh": "Reddit：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
-    },
-    {
-      "id": "social-9a7c52d89c1336b6e93edf2f",
-      "platform": "reddit",
-      "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1woqwen/i_made_the_lagoon_from_the_beach_into_a/",
-      "titleZh": "Reddit：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
-    },
-    {
-      "id": "social-e1f239dc4ffd0b46973d832c",
-      "platform": "reddit",
-      "sourceUrl": "https://www.reddit.com/r/bestgithubrepos/comments/1woeqgg/build_world_a_codingagent_skill_that_turns_one/",
-      "titleZh": "Reddit：Codex 三维到交互成品线索",
-      "focusId": "codex",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "codex-3d"
-    },
-    {
-      "id": "social-5fdbf24555a4bc0bc22ece3d",
-      "platform": "reddit",
-      "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1wowv84/built_a_3d_product_page_in_vanilla_threejs_with/",
-      "titleZh": "Reddit：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
-    },
-    {
-      "id": "social-fd8b6d18010c13142c1faa51",
-      "platform": "reddit",
-      "sourceUrl": "https://www.reddit.com/r/gameenginedevs/comments/1wqbid5/i_made_a_game_using_claude_whole_game_sonnet_5/",
-      "titleZh": "Reddit：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T02:36:17.445Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
-    },
-    {
-      "id": "social-4c66e01c9449fa263d21319b",
-      "platform": "youtube",
-      "sourceUrl": "https://www.youtube.com/watch?v=aSE45gePCJc",
-      "titleZh": "YouTube：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T21:43:31.658Z",
-      "lastSeenAt": "2026-10-18T21:43:31.658Z",
-      "expiresAt": "2026-10-25T21:43:31.658Z",
-      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-      "missingZh": [
-        "尚未找到可核实的公开源码仓库",
-        "尚未核实原帖作者与源码作者身份",
-        "等待核对真实演示和制作过程"
-      ],
-      "queryId": "claude-3d"
-    },
-    {
-      "id": "social-55f8fc875c9d1a5ae092dc96",
-      "platform": "youtube",
-      "sourceUrl": "https://www.youtube.com/watch?v=kFWB-nHlSCU",
-      "titleZh": "YouTube：Claude 三维到交互成品线索",
-      "focusId": "claude",
-      "categoryZh": "三维到交互成品",
-      "repository": null,
-      "repoUrl": null,
-      "method": "public_search_index",
-      "status": "needs_evidence",
-      "firstSeenAt": "2026-10-18T21:43:31.658Z",
       "lastSeenAt": "2026-10-18T21:43:31.658Z",
       "expiresAt": "2026-10-25T21:43:31.658Z",
       "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
@@ -3251,19 +3225,239 @@
         "等待核对真实演示和制作过程"
       ],
       "queryId": "claude-office"
+    },
+    {
+      "id": "social-2115ba11b0c10a81b51a2d5a",
+      "platform": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=t9N0a1Uz1Tk",
+      "titleZh": "YouTube：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T02:36:17.445Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-13411af5b1af37029ab7022e",
+      "platform": "reddit",
+      "sourceUrl": "https://www.reddit.com/r/aigamedev/comments/1wroc6f/spiderman_threejs/",
+      "titleZh": "Reddit：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T02:36:17.445Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-9a7c52d89c1336b6e93edf2f",
+      "platform": "reddit",
+      "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1woqwen/i_made_the_lagoon_from_the_beach_into_a/",
+      "titleZh": "Reddit：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T02:36:17.445Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-e1f239dc4ffd0b46973d832c",
+      "platform": "reddit",
+      "sourceUrl": "https://www.reddit.com/r/bestgithubrepos/comments/1woeqgg/build_world_a_codingagent_skill_that_turns_one/",
+      "titleZh": "Reddit：Codex 三维到交互成品线索",
+      "focusId": "codex",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T02:36:17.445Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "codex-3d"
+    },
+    {
+      "id": "social-5fdbf24555a4bc0bc22ece3d",
+      "platform": "reddit",
+      "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1wowv84/built_a_3d_product_page_in_vanilla_threejs_with/",
+      "titleZh": "Reddit：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T02:36:17.445Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-fd8b6d18010c13142c1faa51",
+      "platform": "reddit",
+      "sourceUrl": "https://www.reddit.com/r/gameenginedevs/comments/1wqbid5/i_made_a_game_using_claude_whole_game_sonnet_5/",
+      "titleZh": "Reddit：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T02:36:17.445Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-4c66e01c9449fa263d21319b",
+      "platform": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=aSE45gePCJc",
+      "titleZh": "YouTube：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T21:43:31.658Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-55f8fc875c9d1a5ae092dc96",
+      "platform": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=kFWB-nHlSCU",
+      "titleZh": "YouTube：Claude 三维到交互成品线索",
+      "focusId": "claude",
+      "categoryZh": "三维到交互成品",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-18T21:43:31.658Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-3d"
+    },
+    {
+      "id": "social-bcf398a7f781c40a11714a16",
+      "platform": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=MQUS8hKWFuw",
+      "titleZh": "YouTube：Codex 脚本到视频线索",
+      "focusId": "codex",
+      "categoryZh": "脚本到视频",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "codex-video"
+    },
+    {
+      "id": "social-b9bb881e64d51e3e319f50cf",
+      "platform": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=DP7mgLUKN_U",
+      "titleZh": "YouTube：Claude 脚本到视频线索",
+      "focusId": "claude",
+      "categoryZh": "脚本到视频",
+      "repository": null,
+      "repoUrl": null,
+      "method": "public_search_index",
+      "status": "needs_evidence",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastSeenAt": "2026-10-19T18:44:36.844Z",
+      "expiresAt": "2026-10-26T18:44:36.844Z",
+      "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+      "missingZh": [
+        "尚未找到可核实的公开源码仓库",
+        "尚未核实原帖作者与源码作者身份",
+        "等待核对真实演示和制作过程"
+      ],
+      "queryId": "claude-video"
     }
   ],
   "discoveryState": {
     "schemaVersion": 1,
-    "checkedAt": "2026-10-19T11:50:33.410Z",
-    "lastSuccessAt": null,
-    "status": "idle",
-    "lastRunStatus": "partial",
-    "nextCheckAt": "2026-10-19T15:52:33.966Z",
-    "queriesExecuted": 0,
-    "candidateCount": 53,
+    "checkedAt": "2026-10-19T18:44:36.844Z",
+    "lastSuccessAt": "2026-10-19T18:44:36.844Z",
+    "status": "ok",
+    "lastRunStatus": "ok",
+    "nextCheckAt": "2026-10-20T00:44:36.844Z",
+    "queriesExecuted": 3,
+    "candidateCount": 61,
     "admittedTotal": 0,
-    "pendingCount": 41,
+    "pendingCount": 49,
     "discovered": [],
     "candidates": [
       {
@@ -3682,14 +3876,16 @@
         "title": "savi0909/mcp-gateway-java",
         "focusId": "claude",
         "firstSeenAt": "2026-10-18T15:43:28.594Z",
-        "lastSeenAt": "2026-10-18T15:43:28.594Z",
-        "checkedAt": "2026-10-18T15:43:28.594Z",
-        "status": "pending",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "rejected",
         "reasons": [
-          "pending"
+          "claim",
+          "demo",
+          "process"
         ],
-        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-        "retryAt": null,
+        "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+        "retryAt": "2026-10-20T18:44:36.844Z",
         "queryId": "claude-office"
       },
       {
@@ -3699,14 +3895,16 @@
         "title": "longbkit/clisbot",
         "focusId": "muse",
         "firstSeenAt": "2026-10-18T15:43:28.594Z",
-        "lastSeenAt": "2026-10-18T15:43:28.594Z",
-        "checkedAt": "2026-10-18T15:43:28.594Z",
-        "status": "pending",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "rejected",
         "reasons": [
-          "pending"
+          "claim",
+          "demo",
+          "process"
         ],
-        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-        "retryAt": null,
+        "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+        "retryAt": "2026-10-20T18:44:36.844Z",
         "queryId": "muse-office"
       },
       {
@@ -3716,14 +3914,18 @@
         "title": "Goldziher/ai-rulez",
         "focusId": "muse",
         "firstSeenAt": "2026-10-18T15:43:28.594Z",
-        "lastSeenAt": "2026-10-18T15:43:28.594Z",
-        "checkedAt": "2026-10-18T15:43:28.594Z",
-        "status": "pending",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "rejected",
         "reasons": [
-          "pending"
+          "claim",
+          "category",
+          "non_product",
+          "demo",
+          "process"
         ],
-        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-        "retryAt": null,
+        "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 作品主体未明确属于三维、视频或办公自动化。 仓库主要是技能、框架、模板或资料目录，未满足实际个人成品规则。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+        "retryAt": "2026-10-20T18:44:36.844Z",
         "queryId": "muse-office"
       },
       {
@@ -3733,14 +3935,17 @@
         "title": "damianvtran/local-operator",
         "focusId": "muse",
         "firstSeenAt": "2026-10-18T15:43:28.594Z",
-        "lastSeenAt": "2026-10-18T15:43:28.594Z",
-        "checkedAt": "2026-10-18T15:43:28.594Z",
-        "status": "pending",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "rejected",
         "reasons": [
-          "pending"
+          "claim",
+          "category",
+          "demo",
+          "process"
         ],
-        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
-        "retryAt": null,
+        "reasonZh": "未找到作者明确用目标 AI 开发本作品的声明；兼容、API 调用和提示示例不算制作证据。 作品主体未明确属于三维、视频或办公自动化。 缺少明确标注的真实演示入口，或入口不符合公开 HTTPS 安全条件。 缺少明确制作过程链接，或链接与本人仓库身份不一致。",
+        "retryAt": "2026-10-20T18:44:36.844Z",
         "queryId": "muse-office"
       },
       {
@@ -4201,14 +4406,150 @@
         "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
         "retryAt": null,
         "queryId": "muse-office"
+      },
+      {
+        "id": "discovery-2f00940eeae3884ae1bfaa99",
+        "repository": "pietrobb/Ketchup",
+        "repoUrl": "https://github.com/pietrobb/Ketchup",
+        "title": "pietrobb/Ketchup",
+        "focusId": "codex",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "codex-3d"
+      },
+      {
+        "id": "discovery-89bf5357b9213e9c86a1b2ce",
+        "repository": "matthewsteross/bg3-homeless-californian",
+        "repoUrl": "https://github.com/matthewsteross/bg3-homeless-californian",
+        "title": "matthewsteross/bg3-homeless-californian",
+        "focusId": "codex",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "codex-3d"
+      },
+      {
+        "id": "discovery-1cc8d5b49c5e90d42e5fa7bb",
+        "repository": "tomik520i/uie-map",
+        "repoUrl": "https://github.com/tomik520i/uie-map",
+        "title": "tomik520i/uie-map",
+        "focusId": "codex",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "codex-3d"
+      },
+      {
+        "id": "discovery-bf16101d5d6e3f06ec22ea2b",
+        "repository": "treverhatch-glitch/3d-deep-sim-studio-harness",
+        "repoUrl": "https://github.com/treverhatch-glitch/3d-deep-sim-studio-harness",
+        "title": "treverhatch-glitch/3d-deep-sim-studio-harness",
+        "focusId": "claude",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "claude-3d"
+      },
+      {
+        "id": "discovery-10bca7afd0411d538bedbe09",
+        "repository": "superiorlu/AITreasureBox",
+        "repoUrl": "https://github.com/superiorlu/AITreasureBox",
+        "title": "superiorlu/AITreasureBox",
+        "focusId": "claude",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "claude-3d"
+      },
+      {
+        "id": "discovery-423c9c8796f372525b66363b",
+        "repository": "JesseQin123/solo_unicorn_toolbox",
+        "repoUrl": "https://github.com/JesseQin123/solo_unicorn_toolbox",
+        "title": "JesseQin123/solo_unicorn_toolbox",
+        "focusId": "muse",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "muse-3d"
+      },
+      {
+        "id": "discovery-d484c262c822c9b1a4d6cbc2",
+        "repository": "ikaijua/Awesome-AITools",
+        "repoUrl": "https://github.com/ikaijua/Awesome-AITools",
+        "title": "ikaijua/Awesome-AITools",
+        "focusId": "muse",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "muse-3d"
+      },
+      {
+        "id": "discovery-e87e4677b1b94470bcdc6ecd",
+        "repository": "bradAGI/awesome-cli-coding-agents",
+        "repoUrl": "https://github.com/bradAGI/awesome-cli-coding-agents",
+        "title": "bradAGI/awesome-cli-coding-agents",
+        "focusId": "muse",
+        "firstSeenAt": "2026-10-19T18:44:36.844Z",
+        "lastSeenAt": "2026-10-19T18:44:36.844Z",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "pending",
+        "reasons": [
+          "pending"
+        ],
+        "reasonZh": "已发现源码仓库，等待后续轮次读取制作证据。",
+        "retryAt": null,
+        "queryId": "muse-3d"
       }
     ],
     "state": {
-      "cursor": 0,
+      "cursor": 3,
       "pages": {
-        "codex-3d": 3,
-        "claude-3d": 3,
-        "muse-3d": 3,
+        "codex-3d": 1,
+        "claude-3d": 1,
+        "muse-3d": 1,
         "codex-video": 3,
         "claude-video": 3,
         "muse-video": 3,
@@ -4216,9 +4557,9 @@
         "claude-office": 3,
         "muse-office": 3
       },
-      "lastRunStatus": "partial",
-      "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-      "lastSuccessAt": null,
+      "lastRunStatus": "ok",
+      "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
       "nextRetryAt": null,
       "daily": {
         "date": "2026-10-19",
@@ -4400,29 +4741,41 @@
           "checkedAt": "2026-10-19T09:52:33.966Z",
           "retryAt": "2026-10-20T09:52:33.966Z",
           "attempts": 1
+        },
+        "savi0909/mcp-gateway-java": {
+          "status": "rejected",
+          "queryId": "claude-office",
+          "firstSeenAt": "2026-10-18T15:43:28.594Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "retryAt": "2026-10-20T18:44:36.844Z",
+          "attempts": 1
+        },
+        "longbkit/clisbot": {
+          "status": "rejected",
+          "queryId": "muse-office",
+          "firstSeenAt": "2026-10-18T15:43:28.594Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "retryAt": "2026-10-20T18:44:36.844Z",
+          "attempts": 1
+        },
+        "goldziher/ai-rulez": {
+          "status": "rejected",
+          "queryId": "muse-office",
+          "firstSeenAt": "2026-10-18T15:43:28.594Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "retryAt": "2026-10-20T18:44:36.844Z",
+          "attempts": 1
+        },
+        "damianvtran/local-operator": {
+          "status": "rejected",
+          "queryId": "muse-office",
+          "firstSeenAt": "2026-10-18T15:43:28.594Z",
+          "checkedAt": "2026-10-19T18:44:36.844Z",
+          "retryAt": "2026-10-20T18:44:36.844Z",
+          "attempts": 1
         }
       },
       "pending": [
-        {
-          "repository": "savi0909/mcp-gateway-java",
-          "queryId": "claude-office",
-          "firstSeenAt": "2026-10-18T15:43:28.594Z"
-        },
-        {
-          "repository": "longbkit/clisbot",
-          "queryId": "muse-office",
-          "firstSeenAt": "2026-10-18T15:43:28.594Z"
-        },
-        {
-          "repository": "Goldziher/ai-rulez",
-          "queryId": "muse-office",
-          "firstSeenAt": "2026-10-18T15:43:28.594Z"
-        },
-        {
-          "repository": "damianvtran/local-operator",
-          "queryId": "muse-office",
-          "firstSeenAt": "2026-10-18T15:43:28.594Z"
-        },
         {
           "repository": "dycli/monix",
           "queryId": "muse-office",
@@ -4607,12 +4960,94 @@
           "repository": "varun1505/awesome-software-factories",
           "queryId": "muse-office",
           "firstSeenAt": "2026-10-19T09:52:33.966Z"
+        },
+        {
+          "repository": "yunhaodou/awesome-list-github-stars-ranking",
+          "queryId": "muse-3d",
+          "firstSeenAt": "2026-10-18T01:48:17.712Z"
+        },
+        {
+          "repository": "darkliquid/localrpg",
+          "queryId": "codex-video",
+          "firstSeenAt": "2026-10-18T08:46:15.481Z"
+        },
+        {
+          "repository": "bei612/kailo-plus",
+          "queryId": "codex-office",
+          "firstSeenAt": "2026-10-18T15:43:28.594Z"
+        },
+        {
+          "repository": "gmh5225/awesome-game-security",
+          "queryId": "codex-office",
+          "firstSeenAt": "2026-10-18T15:43:28.594Z"
+        },
+        {
+          "repository": "pietrobb/Ketchup",
+          "queryId": "codex-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "matthewsteross/bg3-homeless-californian",
+          "queryId": "codex-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "tomik520i/uie-map",
+          "queryId": "codex-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "treverhatch-glitch/3d-deep-sim-studio-harness",
+          "queryId": "claude-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "superiorlu/AITreasureBox",
+          "queryId": "claude-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "JesseQin123/solo_unicorn_toolbox",
+          "queryId": "muse-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "ikaijua/Awesome-AITools",
+          "queryId": "muse-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
+        },
+        {
+          "repository": "bradAGI/awesome-cli-coding-agents",
+          "queryId": "muse-3d",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z"
         }
       ],
       "activeCapacity": 24,
       "rollingPolicy": "archive_oldest"
     },
-    "sources": [],
+    "sources": [
+      {
+        "id": "codex-3d",
+        "sourceUrl": "https://api.github.com/search/repositories?q=Codex+3D+in%3Areadme+fork%3Afalse+archived%3Afalse&sort=updated&order=desc&per_page=5&page=3",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "ok",
+        "page": 3
+      },
+      {
+        "id": "claude-3d",
+        "sourceUrl": "https://api.github.com/search/repositories?q=%22Claude+Code%22+3D+in%3Areadme+fork%3Afalse+archived%3Afalse&sort=updated&order=desc&per_page=5&page=3",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "ok",
+        "page": 3
+      },
+      {
+        "id": "muse-3d",
+        "sourceUrl": "https://api.github.com/search/repositories?q=%22Muse+Code%22+3D+in%3Areadme+fork%3Afalse+archived%3Afalse&sort=updated&order=desc&per_page=5&page=3",
+        "checkedAt": "2026-10-19T18:44:36.844Z",
+        "status": "ok",
+        "page": 3
+      }
+    ],
     "ruleVersion": "creator-rules-2026-10-18-v1",
     "coverageZh": "仅轮转检查 GitHub 公开个人源码仓库：Codex、Claude Code、Muse Code × 三维、视频、办公 9 个查询；每轮至多 3 个查询、每项 5 个结果、4 个深入检查。结果不是全网、即时或完整覆盖。",
     "updatePolicyZh": "默认每 6 小时检查一轮，updated 倒序并轮转前 3 页；每天最多自动收录 2 项、当前目录保留 24 项滚动展示，旧项由归档流程保存；归档仓库仍去重。限流时停止等待，资料不完整保留待核候选。",
@@ -4622,48 +5057,51 @@
     "totalAdmitted": 0,
     "social": {
       "schemaVersion": 1,
-      "status": "idle",
-      "checkedAt": "2026-10-19T11:50:33.410Z",
-      "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-      "lastSuccessAt": "2026-10-19T09:52:33.966Z",
-      "nextCheckAt": "2026-10-19T15:52:33.966Z",
-      "queriesExecuted": 0,
+      "status": "ok",
+      "checkedAt": "2026-10-19T18:44:36.844Z",
+      "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+      "lastSuccessAt": "2026-10-19T18:44:36.844Z",
+      "nextCheckAt": "2026-10-20T00:44:36.844Z",
+      "queriesExecuted": 3,
       "platforms": [
         {
           "id": "youtube",
           "labelZh": "YouTube",
           "mode": "public_search_index",
-          "status": "not_checked",
-          "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-          "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+          "status": "ok",
+          "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "nextRetryAt": null,
-          "queriesExecuted": 0,
+          "queriesExecuted": 1,
           "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-          "noteZh": "本轮尚未查询此平台；保留最近实际搜索时间。搜索索引不代表平台全量或即时覆盖。"
+          "noteZh": "已完成此用途的公开搜索索引查询；未直接读取平台原文，未验证作者身份或运行作品。",
+          "requestId": "5975daa5528ff4e442fcc892a6b9f56d"
         },
         {
           "id": "x",
           "labelZh": "X",
           "mode": "public_search_index",
-          "status": "not_checked",
-          "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-          "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+          "status": "ok",
+          "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "nextRetryAt": null,
-          "queriesExecuted": 0,
+          "queriesExecuted": 1,
           "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-          "noteZh": "本轮尚未查询此平台；保留最近实际搜索时间。搜索索引不代表平台全量或即时覆盖。"
+          "noteZh": "已完成此用途的公开搜索索引查询；未直接读取平台原文，未验证作者身份或运行作品。",
+          "requestId": "daa60113bf7ba084e2688d0f84bd97b3"
         },
         {
           "id": "reddit",
           "labelZh": "Reddit",
           "mode": "public_search_index",
-          "status": "not_checked",
-          "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-          "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+          "status": "ok",
+          "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+          "lastSuccessAt": "2026-10-19T18:44:36.844Z",
           "nextRetryAt": null,
-          "queriesExecuted": 0,
+          "queriesExecuted": 1,
           "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
-          "noteZh": "本轮尚未查询此平台；保留最近实际搜索时间。搜索索引不代表平台全量或即时覆盖。"
+          "noteZh": "已完成此用途的公开搜索索引查询；未直接读取平台原文，未验证作者身份或运行作品。",
+          "requestId": "1b827298654c14a8038caafaf3729f2b"
         }
       ],
       "candidates": [
@@ -4688,28 +5126,6 @@
             "等待核对真实演示和制作过程"
           ],
           "queryId": "claude-video"
-        },
-        {
-          "id": "social-2115ba11b0c10a81b51a2d5a",
-          "platform": "youtube",
-          "sourceUrl": "https://www.youtube.com/watch?v=t9N0a1Uz1Tk",
-          "titleZh": "YouTube：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T02:36:17.445Z",
-          "expiresAt": "2026-10-25T02:36:17.445Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
         },
         {
           "id": "social-f3b6710b061521e929cbb7df",
@@ -4833,160 +5249,6 @@
           "method": "public_search_index",
           "status": "needs_evidence",
           "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
-        },
-        {
-          "id": "social-13411af5b1af37029ab7022e",
-          "platform": "reddit",
-          "sourceUrl": "https://www.reddit.com/r/aigamedev/comments/1wroc6f/spiderman_threejs/",
-          "titleZh": "Reddit：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
-        },
-        {
-          "id": "social-9a7c52d89c1336b6e93edf2f",
-          "platform": "reddit",
-          "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1woqwen/i_made_the_lagoon_from_the_beach_into_a/",
-          "titleZh": "Reddit：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
-        },
-        {
-          "id": "social-e1f239dc4ffd0b46973d832c",
-          "platform": "reddit",
-          "sourceUrl": "https://www.reddit.com/r/bestgithubrepos/comments/1woeqgg/build_world_a_codingagent_skill_that_turns_one/",
-          "titleZh": "Reddit：Codex 三维到交互成品线索",
-          "focusId": "codex",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "codex-3d"
-        },
-        {
-          "id": "social-5fdbf24555a4bc0bc22ece3d",
-          "platform": "reddit",
-          "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1wowv84/built_a_3d_product_page_in_vanilla_threejs_with/",
-          "titleZh": "Reddit：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
-        },
-        {
-          "id": "social-fd8b6d18010c13142c1faa51",
-          "platform": "reddit",
-          "sourceUrl": "https://www.reddit.com/r/gameenginedevs/comments/1wqbid5/i_made_a_game_using_claude_whole_game_sonnet_5/",
-          "titleZh": "Reddit：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T02:36:17.445Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
-        },
-        {
-          "id": "social-4c66e01c9449fa263d21319b",
-          "platform": "youtube",
-          "sourceUrl": "https://www.youtube.com/watch?v=aSE45gePCJc",
-          "titleZh": "YouTube：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T21:43:31.658Z",
-          "lastSeenAt": "2026-10-18T21:43:31.658Z",
-          "expiresAt": "2026-10-25T21:43:31.658Z",
-          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
-          "missingZh": [
-            "尚未找到可核实的公开源码仓库",
-            "尚未核实原帖作者与源码作者身份",
-            "等待核对真实演示和制作过程"
-          ],
-          "queryId": "claude-3d"
-        },
-        {
-          "id": "social-55f8fc875c9d1a5ae092dc96",
-          "platform": "youtube",
-          "sourceUrl": "https://www.youtube.com/watch?v=kFWB-nHlSCU",
-          "titleZh": "YouTube：Claude 三维到交互成品线索",
-          "focusId": "claude",
-          "categoryZh": "三维到交互成品",
-          "repository": null,
-          "repoUrl": null,
-          "method": "public_search_index",
-          "status": "needs_evidence",
-          "firstSeenAt": "2026-10-18T21:43:31.658Z",
           "lastSeenAt": "2026-10-18T21:43:31.658Z",
           "expiresAt": "2026-10-25T21:43:31.658Z",
           "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
@@ -5370,13 +5632,233 @@
             "等待核对真实演示和制作过程"
           ],
           "queryId": "claude-office"
+        },
+        {
+          "id": "social-2115ba11b0c10a81b51a2d5a",
+          "platform": "youtube",
+          "sourceUrl": "https://www.youtube.com/watch?v=t9N0a1Uz1Tk",
+          "titleZh": "YouTube：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T02:36:17.445Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-13411af5b1af37029ab7022e",
+          "platform": "reddit",
+          "sourceUrl": "https://www.reddit.com/r/aigamedev/comments/1wroc6f/spiderman_threejs/",
+          "titleZh": "Reddit：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T02:36:17.445Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-9a7c52d89c1336b6e93edf2f",
+          "platform": "reddit",
+          "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1woqwen/i_made_the_lagoon_from_the_beach_into_a/",
+          "titleZh": "Reddit：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T02:36:17.445Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-e1f239dc4ffd0b46973d832c",
+          "platform": "reddit",
+          "sourceUrl": "https://www.reddit.com/r/bestgithubrepos/comments/1woeqgg/build_world_a_codingagent_skill_that_turns_one/",
+          "titleZh": "Reddit：Codex 三维到交互成品线索",
+          "focusId": "codex",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T02:36:17.445Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "codex-3d"
+        },
+        {
+          "id": "social-5fdbf24555a4bc0bc22ece3d",
+          "platform": "reddit",
+          "sourceUrl": "https://www.reddit.com/r/claudeai/comments/1wowv84/built_a_3d_product_page_in_vanilla_threejs_with/",
+          "titleZh": "Reddit：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T02:36:17.445Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-fd8b6d18010c13142c1faa51",
+          "platform": "reddit",
+          "sourceUrl": "https://www.reddit.com/r/gameenginedevs/comments/1wqbid5/i_made_a_game_using_claude_whole_game_sonnet_5/",
+          "titleZh": "Reddit：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T02:36:17.445Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-4c66e01c9449fa263d21319b",
+          "platform": "youtube",
+          "sourceUrl": "https://www.youtube.com/watch?v=aSE45gePCJc",
+          "titleZh": "YouTube：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T21:43:31.658Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-55f8fc875c9d1a5ae092dc96",
+          "platform": "youtube",
+          "sourceUrl": "https://www.youtube.com/watch?v=kFWB-nHlSCU",
+          "titleZh": "YouTube：Claude 三维到交互成品线索",
+          "focusId": "claude",
+          "categoryZh": "三维到交互成品",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-18T21:43:31.658Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-3d"
+        },
+        {
+          "id": "social-bcf398a7f781c40a11714a16",
+          "platform": "youtube",
+          "sourceUrl": "https://www.youtube.com/watch?v=MQUS8hKWFuw",
+          "titleZh": "YouTube：Codex 脚本到视频线索",
+          "focusId": "codex",
+          "categoryZh": "脚本到视频",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "codex-video"
+        },
+        {
+          "id": "social-b9bb881e64d51e3e319f50cf",
+          "platform": "youtube",
+          "sourceUrl": "https://www.youtube.com/watch?v=DP7mgLUKN_U",
+          "titleZh": "YouTube：Claude 脚本到视频线索",
+          "focusId": "claude",
+          "categoryZh": "脚本到视频",
+          "repository": null,
+          "repoUrl": null,
+          "method": "public_search_index",
+          "status": "needs_evidence",
+          "firstSeenAt": "2026-10-19T18:44:36.844Z",
+          "lastSeenAt": "2026-10-19T18:44:36.844Z",
+          "expiresAt": "2026-10-26T18:44:36.844Z",
+          "noteZh": "公开搜索索引线索，尚未直接读取或核实平台原文；未证明社交账号与源码作者为同一人。",
+          "missingZh": [
+            "尚未找到可核实的公开源码仓库",
+            "尚未核实原帖作者与源码作者身份",
+            "等待核对真实演示和制作过程"
+          ],
+          "queryId": "claude-video"
         }
       ],
       "incoming": [],
       "state": {
-        "cursor": 0,
-        "lastAttemptAt": "2026-10-19T09:52:33.966Z",
-        "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+        "cursor": 3,
+        "lastAttemptAt": "2026-10-19T18:44:36.844Z",
+        "lastSuccessAt": "2026-10-19T18:44:36.844Z",
         "nextRetryAt": null,
         "repoQueue": []
       },

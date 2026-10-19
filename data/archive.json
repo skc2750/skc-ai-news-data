@@ -1,8 +1,164 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T11:51:50.486Z",
+  "publishedAt": "2026-10-19T18:46:22.723Z",
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "articles": [
+    {
+      "id": "02515040d2b8a0644579b54e",
+      "title": "Pegasus 1.5 from TwelveLabs is now available in Amazon Bedrock",
+      "summary": "TwelveLabs Pegasus 1.5 is now available in Amazon Bedrock. The video language model turns long-form video into structured, timestamped metadata: define the moments that matter and get every matching segment back as JSON, with new video segmentation, multimodal prompting with reference images, and on-the-fly processing of up to two hours of video.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/pegasus-1-5-from-twelvelabs-is-now-available-in-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Ron Tal",
+      "publishedAt": "2026-10-19T16:49:19.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Foundational (100)"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T18:44:36.844Z",
+      "contentHash": "679eb0d7082761d3a9c408cf384b400d0c08021af65083e3bdbf013f19a81635",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastChangedAt": "2026-10-19T18:46:22.723Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "679eb0d7082761d3a9c408cf384b400d0c08021af65083e3bdbf013f19a81635"
+      }
+    },
+    {
+      "id": "671f221b14e555a66b5b72c8",
+      "title": "How Deepgram optimized voice AI at scale with AWS Trainium",
+      "summary": "Deepgram worked with the AWS Forward Deployed Engineering team to port its Nova-3 speech-to-text model to AWS Trainium2 for offline batch inference. This post covers porting to the AWS Neuron stack, kernel-level tuning, a data-parallel Rust runtime, and the throughput and cost results on batch transcription.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-deepgram-optimized-voice-ai-at-scale-with-aws-trainium/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Pierre Lienhart",
+      "publishedAt": "2026-10-19T16:23:22.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Advanced (300)",
+        "AWS Trainium",
+        "Customer Solutions"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T18:44:36.844Z",
+      "contentHash": "253c949e707dac1984de614634c84c6df42220235fcd8fd5d2ec2b57fdad3c42",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastChangedAt": "2026-10-19T18:46:22.723Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "253c949e707dac1984de614634c84c6df42220235fcd8fd5d2ec2b57fdad3c42"
+      }
+    },
+    {
+      "id": "8c372d950b596c7cc5982689",
+      "title": "Push-based KV transfer to improve TTFT and TPOT for disaggregated inference in vLLM",
+      "summary": "vLLM's prefill-decode disaggregation splits LLM inference across engine instances but must transfer the KV cache between them. This post introduces a push-based NIXL connector that moves transfer coordination off the critical path, delivering up to 3x better TTFT and 30% better TPOT in benchmarks on Amazon EC2 P5en instances with AWS EFA.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/push-based-kv-transfer-to-improve-ttft-and-tpot-for-disaggregated-inference-in-vllm/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Sunita Nadampalli",
+      "publishedAt": "2026-10-19T16:05:17.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Advanced (300)",
+        "Technical How-to"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T18:44:36.844Z",
+      "contentHash": "99615252d61d575eafdde01a573bd082de950f8bc924ca7d2eb85f88aea032f9",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastChangedAt": "2026-10-19T18:46:22.723Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "99615252d61d575eafdde01a573bd082de950f8bc924ca7d2eb85f88aea032f9"
+      }
+    },
+    {
+      "id": "b3f039915071cfc1ba49758c",
+      "title": "Improve TTFT for multi-turn agentic workloads with bi-directional KV transfer in vLLM",
+      "summary": "Multi-turn agentic workloads reprocess growing conversation context each turn, driving up latency. See how bi-directional KV cache transfer lets prefill and decode nodes reuse previously computed context across turns, cutting time to first token by up to 1.6x for Qwen3-32B and 3.3x for GLM-5-FP8 on Amazon EC2 P5en instances with EFA.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/improve-ttft-for-multi-turn-agentic-workloads-with-bi-directional-kv-transfer-in-vllm/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Sunita Nadampalli",
+      "publishedAt": "2026-10-19T16:03:23.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Advanced (300)",
+        "Customer Solutions"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T18:44:36.844Z",
+      "contentHash": "d8baf8e77fcae477654edbe7bc24b9be9a1d092622314578466423b68d0b6a2f",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastChangedAt": "2026-10-19T18:46:22.723Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "d8baf8e77fcae477654edbe7bc24b9be9a1d092622314578466423b68d0b6a2f"
+      }
+    },
+    {
+      "id": "f4e31257b048792063d0c460",
+      "title": "OpenAI Codex 0.164.0-alpha.5",
+      "sourceTitle": "0.164.0-alpha.5",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "summary": "Release 0.164.0-alpha.5",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.5",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "author": "github-actions[bot]",
+      "publishedAt": "2026-10-19T14:33:55.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T18:44:36.844Z",
+      "contentHash": "7ba1507509d335ab52ae80d2195832899d4d21575129a57ee0904ab3d7da77ac",
+      "firstSeenAt": "2026-10-19T18:44:36.844Z",
+      "lastChangedAt": "2026-10-19T18:46:22.723Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "7ba1507509d335ab52ae80d2195832899d4d21575129a57ee0904ab3d7da77ac"
+      }
+    },
     {
       "id": "f23c6d3d5eb0b56f279a34ec",
       "title": "OpenAI Codex 0.164.0-alpha.4",
@@ -9108,21 +9264,47 @@
   ],
   "editions": [
     {
+      "id": "daily:2026-10-20",
+      "kind": "daily",
+      "period": "2026-10-20",
+      "title": "2026-10-20 每日资讯汇编",
+      "articleIds": [
+        "02515040d2b8a0644579b54e",
+        "671f221b14e555a66b5b72c8",
+        "8c372d950b596c7cc5982689",
+        "b3f039915071cfc1ba49758c"
+      ],
+      "articleCount": 4,
+      "compiledAt": "2026-10-19T18:46:22.723Z",
+      "partial": true,
+      "periodState": "open",
+      "retroactive": false,
+      "url": "data/reports/daily/2026-10-20.json",
+      "loadedArticleIds": [
+        "02515040d2b8a0644579b54e",
+        "671f221b14e555a66b5b72c8",
+        "8c372d950b596c7cc5982689",
+        "b3f039915071cfc1ba49758c"
+      ]
+    },
+    {
       "id": "daily:2026-10-19",
       "kind": "daily",
       "period": "2026-10-19",
       "title": "2026-10-19 每日资讯汇编",
       "articleIds": [
+        "f4e31257b048792063d0c460",
         "f23c6d3d5eb0b56f279a34ec",
         "884d832230ee974a19bc72f4"
       ],
-      "articleCount": 2,
-      "compiledAt": "2026-10-19T10:50:36.243Z",
+      "articleCount": 3,
+      "compiledAt": "2026-10-19T18:46:22.723Z",
       "partial": true,
-      "periodState": "open",
+      "periodState": "closed",
       "retroactive": false,
       "url": "data/reports/daily/2026-10-19.json",
       "loadedArticleIds": [
+        "f4e31257b048792063d0c460",
         "f23c6d3d5eb0b56f279a34ec",
         "884d832230ee974a19bc72f4"
       ]
@@ -9133,16 +9315,26 @@
       "period": "2026-10-19",
       "title": "2026-10-19 每周（周一起）资讯汇编",
       "articleIds": [
+        "02515040d2b8a0644579b54e",
+        "671f221b14e555a66b5b72c8",
+        "8c372d950b596c7cc5982689",
+        "b3f039915071cfc1ba49758c",
+        "f4e31257b048792063d0c460",
         "f23c6d3d5eb0b56f279a34ec",
         "884d832230ee974a19bc72f4"
       ],
-      "articleCount": 2,
-      "compiledAt": "2026-10-19T10:50:36.243Z",
+      "articleCount": 7,
+      "compiledAt": "2026-10-19T18:46:22.723Z",
       "partial": true,
       "periodState": "open",
       "retroactive": false,
       "url": "data/reports/weekly/2026-10-19.json",
       "loadedArticleIds": [
+        "02515040d2b8a0644579b54e",
+        "671f221b14e555a66b5b72c8",
+        "8c372d950b596c7cc5982689",
+        "b3f039915071cfc1ba49758c",
+        "f4e31257b048792063d0c460",
         "f23c6d3d5eb0b56f279a34ec",
         "884d832230ee974a19bc72f4"
       ]
@@ -9927,6 +10119,11 @@
       "period": "2026-10",
       "title": "2026-10 每月资讯汇编",
       "articleIds": [
+        "02515040d2b8a0644579b54e",
+        "671f221b14e555a66b5b72c8",
+        "8c372d950b596c7cc5982689",
+        "b3f039915071cfc1ba49758c",
+        "f4e31257b048792063d0c460",
         "f23c6d3d5eb0b56f279a34ec",
         "884d832230ee974a19bc72f4",
         "c9c355e51b263fe2baa19280",
@@ -10054,13 +10251,18 @@
         "b0015e130574884506dfc9f5",
         "eddbf971051f0f2ff5d5fa3d"
       ],
-      "articleCount": 126,
-      "compiledAt": "2026-10-19T10:50:36.243Z",
+      "articleCount": 131,
+      "compiledAt": "2026-10-19T18:46:22.723Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
       "url": "data/reports/monthly/2026-10.json",
       "loadedArticleIds": [
+        "02515040d2b8a0644579b54e",
+        "671f221b14e555a66b5b72c8",
+        "8c372d950b596c7cc5982689",
+        "b3f039915071cfc1ba49758c",
+        "f4e31257b048792063d0c460",
         "f23c6d3d5eb0b56f279a34ec",
         "884d832230ee974a19bc72f4",
         "c9c355e51b263fe2baa19280",
@@ -12196,7 +12398,7 @@
       ]
     }
   ],
-  "totalArticles": 256,
+  "totalArticles": 261,
   "windowed": false,
   "archiveIndexUrl": "data/archive/index.json",
   "note": "此兼容文件最多载入最新 4000 条；全部历史仍按月保存在 archive/，不会从永久档案删除。"
