@@ -33,6 +33,41 @@
       }
     },
     {
+      "id": "c9c355e51b263fe2baa19280",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Shreevar Rastogi",
+      "publishedAt": "2026-10-17T21:00:13.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "Artificial Intelligence",
+        "Local AI",
+        "NVIDIA RTX",
+        "RTX Spark"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T03:52:10.063Z",
+      "contentHash": "b4c9d16c6213326718764c516fb3dc7d40cd4b9b3606e9866fa993ffc9ccc3ac",
+      "firstSeenAt": "2026-10-19T03:52:10.063Z",
+      "lastChangedAt": "2026-10-19T03:53:33.947Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "b4c9d16c6213326718764c516fb3dc7d40cd4b9b3606e9866fa993ffc9ccc3ac"
+      }
+    },
+    {
       "id": "1266f92abcd73b7cf3e23c71",
       "title": "OpenAI Codex 0.164.0-alpha.3",
       "sourceTitle": "0.164.0-alpha.3",

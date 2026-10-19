@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T02:49:26.733Z",
+  "publishedAt": "2026-10-19T03:53:33.947Z",
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "articles": [
     {
@@ -31,6 +31,41 @@
       "translation": {
         "status": "failed",
         "sourceHash": "7f05dc0e2bc94e1627c8ba68b5b4b2c5627b0fff75c7027c1f32990fd3dd7f68"
+      }
+    },
+    {
+      "id": "c9c355e51b263fe2baa19280",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "author": "Shreevar Rastogi",
+      "publishedAt": "2026-10-17T21:00:13.000Z",
+      "category": "应用与生态",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "AI",
+        "Agentic AI",
+        "Artificial Intelligence",
+        "Local AI",
+        "NVIDIA RTX",
+        "RTX Spark"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-19T03:52:10.063Z",
+      "contentHash": "b4c9d16c6213326718764c516fb3dc7d40cd4b9b3606e9866fa993ffc9ccc3ac",
+      "firstSeenAt": "2026-10-19T03:52:10.063Z",
+      "lastChangedAt": "2026-10-19T03:53:33.947Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "b4c9d16c6213326718764c516fb3dc7d40cd4b9b3606e9866fa993ffc9ccc3ac"
       }
     },
     {
@@ -9051,6 +9086,24 @@
       ]
     },
     {
+      "id": "daily:2026-10-18",
+      "kind": "daily",
+      "period": "2026-10-18",
+      "title": "2026-10-18 每日资讯汇编",
+      "articleIds": [
+        "c9c355e51b263fe2baa19280"
+      ],
+      "articleCount": 1,
+      "compiledAt": "2026-10-19T03:53:33.947Z",
+      "partial": true,
+      "periodState": "closed",
+      "retroactive": false,
+      "url": "data/reports/daily/2026-10-18.json",
+      "loadedArticleIds": [
+        "c9c355e51b263fe2baa19280"
+      ]
+    },
+    {
       "id": "daily:2026-10-17",
       "kind": "daily",
       "period": "2026-10-17",
@@ -9300,6 +9353,7 @@
       "period": "2026-10-12",
       "title": "2026-10-12 每周（周一起）资讯汇编",
       "articleIds": [
+        "c9c355e51b263fe2baa19280",
         "1266f92abcd73b7cf3e23c71",
         "1540794e1a6cdcd487e98db5",
         "c57d65fcc265bc8a4b5b2659",
@@ -9375,13 +9429,14 @@
         "1d5452c7244f2a6a1b9c52c1",
         "b58417184dda9742722bacfe"
       ],
-      "articleCount": 74,
-      "compiledAt": "2026-10-18T16:46:43.817Z",
+      "articleCount": 75,
+      "compiledAt": "2026-10-19T03:53:33.947Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
       "url": "data/reports/weekly/2026-10-12.json",
       "loadedArticleIds": [
+        "c9c355e51b263fe2baa19280",
         "1266f92abcd73b7cf3e23c71",
         "1540794e1a6cdcd487e98db5",
         "c57d65fcc265bc8a4b5b2659",
@@ -9807,6 +9862,7 @@
       "title": "2026-10 每月资讯汇编",
       "articleIds": [
         "884d832230ee974a19bc72f4",
+        "c9c355e51b263fe2baa19280",
         "1266f92abcd73b7cf3e23c71",
         "1540794e1a6cdcd487e98db5",
         "c57d65fcc265bc8a4b5b2659",
@@ -9930,14 +9986,15 @@
         "b0015e130574884506dfc9f5",
         "eddbf971051f0f2ff5d5fa3d"
       ],
-      "articleCount": 123,
-      "compiledAt": "2026-10-18T22:43:08.777Z",
+      "articleCount": 124,
+      "compiledAt": "2026-10-19T03:53:33.947Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
       "url": "data/reports/monthly/2026-10.json",
       "loadedArticleIds": [
         "884d832230ee974a19bc72f4",
+        "c9c355e51b263fe2baa19280",
         "1266f92abcd73b7cf3e23c71",
         "1540794e1a6cdcd487e98db5",
         "c57d65fcc265bc8a4b5b2659",
@@ -12069,7 +12126,7 @@
       ]
     }
   ],
-  "totalArticles": 253,
+  "totalArticles": 254,
   "windowed": false,
   "archiveIndexUrl": "data/archive/index.json",
   "note": "此兼容文件最多载入最新 4000 条；全部历史仍按月保存在 archive/，不会从永久档案删除。"

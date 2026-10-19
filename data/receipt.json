@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-19T02:49:26.733Z",
-  "lastSuccessAt": "2026-10-19T02:48:12.734Z",
+  "attemptAt": "2026-10-19T03:53:33.947Z",
+  "lastSuccessAt": "2026-10-19T03:52:10.063Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
   "sourceStale": 0,
-  "archiveArticles": 253,
-  "newArticles": 0,
+  "archiveArticles": 254,
+  "newArticles": 1,
   "changedArticles": 0,
-  "translationRequested": 5,
+  "translationRequested": 6,
   "translatedThisRun": 0,
-  "translationFailed": 4,
+  "translationFailed": 5,
   "translationDeferred": 0,
   "translationError": "Offline CPU translation unavailable; original retained",
   "translationNote": null,
   "actualTranslationEngines": {},
-  "pendingTranslations": 4,
+  "pendingTranslations": 5,
   "translationLimit": 20,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -27,26 +27,26 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-19T02:49:26.733Z",
-    "runId": "39191638537",
+    "actualAttemptAt": "2026-10-19T03:53:33.947Z",
+    "runId": "39196684935",
     "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
     "eventCount": 37,
-    "checkedAt": "2026-10-19T02:48:12.734Z",
-    "lastSuccessAt": "2026-10-19T02:48:12.734Z",
+    "checkedAt": "2026-10-19T03:52:10.063Z",
+    "lastSuccessAt": "2026-10-19T03:52:10.063Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-19T02:48:12.734Z"
+        "checkedAt": "2026-10-19T03:52:10.063Z"
       },
       {
         "id": "whenreset-codex",
         "status": "ok",
-        "checkedAt": "2026-10-19T02:48:12.734Z"
+        "checkedAt": "2026-10-19T03:52:10.063Z"
       },
       {
         "id": "tibo-search-index",
@@ -56,7 +56,7 @@
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-19T02:48:12.734Z"
+        "checkedAt": "2026-10-19T03:52:10.063Z"
       }
     ]
   }

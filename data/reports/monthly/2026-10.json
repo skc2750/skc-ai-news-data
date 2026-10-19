@@ -11,9 +11,10 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 123,
+  "articleCount": 124,
   "articleIds": [
     "884d832230ee974a19bc72f4",
+    "c9c355e51b263fe2baa19280",
     "1266f92abcd73b7cf3e23c71",
     "1540794e1a6cdcd487e98db5",
     "c57d65fcc265bc8a4b5b2659",
@@ -154,6 +155,22 @@
       },
       "publishedAt": "2026-10-18T22:26:54.000Z",
       "contentHash": "7f05dc0e2bc94e1627c8ba68b5b4b2c5627b0fff75c7027c1f32990fd3dd7f68",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "c9c355e51b263fe2baa19280",
+      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "summary": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microsoft and MSI bring powerful local AI, content creation and gaming capabilities to a portable device, with [&#8230;]",
+      "originalTitle": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
+      "source": {
+        "id": "nvidia",
+        "name": "NVIDIA AI",
+        "url": "https://blogs.nvidia.com/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-17T21:00:13.000Z",
+      "contentHash": "b4c9d16c6213326718764c516fb3dc7d40cd4b9b3606e9866fa993ffc9ccc3ac",
       "translationStatus": "failed"
     },
     {
@@ -2149,6 +2166,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "5f65e752f06cef9b70fca01a5faef84131b54b33bae6b9d01d69ff116882ca57",
-  "compiledAt": "2026-10-18T22:43:08.777Z"
+  "contentHash": "2c89bb978149ab4891a768c0322080f66f024cec900b55574ee6b22fc12f8000",
+  "compiledAt": "2026-10-19T03:53:33.947Z"
 }
