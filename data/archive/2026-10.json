@@ -925,6 +925,34 @@
       }
     },
     {
+      "id": "c3b45bae29a2bff4b24e1a08",
+      "title": "Apertus 1.5 Release Notes",
+      "summary": "",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T08:55:35.560Z",
+      "contentHash": "d7ea186ca048e8c6be8b7f067921701452ecd564bb2a5d7cf624a17b65bd3985",
+      "firstSeenAt": "2026-10-19T08:55:35.560Z",
+      "lastChangedAt": "2026-10-19T08:56:39.055Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "d7ea186ca048e8c6be8b7f067921701452ecd564bb2a5d7cf624a17b65bd3985"
+      }
+    },
+    {
       "id": "24a2f8321eaf18e7f9a6dc0f",
       "title": "The Nordics and NVIDIA Show What’s Possible When a Region Commits to Advanced Computing",
       "summary": "The Nordic countries have become the European leader in unicorn startup density, producing the most emerging companies valued at $1 billion or more per capita on the continent. Now, a new chapter for the region is unfolding as countries race to build one of Europe’s most consequential technology ecosystems. The many computing advancements already underway [&#8230;]",

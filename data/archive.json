@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T08:02:21.397Z",
+  "publishedAt": "2026-10-19T08:56:39.055Z",
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "articles": [
     {
@@ -923,6 +923,34 @@
         "precision": "float32",
         "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
         "translatedAt": "2026-10-17T13:43:48.832Z"
+      }
+    },
+    {
+      "id": "c3b45bae29a2bff4b24e1a08",
+      "title": "Apertus 1.5 Release Notes",
+      "summary": "",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "author": null,
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "category": "模型",
+      "categoryMethod": "keyword_rules",
+      "tags": [],
+      "language": "original",
+      "ingestedAt": "2026-10-19T08:55:35.560Z",
+      "contentHash": "d7ea186ca048e8c6be8b7f067921701452ecd564bb2a5d7cf624a17b65bd3985",
+      "firstSeenAt": "2026-10-19T08:55:35.560Z",
+      "lastChangedAt": "2026-10-19T08:56:39.055Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "d7ea186ca048e8c6be8b7f067921701452ecd564bb2a5d7cf624a17b65bd3985"
       }
     },
     {
@@ -9185,6 +9213,7 @@
         "6684b990f4489dbdf7916510",
         "c97a88b17fcedacb5bba7b24",
         "5aae1c9b16779eadc501ea9b",
+        "c3b45bae29a2bff4b24e1a08",
         "24a2f8321eaf18e7f9a6dc0f",
         "2caae29cfb2b1811a61ab8ea",
         "0c78145ed9f3ed658f86dcb6",
@@ -9196,8 +9225,8 @@
         "1e42e4d4552b0e7f6f911459",
         "09041486b9fb6e73aa614e72"
       ],
-      "articleCount": 14,
-      "compiledAt": "2026-10-18T06:56:54.768Z",
+      "articleCount": 15,
+      "compiledAt": "2026-10-19T08:56:39.055Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9207,6 +9236,7 @@
         "6684b990f4489dbdf7916510",
         "c97a88b17fcedacb5bba7b24",
         "5aae1c9b16779eadc501ea9b",
+        "c3b45bae29a2bff4b24e1a08",
         "24a2f8321eaf18e7f9a6dc0f",
         "2caae29cfb2b1811a61ab8ea",
         "0c78145ed9f3ed658f86dcb6",
@@ -9378,6 +9408,7 @@
         "6684b990f4489dbdf7916510",
         "c97a88b17fcedacb5bba7b24",
         "5aae1c9b16779eadc501ea9b",
+        "c3b45bae29a2bff4b24e1a08",
         "24a2f8321eaf18e7f9a6dc0f",
         "2caae29cfb2b1811a61ab8ea",
         "0c78145ed9f3ed658f86dcb6",
@@ -9429,8 +9460,8 @@
         "1d5452c7244f2a6a1b9c52c1",
         "b58417184dda9742722bacfe"
       ],
-      "articleCount": 75,
-      "compiledAt": "2026-10-19T03:53:33.947Z",
+      "articleCount": 76,
+      "compiledAt": "2026-10-19T08:56:39.055Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -9461,6 +9492,7 @@
         "6684b990f4489dbdf7916510",
         "c97a88b17fcedacb5bba7b24",
         "5aae1c9b16779eadc501ea9b",
+        "c3b45bae29a2bff4b24e1a08",
         "24a2f8321eaf18e7f9a6dc0f",
         "2caae29cfb2b1811a61ab8ea",
         "0c78145ed9f3ed658f86dcb6",
@@ -9887,6 +9919,7 @@
         "6684b990f4489dbdf7916510",
         "c97a88b17fcedacb5bba7b24",
         "5aae1c9b16779eadc501ea9b",
+        "c3b45bae29a2bff4b24e1a08",
         "24a2f8321eaf18e7f9a6dc0f",
         "2caae29cfb2b1811a61ab8ea",
         "0c78145ed9f3ed658f86dcb6",
@@ -9986,8 +10019,8 @@
         "b0015e130574884506dfc9f5",
         "eddbf971051f0f2ff5d5fa3d"
       ],
-      "articleCount": 124,
-      "compiledAt": "2026-10-19T03:53:33.947Z",
+      "articleCount": 125,
+      "compiledAt": "2026-10-19T08:56:39.055Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
@@ -10019,6 +10052,7 @@
         "6684b990f4489dbdf7916510",
         "c97a88b17fcedacb5bba7b24",
         "5aae1c9b16779eadc501ea9b",
+        "c3b45bae29a2bff4b24e1a08",
         "24a2f8321eaf18e7f9a6dc0f",
         "2caae29cfb2b1811a61ab8ea",
         "0c78145ed9f3ed658f86dcb6",
@@ -12126,7 +12160,7 @@
       ]
     }
   ],
-  "totalArticles": 254,
+  "totalArticles": 255,
   "windowed": false,
   "archiveIndexUrl": "data/archive/index.json",
   "note": "此兼容文件最多载入最新 4000 条；全部历史仍按月保存在 archive/，不会从永久档案删除。"

@@ -11,12 +11,13 @@
   "retroactive": true,
   "coverageNote": "回溯汇编；不表示这些日期曾被连续监测。",
   "method": "source_link_roundup",
-  "articleCount": 14,
+  "articleCount": 15,
   "articleIds": [
     "93fcfd2229e3c08ebbcee526",
     "6684b990f4489dbdf7916510",
     "c97a88b17fcedacb5bba7b24",
     "5aae1c9b16779eadc501ea9b",
+    "c3b45bae29a2bff4b24e1a08",
     "24a2f8321eaf18e7f9a6dc0f",
     "2caae29cfb2b1811a61ab8ea",
     "0c78145ed9f3ed658f86dcb6",
@@ -92,6 +93,22 @@
       "publishedAt": "2026-10-15T10:00:12.000Z",
       "contentHash": "a6498f69a7481d7931fb172bff1d1960069ce55c6b4f2e7c9445020bfc982bcd",
       "translationStatus": "ok"
+    },
+    {
+      "id": "c3b45bae29a2bff4b24e1a08",
+      "title": "Apertus 1.5 Release Notes",
+      "summary": "",
+      "originalTitle": "Apertus 1.5 Release Notes",
+      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-15T09:08:45.000Z",
+      "contentHash": "d7ea186ca048e8c6be8b7f067921701452ecd564bb2a5d7cf624a17b65bd3985",
+      "translationStatus": "failed"
     },
     {
       "id": "24a2f8321eaf18e7f9a6dc0f",
@@ -258,6 +275,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "5b2f9f824f808d7e45f72ffbed6e5da6402a6f282c136e399bf4040a2aff71df",
-  "compiledAt": "2026-10-18T06:56:54.768Z"
+  "contentHash": "4bace17fe37dae06ab18940cbeb62528ce92826397e1af58deedc4311892ce39",
+  "compiledAt": "2026-10-19T08:56:39.055Z"
 }
