@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-19T09:54:11.092Z",
-  "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+  "attemptAt": "2026-10-19T10:50:36.243Z",
+  "lastSuccessAt": "2026-10-19T10:49:16.752Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
   "sourceStale": 0,
   "archiveArticles": 256,
-  "newArticles": 1,
-  "changedArticles": 0,
+  "newArticles": 0,
+  "changedArticles": 1,
   "translationRequested": 8,
   "translatedThisRun": 0,
   "translationFailed": 7,
@@ -27,26 +27,26 @@
   },
   "scheduler": {
     "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-19T09:54:11.092Z",
-    "runId": "39233276380",
+    "actualAttemptAt": "2026-10-19T10:50:36.243Z",
+    "runId": "39240137284",
     "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
     "eventCount": 37,
-    "checkedAt": "2026-10-19T09:52:33.966Z",
-    "lastSuccessAt": "2026-10-19T09:52:33.966Z",
+    "checkedAt": "2026-10-19T10:49:16.752Z",
+    "lastSuccessAt": "2026-10-19T10:49:16.752Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-19T09:52:33.966Z"
+        "checkedAt": "2026-10-19T10:49:16.752Z"
       },
       {
         "id": "whenreset-codex",
         "status": "ok",
-        "checkedAt": "2026-10-19T09:52:33.966Z"
+        "checkedAt": "2026-10-19T10:49:16.752Z"
       },
       {
         "id": "tibo-search-index",
@@ -56,7 +56,7 @@
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-19T09:52:33.966Z"
+        "checkedAt": "2026-10-19T10:49:16.752Z"
       }
     ]
   }

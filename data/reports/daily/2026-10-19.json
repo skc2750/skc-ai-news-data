@@ -19,10 +19,10 @@
   "items": [
     {
       "id": "f23c6d3d5eb0b56f279a34ec",
-      "title": "OpenAI Codex rust-v0.164.0-alpha.4",
+      "title": "OpenAI Codex 0.164.0-alpha.4",
       "summary": "Release 0.164.0-alpha.4",
-      "originalTitle": "rust-v0.164.0-alpha.4",
-      "sourceTitle": "rust-v0.164.0-alpha.4",
+      "originalTitle": "0.164.0-alpha.4",
+      "sourceTitle": "0.164.0-alpha.4",
       "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
       "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.4",
       "source": {
@@ -31,8 +31,8 @@
         "url": "https://github.com/openai/codex/releases",
         "kind": "官方版本（含预览版）"
       },
-      "publishedAt": "2026-10-19T09:13:00.000Z",
-      "contentHash": "7729133f08c448f0ed072ee256f20aecf07c641ec39fc08eb0c02904007f1d57",
+      "publishedAt": "2026-10-19T10:48:26.000Z",
+      "contentHash": "56aee9f69e103b5a17508161ccecb9a2318dca654ae2d5e046e9f3aad683df94",
       "translationStatus": "failed"
     },
     {
@@ -54,6 +54,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "d2403d4cbb8585737953d4633e7d99a5d5ba9a276fe63ba377a474de0279d106",
-  "compiledAt": "2026-10-19T09:54:11.092Z"
+  "contentHash": "d05597e6ad6d8233e0a89d5a1acf7562aec28d7eabc965c33f05ec8cc17b77a8",
+  "compiledAt": "2026-10-19T10:50:36.243Z"
 }
