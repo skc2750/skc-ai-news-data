@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-20T08:27:07.000Z",
+  "currency": "USD",
+  "models": [
+    {
+      "id": "gpt-6.1-sol",
+      "name": "GPT-6.1 Sol",
+      "provider": "OpenAI · OpenRouter API",
+      "roleZh": "三维交互与网站的主力：按参考图写代码、接交互、迭代修正。用途是本站建议，未做四任务横向实测。",
+      "taskIds": [
+        "3d",
+        "web"
+      ],
+      "inputUsdPerMillion": 2,
+      "outputUsdPerMillion": 10,
+      "contextTokens": 1050000,
+      "pricingSourceUrl": "https://openrouter.ai/openai/gpt-6.1-sol",
+      "contextSourceUrl": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "quoteLabelZh": "OpenRouter 目录 · 基础未缓存文本输入 / 文本输出",
+      "conditionalNoteZh": "单次输入超过 272,000 token 时，整次请求按输入 $4、输出 $15 / 百万 token；Fast 为标准价 2 倍。缓存写入、推理、工具、图片及税另核对；本表不是 Codex 订阅报价。 当前目录基础价与厂商本轮相同，不保证以后仍同价；实际路由、附加费与长上下文条件按渠道核对。",
+      "longContextThresholdTokens": 272000,
+      "longInputUsdPerMillion": 4,
+      "longOutputUsdPerMillion": 15,
+      "status": "verified_current",
+      "officialPricingSourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "officialContextSourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "catalogId": "openai/gpt-6.1-sol",
+      "channel": "openrouter_api",
+      "pricingDataUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "provider": "Anthropic · OpenRouter API",
+      "roleZh": "复杂三维结构与跨文件工程的备选：适合主力模型反复失败后，处理难点与检查方案。",
+      "taskIds": [
+        "3d"
+      ],
+      "inputUsdPerMillion": 4,
+      "outputUsdPerMillion": 20,
+      "contextTokens": 1000000,
+      "pricingSourceUrl": "https://openrouter.ai/anthropic/claude-opus-5.5",
+      "contextSourceUrl": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "quoteLabelZh": "OpenRouter 目录 · 基础未缓存文本输入 / 文本输出",
+      "conditionalNoteZh": "基础文本价格；缓存、批量、工具及税分别计算。1M 上下文不是每项任务会消耗 1M token，也不是订阅额度。 当前目录基础价与厂商本轮相同，不保证以后仍同价；实际路由、附加费与长上下文条件按渠道核对。",
+      "status": "verified_current",
+      "officialPricingSourceUrl": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "officialContextSourceUrl": "https://platform.claude.com/docs/en/models/opus-5-5/overview",
+      "catalogId": "anthropic/claude-opus-5.5",
+      "channel": "openrouter_api",
+      "pricingDataUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "provider": "Anthropic · OpenRouter API",
+      "roleZh": "视频脚本、分镜与动效代码主力；网站实现的备选。生成 MP4 仍需渲染工具。",
+      "taskIds": [
+        "web",
+        "video"
+      ],
+      "inputUsdPerMillion": 2,
+      "outputUsdPerMillion": 10,
+      "contextTokens": 1000000,
+      "pricingSourceUrl": "https://openrouter.ai/anthropic/claude-sonnet-5.5",
+      "contextSourceUrl": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "quoteLabelZh": "OpenRouter 目录 · 基础未缓存文本输入 / 文本输出",
+      "conditionalNoteZh": "基础文本价格；缓存、批量、工具及税分别计算。Claude Code / Pro 订阅不是本表的按量 API 计费。 当前目录基础价与厂商本轮相同，不保证以后仍同价；实际路由、附加费与长上下文条件按渠道核对。",
+      "status": "verified_current",
+      "officialPricingSourceUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "officialContextSourceUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview",
+      "catalogId": "anthropic/claude-sonnet-5.5",
+      "channel": "openrouter_api",
+      "pricingDataUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna",
+      "provider": "OpenAI · OpenRouter API",
+      "roleZh": "办公自动化运行主力：分类、字段提取、摘要、表格和结构化输出。复杂流程设计仍交给主力编程模型。",
+      "taskIds": [
+        "office"
+      ],
+      "inputUsdPerMillion": 0.1,
+      "outputUsdPerMillion": 0.5,
+      "contextTokens": 1050000,
+      "pricingSourceUrl": "https://openrouter.ai/openai/gpt-6-luna",
+      "contextSourceUrl": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "quoteLabelZh": "OpenRouter 目录 · 基础未缓存文本输入 / 文本输出",
+      "conditionalNoteZh": "单次输入超过 272,000 token 时，整次请求按输入 $0.20、输出 $0.75 / 百万 token；Fast 为适用标准价 2 倍。工具、缓存写入及税另计。 当前目录基础价与厂商本轮相同，不保证以后仍同价；实际路由、附加费与长上下文条件按渠道核对。",
+      "longContextThresholdTokens": 272000,
+      "longInputUsdPerMillion": 0.2,
+      "longOutputUsdPerMillion": 0.75,
+      "status": "verified_current",
+      "officialPricingSourceUrl": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "officialContextSourceUrl": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "catalogId": "openai/gpt-6-luna",
+      "channel": "openrouter_api",
+      "pricingDataUrl": "https://openrouter.ai/api/v1/models"
+    },
+    {
+      "id": "muse-spark-1.3",
+      "name": "Muse Spark 1.3",
+      "provider": "Meta · OpenRouter API",
+      "roleZh": "视频内容理解、脚本整理与办公工具调用的备选；优先标准模式，暂不建议以训练授权换折扣。",
+      "taskIds": [
+        "video",
+        "office"
+      ],
+      "inputUsdPerMillion": 1.25,
+      "outputUsdPerMillion": 4.25,
+      "contextTokens": 1048576,
+      "pricingSourceUrl": "https://openrouter.ai/meta/muse-spark-1.3",
+      "contextSourceUrl": "https://openrouter.ai/api/v1/models",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "quoteLabelZh": "OpenRouter 目录 · 基础未缓存文本输入 / 文本输出",
+      "conditionalNoteZh": "官方无长上下文加价；搜索等工具费另计。本表未采用 Contributor 折扣价，其内容可用于训练；不能默认替用户同意。Muse Code 订阅地区价格另核对。 当前目录基础价与厂商本轮相同，不保证以后仍同价；实际路由、附加费与长上下文条件按渠道核对。",
+      "status": "verified_current",
+      "officialPricingSourceUrl": "https://dev.meta.ai/docs/pricing-rate-limits",
+      "officialContextSourceUrl": "https://dev.meta.ai/docs/overview",
+      "catalogId": "meta/muse-spark-1.3",
+      "channel": "openrouter_api",
+      "pricingDataUrl": "https://openrouter.ai/api/v1/models"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "3d",
+      "titleZh": "照片 / 一句话 → 三维交互成品",
+      "outcomeZh": "可旋转、缩放、点选与拆解的网页模型；照片生成初稿再用 Blender 修形。",
+      "recommendedModelId": "gpt-6.1-sol",
+      "alternateModelIds": [
+        "claude-opus-5-5"
+      ],
+      "whyZh": "用现有 Codex 编码与浏览器检查完成闭环；复杂曲面以 Blender 修正，文本模型本身不保证还原精度。",
+      "scopeZh": "一个物体、一个交互展示页、约 10–20 个逻辑部件、数轮外观和交互修改；不含高精度工业 CAD。",
+      "tokens": {
+        "inputMin": 2000000,
+        "inputMax": 10000000,
+        "outputMin": 200000,
+        "outputMax": 1000000,
+        "basisZh": "规划估算，非此次项目实测；按几十轮读代码、生成和浏览器修正，累计所有请求及重试，输入重复阅读会再次计数。"
+      },
+      "recommendedPlanIds": [
+        "codex-plus"
+      ],
+      "freeToolIds": [
+        "threejs",
+        "blender",
+        "playwright",
+        "meshy-free"
+      ],
+      "paidToolIds": [
+        "meshy-pro"
+      ],
+      "notesZh": [
+        "纯代码几何：Codex + Three.js + Blender，除已有订阅外可不加购。",
+        "需要照片快速出网格时，先用 Meshy 免费额度做质量测试；多视图和私有资产才考虑 Pro。",
+        "已有 Codex 订阅优先继续用；Plus 不足再核对用量，不依据一个模型项目直接推荐 Pro。"
+      ]
+    },
+    {
+      "id": "web",
+      "titleZh": "网站搭建与优化",
+      "outcomeZh": "从需求到响应式页面、交互、自动检查和可发布版本。",
+      "recommendedModelId": "gpt-6.1-sol",
+      "alternateModelIds": [
+        "claude-sonnet-5-5"
+      ],
+      "whyZh": "同一个编程助手负责实现、运行和修错，配 Playwright 检查真实桌面 / 手机流程。",
+      "scopeZh": "1–5 页展示网站，含一个表单、移动版和常规测试；不含复杂登录、支付、CRM 迁移或持续运维。",
+      "tokens": {
+        "inputMin": 500000,
+        "inputMax": 3000000,
+        "outputMin": 50000,
+        "outputMax": 300000,
+        "basisZh": "规划估算，非固定网站报价；包含需求、代码往返和几轮修正，复杂系统及反复返工可超过范围。"
+      },
+      "recommendedPlanIds": [
+        "codex-plus"
+      ],
+      "freeToolIds": [
+        "playwright"
+      ],
+      "paidToolIds": [
+        "vercel-pro"
+      ],
+      "notesZh": [
+        "本地开发和浏览器检查可以免费；托管如使用现有套餐无需为每个新页面再买一份。",
+        "商业生产网站可评估 Vercel Pro，个人非商业展示按 Hobby 条款使用；域名、数据库、邮件和超额资源另计。"
+      ]
+    },
+    {
+      "id": "video",
+      "titleZh": "标题 / 脚本 → 完整视频",
+      "outcomeZh": "中文文案、分镜、字幕、配音与成片；科普 / 软件演示优先可重复修改的代码画面。",
+      "recommendedModelId": "claude-sonnet-5-5",
+      "alternateModelIds": [
+        "muse-spark-1.3"
+      ],
+      "whyZh": "文本模型负责脚本、分镜和渲染代码，本地 FFmpeg / Remotion 负责实际生成 MP4；只有需要写实生成镜头才加购视频工具。",
+      "scopeZh": "一支 30–60 秒说明视频，5–8 个图文或代码动效镜头，包含数轮脚本和版面修正。",
+      "tokens": {
+        "inputMin": 30000,
+        "inputMax": 150000,
+        "outputMin": 10000,
+        "outputMax": 40000,
+        "basisZh": "规划估算，非实测；只包含脚本、分镜与渲染代码的累计文本，不含任何视频秒数、图片、配音或云渲染费用。"
+      },
+      "recommendedPlanIds": [
+        "claude-pro"
+      ],
+      "freeToolIds": [
+        "ffmpeg",
+        "remotion-free"
+      ],
+      "paidToolIds": [
+        "runway-standard"
+      ],
+      "notesZh": [
+        "已订阅 Codex 时也可沿用现有助手写脚本和渲染代码，不必为了这张建议卡同时购买 Claude。",
+        "本地动效、已有素材与 FFmpeg 可不加购；免费本地渲染仍使用自己的硬件、电力和制作时间。"
+      ]
+    },
+    {
+      "id": "office",
+      "titleZh": "办公自动化 / n8n",
+      "outcomeZh": "自动整理资料、表格字段、日报与提醒，带失败重试和日志。",
+      "recommendedModelId": "gpt-6-luna",
+      "alternateModelIds": [
+        "muse-spark-1.3"
+      ],
+      "whyZh": "把便宜的文本模型用于重复运行，把现有 Codex 用于搭建和排错；工作流有固定规则时直接用代码，减少每次调用。",
+      "scopeZh": "运行示例为 1,000 条资料，每条 1,500 输入 + 300 输出 token；工作流开发约 5–15 个节点，另估文本用量。",
+      "tokens": {
+        "inputMin": 1500000,
+        "inputMax": 1500000,
+        "outputMin": 300000,
+        "outputMax": 300000,
+        "basisZh": "明确假设的 1,000 次运行预算，非实测：1,000 × (1,500 输入 + 300 输出)。不包含开发工作流的 token。"
+      },
+      "recommendedPlanIds": [
+        "codex-plus"
+      ],
+      "freeToolIds": [
+        "n8n-community"
+      ],
+      "paidToolIds": [
+        "n8n-cloud-starter"
+      ],
+      "notesZh": [
+        "n8n Community 自托管软件免费，机器和维护由自己承担；需要全天开机与更少维护才考虑 Cloud。",
+        "订阅 Codex / Claude 通常不能直接给 n8n 提供可转用的免费 API；以各自当前条款和账户权益为准。"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "id": "codex-plus",
+      "name": "Codex / ChatGPT Plus",
+      "purposeZh": "三维、网站与工作流的编码、执行、排错和验收",
+      "planZh": "Plus · 先用现有订阅",
+      "currency": "USD",
+      "price": 20,
+      "unitZh": "每月",
+      "billingZh": "按月订阅；有用量限制，非固定 token 包，也不包含等额通用 API 余额；先试免费或沿用现有套餐。",
+      "freeTierZh": "官方列有 Free；实际额度随模型、任务和账户变化，未宣称固定免费 token。",
+      "sourceUrl": "https://learn.chatgpt.com/docs/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "codex-pro",
+      "name": "Codex / ChatGPT Pro",
+      "purposeZh": "经常触达现有订阅限制时再比较，不是四任务的必需项",
+      "planZh": "Pro · 可选升级",
+      "currency": "USD",
+      "price": 100,
+      "unitZh": "每月起",
+      "billingZh": "官方列 $100 / $200 / $500 每月三档；按实际限制和账户需求选择，不把起步价当作固定无限额度。",
+      "freeTierZh": "无单独免费 Pro 额度；不自动购买。",
+      "sourceUrl": "https://learn.chatgpt.com/docs/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "claude-pro",
+      "name": "Claude / Claude Code Pro",
+      "purposeZh": "脚本、分镜、文案或编程助手的替代订阅",
+      "planZh": "Pro · 与已有编码订阅择一优先",
+      "currency": "USD",
+      "price": 20,
+      "unitZh": "每月",
+      "billingZh": "按月 $20；年付 $200，页面折算约 $17 / 月。含 Claude Code，有用量限制；不把订阅自动换算为通用 API token。",
+      "freeTierZh": "Claude Free 可试用；官方表格列 Free 不含 Claude Code。",
+      "sourceUrl": "https://claude.com/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "threejs",
+      "name": "Three.js",
+      "purposeZh": "网页三维渲染、旋转缩放、点击高亮与拆解动画",
+      "planZh": "免费开源",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "软件授权",
+      "billingZh": "MIT 许可，无 Three.js 服务订阅费；托管和模型制作另计。",
+      "freeTierZh": "软件可免费使用，保留许可声明。",
+      "sourceUrl": "https://github.com/mrdoob/three.js/blob/dev/LICENSE",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "purposeZh": "修正三维曲面、分件、材质和导出模型",
+      "planZh": "免费本地软件",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "软件授权",
+      "billingZh": "GPL 自由软件；本地使用无订阅费，算力和制作时间另计。",
+      "freeTierZh": "完整本地建模功能可免费使用。",
+      "sourceUrl": "https://www.blender.org/about/license/",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright",
+      "purposeZh": "自动检查网站、移动版、点击流程与错误",
+      "planZh": "免费开源",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "软件授权",
+      "billingZh": "本地自动化测试无服务订阅费；可选云测试服务另计。",
+      "freeTierZh": "本地浏览器测试可免费运行。",
+      "sourceUrl": "https://github.com/microsoft/playwright/blob/main/LICENSE",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "meshy-free",
+      "name": "Meshy",
+      "purposeZh": "从照片或文字快速生成网格初稿，再到 Blender 修正",
+      "planZh": "Free · 先测试质量",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "每月",
+      "billingZh": "免费版 100 credits / 月；低优先队列，非无限模型。当前页面列每月最多下载 10 个 Meshy 6 Lite 模型。",
+      "freeTierZh": "100 credits / 月；免费输出 CC BY 4.0，使用须署名；多视图不在 Free。",
+      "sourceUrl": "https://www.meshy.ai/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "meshy-pro",
+      "name": "Meshy Pro",
+      "purposeZh": "确需多视图、私有资产或更多生成时的可选项",
+      "planZh": "Pro · 按月",
+      "currency": "USD",
+      "price": 20,
+      "unitZh": "每月",
+      "billingZh": "公开 USD 页面按月 $20，1,000 credits / 月；具体任务按 credits 扣，不是文本 token；地区币种和促销以结账页为准。",
+      "freeTierZh": "先用 Free 做质量测试，不保证模型精准还原。",
+      "sourceUrl": "https://www.meshy.ai/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "purposeZh": "本地剪接、字幕、配音混音、编码并输出 MP4",
+      "planZh": "免费本地软件",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "软件授权",
+      "billingZh": "LGPL / GPL（取决于构建选项）；无软件订阅费，本地硬件和素材另计。",
+      "freeTierZh": "可免费本地渲染；素材、字体、音乐授权分别核对。",
+      "sourceUrl": "https://ffmpeg.org/legal.html",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "remotion-free",
+      "name": "Remotion",
+      "purposeZh": "用代码生成可重复修改的图文与网页演示视频",
+      "planZh": "Free License · 个人 / 不超过 3 人组织",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "符合条件的软件授权",
+      "billingZh": "个人和不超过 3 人的组织免费；4 人起适用付费公司许可；云渲染和算力另计。",
+      "freeTierZh": "符合人数条件可商业使用，不把所有团队都写成永久免费。",
+      "sourceUrl": "https://www.remotion.dev/docs/license/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "runway-standard",
+      "name": "Runway",
+      "purposeZh": "需要写实生成镜头时的可选工具",
+      "planZh": "Standard · 按月",
+      "currency": "USD",
+      "price": 15,
+      "unitZh": "每月",
+      "billingZh": "625 credits / 月；年付折算 $12 / 月、共 $144 / 年。Gen-4.5 为 12 credits / 秒；重试再扣。625 credits 约 52 秒，不代表保证可用成片时长。",
+      "freeTierZh": "Free 为一次性 125 credits，非每月补发。",
+      "sourceUrl": "https://runway.com/pricing",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "n8n-community",
+      "name": "n8n Community Edition",
+      "purposeZh": "已有机器上自托管办公工作流与定时任务",
+      "planZh": "免费自托管",
+      "currency": "USD",
+      "price": 0,
+      "unitZh": "软件授权",
+      "billingZh": "自托管标准版本无 Cloud 订阅费；适用 n8n 许可，机器、电费、备份和维护另计；调用模型 API 仍可能收费。",
+      "freeTierZh": "本地免费软件；不是免费全天在线托管。",
+      "sourceUrl": "https://n8n.io/pricing/",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "n8n-cloud-starter",
+      "name": "n8n Cloud",
+      "purposeZh": "希望托管持续运行、减少本机维护时的可选项",
+      "planZh": "Starter · 年付",
+      "currency": "EUR",
+      "price": 20,
+      "unitZh": "每月折算 · 年付 €240",
+      "billingZh": "2,500 workflow executions / 月，5 并发；按完整工作流执行计，不按每个步骤计。模型与外部服务的费用和额度分开核对。",
+      "freeTierZh": "有无需信用卡试用，试用不是永久免费 Cloud。",
+      "sourceUrl": "https://n8n.io/pricing/",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    },
+    {
+      "id": "vercel-pro",
+      "name": "Vercel",
+      "purposeZh": "商业网站生产托管的可选配套",
+      "planZh": "Pro · 1 个部署席位",
+      "currency": "USD",
+      "price": 20,
+      "unitZh": "每月起",
+      "billingZh": "平台费 $20 / 月，含 1 个部署席位与 $20 / 月资源额度；超额资源、其他部署席位、域名及付费附加项另计。",
+      "freeTierZh": "Hobby 仅限符合条款的个人非商业使用；沿用现有托管无需按页面重复订阅。",
+      "sourceUrl": "https://vercel.com/docs/plans/pro-plan",
+      "checkedAt": "2026-10-20T08:27:07.000Z",
+      "priceVerifiedAt": "2026-10-20T08:27:07.000Z",
+      "status": "verified_current"
+    }
+  ],
+  "methodologyZh": "用途与 token 范围为按明确交付范围制定的规划估算，未经四任务横向实测，也不是本次对话实际账单。token 为所有请求累计输入/输出；上下文为单次可容纳数量。估价假设每次请求在标准短上下文档，长请求、重试和隐藏推理会影响实际费用。文本表只列 OpenRouter API 渠道的标准输入输出；订阅和工具单列，不重复加总。",
+  "updatePolicyZh": [
+    "每日马来西亚时间 09:00 尝试读取 OpenRouter 官方公开模型 JSON，精确匹配已选型号；保留原厂资料、最近成功核对的渠道报价和时间。",
+    "模型必须匹配准确 catalogId、供应商与名称，校验 pricing.prompt/completion 的非负数值、context_length 和 overrides；成功解析才更新核验时间。工具订阅使用官方结构化内容解析或条款变化监测，不把取到 HTML 200 当作重新核价。",
+    "页面币种、价格条件、模型版本或条款结构变化时，标待核对；采集失败保留旧值并显示过期 / 失败，不把缺失价格当免费，也不自动启用付费回退。",
+    "任务建议与 token 区间属于编辑内容，价格抓取成功不代表建议已重新实测；两者更新时间应分别记录。"
+  ],
+  "verificationNotesZh": [
+    "OpenAI Docs 先官方域搜索并打开模型 / 价格页；Anthropic 模型页、Meta 定价 / 概览、工具官方页均已实际读取。",
+    "Agent Reach Exa 免费端点本轮触发限额；未开通付费。其他官方读取使用现有免费 Web 与 Jina Reader。Agent Reach v1.5.0 已为最新。",
+    "Meshy 页面会按访问地区显示 GBP；本轮 Jina 读取同一官方 URL 的 USD 文本得 $20 / 月，不将 GBP 数字当 USD。自动采集必须确认 currency。",
+    "Muse 官方 API 和型号现已可核实；仅 Muse Code 公开文档未列地区订阅金额，不应编造固定 $20 订阅或宣称模型不存在。",
+    "建议免费工具的软件许可不包含第三方素材或本地算力。"
+  ],
+  "sourceHints": [
+    {
+      "sourceUrl": "https://openrouter.ai/api/v1/models",
+      "kind": "official_json",
+      "path": "data[]",
+      "identity": "exact id, provider prefix and exact name",
+      "priceFields": [
+        "pricing.prompt",
+        "pricing.completion"
+      ],
+      "unit": "USD per token; multiply by 1000000",
+      "contextField": "context_length",
+      "conditionalField": "pricing.overrides[]",
+      "noteZh": "本轮5个精确ID全存在；不能用近似型号名、:free、:batch或Contributor变体替换。"
+    },
+    {
+      "sourceUrl": "https://learn.chatgpt.com/docs/pricing.md",
+      "kind": "official_markdown",
+      "mime": "text/markdown; charset=utf-8",
+      "anchors": [
+        "PricingCard name=\"Plus\"",
+        "price=\"$20\"",
+        "interval=\"/month\"",
+        "name=\"Pro\"",
+        "price=\"$100\""
+      ],
+      "noteZh": "以上为实际响应中的相邻组件属性；分别限定完整 PricingCard 再读取，不能抓到其他卡的价格。Pro具体档位另核对。"
+    },
+    {
+      "sourceUrl": "https://developers.openai.com/api/docs/models/gpt-6.1-sol.md",
+      "kind": "official_markdown",
+      "noteZh": "本轮HTTP200；作为原厂模型来源补充，不把原厂与渠道价格混为一条。"
+    },
+    {
+      "sourceUrl": "https://platform.claude.com/docs/en/models/sonnet-5-5/overview.md",
+      "kind": "official_markdown",
+      "noteZh": "本轮HTTP200；有单行Context window / Input pricing / Output pricing，原厂补充核对。"
+    },
+    {
+      "sourceUrl": "https://claude.com/pricing",
+      "kind": "official_html",
+      "noteZh": "Pro卡须同时核对$20 billed monthly与annual $200；订阅API权益发生变化不自动推断。"
+    },
+    {
+      "sourceUrl": "https://www.meshy.ai/pricing",
+      "kind": "official_html_localized",
+      "noteZh": "地区币种会变化。USD读取明确月价20；GBP抓取价16不能写成USD16。结构或币种不符标待核对。"
+    },
+    {
+      "sourceUrl": "https://runway.com/pricing",
+      "kind": "official_html",
+      "noteZh": "Standard月价15、年付折算12、625credits/月；Gen-4.5为12credits/秒。不要把每年累计7500credits当每月。"
+    },
+    {
+      "sourceUrl": "https://n8n.io/pricing/",
+      "kind": "official_html",
+      "noteZh": "Starter 20 EUR/月是年付折算，2500 workflow executions；需辨别年付/月付及助理积分与模型调用费用。"
+    },
+    {
+      "sourceUrl": "https://www.remotion.dev/docs/license/pricing",
+      "kind": "official_html",
+      "noteZh": "个人与最多3人组织免费；不能以页面有Free就掩盖4人起付费条件。"
+    },
+    {
+      "sourceUrl": "https://dev.meta.ai/docs/muse-code/subscriptions",
+      "kind": "official_html",
+      "noteZh": "公开订阅文档没有固定地区价，任何客户端展示实际价之前保持未知；默认Contributor模式条款需明确。"
+    }
+  ]
+}

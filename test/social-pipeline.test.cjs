@@ -6,7 +6,7 @@ const {validateAcquisitionSources}=require('../lib/social-discovery.cjs');
 const {makePublication,publish,loadState}=require('../lib/store.cjs');
 const {normalizeArticle}=require('../lib/collect.cjs');
 const {verify}=require('../scripts/verify.cjs');
-const NOW='2026-10-18T04:00:00.000Z',LATER='2026-10-18T05:00:00.000Z',NEXT='2026-10-18T11:00:00.000Z';
+const NOW='2026-10-18T04:00:00.000Z',LATER='2026-10-18T05:00:00.000Z',NEXT='2026-10-19T01:00:00.000Z';
 const ENDPOINT='https://mcp.exa.ai/mcp?tools=web_search_advanced_exa';
 const lookupImpl=async()=>[{address:'93.184.216.34',family:4}];
 const SOCIAL_URLS={youtube:'https://www.youtube.com/watch?v=AbCdEfGhI_1',x:'https://x.com/creator/status/1234567890123456789',reddit:'https://www.reddit.com/r/sideproject/comments/abc123/my_video_app/'};

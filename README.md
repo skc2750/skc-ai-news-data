@@ -2,7 +2,7 @@
 
 Seven public platform feeds, Codex and Claude Code official GitHub release streams, Meta corporate news, original titles and bounded excerpts, offline CPU Chinese translation, and durable daily/weekly/monthly source reports for [Simon Seow's AI news space](https://simonseow.com/news/). These ten selected feeds are not whole-web or complete Meta AI research coverage. This is a separate public data publisher. Website code, media assets, personal records and credentials do not belong in this repository.
 
-The collector does not call a paid inference API. Standard Ubuntu GitHub Actions publish one validated Git commit per update; the website can read that commit without redeploying its assets. The workflow is scheduled hourly at minute 17 UTC. GitHub may delay or drop scheduled runs, and may disable a public schedule after 60 days of repository inactivity. A saved workflow is not proof of a completed run. Inspect `data/receipt.json` and the Actions run history.
+The collector does not call a paid inference API. Standard Ubuntu GitHub Actions publish one validated Git commit per update; the website can read that commit without redeploying its assets. The workflow is scheduled daily at 09:00 Asia/Kuala_Lumpur (01:00 UTC). GitHub may delay or drop scheduled runs, and may disable a public schedule after 60 days of repository inactivity. A saved workflow is not proof of a completed run. Inspect `data/receipt.json` and the Actions run history.
 
 ## Run locally
 
@@ -27,7 +27,7 @@ node scripts/update.cjs --seed /path/to/public-news-snapshot.json --translate-li
 npm run verify
 ```
 
-The normal translation limit is 20 newly seen or changed articles per run; a local bootstrap can queue up to 500 and repeat bounded batches. Each title is bounded at 300 characters and each feed excerpt at 420. The translator checkpoints every completed record, stops starting new records after a default 720-second budget, and keeps the remainder pending for the next run. `--translation-seconds` can select 30–900 seconds; the Node wrapper allows a 90-second grace, capped at 16.5 minutes, and retains verified checkpoints after a deadline. A missing/failed translator retains originals and records pending/failed status. It never silently switches to a paid service. To check storage without loading any model, use `--skip-translation --output .work/check-data --work .work/check-lock`.
+The normal daily translation limit is 80 newly seen or changed articles per run; a local bootstrap can queue up to 500 and repeat bounded batches. Each title is bounded at 300 characters and each feed excerpt at 420. The translator checkpoints every completed record, stops starting new records after a default 720-second budget, and keeps the remainder pending for the next run. `--translation-seconds` can select 30–900 seconds; the Node wrapper allows a 90-second grace, capped at 16.5 minutes, and retains verified checkpoints after a deadline. A missing/failed translator retains originals and records pending/failed status. It never silently switches to a paid service. To check storage without loading any model, use `--skip-translation --output .work/check-data --work .work/check-lock`.
 
 The Actions workflow first prepares a bounded collection in `.work/`, installs Python/model dependencies only when translation is needed, finishes the publication, and runs verification. It uses only the repository-scoped built-in `GITHUB_TOKEN` for public GitHub metadata requests and the final Git push; metadata authorization is sent only to `api.github.com`, never to external demonstration sites. It needs no Vercel, Supabase or Hugging Face key. It does not initialize, create, or configure a GitHub account/repository itself. The repository owner must allow Actions and the workflow's `contents: write` permission.
 
@@ -54,7 +54,7 @@ An article's `title` and `summary` always remain original text. Display Chinese 
 
 Readers must resolve the manifest and its requested files at the **same Git commit**, validate expected bytes and SHA-256, then replace their last valid cached data. Do not read a mutable branch once per file and assume those files belong to one generation. A reader may cache for about 4–5 minutes and keep a bundled snapshot on errors. `generationId` identifies the manifest's sorted file-hash map, not a self-referencing Git commit SHA. Git provides the commit identity externally.
 
-Reports use MYT UTC+8 dates, Monday week starts and calendar months. Open periods are labelled open. Earlier periods derived from a seed remain labelled retrospective; every report retains a limited-source/partial-coverage notice. A closed period means its calendar window ended, not proof of continuous complete monitoring. Unchanged historical report bytes and `compiledAt` remain unchanged across hourly runs; changed source text/translations can create a traceable Git revision.
+Reports use MYT UTC+8 dates, Monday week starts and calendar months. Open periods are labelled open. Earlier periods derived from a seed remain labelled retrospective; every report retains a limited-source/partial-coverage notice. A closed period means its calendar window ended, not proof of continuous complete monitoring. Unchanged historical report bytes and `compiledAt` remain unchanged across daily runs; changed source text/translations can create a traceable Git revision.
 
 Keep monthly partitions indefinitely within the repository's practical limits. The compatibility 4000 window is only for initial page loading; older UI views should lazily fetch partition files via the archive index. Monitor repository size and make downloadable backups. Do not claim unlimited free storage. Never upload model binaries, node_modules, virtual environments, raw feed captures, browser state, `.env`/`auth.env`, website ZIPs, QA folders or private customer records.
 
@@ -79,7 +79,7 @@ The workflow is a bounded publication job for this software project, not a serve
 Verification covers content hashes, every manifest file, durable item counts, report references and exact-hash Chinese reuse. Unit tests additionally exercise all-source failure, partial fallback, real MYT boundaries, report idempotence, storage beyond 4000 and collector lock collisions. A green fixture test alone does not verify translation quality, a cloud run, or continuous scheduling.
 # GitHub 项目追踪
 
-`data/projects.json` 追踪 14 个固定官方仓库，优先追踪「重点AI产品」Codex、Claude Code，其余按「三维到交互成品、网站优化、脚本到视频、办公自动化」分组。Meta Muse 没有确认的官方公开仓库，不捏造 GitHub 项目。每小时与资讯采集同时读取仓库元数据、最新正式 Release 和许可证；更新计划可能延迟，并非全网或秒级实时。
+`data/projects.json` 追踪 14 个固定官方仓库，优先追踪「重点AI产品」Codex、Claude Code，其余按「三维到交互成品、网站优化、脚本到视频、办公自动化」分组。Meta Muse 没有确认的官方公开仓库，不捏造 GitHub 项目。每天马来西亚时间早上 9 点与资讯采集同时读取仓库元数据、最新正式 Release 和许可证；更新计划可能延迟，并非全网或秒级实时。
 
 中文适配说明是基于公开功能的编辑判断，未在本任务中安装或运行这些项目。星数不等于质量、安全或当前电脑兼容性。首次读取只建立基线，不虚构新版本提醒；后续只依据前后实际差异记录 Release、仓库推送、归档和许可证变化。无正式 Release 的项目明确显示为无版本，推送不等于发布。
 
@@ -98,9 +98,9 @@ Codex 与 Claude Code 的代码/仓库许可不等于订阅、模型 API 或推�
 官方 GitHub 发布流可能包含 alpha/beta 等预览版本。为便于理解，处理标题加入产品名前缀，同时用 `sourceTitle` 保留来源的逐字发布标题，并用 `titleTransform` 明示处理方式；来源日期仍用发布流提供的日期。
 ## YouTube、X、Reddit 作品线索（2026-10-18）
 
-`lib/social-discovery.cjs` 使用 [Exa 官方无密钥免费 MCP](https://exa.ai/docs/get-started/exa-mcp) 的公开搜索索引，调用高级搜索并限定平台域名，再自行校验原帖路径。没有平台登录、Cookie、API Key、付费账户或付费降级。免费入口有限流、可能返回空结果或不可用，没有服务等级或完整覆盖保证；遇到限流、额度或访问错误会保存状态并停止，至少退避 6 小时，之后自动尝试，不购买额度。固定入口为 `https://mcp.exa.ai/mcp?tools=web_search_advanced_exa`；只发送公开查询，不向结果中的网站发起 GET、下载媒体或运行代码。
+`lib/social-discovery.cjs` 使用 [Exa 官方无密钥免费 MCP](https://exa.ai/docs/get-started/exa-mcp) 的公开搜索索引，调用高级搜索并限定平台域名，再自行校验原帖路径。没有平台登录、Cookie、API Key、付费账户或付费降级。免费入口有限流、可能返回空结果或不可用，没有服务等级或完整覆盖保证；遇到限流、额度或访问错误会保存状态并停止，等待下一次每日计划，按日程自动尝试，不购买额度。固定入口为 `https://mcp.exa.ai/mcp?tools=web_search_advanced_exa`；只发送公开查询，不向结果中的网站发起 GET、下载媒体或运行代码。
 
-每 6 小时轮换三维、视频、办公三个用途之一，并分别查询 YouTube、X、Reddit；查询同时包含 Codex、Claude Code、Muse Code。每轮最多 3 次索引搜索、每次最多 5 个结果，完整用途轮转通常需 18 小时，GitHub 调度可能延迟。平台状态、实际查询次数、真实成功日期与下次计划分别保存。零结果不是完整扫描证明；索引没有发布日期时保持未知，不将发现时间冒充发布时间。
+每天马来西亚时间早上 9 点轮换三维、视频、办公三个用途之一，并分别查询 YouTube、X、Reddit；查询同时包含 Codex、Claude Code、Muse Code。每轮最多 3 次索引搜索、每次最多 5 个结果，完整用途轮转通常需 3 天，GitHub 调度可能延迟。平台状态、实际查询次数、真实成功日期与下次计划分别保存。零结果不是完整扫描证明；索引没有发布日期时保持未知，不将发现时间冒充发布时间。
 
 线索与成品分开：`showcases.json` 新增 `socialDiscovery` 和 `socialCandidates`，持久游标及队列在原 `discoveryState.social` 内，不增加 manifest 路径。最多保留 60 条线索，未再次被索引观察到的线索在 7 天后移出当前列表；只保留最少网址、中文分类、实际时间和未核实状态，不保存平台正文、评论、字幕或索引作者资料。提取到的 GitHub 引用每轮最多转入 4 个检查队列，仍共享原有每天最多 2 项的成品收录限制。未找到源码、未明确说明 AI 制作关系，或缺少演示和过程的线索不会成为成品。
 
@@ -112,7 +112,7 @@ Codex 与 Claude Code 的代码/仓库许可不等于订阅、模型 API 或推�
 
 人工基础清单保留 11 项经人工核对作者制作证据的个人作品，另保留 7 项社区应用、官方示例和工作流，共 18 项。`lib/personal-showcases.json` 管理个人精选；`lib/showcases.cjs` 合并精选与动态收录。每项保留作者、演示、源码、实现过程、AI 实际参与范围及费用边界。可玩网页、已发布视频、Unity VR 原型与办公概念验证分别标识，不把“兼容某模型”当作“由该模型开发”的证据。
 
-自动发现由 `lib/creator-discovery.cjs` 执行，沿用每小时的 Actions 发布任务，不另建常驻服务。每次先检查距上次搜索是否已满 6 小时及是否仍在限流退避中；到期才启动下一轮，实际时间可能因 GitHub 调度延迟。已收录的自动作品在平常小时轮次仍重新读取源码说明并检查链接；不在退避期内的“本轮不新搜”不等于跳过已有作品核查。退避期间不重新访问这些来源，也不伪造更新后的核查时间。
+自动发现由 `lib/creator-discovery.cjs` 执行，沿用每天马来西亚时间早上 9 点的 Actions 发布任务，不另建常驻服务。每次检查是否进入新的马来西亚 09:00 日周期、且没有仍有效的限流退避；到期才启动下一轮，实际时间可能因 GitHub 调度延迟。使用日期周期避免昨日延迟、今日准时导致不足 24 小时而跳过一整天。已收录的自动作品在每日轮次重新读取源码说明并检查链接；不在退避期内的“本轮不新搜”不等于跳过已有作品核查。退避期间不重新访问这些来源，也不伪造更新后的核查时间。
 
 搜索分为 **9 条轮转任务**：Codex、Claude Code、Muse Code × 三维到交互成品、脚本到视频、办公自动化。这里只搜索 GitHub 公开仓库的 README（`in:readme`），按 `updated` 倒序，每轮最多 3 个查询、每个查询最多 5 个结果，并逐次轮换第 1–3 页；不是全网、秒级或完整覆盖，不保证每轮都有新作品，也不据此确认某产品一定有合格作品。每轮最多深入检查 4 个候选仓库，尚未检查的记录排队；同一仓库去重，失败和资料不足按记录的重试时间再检查。每日自动收录上限为 **2 项，按 UTC 日期重置**，与资讯简报使用的 MYT 日历不同；达到每日额度后仍可轮转搜索和排队，不继续深入收录。GitHub 403/429 会停止后续请求并保存退避时间，不换渠道或绕过限额。
 
@@ -128,7 +128,7 @@ Codex 与 Claude Code 的代码/仓库许可不等于订阅、模型 API 或推�
 
 ## Tibo / Codex 动态（2026-10-18）
 
-`lib/codex-activity.cjs` 与现有 GitHub 每小时任务一起运行，读取 [Codex Limits 的 Tibo 挑战页](https://codexlimits.com/tibo-28)、[WhenReset 的 Codex 记录](https://whenreset.dev/codex)，每 6 小时再使用现有免费 Exa 入口执行一次作者限定搜索，每次最多 5 条。挑战结束后仍会保留作者索引与重置历史来源；这些来源不是完整 X 时间线，可能延迟、无结果或停更，不能承诺实时或完整覆盖。索引失败或限流至少退避 6 小时，遵守更长的 Retry-After，不切换收费服务或购买额度。
+`lib/codex-activity.cjs` 与现有 GitHub 每天马来西亚时间早上 9 点任务一起运行，读取 [Codex Limits 的 Tibo 挑战页](https://codexlimits.com/tibo-28)、[WhenReset 的 Codex 记录](https://whenreset.dev/codex)，每天马来西亚时间早上 9 点再使用现有免费 Exa 入口执行一次作者限定搜索，每次最多 5 条。挑战结束后仍会保留作者索引与重置历史来源；这些来源不是完整 X 时间线，可能延迟、无结果或停更，不能承诺实时或完整覆盖。索引失败或限流等待下一次每日计划，遵守更长的 Retry-After，不切换收费服务或购买额度。
 
 发现 URL 严格限于 `https://x.com/thsottiaux/status/数字`。第三方摘要只是线索，再通过 X 官方公开 oEmbed 匿名读取原帖，核对作者和 URL；没有 X 账户、Cookie、付费 X API 或推理调用。可读原文不足以明确语义关联的 `Done` 等短回复仍标为待核实；只有一条 Day 13 的 `Done` 结合该账号的预告及公开跟踪记录作人工关联，其映射受精确原文匹配限制，不表示已在 X 核实父回复线程，也不推广到其它回复。重置预告、完成确认、储备重置与功能更新分开归类；否定或假设不会作为已宣布的重置，条件承诺明确标出尚待条件兑现。完成确认不表示已检查个人账户，也不会替用户使用重置。同一原帖只有一条当前解释，核实后更正分类会替换旧线索并保留首次发现时间，不产生两张卡片。
 

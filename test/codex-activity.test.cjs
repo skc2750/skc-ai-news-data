@@ -54,12 +54,12 @@ test('free discovery and original verification build Chinese events; repeated ru
  const bad=network({failDiscovery:true,failOriginal:true}),failed=await collectCodexActivity({now:LATER,previous:first,fetchImpl:bad.fetchImpl});assert.equal(failed.status,'stale');assert.equal(failed.events.length,4);assert.equal(failed.lastSuccessAt,NOW);assert.ok(failed.sources.filter(s=>s.id!=='tibo-search-index').every(s=>s.status==='stale'));assert.ok(failed.events.every(e=>e.verification==='original_verified'));assert.ok(failed.sources.some(s=>s.error));
  for(const url of [...good.calls,...bad.calls])assert.doesNotMatch(url,/api\.x\.com|api\.openai|api\.anthropic|oauth|login|generate|inference/i);
 });
-test('author index runs at most once per six hours, respects 429 backoff, and never admits other authors',async()=>{
+test('author index runs once per MYT daily cycle, respects 429 backoff, and never admits other authors',async()=>{
  const mock=network(),calls=[];const fetchImpl=async(url,opts)=>{if(!url.startsWith('https://mcp.exa.ai/'))return mock.fetchImpl(url,opts);calls.push({url,opts});return new Response(JSON.stringify({jsonrpc:'2.0',id:1,result:{content:[{type:'text',text:JSON.stringify({results:[{url:'https://x.com/other/status/2111244596131111253',text:'Codex update'}]})}]}}));};
  const first=await collectCodexActivity({now:NOW,fetchImpl}),second=await collectCodexActivity({now:LATER,previous:first,fetchImpl});assert.equal(calls.length,1);const request=JSON.parse(calls[0].opts.body);assert.match(request.params.arguments.query,/site:x.com\/thsottiaux\/status\//);assert.equal(request.params.arguments.numResults,5);assert.ok(second.events.every(e=>e.sourceUrl.startsWith(BASE)));
- const late='2026-10-18T19:00:00.000Z';let limited=0;const limitFetch=async(url,opts)=>{if(!url.startsWith('https://mcp.exa.ai/'))return mock.fetchImpl(url,opts);limited++;return new Response('',{status:429,headers:{'retry-after':'86400'}});};
- const third=await collectCodexActivity({now:late,previous:second,fetchImpl:limitFetch});assert.equal(limited,1);assert.match(third.sources.find(s=>s.id==='tibo-search-index').error,/未启用付费/);assert.equal(third.discoveryState.search.nextRetryAt,'2026-10-19T19:00:00.000Z');
- await collectCodexActivity({now:'2026-10-18T20:00:00.000Z',previous:third,fetchImpl:limitFetch});assert.equal(limited,1);
+ const late='2026-10-19T01:00:00.000Z';let limited=0;const limitFetch=async(url,opts)=>{if(!url.startsWith('https://mcp.exa.ai/'))return mock.fetchImpl(url,opts);limited++;return new Response('',{status:429,headers:{'retry-after':'86400'}});};
+ const third=await collectCodexActivity({now:late,previous:second,fetchImpl:limitFetch});assert.equal(limited,1);assert.match(third.sources.find(s=>s.id==='tibo-search-index').error,/未启用付费/);assert.equal(third.discoveryState.search.nextRetryAt,'2026-10-20T01:00:00.000Z');
+ await collectCodexActivity({now:'2026-10-19T02:00:00.000Z',previous:third,fetchImpl:limitFetch});assert.equal(limited,1);
 });
 test('a transient WhenReset 503 gets only one short retry and does not publish a false stale incident after recovery',async()=>{
  const mock=network();let attempts=0;const fetchImpl=async(url,opts)=>{if(url===DISCOVERY[1].sourceUrl&&++attempts===1)return new Response('Unavailable',{status:503});return mock.fetchImpl(url,opts);};

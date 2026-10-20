@@ -17,13 +17,14 @@ on:
       - package-lock.json
       - requirements.translation.txt
   schedule:
-    - cron: '17 * * * *'
+    # Asia/Kuala_Lumpur 09:00 = UTC 01:00. GitHub may queue or delay scheduled jobs.
+    - cron: '0 1 * * *'
   workflow_dispatch:
     inputs:
       translation_limit:
-        description: 'Maximum NEW or changed records to translate (0-500; hourly default 20)'
+        description: 'Maximum NEW or changed records to translate (0-500; daily default 80)'
         required: false
-        default: '20'
+        default: '80'
         type: string
       translation_probe:
         description: 'Require one real AWS headline and excerpt to pass Linux CPU translation validation'
@@ -46,7 +47,7 @@ jobs:
       HF_HUB_DISABLE_IMPLICIT_TOKEN: '1'
       HF_HUB_DISABLE_TELEMETRY: '1'
       CUDA_VISIBLE_DEVICES: ''
-      TRANSLATION_LIMIT: ${{ inputs.translation_limit || '20' }}
+      TRANSLATION_LIMIT: ${{ inputs.translation_limit || '80' }}
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6, verified official ref 2026-10-17
         with:
