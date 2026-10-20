@@ -568,7 +568,7 @@
       },
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "contentHash": "4dfb05f791beda7ea44d93c4c7355a8c19594981ead0a2ad88e870c592906d71",
-      "translationStatus": "pending"
+      "translationStatus": "failed"
     },
     {
       "id": "796b1c3428aff2389ff1468d",
@@ -1291,6 +1291,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "9bc02bdc800e5bcbcb4bd6e2bebf3f9b90d4c56c3d05766c87c472f97ab87982",
-  "compiledAt": "2026-10-20T01:53:49.288Z"
+  "contentHash": "62e2d2ec7d8337eabd3f0e1dd3d35acec0d6a1111b658bdb62087c119c25670c",
+  "compiledAt": "2026-10-20T08:38:29.257Z"
 }

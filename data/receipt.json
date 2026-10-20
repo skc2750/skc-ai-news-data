@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-20T07:40:21.138Z",
-  "lastSuccessAt": "2026-10-20T07:39:09.427Z",
+  "attemptAt": "2026-10-20T08:38:29.257Z",
+  "lastSuccessAt": "2026-10-20T08:37:22.747Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
@@ -9,15 +9,15 @@
   "archiveArticles": 268,
   "newArticles": 0,
   "changedArticles": 0,
-  "translationRequested": 20,
+  "translationRequested": 21,
   "translatedThisRun": 0,
-  "translationFailed": 18,
+  "translationFailed": 19,
   "translationDeferred": 0,
   "translationError": "Offline CPU translation unavailable; original retained",
   "translationNote": null,
   "actualTranslationEngines": {},
   "pendingTranslations": 19,
-  "translationLimit": 20,
+  "translationLimit": 80,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
     "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
@@ -26,27 +26,30 @@
     "note": "后续自动翻译的配置；本次实际译文来源见 actualTranslationEngines，各篇原有译文来源见文章 translation。"
   },
   "scheduler": {
-    "expected": "hourly at minute 17 UTC",
-    "actualAttemptAt": "2026-10-20T07:40:21.138Z",
-    "runId": "39387885940",
-    "event": "schedule",
+    "expected": "daily at 09:00 Asia/Kuala_Lumpur (01:00 UTC)",
+    "timeZone": "Asia/Kuala_Lumpur",
+    "localTime": "09:00",
+    "cronUtc": "0 1 * * *",
+    "actualAttemptAt": "2026-10-20T08:38:29.257Z",
+    "runId": "39394696410",
+    "event": "push",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
     "eventCount": 39,
-    "checkedAt": "2026-10-20T07:39:09.427Z",
-    "lastSuccessAt": "2026-10-20T07:39:09.427Z",
+    "checkedAt": "2026-10-20T08:37:22.747Z",
+    "lastSuccessAt": "2026-10-20T08:37:22.747Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-20T07:39:09.427Z"
+        "checkedAt": "2026-10-20T08:37:22.747Z"
       },
       {
         "id": "whenreset-codex",
         "status": "ok",
-        "checkedAt": "2026-10-20T07:39:09.427Z"
+        "checkedAt": "2026-10-20T08:37:22.747Z"
       },
       {
         "id": "tibo-search-index",
@@ -56,7 +59,7 @@
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-20T07:39:09.427Z"
+        "checkedAt": "2026-10-20T08:37:22.747Z"
       }
     ]
   }
