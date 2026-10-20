@@ -40,9 +40,9 @@
     },
     {
       "id": "b746ba28400ff4acda309e30",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title": "Advancing coding in low‑resource programming languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "originalTitle": "Advancing Coding in Low-Resource Programming Languages",
+      "originalTitle": "Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "source": {
         "id": "openai",
@@ -51,7 +51,7 @@
         "kind": "官方发布"
       },
       "publishedAt": "2026-10-19T12:00:00.000Z",
-      "contentHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5",
+      "contentHash": "9e39a21bf4b100952c612f7a67484061d7ead2913c074501461166cf2ae15812",
       "translationStatus": "failed"
     },
     {
@@ -107,6 +107,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "89fc97013e16092f027154f200cd56de8dcee07f99a1716500e30a2102cd2938",
-  "compiledAt": "2026-10-19T22:56:57.919Z"
+  "contentHash": "7ac3d426b90623019804db994d39528e17f71d43abadd0b5bc89c576d6f5dc16",
+  "compiledAt": "2026-10-20T01:53:49.288Z"
 }

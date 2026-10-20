@@ -11,8 +11,9 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 137,
+  "articleCount": 138,
   "articleIds": [
+    "43c121ac1f60eb12f5d1d0aa",
     "ee7a8711b7efa9d39fef1b4f",
     "506a411bdd0429b488085824",
     "0846eb9322ab55c3f77f0136",
@@ -153,6 +154,22 @@
   ],
   "items": [
     {
+      "id": "43c121ac1f60eb12f5d1d0aa",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "originalTitle": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T23:32:19.000Z",
+      "contentHash": "7c83ac503bfb136c9017a5467e377025dd303e917e4ae99e0e2c1cd0c45e806f",
+      "translationStatus": "failed"
+    },
+    {
       "id": "ee7a8711b7efa9d39fef1b4f",
       "title": "OpenAI Codex 0.164.0-alpha.6",
       "summary": "Release 0.164.0-alpha.6",
@@ -166,7 +183,7 @@
         "url": "https://github.com/openai/codex/releases",
         "kind": "官方版本（含预览版）"
       },
-      "publishedAt": "2026-10-19T22:55:47.000Z",
+      "publishedAt": "2026-10-19T22:58:15.000Z",
       "contentHash": "da485d57b763395c00a059aec5efaafe3d051e8dfbb72375e160d1f02af73cd4",
       "translationStatus": "failed"
     },
@@ -304,9 +321,9 @@
     },
     {
       "id": "b746ba28400ff4acda309e30",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title": "Advancing coding in low‑resource programming languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "originalTitle": "Advancing Coding in Low-Resource Programming Languages",
+      "originalTitle": "Advancing coding in low‑resource programming languages",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "source": {
         "id": "openai",
@@ -315,7 +332,7 @@
         "kind": "官方发布"
       },
       "publishedAt": "2026-10-19T12:00:00.000Z",
-      "contentHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5",
+      "contentHash": "9e39a21bf4b100952c612f7a67484061d7ead2913c074501461166cf2ae15812",
       "translationStatus": "failed"
     },
     {
@@ -2395,6 +2412,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "87d5bdc92189a5885b497511e273bcdf2c95c26368cff17204f65f3eca0132cc",
-  "compiledAt": "2026-10-19T22:56:57.919Z"
+  "contentHash": "89d684a8b953f8960f975152d483b5f6aeb8b7dd0a55d1ecdb8d9e8a4e1691d4",
+  "compiledAt": "2026-10-20T01:53:49.288Z"
 }

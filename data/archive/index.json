@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
   "monitoringSince": "2026-10-17T08:58:15.450Z",
-  "totalArticles": 267,
+  "totalArticles": 268,
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "partitions": [
     {
       "month": "2026-10",
       "path": "archive/2026-10.json",
-      "articleCount": 134,
-      "bytes": 252123,
-      "sha256": "ac75174d767daf0a259fe289f1e8500dd331e665f704a2d39f41a9b9a1685276"
+      "articleCount": 135,
+      "bytes": 253630,
+      "sha256": "13b33524a09a57717427bb3accfad39c48dfa9f56d3ac0763837966c1bbf0ed5"
     },
     {
       "month": "2026-09",
       "path": "archive/2026-09.json",
       "articleCount": 77,
-      "bytes": 137007,
-      "sha256": "d3d0a83a9d471708895b09bdde1720a7bd9ffd700aa39f853298360653f31e0c"
+      "bytes": 137008,
+      "sha256": "8b43da45878deb52de97611982b8cd42bab53b86e4cc10458bb16cd327daef9d"
     },
     {
       "month": "2026-08",

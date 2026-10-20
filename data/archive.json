@@ -1,8 +1,40 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-19T22:56:57.919Z",
+  "publishedAt": "2026-10-20T01:53:49.288Z",
   "coverageNote": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
   "articles": [
+    {
+      "id": "43c121ac1f60eb12f5d1d0aa",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Anshika Saxena",
+      "publishedAt": "2026-10-19T23:32:19.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-20T01:52:12.643Z",
+      "contentHash": "7c83ac503bfb136c9017a5467e377025dd303e917e4ae99e0e2c1cd0c45e806f",
+      "firstSeenAt": "2026-10-20T01:52:12.643Z",
+      "lastChangedAt": "2026-10-20T01:53:49.288Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "7c83ac503bfb136c9017a5467e377025dd303e917e4ae99e0e2c1cd0c45e806f"
+      }
+    },
     {
       "id": "ee7a8711b7efa9d39fef1b4f",
       "title": "OpenAI Codex 0.164.0-alpha.6",
@@ -17,7 +49,7 @@
         "kind": "官方版本（含预览版）"
       },
       "author": "github-actions[bot]",
-      "publishedAt": "2026-10-19T22:55:47.000Z",
+      "publishedAt": "2026-10-19T22:58:15.000Z",
       "category": "开发工具",
       "categoryMethod": "keyword_rules",
       "tags": [],
@@ -286,7 +318,7 @@
     },
     {
       "id": "b746ba28400ff4acda309e30",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title": "Advancing coding in low‑resource programming languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "source": {
@@ -303,15 +335,15 @@
         "Publication"
       ],
       "language": "original",
-      "ingestedAt": "2026-10-19T22:55:49.189Z",
-      "contentHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5",
+      "ingestedAt": "2026-10-20T01:52:12.643Z",
+      "contentHash": "9e39a21bf4b100952c612f7a67484061d7ead2913c074501461166cf2ae15812",
       "firstSeenAt": "2026-10-19T22:55:49.189Z",
-      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "lastChangedAt": "2026-10-20T01:53:49.288Z",
       "titleZh": "",
       "summaryZh": "",
       "translation": {
         "status": "failed",
-        "sourceHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5"
+        "sourceHash": "9e39a21bf4b100952c612f7a67484061d7ead2913c074501461166cf2ae15812"
       }
     },
     {
@@ -6048,7 +6080,7 @@
       "titleZh": "",
       "summaryZh": "",
       "translation": {
-        "status": "failed",
+        "status": "pending",
         "sourceHash": "4dfb05f791beda7ea44d93c4c7355a8c19594981ead0a2ad88e870c592906d71"
       }
     },
@@ -9452,6 +9484,7 @@
       "period": "2026-10-20",
       "title": "2026-10-20 每日资讯汇编",
       "articleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "ee7a8711b7efa9d39fef1b4f",
         "506a411bdd0429b488085824",
         "0846eb9322ab55c3f77f0136",
@@ -9461,13 +9494,14 @@
         "8c372d950b596c7cc5982689",
         "b3f039915071cfc1ba49758c"
       ],
-      "articleCount": 8,
-      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "articleCount": 9,
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "open",
       "retroactive": false,
       "url": "data/reports/daily/2026-10-20.json",
       "loadedArticleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "ee7a8711b7efa9d39fef1b4f",
         "506a411bdd0429b488085824",
         "0846eb9322ab55c3f77f0136",
@@ -9491,7 +9525,7 @@
         "884d832230ee974a19bc72f4"
       ],
       "articleCount": 5,
-      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": false,
@@ -9510,6 +9544,7 @@
       "period": "2026-10-19",
       "title": "2026-10-19 每周（周一起）资讯汇编",
       "articleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "ee7a8711b7efa9d39fef1b4f",
         "506a411bdd0429b488085824",
         "0846eb9322ab55c3f77f0136",
@@ -9524,13 +9559,14 @@
         "c905f1106f5cafa643986b49",
         "884d832230ee974a19bc72f4"
       ],
-      "articleCount": 13,
-      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "articleCount": 14,
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "open",
       "retroactive": false,
       "url": "data/reports/weekly/2026-10-19.json",
       "loadedArticleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "ee7a8711b7efa9d39fef1b4f",
         "506a411bdd0429b488085824",
         "0846eb9322ab55c3f77f0136",
@@ -10326,6 +10362,7 @@
       "period": "2026-10",
       "title": "2026-10 每月资讯汇编",
       "articleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "ee7a8711b7efa9d39fef1b4f",
         "506a411bdd0429b488085824",
         "0846eb9322ab55c3f77f0136",
@@ -10464,13 +10501,14 @@
         "b0015e130574884506dfc9f5",
         "eddbf971051f0f2ff5d5fa3d"
       ],
-      "articleCount": 137,
-      "compiledAt": "2026-10-19T22:56:57.919Z",
+      "articleCount": 138,
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "open",
       "retroactive": true,
       "url": "data/reports/monthly/2026-10.json",
       "loadedArticleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "ee7a8711b7efa9d39fef1b4f",
         "506a411bdd0429b488085824",
         "0846eb9322ab55c3f77f0136",
@@ -10853,7 +10891,7 @@
         "700c0adbb423ff58a5b26523"
       ],
       "articleCount": 7,
-      "compiledAt": "2026-10-19T01:48:17.887Z",
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -10948,7 +10986,7 @@
         "962c4a0ef890c3ad891464c6"
       ],
       "articleCount": 24,
-      "compiledAt": "2026-10-19T01:48:17.887Z",
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -11343,7 +11381,7 @@
         "91bfc16d543ac636fdc68594"
       ],
       "articleCount": 75,
-      "compiledAt": "2026-10-19T01:48:17.887Z",
+      "compiledAt": "2026-10-20T01:53:49.288Z",
       "partial": true,
       "periodState": "closed",
       "retroactive": true,
@@ -12617,7 +12655,7 @@
       ]
     }
   ],
-  "totalArticles": 267,
+  "totalArticles": 268,
   "windowed": false,
   "archiveIndexUrl": "data/archive/index.json",
   "note": "此兼容文件最多载入最新 4000 条；全部历史仍按月保存在 archive/，不会从永久档案删除。"

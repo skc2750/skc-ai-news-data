@@ -11,8 +11,9 @@
   "retroactive": false,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 8,
+  "articleCount": 9,
   "articleIds": [
+    "43c121ac1f60eb12f5d1d0aa",
     "ee7a8711b7efa9d39fef1b4f",
     "506a411bdd0429b488085824",
     "0846eb9322ab55c3f77f0136",
@@ -23,6 +24,22 @@
     "b3f039915071cfc1ba49758c"
   ],
   "items": [
+    {
+      "id": "43c121ac1f60eb12f5d1d0aa",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "originalTitle": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-19T23:32:19.000Z",
+      "contentHash": "7c83ac503bfb136c9017a5467e377025dd303e917e4ae99e0e2c1cd0c45e806f",
+      "translationStatus": "failed"
+    },
     {
       "id": "ee7a8711b7efa9d39fef1b4f",
       "title": "OpenAI Codex 0.164.0-alpha.6",
@@ -37,7 +54,7 @@
         "url": "https://github.com/openai/codex/releases",
         "kind": "官方版本（含预览版）"
       },
-      "publishedAt": "2026-10-19T22:55:47.000Z",
+      "publishedAt": "2026-10-19T22:58:15.000Z",
       "contentHash": "da485d57b763395c00a059aec5efaafe3d051e8dfbb72375e160d1f02af73cd4",
       "translationStatus": "failed"
     },
@@ -156,6 +173,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "633d7a2c5d6467e60a12da4f2711454109c9e4cbfb94ccb68bdf3c65833a107e",
-  "compiledAt": "2026-10-19T22:56:57.919Z"
+  "contentHash": "810312db5ae9bc8761784758a537467caa1a81e328cab5e8c6bd3c9d698c9d52",
+  "compiledAt": "2026-10-20T01:53:49.288Z"
 }

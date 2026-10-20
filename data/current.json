@@ -1,9 +1,41 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T22:56:57.919Z",
-  "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+  "generatedAt": "2026-10-20T01:53:49.288Z",
+  "lastSuccessAt": "2026-10-20T01:52:12.643Z",
   "status": "ok",
   "articles": [
+    {
+      "id": "43c121ac1f60eb12f5d1d0aa",
+      "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
+      "summary": "Amazon Bedrock now supports structured outputs for all Anthropic Claude models on both the bedrock-runtime and bedrock-mantle endpoints. Receive schema-compliant JSON that conforms to a defined structure, without custom parsing, retry logic, or post-processing, using JSON Schema output format and strict tool use.",
+      "url": "https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "author": "Anshika Saxena",
+      "publishedAt": "2026-10-19T23:32:19.000Z",
+      "category": "开发工具",
+      "categoryMethod": "keyword_rules",
+      "tags": [
+        "Amazon Bedrock",
+        "Announcements",
+        "Intermediate (200)"
+      ],
+      "language": "original",
+      "ingestedAt": "2026-10-20T01:52:12.643Z",
+      "contentHash": "7c83ac503bfb136c9017a5467e377025dd303e917e4ae99e0e2c1cd0c45e806f",
+      "firstSeenAt": "2026-10-20T01:52:12.643Z",
+      "lastChangedAt": "2026-10-20T01:53:49.288Z",
+      "titleZh": "",
+      "summaryZh": "",
+      "translation": {
+        "status": "failed",
+        "sourceHash": "7c83ac503bfb136c9017a5467e377025dd303e917e4ae99e0e2c1cd0c45e806f"
+      }
+    },
     {
       "id": "ee7a8711b7efa9d39fef1b4f",
       "title": "OpenAI Codex 0.164.0-alpha.6",
@@ -18,7 +50,7 @@
         "kind": "官方版本（含预览版）"
       },
       "author": "github-actions[bot]",
-      "publishedAt": "2026-10-19T22:55:47.000Z",
+      "publishedAt": "2026-10-19T22:58:15.000Z",
       "category": "开发工具",
       "categoryMethod": "keyword_rules",
       "tags": [],
@@ -287,7 +319,7 @@
     },
     {
       "id": "b746ba28400ff4acda309e30",
-      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "title": "Advancing coding in low‑resource programming languages",
       "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
       "url": "https://openai.com/index/low-resource-programming-languages",
       "source": {
@@ -304,15 +336,15 @@
         "Publication"
       ],
       "language": "original",
-      "ingestedAt": "2026-10-19T22:55:49.189Z",
-      "contentHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5",
+      "ingestedAt": "2026-10-20T01:52:12.643Z",
+      "contentHash": "9e39a21bf4b100952c612f7a67484061d7ead2913c074501461166cf2ae15812",
       "firstSeenAt": "2026-10-19T22:55:49.189Z",
-      "lastChangedAt": "2026-10-19T22:56:57.919Z",
+      "lastChangedAt": "2026-10-20T01:53:49.288Z",
       "titleZh": "",
       "summaryZh": "",
       "translation": {
         "status": "failed",
-        "sourceHash": "0b3f0a8c52f65e4fca45c93ecab9f7ac1e1a5f20147f800a558cbc7b7169c5d5"
+        "sourceHash": "9e39a21bf4b100952c612f7a67484061d7ead2913c074501461166cf2ae15812"
       }
     },
     {
@@ -6049,7 +6081,7 @@
       "titleZh": "",
       "summaryZh": "",
       "translation": {
-        "status": "failed",
+        "status": "pending",
         "sourceHash": "4dfb05f791beda7ea44d93c4c7355a8c19594981ead0a2ad88e870c592906d71"
       }
     },
@@ -9455,8 +9487,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 50,
       "articleIds": [
         "b746ba28400ff4acda309e30",
@@ -9500,19 +9532,19 @@
         "53863fd161ac40b4058dbe23",
         "88ed018fe8b39aba1a34c3c9",
         "aa1d6d5748b7c3b948a421de",
-        "58aab1a2f046ae363c3bfddb",
         "14665f31c5050b06129da6c9",
+        "58aab1a2f046ae363c3bfddb",
         "3e05a6dcb3d6f3403d65985b",
         "ed22d9937e1dec520531714b",
         "ba2ac467963ebe43c3c03a61",
         "9976564ef8da09deed578d76",
         "bef8b321c3775dadc7b17fa0",
         "489d25d7bc550c793820a122",
-        "a5120f8e904fd354712303a2"
+        "796b1c3428aff2389ff1468d"
       ],
       "feedItemCount": 1300,
-      "bytes": 792101,
-      "sha256": "3a37297d605be0881365814466188d5083ecd109bce5e29a075b1a45a3db0128",
+      "bytes": 792103,
+      "sha256": "d2c0d64d3029e7cd0b4664d4adbef80201d9acbb7eb876d104c646d7bdc76dac",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9527,8 +9559,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 20,
       "articleIds": [
         "c51fb173fad0a9b19c6b38f1",
@@ -9569,8 +9601,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 50,
       "articleIds": [
         "2cc0f38f7481ac8d6e7d08ec",
@@ -9641,8 +9673,8 @@
       "kind": "平台及社区作者",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 50,
       "articleIds": [
         "c905f1106f5cafa643986b49",
@@ -9713,8 +9745,8 @@
       "kind": "官方研究",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 10,
       "articleIds": [
         "36b0709d3b06ff00ba872822",
@@ -9729,8 +9761,8 @@
         "91bfc16d543ac636fdc68594"
       ],
       "feedItemCount": 10,
-      "bytes": 269037,
-      "sha256": "4d1b7a93dd46e01ccc9540a633ae773be3099b1283678d2a8abdd49adf9aecac",
+      "bytes": 268974,
+      "sha256": "b5686cf10de168ddd5a8a08046db40bd76083bf1375b52d0fdd0079977bc8aeb",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9745,10 +9777,11 @@
       "kind": "官方工程",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 20,
       "articleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "506a411bdd0429b488085824",
         "2a71818b7fd327c9556a3a51",
         "02515040d2b8a0644579b54e",
@@ -9767,12 +9800,11 @@
         "96496141fe100db0798af248",
         "8acfc510b59540f0507e207a",
         "6c4bdc44985ec22acd3b26bf",
-        "e2518036c8a34a40984d644c",
-        "c123614c54143f15f75895aa"
+        "e2518036c8a34a40984d644c"
       ],
       "feedItemCount": 20,
-      "bytes": 554346,
-      "sha256": "3e8744dd9daa4aad827943315444255c48b4c396b31aabad6572b8c8d1be3c4b",
+      "bytes": 563905,
+      "sha256": "1ffc795a80c17a221b4e011c4e814b9e38746fe4b2d3819a602ca493b7b1ca37",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9787,8 +9819,8 @@
       "kind": "官方发布",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 18,
       "articleIds": [
         "c9c355e51b263fe2baa19280",
@@ -9829,8 +9861,8 @@
       "kind": "官方版本（含预览版）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 10,
       "articleIds": [
         "ee7a8711b7efa9d39fef1b4f",
@@ -9846,7 +9878,7 @@
       ],
       "feedItemCount": 10,
       "bytes": 210020,
-      "sha256": "57326bf9456b65b7af8c45f32cee2020acbf0edbcab4d7725566a92f6ba8ad35",
+      "sha256": "dcc173074287dcb81e7ea65c64323793aa85bda87707e063f3c1f809a883ad5b",
       "invalid": {
         "undated": 0,
         "future": 0,
@@ -9863,8 +9895,8 @@
       "kind": "官方版本（含预览版）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 10,
       "articleIds": [
         "0846eb9322ab55c3f77f0136",
@@ -9895,8 +9927,8 @@
       "kind": "公司官方新闻（非研究完整覆盖）",
       "type": "rss",
       "status": "ok",
-      "lastCheckedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "lastCheckedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "articleCount": 10,
       "articleIds": [
         "2caae29cfb2b1811a61ab8ea",
@@ -9977,7 +10009,7 @@
       ],
       "sourceCount": 2,
       "firstSeenAt": "2026-10-13T19:12:24.000Z",
-      "lastSeenAt": "2026-10-19T22:55:47.000Z",
+      "lastSeenAt": "2026-10-19T22:58:15.000Z",
       "method": "keyword_rules",
       "note": "近 7 日关键词分组；不是热度排名或独立事实核查。"
     },
@@ -9985,6 +10017,7 @@
       "id": "claude",
       "title": "Claude",
       "articleIds": [
+        "43c121ac1f60eb12f5d1d0aa",
         "0846eb9322ab55c3f77f0136",
         "884d832230ee974a19bc72f4",
         "1540794e1a6cdcd487e98db5",
@@ -9992,9 +10025,9 @@
         "01b163991f0f81389e00c4e3",
         "7dc27ad74482bad0f719feef"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "firstSeenAt": "2026-10-14T02:49:42.000Z",
-      "lastSeenAt": "2026-10-19T21:34:39.000Z",
+      "lastSeenAt": "2026-10-19T23:32:19.000Z",
       "method": "keyword_rules",
       "note": "近 7 日关键词分组；不是热度排名或独立事实核查。"
     },
@@ -10058,14 +10091,14 @@
   ],
   "coverage": {
     "start": "2026-05-17T13:43:50.000Z",
-    "end": "2026-10-19T22:55:47.000Z",
+    "end": "2026-10-19T23:32:19.000Z",
     "note": "七个平台订阅源、Codex/Claude Code 官方 GitHub 发布流及 Meta 公司新闻，仅读取标题、短摘要和来源链接。共十个有限源，不是全网或 Meta AI 研究完整覆盖；发布流可能含预览版，中文为机器翻译。回溯数据不表示历史连续监测。",
     "monitoringSince": "2026-10-17T08:58:15.450Z"
   },
   "archive": {
     "url": "/news/data/archive.json",
-    "publishedAt": "2026-10-19T22:56:57.919Z",
-    "totalArticles": 267,
+    "publishedAt": "2026-10-20T01:53:49.288Z",
+    "totalArticles": 268,
     "indexUrl": "data/archive/index.json"
   },
   "refreshPolicy": {
@@ -10076,7 +10109,7 @@
   "translation": {
     "method": "machine_translation_with_provenance",
     "translated": 249,
-    "pending": 18,
+    "pending": 19,
     "engines": {
       "editorial_seed": 246,
       "offline_cpu_qwen": 3
@@ -10089,15 +10122,15 @@
   },
   "receipt": {
     "schemaVersion": 1,
-    "attemptAt": "2026-10-19T22:56:57.919Z",
-    "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+    "attemptAt": "2026-10-20T01:53:49.288Z",
+    "lastSuccessAt": "2026-10-20T01:52:12.643Z",
     "status": "ok",
     "seeded": false,
     "sourceOk": 10,
     "sourceStale": 0,
-    "archiveArticles": 267,
-    "newArticles": 6,
-    "changedArticles": 0,
+    "archiveArticles": 268,
+    "newArticles": 1,
+    "changedArticles": 1,
     "translationRequested": 20,
     "translatedThisRun": 0,
     "translationFailed": 18,
@@ -10105,7 +10138,7 @@
     "translationError": "Offline CPU translation unavailable; original retained",
     "translationNote": null,
     "actualTranslationEngines": {},
-    "pendingTranslations": 18,
+    "pendingTranslations": 19,
     "translationLimit": 20,
     "configuredModel": {
       "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -10116,44 +10149,44 @@
     },
     "scheduler": {
       "expected": "hourly at minute 17 UTC",
-      "actualAttemptAt": "2026-10-19T22:56:57.919Z",
-      "runId": "39338262838",
+      "actualAttemptAt": "2026-10-20T01:53:49.288Z",
+      "runId": "39355773163",
       "event": "schedule",
       "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
     },
     "codex": {
       "status": "partial",
       "eventCount": 38,
-      "checkedAt": "2026-10-19T22:55:49.189Z",
-      "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+      "checkedAt": "2026-10-20T01:52:12.643Z",
+      "lastSuccessAt": "2026-10-20T01:52:12.643Z",
       "sources": [
         {
           "id": "codexlimits-tibo",
           "status": "ok",
-          "checkedAt": "2026-10-19T22:55:49.189Z"
+          "checkedAt": "2026-10-20T01:52:12.643Z"
         },
         {
           "id": "whenreset-codex",
           "status": "ok",
-          "checkedAt": "2026-10-19T22:55:49.189Z"
+          "checkedAt": "2026-10-20T01:52:12.643Z"
         },
         {
           "id": "tibo-search-index",
           "status": "ok",
-          "checkedAt": "2026-10-19T18:44:36.844Z"
+          "checkedAt": "2026-10-20T01:52:12.643Z"
         },
         {
           "id": "tibo-original",
           "status": "ok",
-          "checkedAt": "2026-10-19T22:55:49.189Z"
+          "checkedAt": "2026-10-20T01:52:12.643Z"
         }
       ]
     }
   },
   "codex": {
     "schemaVersion": 1,
-    "checkedAt": "2026-10-19T22:55:49.189Z",
-    "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+    "checkedAt": "2026-10-20T01:52:12.643Z",
+    "lastSuccessAt": "2026-10-20T01:52:12.643Z",
     "status": "partial",
     "statusNoteChinese": "公开来源本轮可读；4 条旧线索仍待原文或语义核实，不视为采集故障。",
     "coverageNote": "每小时计划读取两个免费公开跟踪页，每6小时补充一次 Tibo 作者限定的免费搜索索引，再使用 X 官方公开嵌入核对原文。不是完整 X 时间线或实时推送，索引、跟踪页、原帖可读取性及 GitHub 排程均可能延迟。第三方线索、原文核验和个人账户到账相互独立；未公布的准确时间始终标为未知，历史回溯不表示当时已经持续监测。",
@@ -10163,9 +10196,9 @@
         "label": "Codex Limits · Tibo 挑战跟踪（第三方）",
         "sourceUrl": "https://codexlimits.com/tibo-28",
         "status": "ok",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
-        "lastAttemptAt": "2026-10-19T22:55:49.189Z",
-        "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
+        "lastAttemptAt": "2026-10-20T01:52:12.643Z",
+        "lastSuccessAt": "2026-10-20T01:52:12.643Z",
         "discovered": 28,
         "attemptsThisRun": 1,
         "consecutiveFailures": 0,
@@ -10176,10 +10209,10 @@
         "label": "WhenReset · Codex 重置记录（第三方）",
         "sourceUrl": "https://whenreset.dev/codex",
         "status": "ok",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
-        "lastAttemptAt": "2026-10-19T22:55:49.189Z",
-        "lastSuccessAt": "2026-10-19T22:55:49.189Z",
-        "discovered": 15,
+        "checkedAt": "2026-10-20T01:52:12.643Z",
+        "lastAttemptAt": "2026-10-20T01:52:12.643Z",
+        "lastSuccessAt": "2026-10-20T01:52:12.643Z",
+        "discovered": 14,
         "attemptsThisRun": 1,
         "consecutiveFailures": 0,
         "retryNoteChinese": "本轮正常读取。"
@@ -10189,18 +10222,18 @@
         "label": "Tibo 作者限定搜索索引 · Exa（第三方）",
         "sourceUrl": "https://exa.ai/docs/get-started/exa-mcp",
         "status": "ok",
-        "checkedAt": "2026-10-19T18:44:36.844Z",
-        "lastSuccessAt": "2026-10-19T18:44:36.844Z",
-        "queriesExecuted": 0,
-        "nextCheckAt": "2026-10-20T00:44:36.844Z"
+        "checkedAt": "2026-10-20T01:52:12.643Z",
+        "lastSuccessAt": "2026-10-20T01:52:12.643Z",
+        "queriesExecuted": 1,
+        "discovered": 0
       },
       {
         "id": "tibo-original",
         "label": "Tibo 原帖 · X 官方公开嵌入",
         "sourceUrl": "https://x.com/thsottiaux",
         "status": "ok",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
-        "lastSuccessAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
+        "lastSuccessAt": "2026-10-20T01:52:12.643Z",
         "attempted": 9,
         "verified": 9,
         "failed": 0,
@@ -10224,10 +10257,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "original_verified",
         "verificationNote": "已通过 X 官方公开嵌入核对 Tibo 原帖正文；中文为摘要，详情以原帖为准。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-19T22:55:49.189Z",
-        "lastVerifiedAt": "2026-10-19T22:55:49.189Z",
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastVerifiedAt": "2026-10-20T01:52:12.643Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [],
         "contentHash": "53eb14ad9dbf102008f9922ca620357081c3c48c98502b46bfec77c7a0e68982",
@@ -10253,10 +10286,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "original_verified",
         "verificationNote": "已通过 X 官方公开嵌入核对 Tibo 原帖正文；中文为摘要，详情以原帖为准。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-19T01:47:10.453Z",
-        "lastVerifiedAt": "2026-10-19T22:55:49.189Z",
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastVerifiedAt": "2026-10-20T01:52:12.643Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [],
         "contentHash": "bff9dfd2021f0d31add42ffc2d94c0c9f6f118fe2a7788a4b5c03d0a0d0ce4b8",
@@ -10282,10 +10315,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "original_verified",
         "verificationNote": "Done 原文已核对；结合 Day 13 预告及公开跟踪记录人工关联，非系统到账核验。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
-        "lastVerifiedAt": "2026-10-19T22:55:49.189Z",
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastVerifiedAt": "2026-10-20T01:52:12.643Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [
           "https://x.com/thsottiaux/status/2111492673890824348",
@@ -10314,10 +10347,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "original_verified",
         "verificationNote": "已通过 X 官方公开嵌入核对 Tibo 原帖正文；中文为摘要，详情以原帖为准。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
-        "lastVerifiedAt": "2026-10-19T22:55:49.189Z",
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastVerifiedAt": "2026-10-20T01:52:12.643Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [
           "https://x.com/thsottiaux/status/2111492673890824348"
@@ -10345,10 +10378,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "original_verified",
         "verificationNote": "已通过 X 官方公开嵌入核对 Tibo 原帖正文；中文为摘要，详情以原帖为准。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
-        "lastVerifiedAt": "2026-10-19T22:55:49.189Z",
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastVerifiedAt": "2026-10-20T01:52:12.643Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [],
         "contentHash": "01372348b713b82985b7e747dc748d3fd0f7d37c9affbb1d29e4b9de8ecf9ef8",
@@ -10432,10 +10465,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "secondary_only",
         "verificationNote": "原文已读取，但单独正文不足以核实重置关联，仍待核实。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
         "lastVerifiedAt": null,
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [],
         "contentHash": "762f777ef2ef871328c9e6e7c9e74a4564370b649e66e54066a4cf0b649c1447",
@@ -10780,10 +10813,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "secondary_only",
         "verificationNote": "原文已读取，但单独正文不足以核实重置关联，仍待核实。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
         "lastVerifiedAt": null,
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [
           "https://x.com/thsottiaux/status/2107913738791596286"
@@ -10811,10 +10844,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "secondary_only",
         "verificationNote": "原文已读取，但单独正文不足以核实重置关联，仍待核实。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
         "lastVerifiedAt": null,
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [
           "https://x.com/thsottiaux/status/2108040921044639779"
@@ -11136,10 +11169,10 @@
         "scopeChinese": "未知（原帖未明确说明适用对象）",
         "verification": "secondary_only",
         "verificationNote": "原文已读取，但单独正文不足以核实重置关联，仍待核实。",
-        "checkedAt": "2026-10-19T22:55:49.189Z",
+        "checkedAt": "2026-10-20T01:52:12.643Z",
         "firstSeenAt": "2026-10-18T12:19:35.348Z",
         "lastVerifiedAt": null,
-        "lastOriginalReadAt": "2026-10-19T22:55:49.189Z",
+        "lastOriginalReadAt": "2026-10-20T01:52:12.643Z",
         "originalReadThisAttempt": true,
         "relatedSourceUrls": [],
         "contentHash": "118de840fa57e045b4fa6d9832bcfc4de60d015239e140fa4b8c89d9e8b8f404",
@@ -11328,8 +11361,8 @@
     "nextResetLabel": "未知（未公布准确时间）",
     "discoveryState": {
       "search": {
-        "lastAttemptAt": "2026-10-19T18:44:36.844Z",
-        "lastSuccessAt": "2026-10-19T18:44:36.844Z"
+        "lastAttemptAt": "2026-10-20T01:52:12.643Z",
+        "lastSuccessAt": "2026-10-20T01:52:12.643Z"
       }
     },
     "refreshPolicy": {
