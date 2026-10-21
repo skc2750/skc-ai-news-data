@@ -11,8 +11,35 @@
   "retroactive": true,
   "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
   "method": "source_link_roundup",
-  "articleCount": 138,
+  "articleCount": 165,
   "articleIds": [
+    "3b4383187f25822c27b269d1",
+    "252207209eaa94f53725a154",
+    "7b865a4301cba6d43842efda",
+    "96d6427f09523edaba6e0642",
+    "8d20358b8d12fc4eedaf624d",
+    "4995d598987b2fa02def0cc6",
+    "56b964fd9928d1ef50f6c25a",
+    "d38bcb8e2886f544efdb1aa1",
+    "7b801ef141d655ca777e5436",
+    "51326378c8ac51988bb0656e",
+    "059d78a2ad04d068e93235fd",
+    "14a1daa17075b4fb9e0fd120",
+    "c1dfe80aabd3d470eaf9c286",
+    "f4dce134d64c2aff8cfba7eb",
+    "6d6fbcf0d35f8dff317ad502",
+    "b0ff9c297a18959bed0b2e88",
+    "26d99931fd5bd2e9f6ff1080",
+    "46e422d9eda01bd283400b86",
+    "66090a96e99e627cd606dff4",
+    "63957a086cacf3a8ee9d3133",
+    "1ad8dec2176e124fb64dc475",
+    "2ed1069709fd84bdfa43a2b9",
+    "680bcd87bdce497ec8ca664b",
+    "6d0c1b8ab3974407a333e9dc",
+    "a853626bd765da50a893fc79",
+    "b58366a9a4f1e5a3b08ea4e1",
+    "d227830b8fa652b875ddd110",
     "43c121ac1f60eb12f5d1d0aa",
     "ee7a8711b7efa9d39fef1b4f",
     "506a411bdd0429b488085824",
@@ -153,6 +180,446 @@
     "eddbf971051f0f2ff5d5fa3d"
   ],
   "items": [
+    {
+      "id": "3b4383187f25822c27b269d1",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "summary": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "originalTitle": "Southeast Asia’s digital economy to hit $368 billion",
+      "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": {
+        "id": "google",
+        "name": "Google AI",
+        "url": "https://blog.google/innovation-and-ai/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-21T04:00:00.000Z",
+      "contentHash": "bc555b10f3440ea7c1d7ca2caef8cecbf386b232822e20da30036d550d827d76",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "252207209eaa94f53725a154",
+      "title": "Claude Code v2.1.306",
+      "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools",
+      "originalTitle": "v2.1.306",
+      "sourceTitle": "v2.1.306",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-21T03:16:31.000Z",
+      "contentHash": "9fffaa860036193a934b0acfa3c03283889595435450d707641d17fda3df87a1",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "7b865a4301cba6d43842efda",
+      "title": "OpenAI Codex 0.164.0-alpha.8",
+      "summary": "Release 0.164.0-alpha.8",
+      "originalTitle": "0.164.0-alpha.8",
+      "sourceTitle": "0.164.0-alpha.8",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.8",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-20T22:35:19.000Z",
+      "contentHash": "a66b63721677e5f1ea9bce9e76c919aabb7ffa953205120c692aedeaf0c0efdd",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "96d6427f09523edaba6e0642",
+      "title": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "summary": "Learn how i14 trained and served Laplace 3B, a linear attention model, on AWS Trainium2 using native PyTorch. Its recurrent state stays fixed at 29.5 MB per sequence regardless of context length, avoiding the growing key-value cache of transformer models and keeping serving memory predictable.",
+      "originalTitle": "Beyond the KV cache: Training and serving i14’s Laplace 3B linear attention model on AWS Trainium2 with native PyTorch",
+      "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-kv-cache-training-and-serving-i14s-laplace-3b-linear-attention-model-on-aws-trainium2-with-native-pytorch/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T21:14:10.000Z",
+      "contentHash": "fb1285f64989fdc89df71c4c0163e8b1476cbc32dcdf8289ca87144257e8d3da",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "8d20358b8d12fc4eedaf624d",
+      "title": "Claude Code v2.1.305",
+      "summary": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections Added CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) notices a usage limit that was lifted before its reset Fixed every request failing on Vertex, Bedrock and oth",
+      "originalTitle": "v2.1.305",
+      "sourceTitle": "v2.1.305",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+      "source": {
+        "id": "claude-releases",
+        "name": "Anthropic Claude Code 官方版本",
+        "url": "https://github.com/anthropics/claude-code/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-20T20:46:50.000Z",
+      "contentHash": "d2e1592b85be33005a583d1c943b3f60c99edc6b6b47dc87c557d780a642503a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "4995d598987b2fa02def0cc6",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "summary": "",
+      "originalTitle": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T18:17:47.000Z",
+      "contentHash": "d806f19dd50a83307d9318c5ef918badf8b2f83fea620d9d8e52ae5eb89def26",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "56b964fd9928d1ef50f6c25a",
+      "title": "Work management context for AI agents with Smartsheet MCP on AWS",
+      "summary": "The Smartsheet Model Context Protocol (MCP) Server lets AI agents read, update, and act on live work management data. This post shows two ways to connect it on AWS: Amazon Quick for business teams and Kiro for developers, so your agents can work with Smartsheet without switching tools.",
+      "originalTitle": "Work management context for AI agents with Smartsheet MCP on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T17:59:07.000Z",
+      "contentHash": "2520d12573e7b164d39ec70607d1daf254bc8e77dbd90578ab62b4886b954e2c",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "d38bcb8e2886f544efdb1aa1",
+      "title": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
+      "summary": "Enterprise supply chains are data-rich but insight-poor, with the data to decide scattered across ERP, monitoring, procurement, and email. This post shows how Amazon Bedrock AgentCore exposes those systems as a governed tool layer, and how Amazon Quick turns them into one conversational experience for business users, with a deploy-it-yourself walkthrough.",
+      "originalTitle": "From data to decisions: Conversational supply chain intelligence with Amazon Quick and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T17:52:50.000Z",
+      "contentHash": "1fb978358b3862526407ee11cea0a90ef3f4bab68299c9cf8c001ff828db0df4",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "7b801ef141d655ca777e5436",
+      "title": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+      "summary": "Learn how we fine-tuned GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod, and how to decide between supervised fine-tuning (SFT) and reinforcement learning with GRPO. SFT took reasoning-language accuracy from 22% to 100%, and GRPO added measurable gains where headroom existed.",
+      "originalTitle": "Fine-tuning GPT-OSS-20B for multilingual reasoning on Amazon SageMaker HyperPod",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-tuning-gpt-oss-20b-for-multilingual-reasoning-on-amazon-sagemaker-hyperpod/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T17:48:27.000Z",
+      "contentHash": "c1f58bdf17a893ebaa877a470f18586e1de2fc4d54df2afa2e64ac2d4725873d",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "51326378c8ac51988bb0656e",
+      "title": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "summary": "Octave built a secure, multi-tenant AI foundation on Amazon Bedrock, using Cohere Embed v4 for embeddings and Amazon Bedrock AgentCore for isolated agent execution, to power a Complaint Triage Assistant that searches 2 billion regulated documents without crossing tenant boundaries.",
+      "originalTitle": "How Octave built a secure multi-tenant AI foundation on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-octave-built-a-secure-multi-tenant-ai-foundation-on-amazon-bedrock/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T17:34:04.000Z",
+      "contentHash": "9dcccb10c8db7e2f33678e6e84f4c931e481c56a8d54a78b6f3cd033f1b35771",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "059d78a2ad04d068e93235fd",
+      "title": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "summary": "Canadian organizations can now access OpenAI GPT-5.6, GPT-6, and GPT-6.1 models on Amazon Bedrock from the Canada (Central) and Canada West (Calgary) Regions using cross-Region inference. This post covers the models and inference profiles, how to set up permissions, and how to invoke them with the Responses, Chat Completions, and Converse APIs.",
+      "originalTitle": "Access OpenAI GPT models on Amazon Bedrock from Canada with cross-Region inference",
+      "url": "https://aws.amazon.com/blogs/machine-learning/access-openai-gpt-models-on-amazon-bedrock-from-canada-with-cross-region-inference/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T16:42:53.000Z",
+      "contentHash": "6c53df19947834d069102d5cefb360773d728ea1e9b1c39d76fbbfede044a791",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "14a1daa17075b4fb9e0fd120",
+      "title": "Discover tools at runtime with AWS Agent Registry",
+      "summary": "Hardcoded tool wiring breaks down as an agent's catalog grows from a handful of tools to hundreds. This post walks through a runtime Discover, Instantiate, Execute loop built on AWS Agent Registry, where an orchestrator discovers MCP servers and A2A agents through semantic search at runtime instead of compiling every tool at build time.",
+      "originalTitle": "Discover tools at runtime with AWS Agent Registry",
+      "url": "https://aws.amazon.com/blogs/machine-learning/discover-tools-at-runtime-with-aws-agent-registry/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T16:22:24.000Z",
+      "contentHash": "043d41c3a0a2e777ed5aed24b8e7b9258ef227474c15a3995d01185cedcbd11a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "c1dfe80aabd3d470eaf9c286",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "summary": "",
+      "originalTitle": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T16:09:19.000Z",
+      "contentHash": "9cc97848e179ef9992d92ac91ab7c078d67dcde91e1c76b7600ea5bde09fbf5a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "f4dce134d64c2aff8cfba7eb",
+      "title": "Securing AI agent identity with X.509 PKI on AWS",
+      "summary": "Learn how to secure multi-agent AI systems with cryptographic identity using Keyfactor EJBCA and AWS services. This reference architecture combines signed request envelopes, user-signed delegation assertions, RFC 8693 audience-scoped tokens, and real-time OCSP revocation to prove agent identity and prevent request forgery across agent-to-agent and MCP tool calls.",
+      "originalTitle": "Securing AI agent identity with X.509 PKI on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agent-identity-with-x-509-pki-on-aws/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T16:03:48.000Z",
+      "contentHash": "60d4f43f5648440a226ab0061b837115e22e585adc09afb4ee49dd3d1a96108d",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "6d6fbcf0d35f8dff317ad502",
+      "title": "Called to serve: Tech, research, and positive impact",
+      "summary": "Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more. The post Called to serve: Tech, research, and positive impact appeared first on Microsoft Research .",
+      "originalTitle": "Called to serve: Tech, research, and positive impact",
+      "url": "https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/",
+      "source": {
+        "id": "microsoft",
+        "name": "Microsoft Research",
+        "url": "https://www.microsoft.com/en-us/research/",
+        "kind": "官方研究"
+      },
+      "publishedAt": "2026-10-20T16:00:00.000Z",
+      "contentHash": "3e96bb5d5eb718f9b658ff98946840b9ed080c07836fcbd24e3b9b5bf6276a75",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "b0ff9c297a18959bed0b2e88",
+      "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "summary": "Learn how Eon replaced per-tool credentials and local MCP processes across AWS, GCP, and Azure with a single authenticated Amazon Bedrock AgentCore gateway, giving more than 100 developers and autonomous agents unified access to production investigation and cutting new-engineer onboarding from two days to two minutes.",
+      "originalTitle": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:57:57.000Z",
+      "contentHash": "7b3920370adf6528fb73513baef4ae9b9ec87c6ece217c61beea1c4e9a2108a7",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "26d99931fd5bd2e9f6ff1080",
+      "title": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "summary": "Build a governed semantic layer for agentic AI on AWS with the Denodo Platform and Amazon Bedrock AgentCore. It federates Amazon Aurora, Amazon Redshift, and an on-premises PostgreSQL database into a single customer 360 view an agent queries in VQL, with identity propagation and row- and column-level access control enforced at the semantic layer.",
+      "originalTitle": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:39:04.000Z",
+      "contentHash": "d979d67b5ade071e3ba596b1b8b8fd87bfe68cfbfcc9f8e94c98d7a3eb8265ae",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "46e422d9eda01bd283400b86",
+      "title": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+      "summary": "The third post in our semantic-layer series builds a customer 360 across Amazon Redshift and Amazon Aurora with Strategy Mosaic, exposes it to a Strands agent on Amazon Bedrock AgentCore through the Mosaic MCP server, and enforces per-user row and column security end-to-end.",
+      "originalTitle": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:36:39.000Z",
+      "contentHash": "0e9f25b13244ebf55770bfaeb54acd384d6fd570a0acaa5d2a09bdbc053e1e4d",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "66090a96e99e627cd606dff4",
+      "title": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
+      "summary": "The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic layer, not the prompt.",
+      "originalTitle": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:33:54.000Z",
+      "contentHash": "f0bb7363b8a076a43996f82b975db57fa0a6511af4a764f43f931e949d892703",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "63957a086cacf3a8ee9d3133",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "summary": "",
+      "originalTitle": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T15:19:48.000Z",
+      "contentHash": "acab7b16f35d2ab83e070ecc1c4108df72d0bd16e6f7a9e3efdfe42e43d61065",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "1ad8dec2176e124fb64dc475",
+      "title": "OpenAI Codex 0.164.0-alpha.7",
+      "summary": "Release 0.164.0-alpha.7",
+      "originalTitle": "0.164.0-alpha.7",
+      "sourceTitle": "0.164.0-alpha.7",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-20T13:52:44.000Z",
+      "contentHash": "c92d9ba295c8b85145f1a30f83136a06ef962b307e4645709331157a16a064a5",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "2ed1069709fd84bdfa43a2b9",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "originalTitle": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "contentHash": "eec0e829957bfef466e46c4ea49670dceaadca2658c2af58716cbb685387354d",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "680bcd87bdce497ec8ca664b",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "originalTitle": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "contentHash": "d382a5447f80d3c8659849f11e2ea7b1e2c3e91715081c4aa6a1759523a4a465",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "6d0c1b8ab3974407a333e9dc",
+      "title": "MPS in PyTorch 2.15",
+      "summary": "",
+      "originalTitle": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "2c18226888cca0143ecd57eed985cfd774bd0ff26f792f3e50863e7b2c61280a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "a853626bd765da50a893fc79",
+      "title": "OpenAI acquires Orchestra Bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "originalTitle": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "8c4fcfefeeafc538560799c398c16724650688a71791415161380d5d81fec08a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "b58366a9a4f1e5a3b08ea4e1",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "summary": "",
+      "originalTitle": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "7e7c15f4a8dda89e8a7aeff7ee94aeeb6592d519bd79b75b67c2b9ba41e8a24c",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "d227830b8fa652b875ddd110",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "summary": "",
+      "originalTitle": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "d0f34a40e1f4cc690be51e4af3fbdc3d382b35a6817f9a032112aa904142ce18",
+      "translationStatus": "failed"
+    },
     {
       "id": "43c121ac1f60eb12f5d1d0aa",
       "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
@@ -2412,6 +2879,6 @@
       "translationStatus": "ok"
     }
   ],
-  "contentHash": "89d684a8b953f8960f975152d483b5f6aeb8b7dd0a55d1ecdb8d9e8a4e1691d4",
-  "compiledAt": "2026-10-20T01:53:49.288Z"
+  "contentHash": "a2fca0267d1d544281a53c44bee256f879208ddd08a9ce006e75ed36d38a2c09",
+  "compiledAt": "2026-10-21T05:31:34.106Z"
 }

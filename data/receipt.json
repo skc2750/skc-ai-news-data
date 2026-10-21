@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "attemptAt": "2026-10-20T08:38:29.257Z",
-  "lastSuccessAt": "2026-10-20T08:37:22.747Z",
+  "attemptAt": "2026-10-21T05:31:34.106Z",
+  "lastSuccessAt": "2026-10-21T05:29:49.585Z",
   "status": "ok",
   "seeded": false,
   "sourceOk": 10,
   "sourceStale": 0,
-  "archiveArticles": 268,
-  "newArticles": 0,
+  "archiveArticles": 295,
+  "newArticles": 27,
   "changedArticles": 0,
-  "translationRequested": 21,
+  "translationRequested": 49,
   "translatedThisRun": 0,
-  "translationFailed": 19,
+  "translationFailed": 46,
   "translationDeferred": 0,
   "translationError": "Offline CPU translation unavailable; original retained",
   "translationNote": null,
   "actualTranslationEngines": {},
-  "pendingTranslations": 19,
+  "pendingTranslations": 46,
   "translationLimit": 80,
   "configuredModel": {
     "id": "Qwen/Qwen2.5-1.5B-Instruct",
@@ -30,36 +30,36 @@
     "timeZone": "Asia/Kuala_Lumpur",
     "localTime": "09:00",
     "cronUtc": "0 1 * * *",
-    "actualAttemptAt": "2026-10-20T08:38:29.257Z",
-    "runId": "39394696410",
-    "event": "push",
+    "actualAttemptAt": "2026-10-21T05:31:34.106Z",
+    "runId": "39549841583",
+    "event": "schedule",
     "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
   },
   "codex": {
     "status": "partial",
-    "eventCount": 39,
-    "checkedAt": "2026-10-20T08:37:22.747Z",
-    "lastSuccessAt": "2026-10-20T08:37:22.747Z",
+    "eventCount": 40,
+    "checkedAt": "2026-10-21T05:29:49.585Z",
+    "lastSuccessAt": "2026-10-21T05:29:49.585Z",
     "sources": [
       {
         "id": "codexlimits-tibo",
         "status": "ok",
-        "checkedAt": "2026-10-20T08:37:22.747Z"
+        "checkedAt": "2026-10-21T05:29:49.585Z"
       },
       {
         "id": "whenreset-codex",
         "status": "ok",
-        "checkedAt": "2026-10-20T08:37:22.747Z"
+        "checkedAt": "2026-10-21T05:29:49.585Z"
       },
       {
         "id": "tibo-search-index",
         "status": "ok",
-        "checkedAt": "2026-10-20T01:52:12.643Z"
+        "checkedAt": "2026-10-21T05:29:49.585Z"
       },
       {
         "id": "tibo-original",
         "status": "ok",
-        "checkedAt": "2026-10-20T08:37:22.747Z"
+        "checkedAt": "2026-10-21T05:29:49.585Z"
       }
     ]
   }

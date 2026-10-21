@@ -6,13 +6,25 @@
   "title": "2026-10-20 每日资讯汇编",
   "startAt": "2026-10-19T16:00:00.000Z",
   "endAt": "2026-10-20T16:00:00.000Z",
-  "periodState": "open",
+  "periodState": "closed",
   "partial": true,
   "retroactive": false,
-  "coverageNote": "当前周期尚未结束；仅收录已读取的固定来源订阅条目。",
+  "coverageNote": "周期已结束；有限订阅源汇编，不能证明全网或来源完整覆盖。",
   "method": "source_link_roundup",
-  "articleCount": 9,
+  "articleCount": 21,
   "articleIds": [
+    "b0ff9c297a18959bed0b2e88",
+    "26d99931fd5bd2e9f6ff1080",
+    "46e422d9eda01bd283400b86",
+    "66090a96e99e627cd606dff4",
+    "63957a086cacf3a8ee9d3133",
+    "1ad8dec2176e124fb64dc475",
+    "2ed1069709fd84bdfa43a2b9",
+    "680bcd87bdce497ec8ca664b",
+    "6d0c1b8ab3974407a333e9dc",
+    "a853626bd765da50a893fc79",
+    "b58366a9a4f1e5a3b08ea4e1",
+    "d227830b8fa652b875ddd110",
     "43c121ac1f60eb12f5d1d0aa",
     "ee7a8711b7efa9d39fef1b4f",
     "506a411bdd0429b488085824",
@@ -24,6 +36,200 @@
     "b3f039915071cfc1ba49758c"
   ],
   "items": [
+    {
+      "id": "b0ff9c297a18959bed0b2e88",
+      "title": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "summary": "Learn how Eon replaced per-tool credentials and local MCP processes across AWS, GCP, and Azure with a single authenticated Amazon Bedrock AgentCore gateway, giving more than 100 developers and autonomous agents unified access to production investigation and cutting new-engineer onboarding from two days to two minutes.",
+      "originalTitle": "How Eon built multi-cloud investigation with an MCP Gateway on Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/how-eon-built-multi-cloud-investigation-with-an-mcp-gateway-on-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:57:57.000Z",
+      "contentHash": "7b3920370adf6528fb73513baef4ae9b9ec87c6ece217c61beea1c4e9a2108a7",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "26d99931fd5bd2e9f6ff1080",
+      "title": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "summary": "Build a governed semantic layer for agentic AI on AWS with the Denodo Platform and Amazon Bedrock AgentCore. It federates Amazon Aurora, Amazon Redshift, and an on-premises PostgreSQL database into a single customer 360 view an agent queries in VQL, with identity propagation and row- and column-level access control enforced at the semantic layer.",
+      "originalTitle": "Build a semantic layer for agentic AI on AWS with Denodo and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-denodo-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:39:04.000Z",
+      "contentHash": "d979d67b5ade071e3ba596b1b8b8fd87bfe68cfbfcc9f8e94c98d7a3eb8265ae",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "46e422d9eda01bd283400b86",
+      "title": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+      "summary": "The third post in our semantic-layer series builds a customer 360 across Amazon Redshift and Amazon Aurora with Strategy Mosaic, exposes it to a Strands agent on Amazon Bedrock AgentCore through the Mosaic MCP server, and enforces per-user row and column security end-to-end.",
+      "originalTitle": "Build a semantic layer for agentic AI on AWS with Strategy Mosaic and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-strategy-mosaic-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:36:39.000Z",
+      "contentHash": "0e9f25b13244ebf55770bfaeb54acd384d6fd570a0acaa5d2a09bdbc053e1e4d",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "66090a96e99e627cd606dff4",
+      "title": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
+      "summary": "The third post in our semantic-layer series builds a governed customer 360 model on Amazon Redshift with AtScale, then exposes it to a Strands agent on Amazon Bedrock AgentCore through the AtScale MCP server. Identity propagation, RBAC, row security, and full query audit are enforced at the semantic layer, not the prompt.",
+      "originalTitle": "Build a semantic layer for agentic AI on AWS with AtScale and Amazon Bedrock AgentCore",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-atscale-and-amazon-bedrock-agentcore/",
+      "source": {
+        "id": "aws",
+        "name": "AWS Machine Learning",
+        "url": "https://aws.amazon.com/blogs/machine-learning/",
+        "kind": "官方工程"
+      },
+      "publishedAt": "2026-10-20T15:33:54.000Z",
+      "contentHash": "f0bb7363b8a076a43996f82b975db57fa0a6511af4a764f43f931e949d892703",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "63957a086cacf3a8ee9d3133",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "summary": "",
+      "originalTitle": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T15:19:48.000Z",
+      "contentHash": "acab7b16f35d2ab83e070ecc1c4108df72d0bd16e6f7a9e3efdfe42e43d61065",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "1ad8dec2176e124fb64dc475",
+      "title": "OpenAI Codex 0.164.0-alpha.7",
+      "summary": "Release 0.164.0-alpha.7",
+      "originalTitle": "0.164.0-alpha.7",
+      "sourceTitle": "0.164.0-alpha.7",
+      "titleTransform": "产品名前缀＋来源发布标题；非逐字原始标题",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.164.0-alpha.7",
+      "source": {
+        "id": "codex-releases",
+        "name": "OpenAI Codex 官方版本",
+        "url": "https://github.com/openai/codex/releases",
+        "kind": "官方版本（含预览版）"
+      },
+      "publishedAt": "2026-10-20T13:52:44.000Z",
+      "contentHash": "c92d9ba295c8b85145f1a30f83136a06ef962b307e4645709331157a16a064a5",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "2ed1069709fd84bdfa43a2b9",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "originalTitle": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "url": "https://openai.com/index/ted-taylor-restaurant",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-20T10:00:00.000Z",
+      "contentHash": "eec0e829957bfef466e46c4ea49670dceaadca2658c2af58716cbb685387354d",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "680bcd87bdce497ec8ca664b",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "originalTitle": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "url": "https://openai.com/index/terminal-x",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-20T07:00:00.000Z",
+      "contentHash": "d382a5447f80d3c8659849f11e2ea7b1e2c3e91715081c4aa6a1759523a4a465",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "6d0c1b8ab3974407a333e9dc",
+      "title": "MPS in PyTorch 2.15",
+      "summary": "",
+      "originalTitle": "MPS in PyTorch 2.15",
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "2c18226888cca0143ecd57eed985cfd774bd0ff26f792f3e50863e7b2c61280a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "a853626bd765da50a893fc79",
+      "title": "OpenAI acquires Orchestra Bio",
+      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "originalTitle": "OpenAI acquires Orchestra Bio",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": {
+        "id": "openai",
+        "name": "OpenAI",
+        "url": "https://openai.com/news/",
+        "kind": "官方发布"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "8c4fcfefeeafc538560799c398c16724650688a71791415161380d5d81fec08a",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "b58366a9a4f1e5a3b08ea4e1",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "summary": "",
+      "originalTitle": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "7e7c15f4a8dda89e8a7aeff7ee94aeeb6592d519bd79b75b67c2b9ba41e8a24c",
+      "translationStatus": "failed"
+    },
+    {
+      "id": "d227830b8fa652b875ddd110",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "summary": "",
+      "originalTitle": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": {
+        "id": "huggingface",
+        "name": "Hugging Face 生态",
+        "url": "https://huggingface.co/blog",
+        "kind": "平台及社区作者"
+      },
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "contentHash": "d0f34a40e1f4cc690be51e4af3fbdc3d382b35a6817f9a032112aa904142ce18",
+      "translationStatus": "failed"
+    },
     {
       "id": "43c121ac1f60eb12f5d1d0aa",
       "title": "Structured outputs for Anthropic Claude models on Amazon Bedrock",
@@ -173,6 +379,6 @@
       "translationStatus": "failed"
     }
   ],
-  "contentHash": "810312db5ae9bc8761784758a537467caa1a81e328cab5e8c6bd3c9d698c9d52",
-  "compiledAt": "2026-10-20T01:53:49.288Z"
+  "contentHash": "fdc93224640df9fa9c533330d23882d1a3987380b1e6cd0e6556f39068c3bb8a",
+  "compiledAt": "2026-10-21T05:31:34.106Z"
 }
