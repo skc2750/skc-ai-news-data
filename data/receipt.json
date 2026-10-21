@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T15:07:31.046Z",
-  "lastSuccessAt": "2026-10-21T15:07:31.046Z",
+  "generatedAt": "2026-10-21T15:12:26.122Z",
+  "lastSuccessAt": "2026-10-21T15:12:26.122Z",
   "status": "partial",
   "scheduler": {
-    "kind": "local",
-    "event": "local",
-    "runId": null,
+    "kind": "github_actions",
+    "event": "push",
+    "runId": "39623523041",
     "timeZone": "Asia/Kuala_Lumpur",
     "localTime": "09:00",
     "cronUtc": "0 1 * * *"
