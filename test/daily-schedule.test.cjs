@@ -5,7 +5,7 @@ const {collectSocialDiscovery}=require('../lib/social-discovery.cjs');
 test('the single configured public workflow schedules 09:00 MYT daily on a standard runner',()=>{
  const workflow=fs.readFileSync(path.resolve(__dirname,'../.github/workflows/update.yml'),'utf8');
  const cron=[...workflow.matchAll(/^\s*- cron: ['"]([^'"]+)['"]/gm)].map(row=>row[1]);
- assert.deepEqual(cron,['0 1 * * *']);assert.match(workflow,/runs-on: ubuntu-latest/);assert.match(workflow,/group: publish-ai-news-data/);
+ assert.deepEqual(cron,['0 1 * * *']);assert.match(workflow,/runs-on: ubuntu-latest/);assert.match(workflow,/group: publish-ai-studio-data/);
 });
 test('a late prior run cannot postpone tomorrow discovery beyond its scheduled MYT cycle',()=>{
  const previous={state:{lastAttemptAt:'2026-10-20T01:15:00.000Z'}};
@@ -22,15 +22,11 @@ test('social discovery waits for the next 09:00 MYT cycle and executes after a s
  const due=await collectSocialDiscovery({previous,now:'2026-10-21T01:00:00.000Z',fetchImpl});
  assert.equal(calls,3);assert.equal(due.status,'ok');assert.equal(due.nextCheckAt,'2026-10-22T01:00:00.000Z');
 });
-test('models and task prices belong to the same durable daily generation and survive news-only rebuilds',()=>{
- const {normalizeArticle}=require('../lib/collect.cjs'),{makePublication}=require('../lib/store.cjs');
- const now='2026-10-20T01:00:00.000Z',article=normalizeArticle({title:'Official release',summary:'Source excerpt.',url:'https://openai.com/news/daily-fixture',source:{id:'openai'},publishedAt:now},now);
- const state={articles:[],sources:[],reports:new Map(),cache:{entries:{}},monitoringSince:null,current:null,manifest:null};
- const collected={articles:[article],sources:[{id:'openai',status:'ok',articleCount:1,lastSuccessAt:now}],status:'partial',lastSuccessAt:now};
- const models={checkedAt:now,status:'ok',models:[],taskGuide:{schemaVersion:1,tasks:[{id:'website'}]}};
- const first=makePublication(state,collected,{now,models}),saved=JSON.parse(first.files.get('current.json'));
- assert.deepEqual(saved.models,models);assert.equal(first.receipt.scheduler.cronUtc,'0 1 * * *');
- const retained=makePublication({...state,models},collected,{now:'2026-10-21T01:00:00.000Z'});
- assert.deepEqual(JSON.parse(retained.files.get('current.json')).models,models);
- assert.ok(first.manifest.files['data/current.json']);
+test('models, task prices, projects, works and AI era share one daily generation without retired data',()=>{
+ const {makePublication}=require('../lib/store.cjs');
+ const now='2026-10-21T01:00:00.000Z',models={checkedAt:now,status:'ok',models:[],taskGuide:{schemaVersion:1,tasks:[{id:'website'}]}};
+ const publication=makePublication(null,{now,models,projects:{status:'ok',projects:[]},showcases:{status:'ok',showcases:[]},aiEra:{status:'ok',models:[],agents:[]}});
+ assert.deepEqual(publication.catalog.models,models);assert.equal(publication.receipt.scheduler.cronUtc,'0 1 * * *');
+ assert.deepEqual(Object.keys(publication.manifest.files),['data/catalog.json','data/receipt.json']);
+ for(const key of ['articles','resets','codex','stories','editions','archive'])assert.equal(Object.hasOwn(publication.catalog,key),false);
 });

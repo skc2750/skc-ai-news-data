@@ -1,14 +1,15 @@
 {
-  "name": "skc-ainews-sources",
-  "version": "1.0.0",
+  "name": "skc-ai-studio-data",
+  "version": "2.0.0",
   "private": true,
-  "description": "Public seven-feed news collector, offline CPU translation and durable reports; no paid inference APIs",
+  "description": "Daily public model, price, project, creator and AI-era catalogue; no news feeds or paid inference",
   "license": "MIT",
-  "engines": { "node": ">=22 <25" },
+  "engines": {
+    "node": ">=22 <25"
+  },
   "scripts": {
     "test": "node --test test/*.test.cjs",
     "collect": "node scripts/update.cjs",
     "verify": "node scripts/verify.cjs"
-  },
-  "dependencies": { "fast-xml-parser": "5.11.2" }
+  }
 }

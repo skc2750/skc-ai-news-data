@@ -3,9 +3,6 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const {WATCHLIST,collectProjects,validateProjects,getJson,licenseFor}=require('../lib/projects.cjs');
 const {createHash}=require('node:crypto');
 const os=require('node:os');
-const {makePublication,publish,loadState}=require('../lib/store.cjs');
-const {normalizeArticle}=require('../lib/collect.cjs');
-const {verify}=require('../scripts/verify.cjs');
 const NOW='2026-10-17T14:00:00.000Z';
 function mock({failId=null,tag='v1',licenseChange=false}={}){return async url=>{
  const config=WATCHLIST.find(r=>url.startsWith('https://api.github.com/repos/'+r.id)&&['','/license','/releases/latest'].includes(url.slice(('https://api.github.com/repos/'+r.id).length)));
@@ -51,16 +48,6 @@ test('validator rejects arbitrary projects and release links',async()=>{
 });
 test('same self-contained module is shipped to public publisher and web function bundle',()=>{
  const site=path.resolve(__dirname,'../../../scripts/ainews/providers-github.cjs');if(fs.existsSync(site))assert.equal(fs.readFileSync(site,'utf8'),fs.readFileSync(path.resolve(__dirname,'../lib/projects.cjs'),'utf8'));
-});
-test('projects are part of the same verified durable generation and survive later news-only seeding',async t=>{
- const root=fs.mkdtempSync(path.join(os.tmpdir(),'ainews-project-publication-'));t.after(()=>fs.rmSync(root,{recursive:true,force:true}));
- const state={articles:[],sources:[],reports:new Map(),cache:{entries:{}},monitoringSince:null,current:null,manifest:null};
- const projects=await collectProjects({now:NOW,fetchImpl:mock()}),article=normalizeArticle({title:'A public source headline',summary:'A bounded summary.',url:'https://openai.com/news/project-test',source:{id:'openai'},publishedAt:NOW},NOW);
- const collected={articles:[article],sources:[{id:'openai',status:'ok'}],status:'ok',lastSuccessAt:NOW};
- const publication=makePublication(state,collected,{now:NOW,projects});publish(root,publication);
- assert.ok(publication.manifest.files['data/projects.json']);assert.equal(verify(root).ok,true);
- const later=makePublication(loadState(root),collected,{now:NOW,seeded:true});assert.equal(later.files.get('projects.json'),publication.files.get('projects.json'));
- fs.appendFileSync(path.join(root,'projects.json'),' ');assert.throws(()=>verify(root),/mismatch/);
 });
 test('unchanged SPDX with a changed license body requires review; review date and reviewed hash remain fixed',()=>{
  const body='This is a fixture license',sha=createHash('sha256').update(body).digest('hex'),config={...WATCHLIST[0],expectedSpdx:'MIT',customLicense:null,approvedLicenseSha256:sha};

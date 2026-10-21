@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "policyVerifiedAt": "2026-10-21T15:06:13.425Z",
+  "agents": [
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "provider": "OpenAI",
+      "kind": "agent",
+      "strongestChinese": "从对话进入研究、文件处理与交付任务；可使用工具完成多步骤工作。",
+      "bestForChinese": "资料研究、文稿、数据和跨工具任务；能力依套餐、权限与地区。",
+      "officialUrl": "https://learn.chatgpt.com/docs"
+    },
+    {
+      "id": "codex",
+      "name": "Codex",
+      "provider": "OpenAI",
+      "kind": "agent",
+      "strongestChinese": "在真实代码库中编写、运行、检查和修复代码。",
+      "bestForChinese": "网站、三维交互和小游戏的持续开发；先让它运行测试再交付。",
+      "officialUrl": "https://learn.chatgpt.com/docs/available-on/codex-cli"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "provider": "Anthropic",
+      "kind": "agent",
+      "strongestChinese": "理解代码库并执行跨文件修改，配合终端、工具和连接器完成工程任务。",
+      "bestForChinese": "复杂项目重构、实现和调试；需要本地执行权限。",
+      "officialUrl": "https://code.claude.com/docs/en/overview"
+    },
+    {
+      "id": "claude-cowork",
+      "name": "Claude Cowork",
+      "provider": "Anthropic",
+      "kind": "agent",
+      "strongestChinese": "把桌面文件与工作任务交给可执行步骤的助手。",
+      "bestForChinese": "文件整理、文档和跨应用工作；不是通用无限制远程控制。",
+      "officialUrl": "https://claude.com/product/cowork"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "provider": "Google",
+      "kind": "agent",
+      "strongestChinese": "在终端内使用 Gemini 进行编程、工具调用与项目操作。",
+      "bestForChinese": "维护既有 Gemini CLI 项目；README 已提示免费/Google One 用户转向 Antigravity CLI，未针对最新 Gemini 模型优化。",
+      "officialUrl": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "id": "antigravity-cli",
+      "name": "Antigravity CLI",
+      "provider": "Google",
+      "kind": "agent",
+      "strongestChinese": "在终端中用自然语言编辑和构建项目，并将任务委派给并行子 Agent。",
+      "bestForChinese": "Google 当前终端开发路线；支持 MCP、Skill 与插件配置，模型和套餐权益另核对。",
+      "officialUrl": "https://antigravity.google/product/antigravity-cli"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor Agent",
+      "provider": "Cursor",
+      "kind": "agent",
+      "strongestChinese": "在编辑器上下文中规划和修改多文件代码，并调用开发工具。",
+      "bestForChinese": "希望把代码、预览和助手留在同一编辑器中的项目。",
+      "officialUrl": "https://cursor.com/docs/agent/overview"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf Cascade",
+      "provider": "Windsurf",
+      "kind": "agent",
+      "strongestChinese": "结合代码库上下文、编辑与工具的开发助手。",
+      "bestForChinese": "编辑器内连续实现和调试；具体模型与套餐以服务说明为准。",
+      "officialUrl": "https://docs.windsurf.com/windsurf/cascade/cascade"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot coding agent",
+      "provider": "GitHub",
+      "kind": "agent",
+      "strongestChinese": "围绕仓库任务生成代码变更和拉取请求，供人工审查。",
+      "bestForChinese": "已有 GitHub Issue、代码审查与持续集成流程的团队。",
+      "officialUrl": "https://docs.github.com/en/copilot/concepts/agents/coding-agent/about-coding-agent"
+    },
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent",
+      "provider": "Replit",
+      "kind": "agent",
+      "strongestChinese": "在浏览器开发环境中把需求推进为可运行应用。",
+      "bestForChinese": "快速应用原型；生成、托管与运行资源的计费需分开检查。",
+      "officialUrl": "https://docs.replit.com/replitai/agent"
+    },
+    {
+      "id": "manus",
+      "name": "Manus",
+      "provider": "Manus",
+      "kind": "agent",
+      "strongestChinese": "围绕目标组织浏览、研究和交付等多步骤任务。",
+      "bestForChinese": "希望用云端任务式操作完成资料研究与原型；以实际可用工具为准。",
+      "officialUrl": "https://manus.im/"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "provider": "OpenHands",
+      "kind": "agent",
+      "strongestChinese": "开源的软件工程 Agent，可在隔离环境中操作项目和工具。",
+      "bestForChinese": "需要可修改、自托管开发 Agent 的项目；隔离环境和模型调用另计。",
+      "officialUrl": "https://docs.openhands.dev/"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "provider": "Cline",
+      "kind": "agent",
+      "strongestChinese": "编辑器中的开源编码助手，结合文件、终端和 MCP。",
+      "bestForChinese": "需要自己选择模型和控制权限的开发流程。",
+      "officialUrl": "https://docs.cline.bot/"
+    },
+    {
+      "id": "roo-code",
+      "name": "Roo Code",
+      "provider": "Roo Code",
+      "kind": "agent",
+      "strongestChinese": "用不同工作模式组织编程、规划、调试和工具协作。",
+      "bestForChinese": "多模型与可配置开发流程；不等于模型 API 免费。",
+      "officialUrl": "https://docs.roocode.com/"
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "provider": "Block",
+      "kind": "agent",
+      "strongestChinese": "开源本地 Agent，通过扩展与工具组合执行开发任务。",
+      "bestForChinese": "重视本地控制、工具扩展和可替换模型的工作。",
+      "officialUrl": "https://block.github.io/goose/docs/quickstart/"
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "provider": "OpenClaw community",
+      "kind": "agent",
+      "strongestChinese": "可自行部署并连接消息入口、工具和个人工作流的助手。",
+      "bestForChinese": "愿意维护权限、凭据与服务器的个人自动化；不要开放不必要的权限。",
+      "officialUrl": "https://docs.openclaw.ai/"
+    },
+    {
+      "id": "comet",
+      "name": "Comet",
+      "provider": "Perplexity",
+      "kind": "agent",
+      "strongestChinese": "结合浏览器页面上下文进行搜索、理解和网页任务。",
+      "bestForChinese": "浏览器内的资料收集与网页操作；登录或支付动作仍需明确控制。",
+      "officialUrl": "https://www.perplexity.ai/comet"
+    }
+  ],
+  "rankings": [
+    {
+      "id": "us-mobile-dau-2026-08",
+      "title": "主流聊天助手活跃度排名",
+      "metricLabel": "美国手机 App 日活跃用户份额（DAU）",
+      "periodLabel": "2026 年 8 月；Apptopia 2026-09-02 发布",
+      "comparabilityNote": "同一来源、地区、平台和月份。仅代表该报告覆盖的手机 App，非全球用户总数，不包含全部网页、API 和企业 Agent。人数可能在多个 App 重复；没有精确数字就不从图像估算。",
+      "entries": [
+        {
+          "rank": 1,
+          "name": "ChatGPT",
+          "valueLabel": "报告图示首位；精确份额未在正文披露",
+          "measuredAt": "2026-08",
+          "sourceUrl": "https://apptopia.com/en/insights/metaai-second-largest-genai-chatbot-app/",
+          "sourceLabel": "Apptopia 原始研究及图表"
+        },
+        {
+          "rank": 2,
+          "name": "Meta AI",
+          "valueLabel": "17.7%",
+          "measuredAt": "2026-08",
+          "sourceUrl": "https://apptopia.com/en/insights/metaai-second-largest-genai-chatbot-app/",
+          "sourceLabel": "Apptopia 原始研究"
+        },
+        {
+          "rank": 3,
+          "name": "Gemini",
+          "valueLabel": "17.2%",
+          "measuredAt": "2026-08",
+          "sourceUrl": "https://apptopia.com/en/insights/metaai-second-largest-genai-chatbot-app/",
+          "sourceLabel": "Apptopia 原始研究"
+        },
+        {
+          "rank": 4,
+          "name": "Claude",
+          "valueLabel": "14.4%",
+          "measuredAt": "2026-08",
+          "sourceUrl": "https://apptopia.com/en/insights/metaai-second-largest-genai-chatbot-app/",
+          "sourceLabel": "Apptopia 原始研究及图表"
+        }
+      ]
+    },
+    {
+      "id": "official-wau",
+      "title": "官方披露的全球周活规模",
+      "metricLabel": "每周活跃用户 WAU · 仅列已核实披露",
+      "periodLabel": "逐条保留公告日期，不是实时在线人数",
+      "comparabilityNote": "这里只有可核实的公开数字，不以一个产品的数字当作具体底层模型或 Agent 的独立用户数；不与月活排名合并。其他 Agent 没有公开可比数字时保持未知。",
+      "entries": [
+        {
+          "rank": null,
+          "name": "ChatGPT",
+          "valueLabel": "12 亿周活跃用户",
+          "measuredAt": "2026-09-29",
+          "sourceUrl": "https://openai.com/index/devday-2026-recap/",
+          "sourceLabel": "OpenAI DevDay 2026 官方公告"
+        }
+      ]
+    },
+    {
+      "id": "official-mau",
+      "title": "官方披露的全球月活规模",
+      "metricLabel": "每月活跃用户 MAU · 非严格名次",
+      "periodLabel": "公告时间不同，阈值相同不代表实际人数相等",
+      "comparabilityNote": "不把先后排列当成排名：Gemini 是 Gemini App，Meta AI 是 Meta 多应用合计，分发范围不同；披露值是历史规模下限，不代表今天精确人数。",
+      "entries": [
+        {
+          "rank": null,
+          "name": "Gemini App",
+          "valueLabel": "超过 10 亿月活跃用户",
+          "measuredAt": "2026-08-11",
+          "sourceUrl": "https://blog.google/innovation-and-ai/products/gemini-app/one-billion-monthly-users/",
+          "sourceLabel": "Google 官方公告"
+        },
+        {
+          "rank": null,
+          "name": "Meta AI",
+          "valueLabel": "超过 10 亿月活跃用户（较早披露）",
+          "measuredAt": "2025-10-29",
+          "sourceUrl": "https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Prepared-Remarks.pdf",
+          "sourceLabel": "Meta Q3 2025 官方财报讲话"
+        }
+      ]
+    }
+  ]
+}

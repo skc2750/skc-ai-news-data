@@ -1,8 +1,6 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const {SHOWCASES,collectShowcases,validateShowcases,publicSource,reviewEvidence,checkLink}=require('../lib/showcases.cjs');
-const {SOURCES,parseFeed,digest}=require('../lib/core.cjs');
-const {normalizeArticle}=require('../lib/collect.cjs');
 const NOW='2026-10-17T15:00:00.000Z';
 function mock({fail=null,changed=false,linkStatus=200}={}){return async(url,options)=>{
  if(options?.method==='HEAD')return new Response(null,{status:linkStatus});
@@ -40,12 +38,4 @@ test('showcase source requests are bounded and restricted to author evidence',as
 });
 test('editorial validator rejects replacement authors source links',async()=>{
  const value=await collectShowcases({now:NOW,fetchImpl:mock()});value.showcases[0].aiEvidenceSourceUrl='https://example.com';assert.throws(()=>validateShowcases(value),/URL/);
-});
-test('product Atom prefix preserves literal source title, publication date and content hash through normalization',()=>{
- const source=SOURCES.find(r=>r.id==='codex-releases'),xml='<feed><entry><title>v1.2.3-alpha</title><link href="https://github.com/openai/codex/releases/tag/v1.2.3-alpha"/><updated>2026-10-16T12:00:00Z</updated><summary>Security fix</summary></entry></feed>';
- const parsed=parseFeed(xml,source,NOW).articles[0],row=normalizeArticle(parsed,NOW);assert.equal(row.sourceTitle,'v1.2.3-alpha');assert.equal(row.title,'OpenAI Codex v1.2.3-alpha');assert.match(row.titleTransform,/非逐字/);assert.equal(row.publishedAt,'2026-10-16T12:00:00.000Z');assert.equal(row.contentHash,digest(row.title+'\n'+row.summary));
-});
-test('GitHub release feed cannot swap to another repository on the same host',()=>{
- const source=SOURCES.find(r=>r.id==='claude-releases'),xml='<feed><entry><title>v1</title><link href="https://github.com/other/repo/releases/tag/v1"/><updated>2026-10-16T12:00:00Z</updated></entry></feed>';
- assert.throws(()=>parseFeed(xml,source,NOW),/no valid articles/);assert.throws(()=>normalizeArticle({title:'Test',url:'https://github.com/other/repo/releases/tag/v1',source:{id:source.id}},NOW),/invalid/);
 });

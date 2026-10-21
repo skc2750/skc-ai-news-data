@@ -1,66 +1,21 @@
 {
-  "schemaVersion": 1,
-  "attemptAt": "2026-10-21T05:31:34.106Z",
-  "lastSuccessAt": "2026-10-21T05:29:49.585Z",
-  "status": "ok",
-  "seeded": false,
-  "sourceOk": 10,
-  "sourceStale": 0,
-  "archiveArticles": 295,
-  "newArticles": 27,
-  "changedArticles": 0,
-  "translationRequested": 49,
-  "translatedThisRun": 0,
-  "translationFailed": 46,
-  "translationDeferred": 0,
-  "translationError": "Offline CPU translation unavailable; original retained",
-  "translationNote": null,
-  "actualTranslationEngines": {},
-  "pendingTranslations": 46,
-  "translationLimit": 80,
-  "configuredModel": {
-    "id": "Qwen/Qwen2.5-1.5B-Instruct",
-    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
-    "mode": "offline_cpu",
-    "pipelineVersion": "qwen2_5_1_5b_whole_text_v1",
-    "note": "后续自动翻译的配置；本次实际译文来源见 actualTranslationEngines，各篇原有译文来源见文章 translation。"
-  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T15:07:31.046Z",
+  "lastSuccessAt": "2026-10-21T15:07:31.046Z",
+  "status": "partial",
   "scheduler": {
-    "expected": "daily at 09:00 Asia/Kuala_Lumpur (01:00 UTC)",
+    "kind": "local",
+    "event": "local",
+    "runId": null,
     "timeZone": "Asia/Kuala_Lumpur",
     "localTime": "09:00",
-    "cronUtc": "0 1 * * *",
-    "actualAttemptAt": "2026-10-21T05:31:34.106Z",
-    "runId": "39549841583",
-    "event": "schedule",
-    "note": "配置定时不代表每次准时执行；实际记录以本收据为准。"
+    "cronUtc": "0 1 * * *"
   },
-  "codex": {
-    "status": "partial",
-    "eventCount": 40,
-    "checkedAt": "2026-10-21T05:29:49.585Z",
-    "lastSuccessAt": "2026-10-21T05:29:49.585Z",
-    "sources": [
-      {
-        "id": "codexlimits-tibo",
-        "status": "ok",
-        "checkedAt": "2026-10-21T05:29:49.585Z"
-      },
-      {
-        "id": "whenreset-codex",
-        "status": "ok",
-        "checkedAt": "2026-10-21T05:29:49.585Z"
-      },
-      {
-        "id": "tibo-search-index",
-        "status": "ok",
-        "checkedAt": "2026-10-21T05:29:49.585Z"
-      },
-      {
-        "id": "tibo-original",
-        "status": "ok",
-        "checkedAt": "2026-10-21T05:29:49.585Z"
-      }
-    ]
-  }
+  "components": {
+    "models": "partial",
+    "projects": "ok",
+    "showcases": "ok",
+    "aiEra": "partial"
+  },
+  "costPolicyZh": "只读公开资料，不调用付费推理、不自动购买或更改订阅。"
 }
