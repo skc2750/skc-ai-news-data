@@ -1,16 +1,16 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-21T07:48:14.521Z",
-  "lastSuccessAt": "2026-11-21T07:48:14.521Z",
-  "generationId": "84d27c08ad458ff324815cc46f2bfacf85b28d49a7b6b1d114cb231c9921c8d2",
+  "generatedAt": "2026-11-22T07:36:29.590Z",
+  "lastSuccessAt": "2026-11-22T07:36:29.590Z",
+  "generationId": "49fc22e758be6b740bb395c2682f29cbd449d9110ffae6b7c94496a684588707",
   "files": {
     "data/catalog.json": {
-      "bytes": 3844137,
-      "sha256": "39110cc576b40ab2f80cc4956c73e5e460f9bf62490daf4d4e3edab5eeaa23d2"
+      "bytes": 3843014,
+      "sha256": "7bd8a7b583d29f5045cb0e31bc302e7cbe0d7dc6949dc9ee443c691cda08baff"
     },
     "data/receipt.json": {
       "bytes": 551,
-      "sha256": "84b4c51ce66ea3d398fda3a40b9b7364e5ff966feac14b8467a69f61d59505d2"
+      "sha256": "62da03c99dcad0dc8d4d384918b7dae743cef3413b2880c032a1d737e8b0b781"
     }
   }
 }
