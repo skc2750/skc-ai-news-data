@@ -1,12 +1,12 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-26T08:59:15.978Z",
-  "lastSuccessAt": "2026-11-26T08:59:15.978Z",
+  "generatedAt": "2026-11-27T09:13:29.454Z",
+  "lastSuccessAt": "2026-11-27T09:13:29.454Z",
   "status": "partial",
   "scheduler": {
     "kind": "github_actions",
     "event": "schedule",
-    "runId": "45787792672",
+    "runId": "45971879797",
     "timeZone": "Asia/Kuala_Lumpur",
     "localTime": "09:00",
     "cronUtc": "0 1 * * *"
@@ -15,7 +15,7 @@
     "models": "partial",
     "projects": "ok",
     "showcases": "ok",
-    "aiEra": "partial"
+    "aiEra": "ok"
   },
   "costPolicyZh": "只读公开资料，不调用付费推理、不自动购买或更改订阅。"
 }
